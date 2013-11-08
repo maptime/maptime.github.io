@@ -5,3 +5,22 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.tools {
+	text-align:left;
+}
+
+.maptype{
+	text-align:center;
+	font-size:4em;
+	
+	}
+	
+.maptool{
+width:90%;
+background-color:#FFF5EE;
+margin-top:20px;
+margin-bottom:15px;
+padding:10px;
+border-radius:4px;
+}
