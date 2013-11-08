@@ -25,6 +25,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+
   </head>
 
   <body>
@@ -43,8 +44,8 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="http://maptimesf.tumblr.com/">About Maptime</a></li>
+            <li><a href="http://maptime.github.io/geolearning.html">Geolearn</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -59,35 +60,55 @@
         <br> Get started using the following tools to make maps!</p>
       </div>
 
+
 	<div class="tools">
 		<div class="maptype">
 			Web Maps
 		</div>
 		<br>
-		<div class="maptool">
-			Leaflet
+	<div class="maptool">
+			<h3>Leaflet</h3>
+				<div>
+					<p><a href="">Leaflet.js</a> is a JavaScript library primarily for making web maps. You can display a raster or vector tiles and if you have a geoJSON data set you can layer those guys on your tiles.	
+					</p>
+
+				</div>
+		
+	
+			<h3>Mapbox</h3>
+		<div>
+		<p>Mapbox.js allows you to do a bunch of jam that's a bit more customizable than leaflet, don't think it's as lightweight though.</p>
 		</div>
-		<div class="maptool">
-			Mapbox
+		
+			<h3>Open Street Map</h3>
+				<div>
+				<p>Add data to Open Steet Map!</p>
+				</div>
+		
+			<h3>CartoDB</h3>
+				<div>
+				<p>Need a simple place to deal with your geodata, or attach non geo data to geo data, CartoDB is perfect for you. Plus there're some really straight forward wizards for making that data into geo visualizations.</p>
+				</div>
+		
+			<h3>Google Maps</h3>
+			<div>
+			<p>Eh google maps, they explain a lot at google, use if you're boring.</p>
+			</div>
 		</div>
-		<div class="maptool">
-			Open Street Map
-		</div>
-		<div class="maptool">
-			CartoDB
-		</div>
-		<div class="maptool">
-			Google Maps
-		</div>
+		
 		<div class="maptype">
-			Desktop Tools
+		<h2>Desktop Tools</h2>
 		</div>
-		<div class="maptool">
-			Qgis
-		</div>
-		<div class="maptool">
-			ArcGIS
-		</div>
+	<div class="maptool">
+			<h3>Qgis</h3>
+			<div>
+			<p>I still haven't downloaded Qgis v2 so I should do that before I talk about it.</p>
+			</div>
+		<h3>
+			ArcGIS</h3>
+			<div>
+			<p>I can't afford ESRI's expensive licensing and I'm no longer a student. So give me a job if you want me to update this section.</p>
+			</div>
 				
 	</div>
 
@@ -99,6 +120,13 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+    	$(function() {
+   		 $( ".maptool" ).accordion();
+  		});
+    	
+    </script>
   </body>
 </html>
