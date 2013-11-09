@@ -23,4 +23,11 @@ margin-top:20px;
 margin-bottom:15px;
 padding:10px;
 border-radius:4px;
+cursor:pointer;
+}
+
+.maptool div{
+	background-color:white;
+	padding:10px;
+	border-radius:3px;
 }
