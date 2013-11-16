@@ -7,7 +7,7 @@ maptime website
 	
 	A geolearning page: http://maptime.github.io/geolearning.html
 	
-	Digital Map tool kit: http://maptime.github.io/ditalMapToolKit.html
+	Digital Map tool kit: http://maptime.github.io/digitalMapToolKit.html
 	
 	Tumblr:	http://MaptimeSF.tumblr.com
 	
