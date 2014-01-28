@@ -8,9 +8,14 @@ maptime website
   A geolearning page: http://maptime.github.io/geolearning.html
 	
   Digital Map tool kit: http://maptime.github.io/digitalMapToolKit.html
+  
+  Geo sub reddits: http://maptime.github.io/redditmaps.html
 	
   Tumblr:  http://MaptimeSF.tumblr.com
   
-  And I guess a wordpress site coming soon, plus a little action in the wikis for some of these maptime repos.
+  Wordpress site: http://omgitsmaptime.com/ 
+  
+  Plus a little action in the wikis or issues for some of these maptime repos so if you're not sure what to do with files inside a repo.
 	
-  Add to or improve these and/or make more pages as Maptime is a collaborative endeavor!
+Add to or improve these and/or make more pages as Maptime is a collaborative endeavor!
+Also feel free to ask questions.
