@@ -1,0 +1,57 @@
+var maptimes = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MaptimeSF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41942584514618,
+          37.76493060428678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MaptimePDX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61291503906249,
+          45.56190059616734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OpenGeoCle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.65931701660156,
+          41.48337664564808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MaptimeNYC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90846252441406,
+          40.826280356677124
+        ]
+      }
+    }
+  ]
+}
