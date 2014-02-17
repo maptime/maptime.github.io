@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stamen simple basemap</title>
+         <script src="maptimes4leaflet.json" type="text/javascript"></script>
+        <script type="text/javascript" src="http://leaflet.cloudmade.com/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.ie.css" /><![endif]-->
+        
+        <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.3"></script>
+        
+        <style type="text/css">
+            #map {
+                width: 700px;
+                height: 500px;
+                margin: 20px auto auto auto;
+                
+            }
+        
+        .header {
+            margin: auto auto auto auto;
+            width: 100%;
+            text-align:center;
+        }
+        p{
+            margin:30px 20px auto 20px
+        }
+        </style>
+    </head>
+    <body onload="initialize()">
+       <div> <h1 class="header">Maptimes</h1></div>
+        <div id="map" ></div>
+            <p>
+            Here's a map of some Maptimes. Go to one of em and learn how to make this map better or make your own!
+            
+            See: <a href="https://github.com/maptime/maptime.github.io">Maptime on Github</a>
+            </p>
+        <script type="text/javascript">
+            function initialize() {
+                //var layers = ["terrain", "watercolor","toner"];
+
+                    
+                    var watercolor = new  L.StamenTileLayer("watercolor");
+                    var terrain = new L.StamenTileLayer("terrain");
+                    var toner= new  L.StamenTileLayer("toner");
+                    
+                    var bases = {
+                        "Watercolor":watercolor,
+                        "Terrain":terrain,
+                        "Toner":toner
+                        
+                       
+                    }
+                    
+                    
+                    
+                    var map = new L.Map('map', {
+                                        center: [39,-98],
+                                        zoom:4,
+                                        layers:watercolor
+                                        })
+                    
+                    var popmaps = function(feature,layer){
+                        var popUp = feature.properties.name
+                        layer.bindPopup(String(popUp));
+                    }
+                    
+                     L.control.layers(bases).addTo(map);
+                     
+                     
+                     
+                     L.geoJson(maptimes, {
+                               pointToLayer:function (feature, latlng) {
+                               return L.marker(latlng, {
+                                               
+                                                     fillColor: "#ff7800",
+                                                     color: "#000",
+                                               
+                                                     opacity: 1,
+                                               
+                                                     });
+                               },
+                               onEachFeature:popmaps
+                               }).addTo(map);
+                     
+                     
+            }
+        
+        </script>
+       
+    </body>
+</html>
