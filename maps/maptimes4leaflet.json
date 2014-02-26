@@ -14,6 +14,18 @@ var maptimes = {
         ]
       }
     },
+               {
+               "type": "Feature",
+               "properties": {
+               "name": "Maptime St. Johns"
+               },
+               "geometry": {
+               "type": "Point",
+               "coordinates": [
+                               -122.75469, 45.5900587
+                               ]
+               }
+               },
     {
       "type": "Feature",
       "properties": {
