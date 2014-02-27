@@ -17,7 +17,10 @@ var maptimes = {
                {
                "type": "Feature",
                "properties": {
-               "name": "Maptime St. Johns"
+               "name": "Maptime St. Johns",
+               "city" : "Portland",
+               "twitter" : "@MapTimeStJohns",
+               "meetup" : "http://www.meetup.com/MapTime_StJohns/events/167180662/"
                },
                "geometry": {
                "type": "Point",
@@ -29,7 +32,10 @@ var maptimes = {
     {
       "type": "Feature",
       "properties": {
-        "name": "MaptimePDX"
+        "name": "MaptimePDX",
+               "city" : "Portland",
+               "twitter" : "@MapTimeStJohns",
+               "meetup" : "http://www.meetup.com/MapTime_StJohns/"
       },
       "geometry": {
         "type": "Point",
@@ -43,6 +49,8 @@ var maptimes = {
       "type": "Feature",
       "properties": {
         "name": "OpenGeoCle"
+        "city" : "Cleveland",
+        "twitter" : "@OpenGeoCle"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +63,9 @@ var maptimes = {
     {
       "type": "Feature",
       "properties": {
-        "name": "MaptimeNYC"
+        "name": "MaptimeNYC",
+               "city" : "New York",
+               "meetup" : "http://www.meetup.com/Maptime-NYC/"
       },
       "geometry": {
         "type": "Point",
