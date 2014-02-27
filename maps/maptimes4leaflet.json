@@ -48,7 +48,7 @@ var maptimes = {
     {
       "type": "Feature",
       "properties": {
-        "name": "OpenGeoCle"
+        "name": "OpenGeoCle",
         "city" : "Cleveland",
         "twitter" : "@OpenGeoCle"
       },
