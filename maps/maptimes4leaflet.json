@@ -34,8 +34,8 @@ var maptimes = {
       "properties": {
         "name": "MaptimePDX",
                "city" : "Portland",
-               "twitter" : "@MapTimeStJohns",
-               "meetup" : "http://www.meetup.com/MapTime_StJohns/"
+               "twitter" : "@MapTimePDX",
+            
       },
       "geometry": {
         "type": "Point",

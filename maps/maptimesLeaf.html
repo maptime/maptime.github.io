@@ -37,7 +37,6 @@
                     }
                     
                     
-                    
                     var map = new L.Map('map', {
                                         center: [39,-98],
                                         zoom:4,
@@ -57,11 +56,10 @@
                                pointToLayer:function (feature, latlng) {
                                return L.marker(latlng, {
                                                
-                                                     fillColor: "#ff7800",
-                                                     color: "#000",
+                                                     fillColor: "#000000",
+                                                     color: "green",
                                                
                                                      opacity: 1,
-                                               
                                                      });
                                },
                                onEachFeature:popmaps
