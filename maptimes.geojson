@@ -40,18 +40,19 @@
         ]
       }
     },
-               {
-               "type": "Feature",
-               "properties": {
-               "name": "Maptime St. Johns"
-               },
-               "geometry": {
-               "type": "Point",
-               "coordinates": [
-                               -122.75469, 45.5900587
-                               ]
-               }
-               },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maptime St. Johns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.75469,
+          45.5900587
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -62,6 +63,19 @@
         "coordinates": [
           -73.90846252441406,
           40.826280356677124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MaptimeME"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.25997161865234,
+          43.656198305413184
         ]
       }
     }
