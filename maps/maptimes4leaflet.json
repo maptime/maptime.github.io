@@ -35,7 +35,7 @@ var maptimes = {
         "name": "MaptimePDX",
                "city" : "Portland",
                "twitter" : "@MapTimePDX",
-            
+
       },
       "geometry": {
         "type": "Point",
@@ -75,5 +75,19 @@ var maptimes = {
         ]
       }
     }
+    ,
+    {
+type: "Feature",
+properties: {
+name: "MaptimeME"
+},
+geometry: {
+type: "Point",
+coordinates: [
+-70.25997161865234,
+43.656198305413184
+]
+}
+}
   ]
 }
