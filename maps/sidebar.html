@@ -29,7 +29,9 @@
     </style>
 </head>
 <body>
-    <div id="sidebar"></div>
+    <div id="sidebar"><p>Maptimes have been starting all over the USA (I would like to see some internationals) and people have even been adding their own to the geojson dataset I started which is amazing! Starting here on a rebooted map which you can feel free to help with if you have time or just want to do some map stuff!</p>
+  <p>Hopefully soon I'll start adding some dynamic content to this here sidebar too if no one else does.</p>  
+  </div>
     <div id="map"></div>
 
     <p>This is based on a <a href="https://www.mapbox.com/mapbox.js/example/v1.0.0/listing-markers/">mapbox.js example</a>, but implemented with the leaflet-sidebar plugin instead.</p>
@@ -70,14 +72,11 @@ L.geoJson(maptimes, {
 
                           fillColor: "#000000",
                           color: "green",
-
                           opacity: 1,
                           });
           },
           onEachFeature:popmaps
           }).addTo(map);
-
-
 
 
 
@@ -89,10 +88,11 @@ L.geoJson(maptimes, {
 
             // for each marker, consider whether it is currently visible by comparing
             // with the current map bounds
+    //        console.table(maptimes);
 
 
             // display a list of markers.
-            sidebar.setContent(inBounds.join('<br>\n'));
+  //          sidebar.setContent(inBounds.join('<br>\n'));
         });
 
         map.setView([39,-98], 4);
