@@ -1,4 +1,4 @@
-baseurl: /maptime.github.io
+baseurl: /
 permalink: pretty
 markdown: kramdown
 paginate: 5
