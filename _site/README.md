@@ -1,65 +1,75 @@
-## Maptime Starter site
+maptime.github.io
+=================
 
-Starter is a simple Jekyll theme for MapTime meetups. Hosting your own meetup? Starter is desgined to be easily forked and tweaked to suit your own needs.
+This is the central repo of the [maptime.io](http://www.maptime.io/) website. This is a [Jekyll](https://github.com/jekyll/jekyll) site served on Github Pages. If your environment is already setup, type in your terminal (the '$' refers to your prompt):
 
-## Installation
+```
+$ git clone git@github.com:maptime/maptime.github.io.git
+$ cd maptime.github.io
+$ jekyll serve --watch
+```
 
-1. [Fork this repo](https://github.com/maptime/starter/fork/).
-2. Edit the [`_config.yml`](https://github.com/maptime/starter/blob/gh-pages/_config.yml) file. Here's a quick rundown of the configuration options.
 
-| Name | Required | Value | Description |
-| --- | --- | --- | --- |
-| baseurl | Yes | post | This value should always be the same. |
-| permalink | No | how urls are generated | You can learn more about how they are generated [here](http://jekyllrb.com/docs/permalinks/). |
-| markdown | No | Determines which markdown engine is used | Generally, you don't need to touch this field for your own needs. |
-| paginate | Yes | Number of posts on the front page | Starter supports pagintaion. Control the number of posts on a given page by changing this value |
-| repo | Yes | Name of the repo on GitHub | As an example, the name of the starter repo is `starter` |
-| github_org | Yes | Name of the organization or username on GitHub | Most of the time this will be 'maptime' |
-| maptime: chapter | Yes | Name of your MapTime meetup | |
-| maptime: twitter | No | Your MapTime Twitter username | |
-| maptime: disqus | No | Disqus account name | Starter optionally supports comments on posts with [Disqus](disqus.com). Create a new Disqus account for a site and fill this field with the account name. |
+## Setting up your environment
+Set up `git` and `jekyll`, which depend on `ruby` and `homebrew`:
 
-### Content types
+**For the code snippets below, you'll want to copy everything after the $ and paste into a terminal window.**
 
-There are two kinds of content in Starter: post and event. You author these types of content in the `_posts` directory. Each content type has unique configuration options that you should declare at the top of the document. This is called [Frontmatter](http://jekyllrb.com/docs/frontmatter/).
+## Install Homebrew
 
-#### Event
-Events are for actual planned meetups with RSVP information. Note that the filename of the post should match the date of the meetup date.
+Paste this into terminal
 
-##### Fronmatter options
+ ```
+ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ ```
 
-| Name | Required | Value | Description |
-| --- | --- | --- | --- |
-| layout | Yes | event | This value should always be the same. |
-| category | Yes | event | This value should always be the same. |
-| title | Yes | The title of your event | |
-| rsvp | Yes | URL to rsvp | This should be a link to  an [Eventbrite](eventbrite.com) date or other service. |
+Hit `Return` to start installation. 
 
-#### Posts
+After it finishes, make sure `brew` is configured correctly by running: 
 
-Posts are like blog posts. These are great for meetup follow ups or posts that don't have a meetup event tied to it.
+ ```
+ $ brew doctor
+ ```
 
-##### Fronmatter options
+## Install Git
 
-| Name | Required | Value | Description |
-| --- | --- | --- | --- |
-| layout | Yes | post | This value should always be the same. |
-| title | Yes | The title of your post | |
-| author | No | Author's name | |
-| image | No | URL path to an image | Images added here will show up as a [Twitter card](https://dev.twitter.com/docs/cards) when a post is shared. |
+1. In terminal, run the following commands:
 
-## Help resources
+ ```
+ brew update
+ brew install git
+ ```
 
-- [Create an issue](https://github.com/maptime/starter/issues) on the Starter repo and we'll respond to it.
-- The site is powered by Jekyll. To make custom tweaks to your own site, you should read it's [documentation](http://jekyllrb.com).
-- Starter makes the assumption you will be running the site on GitHub pages. You can learn more about [GitHub Pages here](https://guides.github.com/features/pages/). 
+2. Then follow the [Set Up Git](https://help.github.com/articles/set-up-git) instructions provided by GitHub to configure your github account through git.
 
-## Examples in the wild
+## Install Ruby
 
-Have you used this starter to create your own meetup site? Let us know and we can add it below!
+1. MacOS comes with a built-in version of Ruby, but it's frequently out of date, and requires installing gems with `sudo`. It's better to install Ruby from homebrew:
 
-- [MaptimeTO](https://maptime.github.io/toronto/)
+ ```
+ brew install ruby
+ ```
 
-## Licence
+2. Then add `/usr/local/opt/ruby/bin` to `$PATH`:
 
-BSD
+ ```
+$ echo 'export PATH=/usr/local/opt/ruby/bin:$PATH' >> ~/.bash_profile
+ ```
+
+## Install Jekyll
+
+Run the following in terminal:
+
+ ```
+$ gem install jekyll -v 1.4.3
+$ gem install rdiscount
+ ```
+
+## Clone this repo
+
+Clone the [maptime.github.io repo](http://github.com/maptime/maptime.github.io) on your computer. Then switch into that file directory.
+
+```
+$ git clone -b master git@github.com:maptime/maptime.github.io.git
+$ cd maptime.github.io
+```
