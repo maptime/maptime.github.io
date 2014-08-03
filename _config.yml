@@ -1,8 +1,8 @@
-baseurl: /maptime
+baseurl: /hq
 permalink: pretty
 markdown: kramdown
 paginate: 5
-repo: starter
+repo: maptime.github.io
 github_org: maptime
 maptime:
   chapter: Maptime HQ
