@@ -1,0 +1,10 @@
+baseurl: /maptime.github.io
+permalink: pretty
+markdown: kramdown
+paginate: 5
+repo: starter
+github_org: maptime
+maptime:
+  chapter: Maptime HQ
+  twitter: maptimehq
+  #disqus: YOUR DISQUS USERNAME

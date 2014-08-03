@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<!-- This loops through the paginated posts -->
+{% for item in paginator.posts %}
+  {% if item.category == 'blog' %}
+  
+    <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
+    {{item.content}}
+    <div class='pad1y keyline-top'>
+      <strong class='quiet small block space-bottom1'>Posted {{item.date | date:"%b %d %Y"}} {% if item.author %}by {{item.author}}{% endif %}</strong>
+    </div>
+  {% endif %}
+{% endfor %}
+
+<!-- Pagination links -->
+<div class='col12 center small strong space pad2y'>
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href='{{site.baseurl}}/' class='button fill-blue icon left-arrow'>Newer</a>
+    {% else %}
+      <a href='{{site.baseurl}}/page{{ paginator.previous_page }}' class='button fill-blue icon left-arrow'>Newer</a>
+    {% endif %}
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href='{{site.baseurl}}/page{{ paginator.next_page }}' class='button fill-blue rcon right-arrow'>Older</a>
+  {% endif %}
+</div>
+

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2>{{page.title}}</h2>
+{{content}}
+
+<div class='keyline-all round pad2 col12 clearfix'>
+  <div class='col8 pad0y'>
+    Join us: <span class='quiet'>{{page.date | date:"%A, %b %d %Y"}}</span>
+  </div>
+  <div class='col4'>
+    <a class='button fill-green block' href='{{page.rsvp}}'>RSVP</a>
+  </div>
+</div>
+
