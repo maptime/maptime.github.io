@@ -1,4 +1,4 @@
-baseurl: /hq
+baseurl: /
 permalink: pretty
 markdown: kramdown
 paginate: 5
