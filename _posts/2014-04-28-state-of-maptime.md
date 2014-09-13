@@ -4,6 +4,8 @@ title: The State of Maptime
 category: blog
 ---
 
+meow.
+
 <em>Beth &amp; Lyzi gathering info from the Maptime community at State of the Map</em>
 
 <a href="http://stateofthemap.us/" target="_blank">State of the Map </a>came and went in a blur (as did the past few weeks). I flew in on a redeye on Saturday night, then operated solely on caffeine and adrenaline on Sunday. Even with the sleep dep and the neck cramps from plane sleeping, it was totally worth it for one big reason: finally getting to meet many of the Maptime organizers and enthusiasts from all over the country, in person, and actually talk face-to-face about Maptime.<span style="color: #ff00ff;"> (OMG!)</span>
