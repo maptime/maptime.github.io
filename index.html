@@ -4,8 +4,7 @@ layout: default
 
 <!-- This loops through the paginated posts -->
 {% for item in paginator.posts %}
-  {% if item.category == 'blog' %}
-  
+  {% if item.categories contains 'blog' %}
     <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
     {{item.content}}
     <div class='pad1y keyline-top'>
