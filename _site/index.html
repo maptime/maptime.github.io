@@ -8,8 +8,8 @@
   <meta property='og:url' content='' />
   <meta name='twitter:title' content='' />
   <meta property='og:title' content='' />
-  <meta name='twitter:description' content='{% for item in paginator.posts %} {% if item.category == ‘blog’ %} &amp;lt;h2&amp;gt;&amp;lt;a href=&#39;{{site.baseurl}}{{item.url}}&#39;&amp;gt;{{item.title}}&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt; {{item.content}} &amp;lt;div class=&#39;pad1y keyline-top&#39;&amp;gt; &amp;lt;strong class=&#39;quiet small block space-bottom1&#39;&amp;gt;Posted {{item.date | date:&quot;%b %d %Y&quot;}} {% if...' />
-  <meta property='og:description' content='{% for item in paginator.posts %} {% if item.category == ‘blog’ %} &amp;lt;h2&amp;gt;&amp;lt;a href=&#39;{{site.baseurl}}{{item.url}}&#39;&amp;gt;{{item.title}}&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt; {{item.content}} &amp;lt;div class=&#39;pad1y keyline-top&#39;&amp;gt; &amp;lt;strong class=&#39;quiet small block space-bottom1&#39;&amp;gt;Posted {{item.date | date:&quot;%b %d %Y&quot;}} {% if...' />
+  <meta name='twitter:description' content='{% for item in paginator.posts %} {% if item.categories contains ‘blog’ %} &amp;lt;h2&amp;gt;{{item.title}}&amp;lt;/h2&amp;gt; {{item.content}} &amp;lt;div class=&#39;pad1y keyline-top&#39;&amp;gt; Posted {{item.date | date:”%b %d %Y”}} {% if item.author %}by {{item.author}}{% endif %}...' />
+  <meta property='og:description' content='{% for item in paginator.posts %} {% if item.categories contains ‘blog’ %} &amp;lt;h2&amp;gt;{{item.title}}&amp;lt;/h2&amp;gt; {{item.content}} &amp;lt;div class=&#39;pad1y keyline-top&#39;&amp;gt; Posted {{item.date | date:”%b %d %Y”}} {% if item.author %}by {{item.author}}{% endif %}...' />
   
   <title>Maptime HQ</title>
   <link rel='stylesheet' href='/site.css' type='text/css'/>
@@ -73,6 +73,58 @@
   
 
   
+    <h2><a href='/blog/2014/09/03/maptime-at-foss4g/'>Maptime at FOSS4G!</a></h2>
+    <p>by <a href="http://lyzidiamond.com">Lyzi Diamond</a></p>
+
+<p><a href="http://2014.foss4g.com">FOSS4G</a> is just a week away, and we at MaptimeHQ are gearing up! We’re extremely excited for the conference, not least of all due to the massive amount of participation from Maptimers around the world. (And perhaps the births of a few new chapters?) Here’s a list of everything we have going on at FOSS4G:</p>
+
+<p>…add null island party image here…
+http://maptimeparty.splashthat.com/</p>
+
+<p><strong>Maptime! Null Island! Party!</strong>
+<strong>Wednesday, September 10th, 8pm-11pm</strong>
+<strong>White Owl Social Club, 1305 SE 8th Ave, Portland, OR 97214</strong></p>
+
+<p>Maptime is super pleased to host a <a href="http://maptimeparty.splashthat.com">ridiculous party</a> to celebrate the massive growth of the organization over the past year — there are now more than THIRTY Maptimes! — as well as the first birthday of <a href="http://twitter.com/MaptimeNull">MaptimeNullIsland</a>. Your first drink is on us, thanks to <a href="http://mapzen.com">Mapzen</a> and <a href="http://stamen.com">Stamen</a>! Be sure to <a href="http://maptimeparty.splashthat.com">RSVP</a> here.</p>
+
+<p><strong>Maptime Birds of a Feather Session</strong>
+<strong>Thursday, September 11th, 5pm-7pm</strong>
+<strong>Room E-146</strong></p>
+
+<p>Come to our ad-hoc session and chat with Maptimers from around the world! We’ll be doing a short introduction to Maptime and providing resources for new chapters as well as facilitating a discussion for Maptime organizers in order to share best practices and get advice on future meetups. Should be a ton of fun!</p>
+
+<p><strong>Invited Talk: Making Space for Diverse Mappers</strong>
+<strong><a href="http://twitter.com/alyssapwright">Alyssa</a> Wright, MaptimeNYC</strong>
+<strong>Wednesday, September 10th, 3pm-4pm</strong></p>
+
+<p>Alyssa will be doing a presentation on building a ideologically diverse community of mappers through a variety of events, including MaptimeNYC! I (Lyzi) will also be doing a short talk on starting your own Maptime chapter.</p>
+
+<p><strong>Workshop: Leaflet and Mapbox JavaScript API Fundamentals</strong>
+<strong><a href="http://twitter.com/geografa">Rafa</a> Gutierrez, MaptimePDX</strong>
+<strong>Tuesday, September 9, afternoon</strong></p>
+
+<p>Rafa’s workshop will cover several core aspects of the most recent versions of the Leaflet and Mapbox JavaScript libraries. Each topic discussed will be followed with a hands-on exercise using live examples.</p>
+
+<h1 id="other-talks-from-maptimers">Other Talks From Maptimers</h1>
+
+<ul>
+  <li><strong>Wednesday, Session 1, Track 5</strong> – “Do This, and also That: Integrating Open Source tools into traditional GIS shops” – <a href="http://twitter.com/sarasomewhere">Sara</a> Safavi, MaptimeATX</li>
+  <li><strong>Wednesday, Session 2, Track 6</strong> – “Spatial Temporal Network Web Visualization Techniques” – <a href="http://twitter.com/naefish">Lynnae</a> Sutton, Maptime St John’s</li>
+  <li><strong>Wednesday, Session 2, Track 5</strong> – “Managing public data on GitHub: Pay no attention to the git behind the curtain” – <a href="http://twitter.com/elitar">Landon</a> Reed, MaptimeATL</li>
+  <li><strong>Wednesday, Session 2, Track 5</strong> – “Building Open Source Projects in Government Esri Ecosystems” – <a href="http://twitter.com/lyzidiamond">Lyzi</a> Diamond, MaptimeOAK</li>
+  <li><strong>Friday, Session 1, Track 3</strong> – “OpenDroneMap” – <a href="http://twitter.com/smathermather">Stephen</a> Mather, OpenGeoCLE</li>
+  <li><strong>Friday, Session 1, Track 6</strong> – “Advanced CartoCSS Techniques” – <a href="http://twitter.com/mappingmashups">Alan</a> McConchie, MaptimeSF</li>
+</ul>
+
+<p>We can’t wait to see you there!</p>
+
+<p>…add FOSS4G logo here…</p>
+
+    <div class='pad1y keyline-top'>
+      <strong class='quiet small block space-bottom1'>Posted Sep 03 2014 </strong>
+    </div>
+  
+
   
     <h2><a href='/blog/2014/08/28/self-organizing-new-media-communities/'>Self-Organizing New Media Communities - A Discussion from Code+Ed</a></h2>
     <p>by <a href="http://about.me/beth.schechter" target="_blank">Beth Schechter</a> and <a href="http://www.sandsfish.com/" target="_blank">Sands Fish</a></p>
@@ -171,7 +223,6 @@ Of everything we talked about, it became clear that creating diverse communities
   
 
   
-  
     <h2><a href='/blog/2014/06/07/tilemill-examples/'>CartoCSS Examples</a></h2>
     <p>Questions often arise about where to find good CartoCSS examples for using the Open Source map design tool, <a href="https://www.mapbox.com/tilemill/">TileMill</a>. Thanks to <a href="https://twitter.com/skorasaurus">Will Skora</a>, there are a couple of resources listed.</p>
 
@@ -201,7 +252,6 @@ Of everything we talked about, it became clear that creating diverse communities
     </div>
   
 
-  
   
     <h2><a href='/blog/2014/04/28/state-of-maptime/'>The State of Maptime</a></h2>
     <p><em>Beth &amp; Lyzi gathering info from the Maptime community at State of the Map</em></p>
