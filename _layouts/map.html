@@ -1,75 +1,171 @@
 ---
-layout: default
+
 ---
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='twitter:site' content='@{{site.maptime.twitter}}' />
+  <meta property='og:site_name' content='{{site.maptime.chapter}}' />
+  <meta name='twitter:url' content='{{page.permalink}}' />
+  <meta property='og:url' content='{{page.permalink}}' />
+  <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta name='twitter:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  <meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  {% if page.image %}
+    <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta property='og:type' content='website' />
+  {% endif %}
+  <title>{% if page.url == '/' %}{{site.maptime.chapter}}{% else %}{{site.maptime.chapter}} | {{page.title}}{% endif %}</title>
+  <link rel='stylesheet' href='{{site.baseurl}}/site.css' type='text/css'/>
+  <link rel='shortcut icon' href='img/favicon.png' type='image/x-icon' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
 
-<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+  <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
 
-<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+  <style>
+  .leaflet-popup-content {background: #B44176; color: #fff; border-color: #fff; border-radius:12px; margin: 6px;}
+  .leaflet-popup-content-wrapper {border-radius: 12px; background: #B44176; color: #fff;}
+  .leaflet-popup-content a {color: #bada55;}
+  .leaflet-popup-content h2 {font-size:32px;}
+  .leaflet-popup-content a:hover {color: #d8fc62;}
+  .leaflet-popup-tip {border-top: 10px solid #B44176;}
 
-<style>
-.leaflet-popup-content {background: #B44176; color: #fff; border-color: #fff; border-radius:12px; margin: 6px;}
-.leaflet-popup-content-wrapper {border-radius: 12px; background: #B44176; color: #fff;}
-.leaflet-popup-content a {color: #bada55;}
-.leaflet-popup-content h2 {font-size:32px;}
-.leaflet-popup-content a:hover {color: #d8fc62;}
-.leaflet-popup-tip {border-top: 10px solid #B44176;}
+  .marker-cluster-small {
+    background-color: rgba(180, 65, 118, 0.6);
+  }
+  .marker-cluster-small div {
+    background-color: rgba(180, 65, 118, 0.6);
+    color:#fff; 
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <div id='map'></div>
+  <script type="text/javascript"> 
+  L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw';
+  var map = L.mapbox.map('map', null, {
+    touchZoom: false, 
+    scrollWheelZoom: false,
+    zoomControl: false,
+    worldCopyJump: true
+  });
 
-.marker-cluster-small {
-  background-color: rgba(180, 65, 118, 0.6);
-}
-.marker-cluster-small div {
-  background-color: rgba(180, 65, 118, 0.6);
-  color:#fff; 
-  font-weight: bold;
-}
-</style>
+  // swap out layers and token periodically
+  var myLayer = L.tileLayer('http://api.tiles.mapbox.com/v4/grafa.88128171/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw')
+      .addTo(map);
 
-<a href='' class='sprite maptime pin-right'>Maptime</a>
-
-<script type="text/javascript">
-
-L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw';
-var map = L.mapbox.map('map', null, {
-	touchZoom: false, 
-	scrollWheelZoom: false,
-	worldCopyJump: true
-});
-
-// swap out layers and token periodically
-var myLayer = L.tileLayer('http://api.tiles.mapbox.com/v4/grafa.a962eabc/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw')
+  L.control.zoom()
+    .setPosition('topright')
     .addTo(map);
 
-var featureLayer = L.mapbox.featureLayer();
+  var featureLayer = L.mapbox.featureLayer();
 
-map.setView([37.85750715625203,-84.55078125], 3);
-featureLayer.loadURL('./chapters/map/maptimes.geojson');
+  map.setView([39.774769485295465,-84.55078125], 3);
+  featureLayer.loadURL('./map/maptimes.geojson');
 
-featureLayer.on('ready', function(e) {
-    // The clusterGroup gets each marker in the group added to it
-    // once loaded, and then is added to the map
-    
-    var clusterGroup = new L.MarkerClusterGroup({
-    	showCoverageOnHover: false, 
-    	maxClusterRadius: 30
-    });
-    
-    e.target.eachLayer(function(marker) {
-        clusterGroup.addLayer(marker);
-        var popupContent = '<h2>'+ marker.feature.properties.title +'</h2>' +
-          'Twitter: ' + '<a href="http://twitter.com/' + marker.feature.properties.twitter + '" target="_blank">@' + marker.feature.properties.twitter +'</a>';
-        // and bind it to the marker
-        marker.bindPopup(popupContent);
-        marker.setIcon(new L.Icon({
-          iconUrl:'./img/maptime-marker.png',
-          iconSize: [24,24],
-          iconAnchor: [6,12],
-          popupAnchor: [5,-10]
-        }));
-    });
-    map.addLayer(clusterGroup);
-});
+  featureLayer.on('ready', function(e) {
+      // The clusterGroup gets each marker in the group added to it
+      // once loaded, and then is added to the map
+      
+      var clusterGroup = new L.MarkerClusterGroup({
+        showCoverageOnHover: false, 
+        maxClusterRadius: 30
+      });
+      
+      e.target.eachLayer(function(marker) {
+          clusterGroup.addLayer(marker);
+          var popupContent = '<h2>'+ marker.feature.properties.title +'</h2>' +
+            'Twitter: ' + '<a href="http://twitter.com/' + marker.feature.properties.twitter + '" target="_blank">@' + marker.feature.properties.twitter +'</a>';
+          // and bind it to the marker
+          marker.bindPopup(popupContent);
+          marker.setIcon(new L.Icon({
+            iconUrl:'./map/maptime-marker.png',
+            iconSize: [24,24],
+            iconAnchor: [6,12],
+            popupAnchor: [5,-10]
+          }));
+      });
+      map.addLayer(clusterGroup);
+  });
+
+  </script>
+  </div>
+  
+  <div class='limiter pad4y'>
+    <div class='col12 clearfix'>
+      <aside class='col3 fr space-bottom2 sidebar'>
+        
+          <div class='fill-orange strong dark round pad2 space-bottom2'>
+          <h3>The next {{site.maptime.chapter}} is:</h3>
+          <div id='rsvpdate'></div>
+        </div>
+
+        <div class='hide-mobile'>
+          <div class='popup-group'>
+            <a href='https://github.com/{{site.github_org}}/{{site.repo}}/' class='col12 space-bottom2 fill-green button'>Watch these events</a>
+            <div class='popup popup-big keyline-all pad1 small round'>
+              <ol class='space-bottom1'>
+                <li>1. Click the <strong>Watch these events</strong> button.</li>
+                <li>2. Login to GitHub or signup for an account.</li>
+                <li>3. Click the <strong>Watch</strong> button on the repo.</li>
+              </ol>
+              <div class='center'>
+                <img src='{{site.baseurl}}/img/watchrepo.png' alt='Watch repo' />
+              </div>
+            </div>
+          </div>
+
+          <div class='followers'></div>
+          <div class='center'>
+            <div class='pad0y space-bottom2'>
+              <a class='small' href='https://github.com/{{site.github_org}}/{{site.repo}}/watchers'>View all</a>
+            </div>
+          </div>
+        </div>
+        <a href='https://twitter.com/{{site.maptime.twitter}}/' class='col12 contain z1 fill-green button'>
+          @{{site.maptime.twitter}} on Twitter
+        </a>
+      </aside>
+
+      <div class='col8 margin2r prose content'>
+        {{content}}
+      </div>
+    </div>
+  </div>
+
+  <footer class='fill-light pad2y'>
+    <div class='limiter center small quiet'>
+      <p>This website is <a href='http://github.com/{{site.github_org}}/{{site.repo}}/'>open source</a> and you can improve it. Learn more about contributing <a href='https://guides.github.com/activities/forking/'>here</a>.</p>
+   </div>
+  </footer>
+<script src='{{site.baseurl}}/js/jquery.min.js'></script>
+<script src='{{site.baseurl}}/js/underscore.min.js'></script>
+<script src='{{site.baseurl}}/site.js'></script>
+<script>
+  var rsvp = document.getElementById('rsvpdate');
+  var date,formatted,link;
+  '{% for item in site.categories.event limit:1 %}'
+    date = '{{item.date | date:"%Y,%-m,%-d"}}';
+    formatted = '{{item.date | date:"%A, %b %d %Y"}}';
+    link = '{{item.rsvp}}';
+  '{% endfor %}'
+
+  if (date && new Date().getTime() <= new Date(date).getTime() + (24 * 60 * 60 * 1000)) {
+    rsvp.innerHTML = '<h3>' + formatted + '</h3>' +
+    '<a class="button fill-blue block" href=' + link + '>RSVP</a>';
+  } else {
+    rsvp.innerHTML = '<h3>TBA</h3>';
+  }
 </script>
-{{content}}
+
+</body>
+</html>
