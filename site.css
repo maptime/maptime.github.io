@@ -48,11 +48,6 @@ h6 a:hover { text-decoration:none;}
   padding:8px 20px;
   font-weight:bold;
   border-style: solid;
-  /*box-shadow:0 4px 0 0 rgba(0,0,0,0.10);
-  -webkit-transition:background-color 100ms;
-     -moz-transition:background-color 100ms;
-       -o-transition:background-color 100ms;
-          transition:background-color 100ms;*/
   }
   .dark .button:hover,
   .button:hover {
@@ -66,7 +61,6 @@ h6 a:hover { text-decoration:none;}
     box-shadow:none;
     }
 
-
 .button.stroke {
   border-color: white;
   border-width: 2px;
@@ -78,32 +72,50 @@ h6 a:hover { text-decoration:none;}
   top: 40px;
 }
 
-.pill {
-  display:inline-block;
+/* Tab style for links that toggle between views */
+.tabs {
+  /*display:inline-block;*/
   }
-  .pill > * {
-    border-radius:0 0 0 0;
-    border:0 solid white;
-    border-left-width:1px;
+  .tabs,
+  .pill.tabs {
+    -webkit-border-radius:3px;
+            border-radius:3px;
     }
-    .pill > *:first-of-type {
-      border-radius:3px 0 0 3px;
-      border-left-width:0;
-      margin: -5px;
+  .tabs > a {
+    /*border-top:2px solid rgba(0,0,0,0.25);*/
+    border-bottom:2px solid rgba(255,255,255,0.25);
+    background:transparent;
+    /*color:rgba(0,0,0,.5);*/
+    font-family:'Open Sans Bold', sans-serif;
+    font-weight: bold;
+    text-align:center;
+    display:inline-block;
+    /*height:40px;*/
+    margin:0;
+    padding:10px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    }
+    .tabs > * {
+      border:0 solid rgba(255,255,255,0.25);
+      border-right-width:1px;
       }
-    .pill > *:last-of-type {
-      border-radius:0 3px 3px 0;
-      margin: -5px;
+    .tabs > *:first-child {
+      border-left-width:1px;
+      border-radius: 3px 0 0 3px;
+      }
+    .tabs > *:last-child {
+      border-radius: 0 3px 3px 0;
+      }
+    .tabs > *:hover {
+      background:rgba(255,255,255,0.5);
+      color:rgba(255,255,255,.5);
+      }
+    .tabs > *.active {
+      background: rgba(255,255,255,0.4);
+      color: rgba(0,0,0,0.6);
       }
 
-.pill .button.stroke {
-  border-right-width: 2px;
-  border-left-width: 0;
-}
-
-.pill .button.stroke:first-of-type {
-  border-left-width: 2px;
-}
 
 .round { border-radius:4px; }
 .dark { color:#fff; }
