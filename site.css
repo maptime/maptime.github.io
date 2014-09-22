@@ -74,6 +74,9 @@ h6 a:hover { text-decoration:none;}
 
 /* Tab style for links that toggle between views */
 .tabs {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
   /*display:inline-block;*/
   }
   .tabs,
@@ -280,4 +283,4 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 }
 
 /* Chapter map */
-#map { width:100%; height: 480px; z-index: -1;}
+#map { width:100%; height: 480px;}
