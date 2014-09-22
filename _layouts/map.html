@@ -1,28 +1,7 @@
 ---
-
 ---
-<!DOCTYPE html >
-<html>
-<head>
-  <meta charset='UTF-8'/>
-  <meta name='twitter:site' content='@{{site.maptime.twitter}}' />
-  <meta property='og:site_name' content='{{site.maptime.chapter}}' />
-  <meta name='twitter:url' content='{{page.permalink}}' />
-  <meta property='og:url' content='{{page.permalink}}' />
-  <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
-  <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
-  <meta name='twitter:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
-  <meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
-  {% if page.image %}
-    <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
-    <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
-    <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
-    <meta name='twitter:card' content='summary_large_image' />
-    <meta property='og:type' content='website' />
-  {% endif %}
-  <title>{% if page.url == '/' %}{{site.maptime.chapter}}{% else %}{{site.maptime.chapter}} | {{page.title}}{% endif %}</title>
-  <link rel='stylesheet' href='{{site.baseurl}}/site.css' type='text/css'/>
-  <link rel='shortcut icon' href='img/favicon.png' type='image/x-icon' />
+{% include header.html %}
+
   <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
 
@@ -64,7 +43,7 @@
       .addTo(map);
 
   L.control.zoom()
-    .setPosition('topright')
+    .setPosition('bottomleft')
     .addTo(map);
 
   var featureLayer = L.mapbox.featureLayer();
@@ -166,6 +145,3 @@
     rsvp.innerHTML = '<h3>TBA</h3>';
   }
 </script>
-
-</body>
-</html>
