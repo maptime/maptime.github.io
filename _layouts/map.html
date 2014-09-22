@@ -1,32 +1,30 @@
----
----
 {% include header.html %}
+{% include menu.html %}
 
-  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
 
-  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
-  <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
 
-  <style>
-  .leaflet-popup-content {background: #B44176; color: #fff; border-color: #fff; border-radius:12px; margin: 6px;}
-  .leaflet-popup-content-wrapper {border-radius: 12px; background: #B44176; color: #fff;}
-  .leaflet-popup-content a {color: #bada55;}
-  .leaflet-popup-content h2 {font-size:32px;}
-  .leaflet-popup-content a:hover {color: #d8fc62;}
-  .leaflet-popup-tip {border-top: 10px solid #B44176;}
+<style>
+.leaflet-popup-content {background: #B44176; color: #fff; border-color: #fff; border-radius:12px; margin: 6px;}
+.leaflet-popup-content-wrapper {border-radius: 12px; background: #B44176; color: #fff;}
+.leaflet-popup-content a {color: #bada55;}
+.leaflet-popup-content h2 {font-size:32px;}
+.leaflet-popup-content a:hover {color: #d8fc62;}
+.leaflet-popup-tip {border-top: 10px solid #B44176;}
 
-  .marker-cluster-small {
-    background-color: rgba(180, 65, 118, 0.6);
-  }
-  .marker-cluster-small div {
-    background-color: rgba(180, 65, 118, 0.6);
-    color:#fff; 
-    font-weight: bold;
-  }
-  </style>
-</head>
+.marker-cluster-small {
+  background-color: rgba(180, 65, 118, 0.6);
+}
+.marker-cluster-small div {
+  background-color: rgba(180, 65, 118, 0.6);
+  color:#fff; 
+  font-weight: bold;
+}
+</style>
 <body>
   <div id='map'></div>
   <script type="text/javascript"> 
