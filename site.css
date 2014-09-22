@@ -40,6 +40,7 @@ h6 a:hover { text-decoration:none;}
 
 .button {
   background: rgba(255,255,255,0.2);
+  margin: 0;
   color:#fff;
   display:inline-block;
   border-radius:4px;
@@ -75,6 +76,33 @@ h6 a:hover { text-decoration:none;}
   right: 200px;
   position: absolute;
   top: 40px;
+}
+
+.pill {
+  display:inline-block;
+  }
+  .pill > * {
+    border-radius:0 0 0 0;
+    border:0 solid white;
+    border-left-width:1px;
+    }
+    .pill > *:first-of-type {
+      border-radius:3px 0 0 3px;
+      border-left-width:0;
+      margin: -5px;
+      }
+    .pill > *:last-of-type {
+      border-radius:0 3px 3px 0;
+      margin: -5px;
+      }
+
+.pill .button.stroke {
+  border-right-width: 2px;
+  border-left-width: 0;
+}
+
+.pill .button.stroke:first-of-type {
+  border-left-width: 2px;
 }
 
 .round { border-radius:4px; }
