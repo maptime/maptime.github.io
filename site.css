@@ -25,35 +25,100 @@ h4 a:hover,
 h5 a:hover,
 h6 a:hover { text-decoration:none;}
 
+.main {
+  background-image: url('/img/maptime-sf-blurred.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.main h1 {
+  font-size: 80px;
+  line-height: 80px;
+}
+
 .button {
-  background:#2babe2;
+  background: rgba(255,255,255,0.2);
+  margin: 0;
   color:#fff;
   display:inline-block;
   border-radius:4px;
   text-align:center;
   padding:8px 20px;
   font-weight:bold;
-  box-shadow:0 4px 0 0 rgba(0,0,0,0.10);
-  -webkit-transition:background-color 100ms;
-     -moz-transition:background-color 100ms;
-       -o-transition:background-color 100ms;
-          transition:background-color 100ms;
+  border-style: solid;
   }
-  .dark .button {
-    box-shadow:0 4px 0 0 rgba(0,0,0,0.25);
-    }
   .dark .button:hover,
   .button:hover {
     text-decoration:none;
-    }
-  .button:hover {
-    background-color:#279acb;
+    color: #ddd;
+    border-color: #ddd;
     }
   .button:active {
     position:relative;
     top:2px;
     box-shadow:none;
     }
+
+.button.stroke {
+  border-color: white;
+  border-width: 2px;
+}
+
+.button.right {
+  right: 200px;
+  position: absolute;
+  top: 40px;
+}
+
+/* Tab style for links that toggle between views */
+.tabs {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  /*display:inline-block;*/
+  }
+  .tabs,
+  .pill.tabs {
+    -webkit-border-radius:3px;
+            border-radius:3px;
+    }
+  .tabs > a {
+    /*border-top:2px solid rgba(0,0,0,0.25);*/
+    border-bottom:2px solid rgba(255,255,255,0.25);
+    background:transparent;
+    /*color:rgba(0,0,0,.5);*/
+    font-family:'Open Sans Bold', sans-serif;
+    font-weight: bold;
+    text-align:center;
+    display:inline-block;
+    /*height:40px;*/
+    margin:0;
+    padding:10px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    }
+    .tabs > * {
+      border:0 solid rgba(255,255,255,0.25);
+      border-right-width:1px;
+      }
+    .tabs > *:first-child {
+      border-left-width:1px;
+      border-radius: 3px 0 0 3px;
+      }
+    .tabs > *:last-child {
+      border-radius: 0 3px 3px 0;
+      }
+    .tabs > *:hover {
+      background:rgba(255,255,255,0.5);
+      color:rgba(255,255,255,.5);
+      }
+    .tabs > *.active {
+      background: rgba(255,255,255,0.4);
+      color: rgba(0,0,0,0.6);
+      }
+
 
 .round { border-radius:4px; }
 .dark { color:#fff; }
@@ -83,7 +148,8 @@ h6 a:hover { text-decoration:none;}
     background-position:0 0;
     width:385px;
     height:140px;
-    top:90px;
+    /*top:120px;*/
+    left: 0;
     }
   .sprite.marker {
     background-position:-385px 0;
@@ -113,7 +179,11 @@ a.fill-yellow:hover   { background-color:#e2d61b; text-decoration:none; }
 a.fill-orange:hover   { background-color:#de851d; text-decoration:none; }
 .fill-red             { background-color:#ec2127; }
 a.fill-red:hover      { background-color:#d41e23; text-decoration:none; }
-.fill-maptime         { background-color:#335858; }
+
+.fill-darken3 {
+    background-color: rgba(9, 37, 44, 0.65);
+}
+
 a.fill-red:hover      { background-color:#008440; text-decoration:none; }
 
 .fill-darken0         { background-color:rgba(0,0,0,0.10); }
@@ -212,8 +282,5 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
   header .limiter { padding:120px 0 0; }
 }
 
-/*custom janky override for iframe*/
-#iframe {
-  width:100%;
-  height:400px;
-}
+/* Chapter map */
+#map { width:100%; height: 480px;}
