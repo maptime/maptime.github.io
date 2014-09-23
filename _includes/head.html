@@ -19,5 +19,9 @@
   {% endif %}
   <title>{% if page.url == '/' %}{{site.maptime.chapter}}{% else %}{{site.maptime.chapter}} | {{page.title}}{% endif %}</title>
   <link rel='stylesheet' href='{{site.baseurl}}/site.css' type='text/css'/>
+  {% for stylesheet in page.css %}
+  <link rel="stylesheet" href="{{site.baseurl}}/css/{{ stylesheet }}">
+  {% endfor %}
   <link rel='shortcut icon' href='img/favicon.png' type='image/x-icon' />
+  }
 </head>
