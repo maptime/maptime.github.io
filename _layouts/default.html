@@ -87,5 +87,9 @@
   }
 </script>
 
+{% for script in page.js %}
+  <script src="{{site.baseurl}}/js/{{ script }}"></script>
+{% endfor %}
+
 </body>
 </html>
