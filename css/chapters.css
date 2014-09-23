@@ -1,0 +1,21 @@
+---
+---
+{% include css/mapbox-2.1.0.min.css %}
+{% include css/leaflet-markercluster-0.4.0.css %}
+{% include css/leaflet-markercluster-default-0.4.0.css %}
+
+.leaflet-popup-content {background: #B44176; color: #fff; border-color: #fff; border-radius:12px; margin: 6px;}
+.leaflet-popup-content-wrapper {border-radius: 12px; background: #B44176; color: #fff;}
+.leaflet-popup-content a {color: #bada55;}
+.leaflet-popup-content h2 {font-size:32px;}
+.leaflet-popup-content a:hover {color: #d8fc62;}
+.leaflet-popup-tip {border-top: 10px solid #B44176;}
+
+.marker-cluster-small {
+  background-color: rgba(180, 65, 118, 0.6);
+}
+.marker-cluster-small div {
+  background-color: rgba(180, 65, 118, 0.6);
+  color:#fff; 
+  font-weight: bold;
+}
