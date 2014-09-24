@@ -15,13 +15,24 @@ js:
 {% for chapter in site.data.chapters.features %}
 <h2>{{ chapter.properties.location }} &#40;<a href="http://twitter.com/{{ chapter.properties.twitter }}">@{{ chapter.properties.twitter }}</a>&#41;{% if chapter.properties.comingSoon %} &#8211; Coming soon!{% endif %}</h2>
 
+{% if chapter.properties.organizers %}
 <p><strong>Organizer{% if chapter.properties.organizers.size > 1 %}s{% endif %}:</strong></p>
+{% endif %}
 
 <ul>
   {% for organizer in chapter.properties.organizers %}
-    <li>{{ organizer.name }} &#40;<a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>&#41;</li>
+    <li>{{ organizer.name }} {% if organizer.twitter %}&#40;<a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>&#41;{% endif %}</li>
   {% endfor %}
 </ul>
+
+{% if chapter.properties.moreInfo.type %}
+  {% if chapter.properties.moreInfo.type == website %}
+<p>Check out our <a href="{{ chapter.properties.moreInfo.url }}">website</a> for more info!</p>
+  {% elsif chapter.peroperties.moreInfo.type == Meetup %}
+<p>RSVP on <a href="{{ chapter.properties.moreInfo.url }}">Meetup!</a></p>
+  {% endif %}
+{% endif %}
+
 {% endfor %}
 
 <h2>Don&#8217;t see your city? Want to start a chapter? Email us: <a href="mailto:hello@maptime.io">hello@maptime.io</a></h2>
