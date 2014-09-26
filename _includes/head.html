@@ -1,0 +1,26 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='twitter:site' content='@{{site.maptime.twitter}}' />
+  <meta property='og:site_name' content='{{site.maptime.chapter}}' />
+  <meta name='twitter:url' content='{{page.permalink}}' />
+  <meta property='og:url' content='{{page.permalink}}' />
+  <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta name='twitter:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  <meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  {% if page.image %}
+    <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta property='og:type' content='website' />
+  {% endif %}
+  <title>{% if page.url == '/' %}{{site.maptime.chapter}}{% else %}{{site.maptime.chapter}} | {{page.title}}{% endif %}</title>
+  <link rel='stylesheet' href='{{site.baseurl}}/site.css' type='text/css'/>
+  {% for stylesheet in page.css %}
+  <link rel="stylesheet" href="{{site.baseurl}}/css/{{ stylesheet }}">
+  {% endfor %}
+  <link rel='shortcut icon' href='img/favicon.png' type='image/x-icon' />
+</head>
