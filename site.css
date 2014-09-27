@@ -77,7 +77,6 @@ h6 a:hover { text-decoration:none;}
   position: absolute;
   z-index: 1;
   right: 10px;
-  /*display:inline-block;*/
   }
   .tabs,
   .pill.tabs {
@@ -85,19 +84,18 @@ h6 a:hover { text-decoration:none;}
             border-radius:3px;
     }
   .tabs > a {
-    /*border-top:2px solid rgba(0,0,0,0.25);*/
     border-bottom:2px solid rgba(255,255,255,0.25);
-    background:transparent;
-    /*color:rgba(0,0,0,.5);*/
+    background: rgb(247, 154, 31);
+    opacity: 0.9;
     font-family:'Open Sans Bold', sans-serif;
     font-weight: bold;
     text-align:center;
     display:inline-block;
-    /*height:40px;*/
     margin:0;
     padding:10px;
     white-space:nowrap;
     text-overflow:ellipsis;
+    color:rgba(255,255,255,.8);
     }
     .tabs > * {
       border:0 solid rgba(255,255,255,0.25);
@@ -111,12 +109,10 @@ h6 a:hover { text-decoration:none;}
       border-radius: 0 3px 3px 0;
       }
     .tabs > *:hover {
-      background:rgba(255,255,255,0.5);
-      color:rgba(255,255,255,.5);
+      background: rgba(247,154,31,.5);
       }
     .tabs > *.active {
       background: rgba(255,255,255,0.4);
-      color: rgba(0,0,0,0.6);
       }
 
 
