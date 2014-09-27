@@ -85,8 +85,7 @@ h6 a:hover { text-decoration:none;}
     }
   .tabs > a {
     border-bottom:2px solid rgba(255,255,255,0.25);
-    background: rgb(247, 154, 31);
-    opacity: 0.9;
+    background:rgba(19,78,102,.6);
     font-family:'Open Sans Bold', sans-serif;
     font-weight: bold;
     text-align:center;
@@ -95,7 +94,7 @@ h6 a:hover { text-decoration:none;}
     padding:10px;
     white-space:nowrap;
     text-overflow:ellipsis;
-    color:rgba(255,255,255,.8);
+    color: rgba(255,255,255,0.8);
     }
     .tabs > * {
       border:0 solid rgba(255,255,255,0.25);
@@ -109,10 +108,10 @@ h6 a:hover { text-decoration:none;}
       border-radius: 0 3px 3px 0;
       }
     .tabs > *:hover {
-      background: rgba(247,154,31,.5);
+      background:rgba(19,78,102,.8);
       }
     .tabs > *.active {
-      background: rgba(255,255,255,0.4);
+      background:rgba(19,78,102,.8);
       }
 
 
@@ -175,6 +174,8 @@ a.fill-yellow:hover   { background-color:#e2d61b; text-decoration:none; }
 a.fill-orange:hover   { background-color:#de851d; text-decoration:none; }
 .fill-red             { background-color:#ec2127; }
 a.fill-red:hover      { background-color:#d41e23; text-decoration:none; }
+.fill-navy            { background:rgba(19,78,102,.6);}
+/*a.fill-teal:hover     { background-color:#de851d; text-decoration:none; }*/
 
 .fill-darken3 {
     background-color: rgba(9, 37, 44, 0.65);
@@ -188,9 +189,9 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 
 .fill-chapter {
   /* Replace this with a map of your city */
-  /* background-image:url(img/toronto.png); */
+  /*background-image:url(img/toronto.png); 
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size:cover;*/
   max-width:100%;
   position: absolute;
   top: 96px;
