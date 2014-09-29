@@ -1,12 +1,49 @@
-{% if page.title == "Chapters" %}
-<div id='map'></div>
+{% case page.title %}
+{% when 'Home' %}
+	<div class='center'>
+	  <div class='row12'>
+	    <div class='pin-bottom space-bottom4'>
+	      <h1>Home</h1>
+	      <h3 class='col8 margin2'>Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.</h3>
+	    </div>
+	  </div>      
+	</div>
+{% when 'Chapters' %}
+	<div id='map'></div>
+{% when 'Resources' %}
+	<div class='center'>
+	  <div class='row12'>
+	    <div class='pin-bottom space-bottom4'>
+	      <h1>Resources</h1>
+	      <h3 class='col8 margin2'>Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.</h3>
+	    </div>
+	  </div>      
+	</div>
+{% when 'About' %}
+	<div class='center'>
+	  <div class='row12'>
+	    <div class='pin-bottom space-bottom4'>
+	      <h1>About</h1>
+	      <h3 class='col8 margin2'>Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.</h3>
+	    </div>
+	  </div>      
+	</div>
+{% when 'Contact' %}
+	<div class='center'>
+	  <div class='row12'>
+	    <div class='pin-bottom space-bottom4'>
+	      <h1>Contact</h1>
+	      <h3 class='col8 margin2'>Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.</h3>
+	    </div>
+	  </div>      
+	</div>
 {% else %}
-<div class='center'>
-  <div class='row12'>
-    <div class='pin-bottom space-bottom4'>
-      <h1>time for mapmaking</h1>
-      <h3 class='col8 margin2'>Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.</h3>
-    </div>
-  </div>      
-</div>
-{% endif %}
+	<div class='center'>
+	  <div class='row12'>
+	    <div class='pin-bottom space-bottom4'>
+	      <h1>time for mapmaking</h1>
+	      <h3 class='col8 margin2'>Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.</h3>
+	    </div>
+	  </div>      
+	</div>
+{% endcase %}
