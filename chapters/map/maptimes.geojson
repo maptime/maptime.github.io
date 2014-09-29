@@ -302,8 +302,8 @@
       "type": "Feature",
       "properties": {
         "title": "MaptimeVancouver",
-        "twitter": "MaptimeVAN",
-        "contact": "MaptimeVAN"
+        "twitter": "MaptimeYVR",
+        "contact": "MaptimeYVR"
       },
       "geometry": {
         "type": "Point",
