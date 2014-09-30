@@ -10,29 +10,31 @@ js:
 ---
 <a href='{{site.baseurl}}/' class='sprite maptime pin-left'>Maptime</a>
 
-<p>Once Maptime got started in San Francisco, it wasn&#8217;t long before cites all over the world started to get involved. Here are all of the Maptime chapters that exist so far, along with the team that puts them together.</p>
+<p>Once Maptime got started in San Francisco, it wasn't long before cites all over the world started to get involved. Here are all of the Maptime chapters that exist so far, along with the team that puts them together.</p>
 
 {% for chapter in site.data.chapters.features %}
-<h2>{{ chapter.properties.location }} &#40;<a href="http://twitter.com/{{ chapter.properties.twitter }}">@{{ chapter.properties.twitter }}</a>&#41;{% if chapter.properties.comingSoon %} &#8211; Coming soon!{% endif %}</h2>
 
-{% if chapter.properties.organizers %}
-<p><strong>Organizer{% if chapter.properties.organizers.size > 1 %}s{% endif %}:</strong></p>
-{% endif %}
+<div class='chapter keyline-top'>
+	<h2>
+	{% if chapter.properties.moreInfo.type %}
+		<a href="{{ chapter.properties.moreInfo.url }}">{{chapter.properties.title}}</a>
+	  {% else %} {{chapter.properties.title}}
+	{% endif %}
+	 <a href="http://twitter.com/{{ chapter.properties.twitter }}"><img src="/img/twitter-icon.png"/></a>
+	{% if chapter.properties.moreInfo.type == 'Meetup' %}
+		<a href="{{ chapter.properties.moreInfo.url }}"><img src="/img/meetup-icon.jpg"/></a>
+	  {% endif %}
+	</h2>
+	<p>{% if chapter.properties.comingSoon %}Coming soon!{% endif %}</p>
+	{% if chapter.properties.organizers %}
+	<p><strong>Organizer{% if chapter.properties.organizers.size > 1 %}s{% endif %}:</strong></p>
+	{% endif %}
+	<ul>
+	  {% for organizer in chapter.properties.organizers %}
+	    <li>{{ organizer.name }} {% if organizer.twitter %}&#40;<a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>&#41;{% endif %}</li>
+	  {% endfor %}
+	</ul>
+	{% endfor %}
+</div>
 
-<ul>
-  {% for organizer in chapter.properties.organizers %}
-    <li>{{ organizer.name }} {% if organizer.twitter %}&#40;<a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>&#41;{% endif %}</li>
-  {% endfor %}
-</ul>
-
-{% if chapter.properties.moreInfo.type %}
-  {% if chapter.properties.moreInfo.type == website %}
-<p>Check out our <a href="{{ chapter.properties.moreInfo.url }}">website</a> for more info!</p>
-  {% elsif chapter.peroperties.moreInfo.type == Meetup %}
-<p>RSVP on <a href="{{ chapter.properties.moreInfo.url }}">Meetup!</a></p>
-  {% endif %}
-{% endif %}
-
-{% endfor %}
-
-<h2>Don&#8217;t see your city? Want to start a chapter? Email us: <a href="mailto:hello@maptime.io">hello@maptime.io</a></h2>
+<h2>Don't see your city? Want to start a chapter? Email us: <a href="mailto:hello@maptime.io">hello@maptime.io</a></h2>

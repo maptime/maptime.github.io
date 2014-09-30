@@ -269,6 +269,25 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
     background:      -o-linear-gradient(top, transparent, #fff)
     }
 
+.chapter a {
+    color: rgba(19,78,102,.8);
+    }
+.chapter a:hover {
+  color:rgba(19,78,102,.8);
+  text-decoration: underline;
+  }
+.chapter a.active {
+  color:rgba(19,78,102,.8);
+  }
+.chapter img {
+  display:inline;
+  margin:0 auto;
+  }
+.chapter h2:first-child {
+  padding-top: 20px;
+}
+
+
 @media only screen and (max-width:800px) {
   .sidebar, .content { width:50%; }
   .sprite.maptime { max-width:100%; }
