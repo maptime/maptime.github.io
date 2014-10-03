@@ -8,8 +8,8 @@
   <meta property='og:url' content='{{page.permalink}}' />
   <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
   <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
-  <meta name='twitter:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
-  <meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  <meta name='twitter:description' content='{{page.description | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  <meta property='og:description' content='{{page.description | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
   {% if page.image %}
     <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
     <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
