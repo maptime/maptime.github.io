@@ -26,7 +26,7 @@ $(function() {
           '<a href="http://twitter.com/' + feature.properties.twitter + '" target="_blank">@' + feature.properties.twitter +'</a>';
         layer.bindPopup(popupContent);
         layer.setIcon(new L.Icon({
-          iconUrl:'./map/maptime-marker.png',
+          iconUrl:'/img/maptime-marker.png',
           iconSize: [24,24],
           iconAnchor: [6,12],
           popupAnchor: [5,-10]
