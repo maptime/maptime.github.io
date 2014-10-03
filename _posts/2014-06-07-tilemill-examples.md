@@ -2,6 +2,8 @@
 layout: post
 title: CartoCSS Examples
 category: blog
+
+description: "Questions often arise about where to find good CartoCSS examples for using the Open Source map design tool, TileMill. Thanks to Will Skora, there are a couple of resources listed."
 ---
 
 Questions often arise about where to find good CartoCSS examples for using the Open Source map design tool, [TileMill](https://www.mapbox.com/tilemill/). Thanks to [Will Skora](https://twitter.com/skorasaurus), there are a couple of resources listed.
