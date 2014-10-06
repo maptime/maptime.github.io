@@ -813,6 +813,32 @@
                     42.31149743167054
                 ]
             }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "title": "MaptimeAlpes",
+            "twitter": "MaptimeAlpes",
+            "contact": "Adam Roberts | @abenroberts",
+            "comimgSoon": "true",
+            "organizers": [
+              {
+                "name": "Adam Roberts",
+                "twitter": "abenroberts"
+              }
+            ],
+            "moreInfo": {
+              "type": "Meetup",
+              "url": "http://www.meetup.com/MaptimeAlpes"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.733189582824707,
+              45.19129421939404
+            ]
+          }
         }
     ]
 }
