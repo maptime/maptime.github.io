@@ -12,11 +12,14 @@
   <div class='limiter pad4y'>
     <div class='col12 clearfix'>
       <aside class='col3 fr space-bottom2 sidebar'>
-        
-          <div class='fill-navy strong dark round pad2 space-bottom2'>
-          <h3>The next {{site.maptime.chapter}} is:</h3>
+        {% if page.rsvp %}
+        <div class='fill-navy strong dark round pad2 space-bottom2'>
+          <h3>Next {{site.maptime.chapter}}:</h3>
           <div id='rsvpdate'></div>
         </div>
+        {% else %}
+        <div class='fill-navy strong dark round pad2 space-bottom2'><a href='{{site.baseurl}}/chapters'>Find the nearest Maptime</a></div>
+        {% endif %}
 
         <div class='hide-mobile'>
           <div class='popup-group'>
