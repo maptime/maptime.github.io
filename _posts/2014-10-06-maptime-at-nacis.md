@@ -2,7 +2,6 @@
 layout: event
 category: event
 title: Maptime at NACIS
-rsvp: http://maptimeparty.splashthat.com/
 ---
 
 <a href="http://www.maptime.io/wp-content/uploads/2014/10/Screen-Shot-2014-10-06-at-3.15.52-PM.png"><img src="http://www.maptime.io/wp-content/uploads/2014/10/Screen-Shot-2014-10-06-at-3.15.52-PM.png" /></a>
