@@ -4,6 +4,30 @@ layout: default
 
 <!-- This loops through the paginated posts -->
 {% for item in paginator.posts %}
+  {% if item.category == 'event' %}
+    <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
+    {{item.content}}
+    <div class='keyline-all round pad2 col12 clearfix'>
+      <div class='col8 pad0y'>
+        Join us: <span class='quiet'>{{item.date | date:"%A, %b %d %Y"}}</span>
+      </div>
+      <div class='col4'>
+        <a class='button fill-orange block' href='{{item.rsvp}}'>RSVP</a>
+      </div>
+    </div>
+  {% else %}
+    <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
+    {{item.content}}
+    <div class='pad1y keyline-top'>
+      <strong class='quiet small block space-bottom1'>Posted {{item.date | date:"%b %d %Y"}} {% if item.author %}by {{item.author}}{% endif %}</strong>
+    </div>
+  {% endif %}
+{% endfor %}
+
+
+
+<!-- This loops through the paginated posts 
+{% for item in paginator.posts %}
   {% if item.categories contains 'blog' %}
     <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
     {{item.content}}
@@ -12,6 +36,7 @@ layout: default
     </div>
   {% endif %}
 {% endfor %}
+-->
 
 <!-- Pagination links -->
 <div class='col12 center small strong space pad2y'>
