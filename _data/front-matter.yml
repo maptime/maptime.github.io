@@ -1,0 +1,20 @@
+ - name: category
+   description: Categories describe the type of content.
+   values:
+     - event
+     - blog
+
+ - name: js
+   description: This variable takes a path to a Javascript file to include on the page.
+   values:
+     - /js/some-javascript-file.js
+
+ - name: css
+   description: This variable takes a path to a CSS stylesheet to include on the page.
+   values:
+     - /css/some-stylesheet.css
+
+ - name: description
+   description: A description for a page that will be displayed when you post a link on Facebook or Twitter.  This is not neccessary for posts as we'll use the post excerpt instead.
+   values:
+     - "This open learning environment for all levels and degrees of knowledge offers intentional support for the beginner. Maptime is simultaneously flexible and structured, creating space for workshops, ongoing projects with a shared goal, and independent/collaborative work time. Beginners most welcome!"

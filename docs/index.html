@@ -1,0 +1,18 @@
+---
+layout: default
+title: Documentation
+
+published: false
+---
+
+<h2>YAML Front Matter Variables</h2>
+
+{% for variable in site.data.front-matter %}
+<h3>{{ variable.name }}</h3>
+<p>{{ variable.description }}</p>
+<ul>
+  {% for value in variable.values %}
+  <li>{{ value }}</li>
+  {% endfor %}
+</ul>
+{% endfor%}
