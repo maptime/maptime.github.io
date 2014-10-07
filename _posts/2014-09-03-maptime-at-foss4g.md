@@ -10,6 +10,8 @@ by [Lyzi Diamond](http://lyzidiamond.com)
 ...add null island party image here...
 http://maptimeparty.splashthat.com/
 
+<!--more-->
+
 **Maptime! Null Island! Party!**
 **Wednesday, September 10th, 8pm-11pm**
 **White Owl Social Club, 1305 SE 8th Ave, Portland, OR 97214**

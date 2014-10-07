@@ -8,7 +8,9 @@ by <a href="http://about.me/beth.schechter" target="_blank">Beth Schechter</a> a
 
 <i>At </i><a href="https://twitter.com/MaptimeOAK" target="_blank"><i>Maptime Oakland</i></a><i> last Wednesday, </i><a href="https://twitter.com/lyzidiamond/" target="_blank"><i>Lyzi</i></a><i> presented a workshop about how to create tutorials for Maptime and beyond. After </i><a href="http://lyzidiamond.com/tutorial-dev/" target="_blank"><i>a brief (and wonderful) presentation</i></a><i> covering some key components for success – like including term definitions and defining audience – she had people break into groups and co-create their own tutorials around topics of interest, like color theory for maps and basic </i><a href="https://cartodb.com/" target="_blank"><i>CartoDB</i></a><i>. As everyone was packing up, someone proposed an idea: to create a Maptime tutorial devoted to organizing people around a topic they would like to learn.</i>
 
-<em><a href="http://www.maptime.io/wp-content/uploads/2014/07/presenting.jpg"><img class="alignnone size-full wp-image-201" src="http://www.maptime.io/wp-content/uploads/2014/07/presenting.jpg" alt="presenting" width="100%" /></a></em>
+<em><a href="http://www.maptime.io/wp-content/uploads/2014/07/presenting.jpg"><img class="alignnone size-full wp-image-201" src="http://www.maptime.io/wp-content/uploads/2014/07/presenting.jpg" alt="presenting" width="100%" /></a></em> 
+
+<!--more-->
 
 <em>In addition to making my day absolutely and completely, the evening inspired me to want to finish and publish this blog post, which I’ve been working on with Sands Fish since we met at EYEO’s Code+Ed unconference back in June. </em><em>To anyone looking to start their own meetup, this one’s for you! I’d love to shift it from advice column to tutorial one of these days, too.</em>
 
