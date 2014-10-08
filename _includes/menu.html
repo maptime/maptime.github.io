@@ -4,4 +4,9 @@
 	<a href='{{site.baseurl}}/lessons-resources/' class='col2'>Resources</a>
 	<a href='{{site.baseurl}}/about/' class='col2'>About</a>
 	<a href='{{site.baseurl}}/contact/' class='col2'>Contact</a>
+  {% for page in site.pages %}
+    {% if page.published == false %}
+  <a href="{{site.baseurl}}/docs" class="col2">Docs</a>
+    {% endif %}
+  {% endfor %}
 </div>
