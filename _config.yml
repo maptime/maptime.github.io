@@ -8,3 +8,5 @@ maptime:
   chapter: Maptime HQ
   twitter: maptimehq
   #disqus: YOUR DISQUS USERNAME
+
+excerpt_separator: <!--more-->

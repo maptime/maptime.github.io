@@ -6,7 +6,9 @@ category: blog
 
 <em>Beth &amp; Lyzi gathering info from the Maptime community at State of the Map</em>
 
-<a href="http://stateofthemap.us/" target="_blank">State of the Map </a>came and went in a blur (as did the past few weeks). I flew in on a redeye on Saturday night, then operated solely on caffeine and adrenaline on Sunday. Even with the sleep dep and the neck cramps from plane sleeping, it was totally worth it for one big reason: finally getting to meet many of the Maptime organizers and enthusiasts from all over the country, in person, and actually talk face-to-face about Maptime.<span style="color: #ff00ff;"> (OMG!)</span>
+<a href="http://stateofthemap.us/" target="_blank">State of the Map </a>came and went in a blur (as did the past few weeks). I flew in on a redeye on Saturday night, then operated solely on caffeine and adrenaline on Sunday. Even with the sleep dep and the neck cramps from plane sleeping, it was totally worth it for one big reason: finally getting to meet many of the Maptime organizers and enthusiasts from all over the country, in person, and actually talk face-to-face about Maptime.<span style="color: #ff00ff;"> (OMG!)</span> 
+
+<!--more-->
 
 This face time thing might seem like no big deal, but for me it really was. When I first started Maptime almost a year ago, I never in a million years would have imagined that it would blossom into a community that spans multiple cities. Seriously, all I was thinking about was making maps with my friends. (Important note: I'm endlessly humbled and amazed to learn that a whole network of people just want to make maps with their friends just like I do.) Anyway, organizational systems or guidelines or manifestos or codes of conduct weren't exactly top of mind. As a result, I've found myself kind of stumped when suddenly new friends from all over the country started to ask about those things. Plus, since it's really all of us who have made the thing together, those are questions that are not just for me to answer. I may have started the thing, but Maptime as a movement is a phenomenon that happened all on its own.
 

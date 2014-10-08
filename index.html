@@ -6,7 +6,8 @@ layout: default
 {% for item in paginator.posts %}
   {% if item.categories contains 'blog' %}
     <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
-    {{item.content}}
+    {{item.excerpt}}
+    <p><a href="{{site.baseurl}}{{item.url}}">Read full post...</a></p>
     <div class='pad1y keyline-top'>
       <strong class='quiet small block space-bottom1'>Posted {{item.date | date:"%b %d %Y"}} {% if item.author %}by {{item.author}}{% endif %}</strong>
     </div>
