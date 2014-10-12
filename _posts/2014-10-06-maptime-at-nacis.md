@@ -28,5 +28,3 @@ Find the folks with the rainbow stickers to discover where and when we'll be hos
 Maptime is leading a NACIS lunch bunch! Sign up at the registration desk to have lunch with Alan and Lyzi and ask any questions you might have about Maptime.
 
 There are also many more Maptimers speaking throughout the conference, so be sure to make a thorough perusal of <a href="http://nacis2014.sched.org/">the schedule</a>. We can't wait to see you there!
-
-&nbsp;
