@@ -2,9 +2,24 @@
 layout: default
 ---
 
-<!-- This loops through the paginated posts -->
+<!-- This loops through the paginated posts and events -->
 {% for item in paginator.posts %}
-  {% if item.categories contains 'blog' %}
+  {% if item.category == 'event' %}
+    <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
+    {{item.content}}
+
+    {% if item.rsvp %}
+    <div class='keyline-all round pad2 col12 clearfix'>
+      <div class='col8 pad0y'>
+        Join us: <span class='quiet'>{{item.date | date:"%A, %b %d %Y"}}</span>
+      </div>
+      <div class='col4'>
+        <a class='button fill-orange block' href='{{item.rsvp}}'>RSVP</a>
+      </div>
+    </div>
+    {% endif %}
+    
+  {% else %}
     <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
     {{item.excerpt}}
     <p><a href="{{site.baseurl}}{{item.url}}">Read full post...</a></p>

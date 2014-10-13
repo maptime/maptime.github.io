@@ -12,12 +12,7 @@
   <div class='limiter pad4y'>
     <div class='col12 clearfix'>
       <aside class='col3 fr space-bottom2 sidebar'>
-        
-          <div class='fill-navy strong dark round pad2 space-bottom2'>
-          <h3>The next {{site.maptime.chapter}} is:</h3>
-          <div id='rsvpdate'></div>
-        </div>
-
+        <div class='fill-navy strong dark round pad2 space-bottom2'><a href='{{site.baseurl}}/chapters'>Find the nearest Maptime</a></div>
         <div class='hide-mobile'>
           <div class='popup-group'>
             <a href='https://github.com/{{site.github_org}}/{{site.repo}}/' class='col12 space-bottom2 fill-green button'>Watch these events</a>
@@ -59,22 +54,6 @@
 <script src='{{site.baseurl}}/js/jquery.min.js'></script>
 <script src='{{site.baseurl}}/js/underscore.min.js'></script>
 <script src='{{site.baseurl}}/site.js'></script>
-<script>
-  var rsvp = document.getElementById('rsvpdate');
-  var date,formatted,link;
-  '{% for item in site.categories.event limit:1 %}'
-    date = '{{item.date | date:"%Y,%-m,%-d"}}';
-    formatted = '{{item.date | date:"%A, %b %d %Y"}}';
-    link = '{{item.rsvp}}';
-  '{% endfor %}'
-
-  if (date && new Date().getTime() <= new Date(date).getTime() + (24 * 60 * 60 * 1000)) {
-    rsvp.innerHTML = '<h3>' + formatted + '</h3>' +
-    '<a class="button fill-blue block" href=' + link + '>RSVP</a>';
-  } else {
-    rsvp.innerHTML = '<h3>TBA</h3>';
-  }
-</script>
 
 {% for script in page.js %}
   <script src="{{site.baseurl}}/js/{{ script }}"></script>
