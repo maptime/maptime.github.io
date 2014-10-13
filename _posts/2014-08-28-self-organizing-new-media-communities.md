@@ -2,6 +2,8 @@
 layout: post
 title: Self-Organizing New Media Communities - A Discussion from Code+Ed
 category: blog
+
+description: "At Maptime Oakland Lyzi presented a workshop about how to create tutorials for Maptime and beyond. By the end of the night, someone proposed an idea: to create a Maptime tutorial devoted to organizing people around a topic they would like to learn."
 ---
 
 by <a href="http://about.me/beth.schechter" target="_blank">Beth Schechter</a> and <a href="http://www.sandsfish.com/" target="_blank">Sands Fish</a>

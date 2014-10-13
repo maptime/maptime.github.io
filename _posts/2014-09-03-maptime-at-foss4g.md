@@ -2,6 +2,8 @@
 layout: post
 title: Maptime at FOSS4G!
 category: blog
+
+description: "At MaptimeHQ we’re extremely excited for the FOSS4G conference, not least of all due to the massive amount of participation from Maptimers around the world. (And perhaps the births of a few new chapters?)"
 ---
 by [Lyzi Diamond](http://lyzidiamond.com)
 

@@ -2,6 +2,8 @@
 layout: post
 title: The State of Maptime
 category: blog
+
+description: "State of the Map came and went in a blur. Even with the sleep deprivation and the neck cramps from plane sleeping, it was totally worth it for one big reason: finally getting to meet many of the Maptime organizers and enthusiasts from all over the country, in person, and actually talk face-to-face about Maptime. (OMG!)"
 ---
 
 <em>Beth &amp; Lyzi gathering info from the Maptime community at State of the Map</em>
