@@ -862,6 +862,30 @@
           50.899568522208746
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Seattle, WA",
+        "title": "MaptimeSEA",
+        "twitter": "MaptimeSEA",
+        "contact": "MaptimeSEA",
+        "organizers": [
+          {
+            "name": "Sam Matthews",
+            "twitter": ""
+          }
+        ],
+        "moreInfo": null,
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33246326446533,
+          47.605555415628345
+        ]
+      }
     }
   ]
 }
