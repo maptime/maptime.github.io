@@ -131,8 +131,7 @@
         "moreInfo": {
           "type": "Meetup",
           "url": "http://www.meetup.com/Maptime-BER/"
-        },
-        "comingSoon": true
+        }
       },
       "geometry": {
         "type": "Point",
