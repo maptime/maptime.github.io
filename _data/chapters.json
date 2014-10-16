@@ -74,10 +74,16 @@
           {
             "name": "Roy Hewitt",
             "twitter": "r0yhewitt"
+          },
+          {
+            "name": "Chris Bupp",
+            "twitter": "ChristopherBupp"
           }
         ],
-        "moreInfo": null,
-        "comingSoon": true
+        "moreInfo": {
+          "type": "Meetup",
+          "url": "http://www.meetup.com/MaptimeATL"
+        }
       },
       "geometry": {
         "type": "Point",
