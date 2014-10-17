@@ -895,6 +895,7 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Amsterdam, The Netherlands",
         "title": "MaptimeAMS",
         "twitter": "MaptimeAMS",
         "contact": "Bert Spaan | @bertspaan",
