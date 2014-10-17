@@ -892,5 +892,51 @@
         ]
       }
     }
+    
+    
+    
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeAMS",
+        "twitter": "MaptimeAMS",
+        "contact": "Bert Spaan | @bertspaan",
+        "organizers": [
+          {
+            "name": "Bert Spaan",
+            "twitter": "bertspaan"
+          },
+          {
+            "name": "Waag Society",
+            "twitter": "waag"
+          }
+        ],
+        "moreInfo": {
+          "type": "Meetup",
+          "url": "http://www.meetup.com/Maptime-AMS"
+        },
+        "moreInfo": {
+          "type": "website",
+          "url": "http://code.waag.org/maptimeAMS"
+        },
+        "moreInfo": {
+          "type": "GitHub",
+          "url": "https://github.com/waagsociety/maptimeAMS"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.90032,
+          52.37278
+        ]
+      }
+    },
+    
+    
+    
+    
   ]
 }
