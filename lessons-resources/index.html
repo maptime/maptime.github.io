@@ -10,10 +10,9 @@ description: "Getting started? Dive in here. Looking for tutorials? We got 'em. 
 
 <p>Listed here is a collection of tutorials and slides presented by various Maptime chapters as well as external resources for learning. Have one you'd like to add? Submit an issue [here](https://github.com/maptime/maptime.github.io/issues/new) to get it included!</p>
 
-{% assign tutorials = site.data.tutorials | sort:"category" %}
+{% assign tutorials = site.data.tutorials | sort:"tags" %}
 {% for tutorial in tutorials %}
   <li>
   	<strong><a href="{{ tutorial.link }}">{{tutorial.name}}</a></strong> {{tutorial.description}}
 	</li>
 {% endfor %}
-
