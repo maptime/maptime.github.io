@@ -13,7 +13,7 @@
             "twitter": "nittyjee"
           }
         ],
-        "moreInfo": null,
+        "meetup": "http://www.meetup.com/AmesMakerSpace/events/205101412/",
         "comingSoon": true
       },
       "geometry": {
@@ -44,10 +44,9 @@
             "twitter": "hydrologee"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/MaptimeATX"
-        }
+        "meetup": "http://www.meetup.com/MaptimeATX",
+        "github": "https://github.com/MaptimeATX",
+        "website": "http://maptimeatx.github.io/"
       },
       "geometry": {
         "type": "Point",
@@ -77,10 +76,8 @@
             "twitter": "ChristopherBupp"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/MaptimeATL"
-        }
+        "meetup": "http://www.meetup.com/MaptimeATL",
+        "github": "https://github.com/maptimeatl"
       },
       "geometry": {
         "type": "Point",
@@ -129,10 +126,9 @@
             "twitter": "seb_meier"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-BER/"
-        }
+        "meetup": "http://www.meetup.com/Maptime-BER/",
+        "website": "http://maptimeber.tumblr.com/",
+        "github": "https://github.com/maptimeBER"
       },
       "geometry": {
         "type": "Point",
@@ -162,10 +158,9 @@
             "twitter": "mjfoster83"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-Boston/"
-        }
+        "meetup": "http://www.meetup.com/Maptime-Boston/",
+        "website": "http://maptimeboston.github.io/",
+        "github": "https://github.com/maptimeboston"
       },
       "geometry": {
         "type": "Point",
@@ -187,10 +182,7 @@
             "twitter": "UUDreams"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-Boulder/"
-        },
+        "meetup": "http://www.meetup.com/Maptime-Boulder/",
         "comingSoon": true
       },
       "geometry": {
@@ -213,7 +205,8 @@
             "twitter": "_jden"
           }
         ],
-        "moreInfo": null
+        "github": "https://github.com/maptime/chattanooga",
+        "facebook": "https://www.facebook.com/maptimecha"
       },
       "geometry": {
         "type": "Point",
@@ -235,7 +228,7 @@
             "twitter": "danswick"
           }
         ],
-        "moreInfo": null
+        "website": "http://maptime.github.io/chicago/"
       },
       "geometry": {
         "type": "Point",
@@ -261,10 +254,7 @@
             "twitter": "smathermather"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/cleveland-civic-hacking/"
-        }
+        "meetup": "http://www.meetup.com/cleveland-civic-hacking/"
       },
       "geometry": {
         "type": "Point",
@@ -286,10 +276,7 @@
             "twitter": "nichom"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-Corvallis"
-        },
+        "meetup": "http://www.meetup.com/Maptime-Corvallis",
         "comingSoon": true
       },
       "geometry": {
@@ -312,10 +299,9 @@
             "twitter": "jonahadkins"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Code-for-Hampton-Roads/"
-        }
+        "meetup": "http://www.meetup.com/Code-for-Hampton-Roads/",
+        "website": "http://maptime.github.io/hrva/",
+        "github": "https://github.com/maptime/hrva"
       },
       "geometry": {
         "type": "Point",
@@ -353,10 +339,7 @@
             "twitter": "machikoyasuda"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/MaptimeLA/"
-        }
+        "meetup": "http://www.meetup.com/MaptimeLA/"
       },
       "geometry": {
         "type": "Point",
@@ -382,7 +365,7 @@
             "twitter": "rmcooper4"
           }
         ],
-        "moreInfo": null,
+        "website": "http://maptime.github.io/lexington/",
         "comingSoon": true
       },
       "geometry": {
@@ -406,6 +389,7 @@
           }
         ]
       },
+      "meetup": "http://www.meetup.com/MaptimeME/",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -442,10 +426,9 @@
             "twitter": "ebrelsford"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-NYC/"
-        }
+        "meetup": "http://www.meetup.com/Maptime-NYC/",
+        "website": "http://maptimenyc.github.io/",
+        "github": "https://github.com/maptimenyc"
       },
       "geometry": {
         "type": "Point",
@@ -487,10 +470,8 @@
             "twitter": "lyzidiamond"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-SF/"
-        }
+        "meetup": "http://www.meetup.com/Maptime-SF/",
+        "facebook": "https://www.facebook.com/maptimesf"
       },
       "geometry": {
         "type": "Point",
@@ -516,10 +497,9 @@
             "twitter": "mattsayler"
           }
         ],
-        "moreInfo": {
-          "type": "website",
-          "url": "http://maptime.github.io/portland/"
-        }
+        "meetup": "http://maptime.github.io/portland/",
+        "website": "http://maptimepdx.org/",
+        "github": "https://github.com/maptimepdx"
       },
       "geometry": {
         "type": "Point",
@@ -545,10 +525,9 @@
             "twitter": "jawntehrani"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/maptimePHL/"
-        }
+        "meetup": "http://www.meetup.com/maptimePHL/",
+        "website": "http://maptime.github.io/philadelphia/",
+        "github": "https://github.com/maptimephl"
       },
       "geometry": {
         "type": "Point",
@@ -607,10 +586,9 @@
             "twitter": "fulgenteft"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/maptime-sf/"
-        }
+        "meetup": "http://www.meetup.com/maptime-sf/",
+        "facebook": "https://www.facebook.com/maptimesf",
+        "website": "http://www.maptime.io"
       },
       "geometry": {
         "type": "Point",
@@ -632,7 +610,8 @@
             "twitter": "mvexel"
           }
         ],
-        "moreInfo": null
+        "website": "http://www.maptimeslc.org/",
+        "github": "https://github.com/maptimeslc"
       },
       "geometry": {
         "type": "Point",
@@ -670,8 +649,13 @@
         "location": "St. Louis, MO",
         "title": "MaptimeSTL",
         "twitter": "maptimestl",
-        "organizers": null,
-        "moreInfo": null
+        "organizers": [
+          {
+            "name": "Eleanor Tutt",
+            "twitter": "eleanortutt"  
+          }
+        ],
+        "meetup": "http://www.meetup.com/maptimeSTL/"
       },
       "geometry": {
         "type": "Point",
@@ -697,10 +681,8 @@
             "twitter": "rweait"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/OpenStreetMap-Toronto/"
-        }
+        "meetup": "http://www.meetup.com/OpenStreetMap-Toronto/",
+        "website": "http://maptime.github.io/toronto/"
       },
       "geometry": {
         "type": "Point",
@@ -722,10 +704,8 @@
             "twitter": "skeskali"
           }
         ],
-        "moreInfo": {
-          "type": "website",
-          "url": "http://maptimeyvr.org/"
-        },
+        "meetup": "http://www.meetup.com/MaptimeYVR/",
+        "website": "http://maptime.github.io/vancouver/",
         "comingSoon": true
       },
       "geometry": {
@@ -764,10 +744,8 @@
             "twitter": "bonnie"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://meetup.com/maptime-dc"
-        }
+        "meetup": "http://meetup.com/maptime-dc",
+        "github": "https://github.com/maptime/dc"
       },
       "geometry": {
         "type": "Point",
@@ -811,10 +789,9 @@
             "twitter": "abenroberts"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/MaptimeAlpes"
-        }
+        "meetup": "http://www.meetup.com/MaptimeAlpes",
+        "website": "http://maptime-alpes.com/",
+        "github": "https://github.com/MaptimeAlpes"
       },
       "geometry": {
         "type": "Point",
@@ -851,7 +828,7 @@
             "twitter": ""
           }
         ],
-        "moreInfo": null,
+        "meetup": "http://www.meetup.com/MaptimeSEA/",
         "comingSoon": true
       },
       "geometry": {
@@ -878,18 +855,10 @@
             "twitter": "waag"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-AMS"
-        },
-        "moreInfo": {
-          "type": "website",
-          "url": "http://code.waag.org/maptimeAMS"
-        },
-        "moreInfo": {
-          "type": "GitHub",
-          "url": "https://github.com/waagsociety/maptimeAMS"
-        }
+        "meetup": "http://www.meetup.com/Maptime-AMS",
+        "website": "http://code.waag.org/maptimeAMS",
+        "github": "https://github.com/waagsociety/maptimeAMS",
+        "comingSoon": true
       },
       "geometry": {
         "type": "Point",
