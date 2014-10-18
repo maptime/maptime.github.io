@@ -17,25 +17,25 @@ js:
 
 <div class='chapter keyline-top'>
 	<h2>
-	{% if chapter.properties.moreInfo.type %}
+		{% if chapter.properties.moreInfo.type %}
 		<a href="{{ chapter.properties.moreInfo.url }}">{{chapter.properties.title}}</a>
-	  {% else %} {{chapter.properties.title}}
-	{% endif %}
-	 <a href="http://twitter.com/{{ chapter.properties.twitter }}"><img src="/img/twitter-icon.png"/></a>
-	{% if chapter.properties.moreInfo.type == 'Meetup' %}
+		{% else %} {{chapter.properties.title}}
+		{% endif %}
+		<a href="http://twitter.com/{{ chapter.properties.twitter }}"><img src="/img/twitter-icon.png"/></a>
+		{% if chapter.properties.moreInfo.type == 'Meetup' %}
 		<a href="{{ chapter.properties.moreInfo.url }}"><img src="/img/meetup-icon.jpg"/></a>
-	  {% endif %}
+		{% endif %}
 	</h2>
 	<p>{% if chapter.properties.comingSoon %}Coming soon!{% endif %}</p>
 	{% if chapter.properties.organizers %}
 	<p><strong>Organizer{% if chapter.properties.organizers.size > 1 %}s{% endif %}:</strong></p>
 	{% endif %}
 	<ul>
-	  {% for organizer in chapter.properties.organizers %}
-	    <li>{{ organizer.name }} {% if organizer.twitter %}&#40;<a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>&#41;{% endif %}</li>
-	  {% endfor %}
+		{% for organizer in chapter.properties.organizers %}
+		<li>{{ organizer.name }} {% if organizer.twitter %}&#40;<a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>&#41;{% endif %}</li>
+		{% endfor %}
 	</ul>
-	{% endfor %}
 </div>
+{% endfor %}
 
 <h2>Don't see your city? Want to start a chapter? Email us: <a href="mailto:hello@maptime.io">hello@maptime.io</a></h2>
