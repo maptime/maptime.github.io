@@ -180,6 +180,10 @@
           {
             "name": "Rachel Stevenson",
             "twitter": "UUDreams"
+          },
+          {
+            "name": "Robert Soden",
+            "twitter": "rsoden"
           }
         ],
         "meetup": "http://www.meetup.com/Maptime-Boulder/",
@@ -290,6 +294,28 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Detroit, MI",
+        "title": "MaptimeDETROIT",
+        "twitter": "MaptimeDETROIT",
+        "organizers": [
+          {
+            "name": "Alex B. Hill",
+            "twitter": "alexbhill"
+          }
+        ],
+        "website": "http://detroitography.com/maptime/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.074336,
+          42.371862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Hampton Roads, VA",
         "title": "MaptimeHRVA",
         "twitter": "maptimehrva",
@@ -363,16 +389,40 @@
           {
             "name": "Ryan Cooper",
             "twitter": "rmcooper4"
+          },
+          {
+            "name": "Dan Cockayne",
+            "twitter": "insistondoubt"
           }
         ],
-        "website": "http://maptime.github.io/lexington/",
-        "comingSoon": true
+        "website": "http://maptime.github.io/lexington/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -84.50271606445312,
           38.05403884511629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Madison, WI",
+        "title": "MaptimeMadison",
+        "twitter": "maptimemadison",
+        "organizers": [
+          {
+            "name": "Robin Tolochko",
+            "twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3887393,
+          43.0713265
         ]
       }
     },
