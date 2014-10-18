@@ -7,7 +7,6 @@
         "location": "Ames, IA",
         "title": "MaptimeAmes",
         "twitter": "MaptimeAmes",
-        "contact": "MaptimeAmes",
         "organizers": [
           {
             "name": "Nitin Gadia",
@@ -31,7 +30,6 @@
         "location": "Austin, TX",
         "title": "MaptimeATX",
         "twitter": "MaptimeATX",
-        "contact": "James Seppi | @hydrologee",
         "organizers": [
           {
             "name": "Sara Safavi",
@@ -65,7 +63,6 @@
         "location": "Atlanta, GA",
         "title": "MaptimeATL",
         "twitter": "MaptimeATL",
-        "contact": "Landon Reed | @eltiar",
         "organizers": [
           {
             "name": "Landon Reed",
@@ -99,7 +96,6 @@
         "location": "Bend, OR",
         "title": "MaptimeBend",
         "twitter": "MaptimeBend",
-        "contact": "MaptimeBend",
         "organizers": [
           {
             "name": "Blair Deaver",
@@ -123,7 +119,6 @@
         "location": "Berlin, Germany",
         "title": "MaptimeBER",
         "twitter": "MaptimeBER",
-        "contact": "MaptimeBER",
         "organizers": [
           {
             "name": "Alsino Skowronnek",
@@ -153,7 +148,6 @@
         "location": "Boston, MA",
         "title": "MaptimeBoston",
         "twitter": "maptimeBoston",
-        "contact": "Jake Wasserman | @jwass2000 Andy Woodruff | @awoodruff Mike Foster | @mjfoster83",
         "organizers": [
           {
             "name": "Andy Woodruff",
@@ -187,7 +181,6 @@
         "location": "Boulder, CO",
         "title": "MaptimeBoulder",
         "twitter": "MaptimeBoulder",
-        "contact": "MaptimeBoulder",
         "organizers": [
           {
             "name": "Rachel Stevenson",
@@ -214,7 +207,6 @@
         "location": "Chattanooga, TN",
         "title": "MaptimeCHA",
         "twitter": "maptimeCHA",
-        "contact": "Jason Denizac | @_jden",
         "organizers": [
           {
             "name": "Jason Denizac",
@@ -237,7 +229,6 @@
         "location": "Chicago, IL",
         "title": "MaptimeChicago",
         "twitter": "MaptimeCHI",
-        "contact": "Dan Swick | @DanSwick Ian Dees @iandees | Nick Doiron @mapmeld",
         "organizers": [
           {
             "name": "Dan Swick",
@@ -260,7 +251,6 @@
         "location": "Cleveland, OH",
         "title": "MaptimeCleveland",
         "twitter": "OpenGeoCLE",
-        "contact": "Will Skora | @skorasaurus Stephen Mather | @smathermather",
         "organizers": [
           {
             "name": "Will Skora",
@@ -290,7 +280,6 @@
         "location": "Corvallis, OR",
         "title": "MaptimeCVO",
         "twitter": "MaptimeCVO",
-        "contact": "MaptimeCVO",
         "organizers": [
           {
             "name": "Nick Martinelli",
@@ -317,7 +306,6 @@
         "location": "Hampton Roads, VA",
         "title": "MaptimeHRVA",
         "twitter": "maptimehrva",
-        "contact": "Jonah Adkins || @jonahadkins",
         "organizers": [
           {
             "name": "Jonah Adkins",
@@ -343,7 +331,6 @@
         "location": "Los Angeles, CA",
         "title": "MaptimeLA",
         "twitter": "MAPTIMELA",
-        "contact": "MAPTIMELA",
         "organizers": [
           {
             "name": "Jonathan Schaeffer",
@@ -385,7 +372,6 @@
         "location": "Lexington, KY",
         "title": "maptimelex",
         "twitter": "maptimelex",
-        "contact": "Jessi Breen @jessibreen",
         "organizers": [
           {
             "name": "Jessi Breen",
@@ -413,7 +399,6 @@
         "location": "Maine (Bangor/Portland)",
         "title": "MaptimeME",
         "twitter": "MaptimeME",
-        "contact": "Jacques Tardie | @jqtrde",
         "organizers": [
           {
             "name": "Jacques Tardie",
@@ -435,7 +420,6 @@
         "location": "New York, NY",
         "title": "MaptimeNYC",
         "twitter": "MaptimeNYC",
-        "contact": "Alyssa Wright | @alyssapwright Chris Henrick | @chrislhenrick Eric Brelsford | @ebrelsford Jeff Ferzoco | @zingbot Jeremy Goldsmith | @JWGoldsmith",
         "organizers": [
           {
             "name": "Alyssa Wright",
@@ -497,7 +481,6 @@
         "location": "Oakland, CA",
         "title": "MaptimeOAK",
         "twitter": "MaptimeOAK",
-        "contact": "Lyzi Diamond | @lyzidiamond",
         "organizers": [
           {
             "name": "Lyzi Diamond",
@@ -523,7 +506,6 @@
         "location": "Portland, OR",
         "title": "MaptimePDX",
         "twitter": "maptimepdx",
-        "contact": "Lyzi Diamond (PDX) | @lyzidiamond Rafa Gutierrez (PDX) | @geografa Matt Sayler (PDX) | @MattSayler",
         "organizers": [
           {
             "name": "Rafa Gutierrez",
@@ -553,7 +535,6 @@
         "location": "Philadelphia, PA",
         "title": "MaptimePHL",
         "twitter": "MaptimePHL",
-        "contact": "MaptimePHL",
         "organizers": [
           {
             "name": "Patrick Hammons",
@@ -583,7 +564,6 @@
         "location": "Puerto Rico (Bayam&oacute;n)",
         "title": "MaptimePR",
         "twitter": "MaptimePR",
-        "contact": "MaptimePR",
         "organizers": [
           {
             "name": "Imanol Aranzadi",
@@ -613,7 +593,6 @@
         "location": "San Fransico, CA",
         "title": "MaptimeSF",
         "twitter": "maptimesf",
-        "contact": "Beth Schechter | @bethschechter Alan McConchie | @mappingmashups Camille Teicheira | @fulgenteft",
         "organizers": [
           {
             "name": "Beth Schechter",
@@ -647,7 +626,6 @@
         "location": "Salt Lake City, UT",
         "title": "MaptimeSLC",
         "twitter": "MaptimeSLC",
-        "contact": "Martijn van Exel @mvexel",
         "organizers": [
           {
             "name": "Martijn van Exel",
@@ -670,7 +648,6 @@
         "location": "St. Johns (Portland), OR",
         "title": "MaptimeStJohns",
         "twitter": "MaptimeStJohns",
-        "contact": "Lynnae Sutton (StJohns) | naefish",
         "organizers": [
           {
             "name": "Lynnae Sutton",
@@ -693,7 +670,6 @@
         "location": "St. Louis, MO",
         "title": "MaptimeSTL",
         "twitter": "maptimestl",
-        "contact": "maptimestl",
         "organizers": null,
         "moreInfo": null
       },
@@ -711,7 +687,6 @@
         "location": "Toronto, ON",
         "title": "MaptimeTO",
         "twitter": "MaptimeTO",
-        "contact": "Courtney Claessens | @sidewalkballet Tristen Brown | @fallsemo",
         "organizers": [
           {
             "name": "Tristen Brown",
@@ -741,7 +716,6 @@
         "location": "Vancouver, BC",
         "title": "MaptimeVancouver",
         "twitter": "MaptimeYVR",
-        "contact": "MaptimeYVR",
         "organizers": [
           {
             "name": "Cecily Walker",
@@ -809,7 +783,6 @@
         "location": "Windsor-Essex, ON",
         "title": "Maptime WindsorEssex",
         "twitter": "maptimeWindsor",
-        "contact": "Mita Williams | @copystar",
         "organizers": [
           {
             "name": "Mita Williams",
@@ -831,7 +804,6 @@
       "properties": {
         "title": "MaptimeAlpes",
         "twitter": "MaptimeAlpes",
-        "contact": "Adam Roberts | @abenroberts",
         "comimgSoon": "true",
         "organizers": [
           {
@@ -857,8 +829,7 @@
       "properties": {
         "location": "Southampton, UK",
         "title": "MaptimeSOTON",
-        "twitter": "MaptimeSOTON",
-        "contact": "Charley Glynn | @charley_glynn"
+        "twitter": "MaptimeSOTON"
       },
       "geometry": {
         "type": "Point",
@@ -874,7 +845,6 @@
         "location": "Seattle, WA",
         "title": "MaptimeSEA",
         "twitter": "MaptimeSEA",
-        "contact": "MaptimeSEA",
         "organizers": [
           {
             "name": "Sam Matthews",
@@ -898,7 +868,6 @@
         "location": "Amsterdam, The Netherlands",
         "title": "MaptimeAMS",
         "twitter": "MaptimeAMS",
-        "contact": "Bert Spaan | @bertspaan",
         "organizers": [
           {
             "name": "Bert Spaan",
