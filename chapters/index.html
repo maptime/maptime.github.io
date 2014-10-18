@@ -17,14 +17,20 @@ js:
 
 <div class='chapter keyline-top'>
 	<h2>
-	{% if chapter.properties.moreInfo.type %}
-		<a href="{{ chapter.properties.moreInfo.url }}">{{chapter.properties.title}}</a>
+	{% if chapter.properties.meetup %}
+		<a href="{{ chapter.properties.meetup }}">{{chapter.properties.title}}</a>
 	  {% else %} {{chapter.properties.title}}
 	{% endif %}
 	 <a href="http://twitter.com/{{ chapter.properties.twitter }}"><img src="/img/twitter-icon.png"/></a>
-	{% if chapter.properties.moreInfo.type == 'Meetup' %}
-		<a href="{{ chapter.properties.moreInfo.url }}"><img src="/img/meetup-icon.jpg"/></a>
-	  {% endif %}
+	{% if chapter.properties.facebook %}
+		<a href="{{ chapter.properties.facebook }}"><img src="/img/facebook-icon.png"/></a>
+	{% endif %}
+	{% if chapter.properties.github %}
+		<a href="{{ chapter.properties.github }}"><img src="/img/github-icon.png"/></a>
+	{% endif %}
+	{% if chapter.properties.meetup %}
+		<a href="{{ chapter.properties.meetup }}"><img src="/img/meetup-icon.jpg"/></a>
+	{% endif %}
 	</h2>
 	<p>{% if chapter.properties.comingSoon %}Coming soon!{% endif %}</p>
 	{% if chapter.properties.organizers %}
