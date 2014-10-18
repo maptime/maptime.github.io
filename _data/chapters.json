@@ -806,7 +806,13 @@
       "properties": {
         "location": "Southampton, UK",
         "title": "MaptimeSOTON",
-        "twitter": "MaptimeSOTON"
+        "twitter": "MaptimeSOTON",
+        "organizers": [
+          {
+            "name": "Charley Glynn",
+            "twitter": "charley_glynn"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
