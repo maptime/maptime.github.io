@@ -43,4 +43,22 @@ $(function() {
     clusterGroup.addLayer(chapters);
     
     map.addLayer(clusterGroup);
+    
+    function sortChapters() {
+      var data = {{ site.data.chapters | jsonify }},
+          chapters = data.features;
+
+      console.log(chapters.sort(compare));
+
+    }
+
+    function compare(a,b) {
+      if (a.properties.twitter < b.properties.twitter)
+         return -1;
+      if (a.properties.twitter > b.properties.title)
+        return 1;
+      return 0;
+    }
+
+    sortChapters();
 });
