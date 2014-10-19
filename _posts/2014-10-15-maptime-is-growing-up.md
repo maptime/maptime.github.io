@@ -3,6 +3,8 @@ layout: post
 title: Maptime Is Growing Up
 category: blog
 ---
+by Beth
+
 ![](/img/maptime-grows-up.jpg)
 
 When we started Maptime back in June 2013, it never really occurred to me that this little meeting would grow so quickly. As of today, we have more than 25 active chapters spread across North America and we are beginning to pepper Europe. While chapters all over have gotten going successfully – many thanks to Lyzi Diamond and Alan McConchie for their amazing work on that front – the community still has lots of questions about the organization itself. What kind of entity will Maptime become? How can Maptime take donations? What will Maptime do with the donations once we get them?
