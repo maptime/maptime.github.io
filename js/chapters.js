@@ -2,6 +2,7 @@
 ---
 {% include js/mapbox-2.1.0.min.js %}
 {% include js/leaflet-markercluster-0.4.0.min.js %}
+{% include js/handlebars-2.0.min.js %}
 
 $(function() {
   L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw';
