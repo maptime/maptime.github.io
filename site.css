@@ -1,8 +1,9 @@
 ---
+<link href='http://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
 ---
 
 {% include base.css %}
-h1 { font-size:32px; line-height:36px; }
+h1 { font-family: 'Comfortaa'; font-size:32px; line-height:36px; }
 body { background-image: url('img/old_mathematics.png'); color:#404040; }
 
 a       { color:#279acb; }
@@ -11,7 +12,7 @@ a:hover { text-decoration:underline; }
 .dark a, 
 .dark a:hover { color:#fff; text-decoration:none; }
 
-h1 a,
+h1 a, 
 h2 a,
 h3 a,
 h4 a,
