@@ -7,14 +7,13 @@
         "location": "Ames, IA",
         "title": "MaptimeAmes",
         "twitter": "MaptimeAmes",
-        "contact": "MaptimeAmes",
         "organizers": [
           {
             "name": "Nitin Gadia",
             "twitter": "nittyjee"
           }
         ],
-        "moreInfo": null,
+        "meetup": "http://www.meetup.com/AmesMakerSpace/events/205101412/",
         "comingSoon": true
       },
       "geometry": {
@@ -31,7 +30,6 @@
         "location": "Austin, TX",
         "title": "MaptimeATX",
         "twitter": "MaptimeATX",
-        "contact": "James Seppi | @hydrologee",
         "organizers": [
           {
             "name": "Sara Safavi",
@@ -46,10 +44,9 @@
             "twitter": "hydrologee"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/MaptimeATX"
-        }
+        "meetup": "http://www.meetup.com/MaptimeATX",
+        "github": "https://github.com/MaptimeATX",
+        "website": "http://maptimeatx.github.io/"
       },
       "geometry": {
         "type": "Point",
@@ -65,7 +62,6 @@
         "location": "Atlanta, GA",
         "title": "MaptimeATL",
         "twitter": "MaptimeATL",
-        "contact": "Landon Reed | @eltiar",
         "organizers": [
           {
             "name": "Landon Reed",
@@ -80,10 +76,8 @@
             "twitter": "ChristopherBupp"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/MaptimeATL"
-        }
+        "meetup": "http://www.meetup.com/MaptimeATL",
+        "github": "https://github.com/maptimeatl"
       },
       "geometry": {
         "type": "Point",
@@ -99,7 +93,6 @@
         "location": "Bend, OR",
         "title": "MaptimeBend",
         "twitter": "MaptimeBend",
-        "contact": "MaptimeBend",
         "organizers": [
           {
             "name": "Blair Deaver",
@@ -123,7 +116,6 @@
         "location": "Berlin, Germany",
         "title": "MaptimeBER",
         "twitter": "MaptimeBER",
-        "contact": "MaptimeBER",
         "organizers": [
           {
             "name": "Alsino Skowronnek",
@@ -134,10 +126,9 @@
             "twitter": "seb_meier"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-BER/"
-        }
+        "meetup": "http://www.meetup.com/Maptime-BER/",
+        "website": "http://maptimeber.tumblr.com/",
+        "github": "https://github.com/maptimeBER"
       },
       "geometry": {
         "type": "Point",
@@ -153,7 +144,6 @@
         "location": "Boston, MA",
         "title": "MaptimeBoston",
         "twitter": "maptimeBoston",
-        "contact": "Jake Wasserman | @jwass2000 Andy Woodruff | @awoodruff Mike Foster | @mjfoster83",
         "organizers": [
           {
             "name": "Andy Woodruff",
@@ -168,10 +158,9 @@
             "twitter": "mjfoster83"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-Boston/"
-        }
+        "meetup": "http://www.meetup.com/Maptime-Boston/",
+        "website": "http://maptimeboston.github.io/",
+        "github": "https://github.com/maptimeboston"
       },
       "geometry": {
         "type": "Point",
@@ -187,17 +176,17 @@
         "location": "Boulder, CO",
         "title": "MaptimeBoulder",
         "twitter": "MaptimeBoulder",
-        "contact": "MaptimeBoulder",
         "organizers": [
           {
             "name": "Rachel Stevenson",
             "twitter": "UUDreams"
+          },
+          {
+            "name": "Robert Soden",
+            "twitter": "rsoden"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-Boulder/"
-        },
+        "meetup": "http://www.meetup.com/Maptime-Boulder/",
         "comingSoon": true
       },
       "geometry": {
@@ -214,14 +203,14 @@
         "location": "Chattanooga, TN",
         "title": "MaptimeCHA",
         "twitter": "maptimeCHA",
-        "contact": "Jason Denizac | @_jden",
         "organizers": [
           {
             "name": "Jason Denizac",
             "twitter": "_jden"
           }
         ],
-        "moreInfo": null
+        "github": "https://github.com/maptime/chattanooga",
+        "facebook": "https://www.facebook.com/maptimecha"
       },
       "geometry": {
         "type": "Point",
@@ -237,14 +226,13 @@
         "location": "Chicago, IL",
         "title": "MaptimeChicago",
         "twitter": "MaptimeCHI",
-        "contact": "Dan Swick | @DanSwick Ian Dees @iandees | Nick Doiron @mapmeld",
         "organizers": [
           {
             "name": "Dan Swick",
             "twitter": "danswick"
           }
         ],
-        "moreInfo": null
+        "website": "http://maptime.github.io/chicago/"
       },
       "geometry": {
         "type": "Point",
@@ -260,7 +248,6 @@
         "location": "Cleveland, OH",
         "title": "MaptimeCleveland",
         "twitter": "OpenGeoCLE",
-        "contact": "Will Skora | @skorasaurus Stephen Mather | @smathermather",
         "organizers": [
           {
             "name": "Will Skora",
@@ -271,10 +258,7 @@
             "twitter": "smathermather"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/cleveland-civic-hacking/"
-        }
+        "meetup": "http://www.meetup.com/cleveland-civic-hacking/"
       },
       "geometry": {
         "type": "Point",
@@ -290,17 +274,13 @@
         "location": "Corvallis, OR",
         "title": "MaptimeCVO",
         "twitter": "MaptimeCVO",
-        "contact": "MaptimeCVO",
         "organizers": [
           {
             "name": "Nick Martinelli",
             "twitter": "nichom"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-Corvallis"
-        },
+        "meetup": "http://www.meetup.com/Maptime-Corvallis",
         "comingSoon": true
       },
       "geometry": {
@@ -314,20 +294,40 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Detroit, MI",
+        "title": "MaptimeDETROIT",
+        "twitter": "MaptimeDETROIT",
+        "organizers": [
+          {
+            "name": "Alex B. Hill",
+            "twitter": "alexbhill"
+          }
+        ],
+        "website": "http://detroitography.com/maptime/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.074336,
+          42.371862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Hampton Roads, VA",
         "title": "MaptimeHRVA",
         "twitter": "maptimehrva",
-        "contact": "Jonah Adkins || @jonahadkins",
         "organizers": [
           {
             "name": "Jonah Adkins",
             "twitter": "jonahadkins"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Code-for-Hampton-Roads/"
-        }
+        "meetup": "http://www.meetup.com/Code-for-Hampton-Roads/",
+        "website": "http://maptime.github.io/hrva/",
+        "github": "https://github.com/maptime/hrva"
       },
       "geometry": {
         "type": "Point",
@@ -343,7 +343,6 @@
         "location": "Los Angeles, CA",
         "title": "MaptimeLA",
         "twitter": "MAPTIMELA",
-        "contact": "MAPTIMELA",
         "organizers": [
           {
             "name": "Jonathan Schaeffer",
@@ -366,10 +365,7 @@
             "twitter": "machikoyasuda"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/MaptimeLA/"
-        }
+        "meetup": "http://www.meetup.com/MaptimeLA/"
       },
       "geometry": {
         "type": "Point",
@@ -385,7 +381,6 @@
         "location": "Lexington, KY",
         "title": "maptimelex",
         "twitter": "maptimelex",
-        "contact": "Jessi Breen @jessibreen",
         "organizers": [
           {
             "name": "Jessi Breen",
@@ -394,10 +389,13 @@
           {
             "name": "Ryan Cooper",
             "twitter": "rmcooper4"
+          },
+          {
+            "name": "Dan Cockayne",
+            "twitter": "insistondoubt"
           }
         ],
-        "moreInfo": null,
-        "comingSoon": true
+        "website": "http://maptime.github.io/lexington/"
       },
       "geometry": {
         "type": "Point",
@@ -410,10 +408,30 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Madison, WI",
+        "title": "MaptimeMadison",
+        "twitter": "maptimemadison",
+        "organizers": [
+          {
+            "name": "Robin Tolochko",
+            "twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3887393,
+          43.0713265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Maine (Bangor/Portland)",
         "title": "MaptimeME",
         "twitter": "MaptimeME",
-        "contact": "Jacques Tardie | @jqtrde",
         "organizers": [
           {
             "name": "Jacques Tardie",
@@ -421,6 +439,7 @@
           }
         ]
       },
+      "meetup": "http://www.meetup.com/MaptimeME/",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -435,7 +454,6 @@
         "location": "New York, NY",
         "title": "MaptimeNYC",
         "twitter": "MaptimeNYC",
-        "contact": "Alyssa Wright | @alyssapwright Chris Henrick | @chrislhenrick Eric Brelsford | @ebrelsford Jeff Ferzoco | @zingbot Jeremy Goldsmith | @JWGoldsmith",
         "organizers": [
           {
             "name": "Alyssa Wright",
@@ -458,10 +476,9 @@
             "twitter": "ebrelsford"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-NYC/"
-        }
+        "meetup": "http://www.meetup.com/Maptime-NYC/",
+        "website": "http://maptimenyc.github.io/",
+        "github": "https://github.com/maptimenyc"
       },
       "geometry": {
         "type": "Point",
@@ -497,17 +514,14 @@
         "location": "Oakland, CA",
         "title": "MaptimeOAK",
         "twitter": "MaptimeOAK",
-        "contact": "Lyzi Diamond | @lyzidiamond",
         "organizers": [
           {
             "name": "Lyzi Diamond",
             "twitter": "lyzidiamond"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-SF/"
-        }
+        "meetup": "http://www.meetup.com/Maptime-SF/",
+        "facebook": "https://www.facebook.com/maptimesf"
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +537,6 @@
         "location": "Portland, OR",
         "title": "MaptimePDX",
         "twitter": "maptimepdx",
-        "contact": "Lyzi Diamond (PDX) | @lyzidiamond Rafa Gutierrez (PDX) | @geografa Matt Sayler (PDX) | @MattSayler",
         "organizers": [
           {
             "name": "Rafa Gutierrez",
@@ -534,10 +547,9 @@
             "twitter": "mattsayler"
           }
         ],
-        "moreInfo": {
-          "type": "website",
-          "url": "http://maptime.github.io/portland/"
-        }
+        "meetup": "http://maptime.github.io/portland/",
+        "website": "http://maptimepdx.org/",
+        "github": "https://github.com/maptimepdx"
       },
       "geometry": {
         "type": "Point",
@@ -553,7 +565,6 @@
         "location": "Philadelphia, PA",
         "title": "MaptimePHL",
         "twitter": "MaptimePHL",
-        "contact": "MaptimePHL",
         "organizers": [
           {
             "name": "Patrick Hammons",
@@ -564,10 +575,9 @@
             "twitter": "jawntehrani"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/maptimePHL/"
-        }
+        "meetup": "http://www.meetup.com/maptimePHL/",
+        "website": "http://maptime.github.io/philadelphia/",
+        "github": "https://github.com/maptimephl"
       },
       "geometry": {
         "type": "Point",
@@ -583,7 +593,6 @@
         "location": "Puerto Rico (Bayam&oacute;n)",
         "title": "MaptimePR",
         "twitter": "MaptimePR",
-        "contact": "MaptimePR",
         "organizers": [
           {
             "name": "Imanol Aranzadi",
@@ -613,7 +622,6 @@
         "location": "San Fransico, CA",
         "title": "MaptimeSF",
         "twitter": "maptimesf",
-        "contact": "Beth Schechter | @bethschechter Alan McConchie | @mappingmashups Camille Teicheira | @fulgenteft",
         "organizers": [
           {
             "name": "Beth Schechter",
@@ -628,10 +636,9 @@
             "twitter": "fulgenteft"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/maptime-sf/"
-        }
+        "meetup": "http://www.meetup.com/maptime-sf/",
+        "facebook": "https://www.facebook.com/maptimesf",
+        "website": "http://www.maptime.io"
       },
       "geometry": {
         "type": "Point",
@@ -647,14 +654,14 @@
         "location": "Salt Lake City, UT",
         "title": "MaptimeSLC",
         "twitter": "MaptimeSLC",
-        "contact": "Martijn van Exel @mvexel",
         "organizers": [
           {
             "name": "Martijn van Exel",
             "twitter": "mvexel"
           }
         ],
-        "moreInfo": null
+        "website": "http://www.maptimeslc.org/",
+        "github": "https://github.com/maptimeslc"
       },
       "geometry": {
         "type": "Point",
@@ -670,7 +677,6 @@
         "location": "St. Johns (Portland), OR",
         "title": "MaptimeStJohns",
         "twitter": "MaptimeStJohns",
-        "contact": "Lynnae Sutton (StJohns) | naefish",
         "organizers": [
           {
             "name": "Lynnae Sutton",
@@ -693,9 +699,13 @@
         "location": "St. Louis, MO",
         "title": "MaptimeSTL",
         "twitter": "maptimestl",
-        "contact": "maptimestl",
-        "organizers": null,
-        "moreInfo": null
+        "organizers": [
+          {
+            "name": "Eleanor Tutt",
+            "twitter": "eleanortutt"  
+          }
+        ],
+        "meetup": "http://www.meetup.com/maptimeSTL/"
       },
       "geometry": {
         "type": "Point",
@@ -711,7 +721,6 @@
         "location": "Toronto, ON",
         "title": "MaptimeTO",
         "twitter": "MaptimeTO",
-        "contact": "Courtney Claessens | @sidewalkballet Tristen Brown | @fallsemo",
         "organizers": [
           {
             "name": "Tristen Brown",
@@ -722,10 +731,8 @@
             "twitter": "rweait"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/OpenStreetMap-Toronto/"
-        }
+        "meetup": "http://www.meetup.com/OpenStreetMap-Toronto/",
+        "website": "http://maptime.github.io/toronto/"
       },
       "geometry": {
         "type": "Point",
@@ -741,17 +748,14 @@
         "location": "Vancouver, BC",
         "title": "MaptimeVancouver",
         "twitter": "MaptimeYVR",
-        "contact": "MaptimeYVR",
         "organizers": [
           {
             "name": "Cecily Walker",
             "twitter": "skeskali"
           }
         ],
-        "moreInfo": {
-          "type": "website",
-          "url": "http://maptimeyvr.org/"
-        },
+        "meetup": "http://www.meetup.com/MaptimeYVR/",
+        "website": "http://maptime.github.io/vancouver/",
         "comingSoon": true
       },
       "geometry": {
@@ -790,10 +794,8 @@
             "twitter": "bonnie"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://meetup.com/maptime-dc"
-        }
+        "meetup": "http://meetup.com/maptime-dc",
+        "github": "https://github.com/maptime/dc"
       },
       "geometry": {
         "type": "Point",
@@ -809,7 +811,6 @@
         "location": "Windsor-Essex, ON",
         "title": "Maptime WindsorEssex",
         "twitter": "maptimeWindsor",
-        "contact": "Mita Williams | @copystar",
         "organizers": [
           {
             "name": "Mita Williams",
@@ -831,7 +832,6 @@
       "properties": {
         "title": "MaptimeAlpes",
         "twitter": "MaptimeAlpes",
-        "contact": "Adam Roberts | @abenroberts",
         "comimgSoon": "true",
         "organizers": [
           {
@@ -839,10 +839,9 @@
             "twitter": "abenroberts"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/MaptimeAlpes"
-        }
+        "meetup": "http://www.meetup.com/MaptimeAlpes",
+        "website": "http://maptime-alpes.com/",
+        "github": "https://github.com/MaptimeAlpes"
       },
       "geometry": {
         "type": "Point",
@@ -858,7 +857,12 @@
         "location": "Southampton, UK",
         "title": "MaptimeSOTON",
         "twitter": "MaptimeSOTON",
-        "contact": "Charley Glynn | @charley_glynn"
+        "organizers": [
+          {
+            "name": "Charley Glynn",
+            "twitter": "charley_glynn"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -874,14 +878,13 @@
         "location": "Seattle, WA",
         "title": "MaptimeSEA",
         "twitter": "MaptimeSEA",
-        "contact": "MaptimeSEA",
         "organizers": [
           {
             "name": "Sam Matthews",
             "twitter": ""
           }
         ],
-        "moreInfo": null,
+        "meetup": "http://www.meetup.com/MaptimeSEA/",
         "comingSoon": true
       },
       "geometry": {
@@ -898,7 +901,6 @@
         "location": "Amsterdam, The Netherlands",
         "title": "MaptimeAMS",
         "twitter": "MaptimeAMS",
-        "contact": "Bert Spaan | @bertspaan",
         "organizers": [
           {
             "name": "Bert Spaan",
@@ -909,18 +911,10 @@
             "twitter": "waag"
           }
         ],
-        "moreInfo": {
-          "type": "Meetup",
-          "url": "http://www.meetup.com/Maptime-AMS"
-        },
-        "moreInfo": {
-          "type": "website",
-          "url": "http://code.waag.org/maptimeAMS"
-        },
-        "moreInfo": {
-          "type": "GitHub",
-          "url": "https://github.com/waagsociety/maptimeAMS"
-        }
+        "meetup": "http://www.meetup.com/Maptime-AMS",
+        "website": "http://code.waag.org/maptimeAMS",
+        "github": "https://github.com/waagsociety/maptimeAMS",
+        "comingSoon": true
       },
       "geometry": {
         "type": "Point",
