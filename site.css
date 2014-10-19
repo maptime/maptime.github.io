@@ -3,7 +3,7 @@
 ---
 
 {% include base.css %}
-h1 { font-family: 'Comfortaa'; font-size:32px; line-height:36px; }
+h1 { font-family: 'Comfortaa', cursive; font-size:32px; line-height:36px; }
 body { background-image: url('img/old_mathematics.png'); color:#404040; }
 
 a       { color:#279acb; }
