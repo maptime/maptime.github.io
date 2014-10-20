@@ -10,7 +10,7 @@ by Beth
 When we started Maptime back in June 2013, it never really occurred to me that this little meeting would grow so quickly. As of today, we have more than 25 active chapters spread across North America and we are beginning to pepper Europe. While chapters all over have gotten going successfully – many thanks to Lyzi Diamond and Alan McConchie for their amazing work on that front – the community still has lots of questions about the organization itself. What kind of entity will Maptime become? How can Maptime take donations? What will Maptime do with the donations once we get them?
 
 We’ve been working through the answers as we create our bylaws and work with our friendly neighborhood legal advisors. In the meantime – and in the interest of transparency and communicating in non-legalese – below are answers to some of the most frequently asked questions about our budding organization and where it is going.
-
+<!--more-->
 __What kind of organization will Maptime become?__
 
 The plan is to become a nonprofit organization of some kind. In other words, we’ll be able to take tax deductible donations from the public and be able to receive grants directly (that’s the nonprofit part) under a TBD organizing body. This organizing body may technically be an LLC or some other kind of corporation, but the idea is to have a board and an executive director, as is typical for nonprofit operations.
