@@ -5,6 +5,12 @@
 {% include js/handlebars-2.0.min.js %}
 
 $(function() {
+  var source   = $("#chapters-template").html(),
+      $output = $("#chapters-output");
+      template = Handlebars.compile(source),
+      data = {{ site.data.chapters | jsonify }},
+      html = '';
+
   L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw';
     var map = L.mapbox.map('map', null, {
       touchZoom: false, 
@@ -21,7 +27,7 @@ $(function() {
       .setPosition('bottomleft')
       .addTo(map);
 
-    var chapters = L.geoJson( {{ site.data.chapters | jsonify }}, {
+    var chapterMarkers = L.geoJson( data, {
       onEachFeature: function (feature, layer) {
         var popupContent = '<h2>'+ feature.properties.title +'</h2>' + 'Twitter: ' + 
           '<a href="http://twitter.com/' + feature.properties.twitter + '" target="_blank">@' + feature.properties.twitter +'</a>';
@@ -40,25 +46,20 @@ $(function() {
       maxClusterRadius: 30
     });
 
-    clusterGroup.addLayer(chapters);
-    
+    clusterGroup.addLayer(chapterMarkers);
     map.addLayer(clusterGroup);
-    
-    function sortChapters() {
-      var data = {{ site.data.chapters | jsonify }},
-          chapters = data.features;
 
-      console.log(chapters.sort(compare));
-
-    }
-
-    function compare(a,b) {
-      if (a.properties.twitter < b.properties.twitter)
+    // Sort alphabetically; capitalization matters!
+    function sortAlphabetically(a,b) {
+      if (a.properties.title < b.properties.title)
          return -1;
-      if (a.properties.twitter > b.properties.title)
+      if (a.properties.title > b.properties.title)
         return 1;
       return 0;
     }
 
-    sortChapters();
+    // Sort chapters, comile data, append to body of page
+    data.features.sort(sortAlphabetically);
+    html = template(data);
+    $output.append(template(data));
 });
