@@ -295,7 +295,7 @@
       "type": "Feature",
       "properties": {
         "location": "Detroit, MI",
-        "title": "MaptimeDETROIT",
+        "title": "MaptimeDetroit",
         "twitter": "MaptimeDETROIT",
         "organizers": [
           {
@@ -379,7 +379,7 @@
       "type": "Feature",
       "properties": {
         "location": "Lexington, KY",
-        "title": "maptimelex",
+        "title": "MaptimeLEX",
         "twitter": "maptimelex",
         "organizers": [
           {
@@ -496,7 +496,8 @@
         "twitter": "MaptimeNull",
         "organizers": [
           {
-            "name": "null"
+            "name": "null",
+            "twitter": "MaptimeNull"
           }
         ]
       },
@@ -809,7 +810,7 @@
       "type": "Feature",
       "properties": {
         "location": "Windsor-Essex, ON",
-        "title": "Maptime WindsorEssex",
+        "title": "MaptimeWindsorEssex",
         "twitter": "maptimeWindsor",
         "organizers": [
           {

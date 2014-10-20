@@ -12,10 +12,59 @@ js:
 <a href='{{site.baseurl}}/' class='sprite maptime pin-left'>Maptime</a>
 
 <p>Once Maptime got started in San Francisco, it wasn't long before cites all over the world started to get involved. Here are all of the Maptime chapters that exist so far, along with the team that puts them together.</p>
+<div id="chapters-output"></div>
 
+{% raw %}
+<script id="chapters-template" type="text/x-handlebars-template">​
+	{{#each features}}
+		<div class='chapter keyline-top'>
+ 			<h2>
+ 				{{#if properties.website}}
+ 				<a href="{{properties.website}}">
+ 					{{ properties.title }}
+ 				</a>
+ 				{{else}}
+ 				{{ properties.title }}
+ 				{{/if}}
+ 				<a href="http://twitter.com/{{ properties.twitter }}">
+ 					<img src="/img/twitter-icon.png"/>
+ 				</a>
+ 				{{#if properties.facebook}}
+ 				<a href="{{ properties.facebook }}">
+ 					<img src="/img/facebook-icon.png" />
+ 				</a>
+ 				{{/if}}
+ 				{{#if properties.github}}
+ 				<a href="{{ properties.github }}">
+ 					<img src="/img/github-icon.png" />
+ 				</a>
+ 				{{/if}}
+ 				{{#if properties.meetup}}
+ 				<a href="{{ properties.meetup }}">
+ 					<img src="/img/meetup-icon.jpg" />
+ 				</a>
+ 				{{/if}}
+ 			</h2>
+ 			{{#if properties.comingSoon}}
+ 				<p>Coming Soon!</p>
+ 			{{/if}}
+ 			
+ 			{{#if properties.organizers}}
+	 			<p><strong>Organizers:</strong></p>
+	 			<ul>
+	 			{{#each properties.organizers}}
+	 				<li>{{name}} (<a href="http://twitter.com/{{twitter}}">@{{twitter}}</a>)</li>
+	 			{{/each}}
+	 			</ul>
+ 			{{/if}}
+ 		</div>​
+ 	{{/each}}
+​</script>
+{% endraw %}
+<!--
 {% for chapter in site.data.chapters.features %}
 
-<div class='chapter keyline-top'>
+ <div class='chapter keyline-top'>
 	<h2>
 	{% if chapter.properties.meetup %}
 		<a href="{{ chapter.properties.meetup }}">{{chapter.properties.title}}</a>
@@ -43,5 +92,5 @@ js:
 	</ul>
 </div>
 {% endfor %}
-
+ -->
 <h2>Don't see your city? Want to start a chapter? Email us: <a href="mailto:hello@maptime.io">hello@maptime.io</a></h2>
