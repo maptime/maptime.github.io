@@ -10,7 +10,7 @@ by <a href="http://about.me/beth.schechter" target="_blank">Beth Schechter</a> a
 
 <i>At </i><a href="https://twitter.com/MaptimeOAK" target="_blank"><i>Maptime Oakland</i></a><i> last Wednesday, </i><a href="https://twitter.com/lyzidiamond/" target="_blank"><i>Lyzi</i></a><i> presented a workshop about how to create tutorials for Maptime and beyond. After </i><a href="http://lyzidiamond.com/tutorial-dev/" target="_blank"><i>a brief (and wonderful) presentation</i></a><i> covering some key components for success – like including term definitions and defining audience – she had people break into groups and co-create their own tutorials around topics of interest, like color theory for maps and basic </i><a href="https://cartodb.com/" target="_blank"><i>CartoDB</i></a><i>. As everyone was packing up, someone proposed an idea: to create a Maptime tutorial devoted to organizing people around a topic they would like to learn.</i>
 
-<em><a href="http://www.maptime.io/wp-content/uploads/2014/07/presenting.jpg"><img class="alignnone size-full wp-image-201" src="http://www.maptime.io/wp-content/uploads/2014/07/presenting.jpg" alt="presenting" width="100%" /></a></em> 
+<em><a href="/img/presenting.jpg"><img class="alignnone size-full wp-image-201" src="/img/presenting.jpg" alt="presenting" width="100%" /></a></em> 
 
 <!--more-->
 
@@ -24,7 +24,7 @@ No matter where you are, but particularly if you are in a city or large town, ch
 
 Last month, the <a href="http://eyeofestival.com/" target="_blank">EYEO Festival</a> kicked off with an event called <a href="http://eyeofestival.com/code-ed-summit/" target="_blank">Code+Ed</a>, a day-long unconference focused on the diverse space of creative coding education. Some of us who run meetups in the code / education / do-gooder space managed to find each other and have a conversation about our experiences and how to make our code-learning gatherings even better.
 
-<a href="http://www.maptime.io/wp-content/uploads/2014/07/codeedeyeo.jpg"><img class="size-full wp-image-203" src="http://www.maptime.io/wp-content/uploads/2014/07/codeedeyeo.jpg" alt="Most of the group at Code + Ed." width="100%" /></a>Not surprisingly, this table full of code + education lovers had a lot to learn from each other. A couple of us decided to summarize the conversation, and to pass it on to you. Incomplete and in no particular order, here are of the best lessons and advice we came away with, as well as a few questions we are left to ponder.
+<a href="/img/codeedeyeo.jpg"><img class="size-full wp-image-203" src="/img/codeedeyeo.jpg" alt="Most of the group at Code + Ed." width="100%" /></a>Not surprisingly, this table full of code + education lovers had a lot to learn from each other. A couple of us decided to summarize the conversation, and to pass it on to you. Incomplete and in no particular order, here are of the best lessons and advice we came away with, as well as a few questions we are left to ponder.
 
 <!--more-->
 
@@ -38,7 +38,7 @@ Also keep in mind that this doesn't have to be a final decision. If it makes sen
 
 Maptime has a similar strategy to ensure getting the right mix. We use the phrase "All beginners most welcome!" This ensures that people who show up will likely be beginners, if not beginner-friendly and (hopefully) beginner-helpful.
 
-<a href="http://www.maptime.io/wp-content/uploads/2014/07/maptime-tutorial-beginner-focused.jpg"><img class="alignnone size-full wp-image-209" src="http://www.maptime.io/wp-content/uploads/2014/07/maptime-tutorial-beginner-focused.jpg" alt="maptime-tutorial-beginner-focused" width="100%" /></a>
+<a href="/img/maptime-tutorial-beginner-focused.jpg"><img class="alignnone size-full wp-image-209" src="/img/maptime-tutorial-beginner-focused.jpg" alt="maptime-tutorial-beginner-focused" width="100%" /></a>
 
 Choosing whether you want your meetup to be open to the public or more closely curated may also affect your choice of whether to post something on a forum like <a href="http://www.meetup.com/">Meetup.com</a> or to let the group grow offline. Choosing whether you want your meetup to be open to the public or more closely curated may also affect your choice of whether to post something on a forum like Meetup or to keep the group offline altogether.
 

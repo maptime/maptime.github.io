@@ -2,8 +2,15 @@
 ---
 {% include js/mapbox-2.1.0.min.js %}
 {% include js/leaflet-markercluster-0.4.0.min.js %}
+{% include js/handlebars-2.0.min.js %}
 
 $(function() {
+  var source   = $("#chapters-template").html(),
+      $output = $("#chapters-output");
+      template = Handlebars.compile(source),
+      data = {{ site.data.chapters | jsonify }},
+      html = '';
+
   L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw';
     var map = L.mapbox.map('map', null, {
       touchZoom: false, 
@@ -20,7 +27,7 @@ $(function() {
       .setPosition('bottomleft')
       .addTo(map);
 
-    var chapters = L.geoJson( {{ site.data.chapters | jsonify }}, {
+    var chapterMarkers = L.geoJson( data, {
       onEachFeature: function (feature, layer) {
         var popupContent = '<h2>'+ feature.properties.title +'</h2>' + 'Twitter: ' + 
           '<a href="http://twitter.com/' + feature.properties.twitter + '" target="_blank">@' + feature.properties.twitter +'</a>';
@@ -39,7 +46,20 @@ $(function() {
       maxClusterRadius: 30
     });
 
-    clusterGroup.addLayer(chapters);
-    
+    clusterGroup.addLayer(chapterMarkers);
     map.addLayer(clusterGroup);
+
+    // Sort alphabetically; capitalization matters!
+    function sortAlphabetically(a,b) {
+      if (a.properties.title < b.properties.title)
+         return -1;
+      if (a.properties.title > b.properties.title)
+        return 1;
+      return 0;
+    }
+
+    // Sort chapters, comile data, append to body of page
+    data.features.sort(sortAlphabetically);
+    html = template(data);
+    $output.append(template(data));
 });
