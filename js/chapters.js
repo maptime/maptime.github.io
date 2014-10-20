@@ -62,5 +62,4 @@ $(function() {
     data.features.sort(sortAlphabetically);
     html = template(data);
     $output.append(template(data));
-    console.log(data.features);
 });

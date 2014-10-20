@@ -61,36 +61,5 @@ js:
  	{{/each}}
 ​</script>
 {% endraw %}
-<!--
-{% for chapter in site.data.chapters.features %}
 
- <div class='chapter keyline-top'>
-	<h2>
-	{% if chapter.properties.meetup %}
-		<a href="{{ chapter.properties.meetup }}">{{chapter.properties.title}}</a>
-	  {% else %} {{chapter.properties.title}}
-	{% endif %}
-	 <a href="http://twitter.com/{{ chapter.properties.twitter }}"><img src="/img/twitter-icon.png"/></a>
-	{% if chapter.properties.facebook %}
-		<a href="{{ chapter.properties.facebook }}"><img src="/img/facebook-icon.png"/></a>
-	{% endif %}
-	{% if chapter.properties.github %}
-		<a href="{{ chapter.properties.github }}"><img src="/img/github-icon.png"/></a>
-	{% endif %}
-	{% if chapter.properties.meetup %}
-		<a href="{{ chapter.properties.meetup }}"><img src="/img/meetup-icon.jpg"/></a>
-	{% endif %}
-	</h2>
-	<p>{% if chapter.properties.comingSoon %}Coming soon!{% endif %}</p>
-	{% if chapter.properties.organizers %}
-	<p><strong>Organizer{% if chapter.properties.organizers.size > 1 %}s{% endif %}:</strong></p>
-	{% endif %}
-	<ul>
-		{% for organizer in chapter.properties.organizers %}
-		<li>{{ organizer.name }} {% if organizer.twitter %}&#40;<a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>&#41;{% endif %}</li>
-		{% endfor %}
-	</ul>
-</div>
-{% endfor %}
- -->
 <h2>Don't see your city? Want to start a chapter? Email us: <a href="mailto:hello@maptime.io">hello@maptime.io</a></h2>
