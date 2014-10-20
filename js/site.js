@@ -1,5 +1,7 @@
 ---
 ---
+{% include js/underscore.min.js %}
+{% include js/jquery.min.js %}
 
 function githubWatchers() {
     var watchers = $('.followers');
