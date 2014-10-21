@@ -24,4 +24,7 @@
   <link rel="stylesheet" href="{{site.baseurl}}/css/{{ stylesheet }}">
   {% endfor %}
   <link rel='shortcut icon' href='img/favicon.png' type='image/x-icon' />
+  {% if page.map %}
+  <link rel="stylesheet" href="{{site.baseurl}}/css/leaflet.css">
+  {% endif %}
 </head>
