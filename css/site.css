@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include base.css %}
+{% include css/base.css %}
 h1 { font-family: 'Comfortaa', cursive; font-size:32px; line-height:36px; }
 body { background-image: url('img/old_mathematics.png'); color:#404040; }
 
