@@ -1,9 +1,9 @@
 ---
 ---
 
-{% include base.css %}
+{% include css/base.css %}
 h1 { font-family: 'Comfortaa', cursive; font-size:32px; line-height:36px; }
-body { background-image: url('img/old_mathematics.png'); color:#404040; }
+body { background-image: url('/img/old_mathematics.png'); color:#404040; }
 
 a       { color:#279acb; }
 a:hover { text-decoration:underline; }
@@ -124,7 +124,7 @@ h6 a:hover { text-decoration:none;}
 .icon:before,
 .rcon:after,
 .sprite {
-  background:transparent url(img/sprite@2x.png) no-repeat 0 0;
+  background:transparent url(/img/sprite@2x.png) no-repeat 0 0;
   display:inline-block;
   text-indent:-999em;
   background-size:640px 140px;
