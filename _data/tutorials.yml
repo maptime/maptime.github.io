@@ -6,7 +6,7 @@
 - name: QGIS 101
   tags:
     - Desktop mapping
-  link: http://maptime.github.io/qgis-101/
+  link: https://github.com/maptimeBoston/qgis-101
 
 - name: Google Fusion Tables
   tags: 
@@ -90,7 +90,7 @@
   tags: 
     - Visualization
     - Web mapping
-  link: http://alignedleft.com/tutorials/d3)
+  link: http://alignedleft.com/tutorials/d3
 
 - name: Interactive Data Visualization for the Web
   tags: 
@@ -104,7 +104,7 @@
     - Visualization
     - Web mapping
   description: Mike Bostock (creator of D3) has collected a list of D3 tutorials many written by him. They include links to talks and video examples
-  link: https://github.com/mbostock/d3/wiki/Tutorials)
+  link: https://github.com/mbostock/d3/wiki/Tutorials
 
 - name: Mapschool.io
   tags:
@@ -118,10 +118,10 @@
   description: Why community-powered mapping is important
   link: http://mapgive.state.gov/
 
-- name: Mapper
+- name: Be A Mapper
   tags:
     - OpenStreetMap
-  description: Be A How to contribute to OpenStreetMap
+  description: How to contribute to OpenStreetMap
   link: http://beamapper.com/
 
 - name: LearnOSM
