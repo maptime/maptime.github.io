@@ -59,5 +59,9 @@
   <script src="{{site.baseurl}}/js/{{ script }}"></script>
 {% endfor %}
 
+{% if page.map or leaflet %}
+  {% include map-post.html %}
+{% endif %}
+
 </body>
 </html>
