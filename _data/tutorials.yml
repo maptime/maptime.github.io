@@ -135,3 +135,52 @@
     - OpenStreetMap
   description: Resources for educators
   link: https://github.com/osmlab/teachosm
+
+- name: Anatomy of a Web Map
+  tags:
+    - Web mapping
+  description: An in-depth presentation of the different pieces of a web map and how the work together
+  link: http://maptime.io/anatomy-of-a-web-map/
+
+- name: Introduction to Geographic Data Formats
+  tags:
+    - Geography
+    - Web mapping
+  link: http://maptime.io/geodata/
+
+- name: The Wild World of Geodesy
+  tags:
+    - Geography
+  descrption: An introduction to the measurement and representation of the Earth
+  link: http://lyzidiamond.com/geodesy
+
+- name: An Introduction to Leaflet by MaptimeBoston
+  tags:
+    - Web mapping
+  link: http://maptimeboston.github.io/leaflet-intro/
+
+- name: Leaflet 101 for LuxembourgJS
+  tags:
+    - Web mapping
+  link: http://luxembourgjs.github.io/leaflet-demo
+
+- name: Making your First Map with Leaflet (NACIS14)
+  tags:
+    - Web mapping
+  link: http://lyzidiamond.com/nacis-talk/
+
+- name: OGR-SQL
+  tags:
+    - Command line
+  description: Learn to script geospatial processes from the command line
+  link: https://github.com/maptime/OGR-SQL
+
+- name: Getting Started with Git and GitHub
+  tags:
+    - Command line
+  link: https://github.com/maptime/getting-started-with-git-and-github
+
+- name: Mapping Data Interactively on the Web with CartoDB
+  tags:
+    - Web mapping
+  link: https://github.com/clhenrick/cartodb-tutorial/
