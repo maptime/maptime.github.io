@@ -303,5 +303,8 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 
 .content {
 	background: white;
-	padding: 1em;
+	padding: 2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
