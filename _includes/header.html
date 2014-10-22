@@ -1,3 +1,6 @@
+{% if page.map %}
+<div id='map'></div>
+{% else %}
 {% case page.title %}
 {% when 'Home' %}
 	<div class='center'>
@@ -47,3 +50,4 @@
 	  </div>      
 	</div>
 {% endcase %}
+{% endif %}
