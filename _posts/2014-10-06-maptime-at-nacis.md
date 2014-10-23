@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: post
 category: event
 title: Maptime at NACIS
 ---
