@@ -416,7 +416,8 @@
             "name": "Robin Tolochko",
             "twitter": "tolomaps"
           },
-          { "name": "Rashauna Mead",
+          {
+            "name": "Rashauna Mead",
             "twitter": "RashaunaMead"
           },
           {
@@ -452,6 +453,37 @@
         "coordinates": [
           -70.25653839111327,
           43.66042082657193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Miami, FL",
+        "title": "Maptime Miami",
+        "twitter": "MaptimeMIA",
+        "organizers": [
+          {
+            "name": "Matthew Toro",
+            "twitter": ""
+          },
+          {
+            "name": "Ernie Hsiung",
+            "twitter": "ErnieAtLYD"
+          },
+          {
+            "name": "Rebekah Monson",
+            "twitter": "rsm"
+          }          
+        ],
+        "meetup": "http://www.meetup.com/Maptime-Miami/",
+        "facebook": "https://www.facebook.com/pages/Maptime-Miami/1538013753098896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.202253,
+          25.801088
         ]
       }
     },
@@ -710,7 +742,7 @@
         "organizers": [
           {
             "name": "Eleanor Tutt",
-            "twitter": "eleanortutt"  
+            "twitter": "eleanortutt"
           }
         ],
         "meetup": "http://www.meetup.com/maptimeSTL/"
@@ -893,7 +925,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeSEA/",
-        "comingSoon": true
+        "comingSMoon": true
       },
       "geometry": {
         "type": "Point",
