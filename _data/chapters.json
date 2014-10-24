@@ -925,7 +925,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeSEA/",
-        "comingSMoon": true
+        "comingSoon": true
       },
       "geometry": {
         "type": "Point",
