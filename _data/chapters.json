@@ -963,17 +963,6 @@
           52.37278
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.19140625,
-          43.77109381775648
-        ]
-      }
     }
   ]
 }
