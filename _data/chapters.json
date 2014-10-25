@@ -474,7 +474,7 @@
           {
             "name": "Rebekah Monson",
             "twitter": "rsm"
-          }          
+          }
         ],
         "meetup": "http://www.meetup.com/Maptime-Miami/",
         "facebook": "https://www.facebook.com/pages/Maptime-Miami/1538013753098896"
@@ -961,6 +961,17 @@
         "coordinates": [
           4.90032,
           52.37278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.19140625,
+          43.77109381775648
         ]
       }
     }
