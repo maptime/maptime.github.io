@@ -963,6 +963,34 @@
           52.37278
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Twin Cities, MN",
+        "title": "MaptimeMSP",
+        "twitter": "MaptimeMSP",
+        "organizers": [
+          {
+            "name": "M. Taylor Long",
+            "twitter": "@mtaylorlong"
+          },
+          {
+            "name": "Liz Puhl",
+            "twitter": "@LizPuhl"
+          }
+        ],
+        "meetup": "http://www.meetup.com/Maptime-MSP",
+        "github": "https://github.com/MaptimeMSP",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1831,
+          44.9579
+        ]
+      }
     }
   ]
 }
