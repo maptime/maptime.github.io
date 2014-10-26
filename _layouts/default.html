@@ -12,7 +12,14 @@
   <div class='limiter pad4y'>
     <div class='col12 clearfix'>
       <aside class='col3 fr space-bottom2 sidebar'>
-        <div class='fill-navy strong dark round pad2 space-bottom2'><a href='{{site.baseurl}}/chapters'>Find the nearest Maptime</a></div>
+        <div class='fill-navy strong dark round pad2 space-bottom2'>
+            {% if page.title == 'Chapters' %}
+              <a href='{{site.baseurl}}/chapters/start'>Start a chapter
+            {% else %}
+              <a href='{{site.baseurl}}/chapters'>Find the nearest Maptime
+            {% endif %}
+          </a>
+          </div>
         <div class='hide-mobile'>
           <div class='popup-group'>
             <a href='https://github.com/{{site.github_org}}/{{site.repo}}/' class='col12 space-bottom2 fill-green button'>Watch these events</a>
