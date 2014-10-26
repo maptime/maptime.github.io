@@ -43,7 +43,7 @@ h6 a:hover { text-decoration:none;}
   margin: 0;
   color:#fff;
   display:inline-block;
-  border-radius:4px;
+  /*border-radius:4px;*/
   text-align:center;
   padding:8px 20px;
   font-weight:bold;
@@ -168,14 +168,15 @@ a.fill-blue:hover     { background-color:#279acb; text-decoration:none; }
 a.fill-purple:hover   { background-color:#5b2980; text-decoration:none; }
 .fill-green           { background-color:#009347; }
 a.fill-green:hover    { background-color:#008440; text-decoration:none; }
-.fill-yellow          { background-color:#fcee1e; }
-a.fill-yellow:hover   { background-color:#e2d61b; text-decoration:none; }
+.fill-ltgreen         { background-color:#6CA67A; }
+a.fill-ltgreen:hover  { background-color:#6CA67A; text-decoration:none; }
+.fill-yellow          { background-color:#beb311; }
+a.fill-yellow:hover   { background-color:#d5c917; text-decoration:none; }
 .fill-orange          { background-color:#f79420; }
 a.fill-orange:hover   { background-color:#de851d; text-decoration:none; }
 .fill-red             { background-color:#ec2127; }
 a.fill-red:hover      { background-color:#d41e23; text-decoration:none; }
 .fill-navy            { background:rgba(19,78,102,.6);}
-/*a.fill-teal:hover     { background-color:#de851d; text-decoration:none; }*/
 
 .fill-darken3 {
     background-color: rgba(9, 37, 44, 0.65);
@@ -256,17 +257,13 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
   position:relative;
   }
   .followers:after {
-    background:red;
+    /*background:red;*/
     content:'';
     display:block;
     position:absolute;
     bottom:0;
     width:100%;
     height:40px; 
-    background: -webkit-linear-gradient(top, transparent, #fff);
-    background:    -moz-linear-gradient(top, transparent, #fff);
-    background:     -ms-linear-gradient(top, transparent, #fff);
-    background:      -o-linear-gradient(top, transparent, #fff)
     }
 
 .chapter a {
