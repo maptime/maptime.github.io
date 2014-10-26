@@ -27,8 +27,8 @@ Forking a site means you're making a copy of it to your account and the origin r
 Keep things simple by naming your folder after your city. 
 1. Add a file named `index.html` and copy contents from the [/nullisland/index.html](https://github.com/maptime/maptime.github.io/blob/master/nullisland/index.html) file for the template into your new file.
 1. Modify your details.
-1. When you're finished, commit the new file (it's like saving it), only, add a message like '_Adds new Maptime chapter for Null Island!_'
-1. Once committed, go back to the root directory of your repo and make a __Pull Request__ by clicking the green button to the left of your repo's branch name.
+1. When you're finished, commit the new file (it's like saving it) and add a commit message like '_Adds new Maptime chapter for Null Island!_'
+1. Once committed, go back to the root directory of your repo and make a __Pull Request__ (aka PR) by clicking the green button to the left of your repo's branch name.
 ![start-pull](/img/start-pull.png)
 1. A new page appears where you can review your changes.
 1. Make sure you are making a PR from your repo's branch to the maptime.github.io master branch.
@@ -37,7 +37,7 @@ Keep things simple by naming your folder after your city.
 1. Finally, click the big shiny green __Create Pull Request__ button. It's ok, you won't break anything. Extra points if you tag an admin with Maptime to notify them of changes (e.g. @geografa).
 ![start-pr-msg](/img/start-pr-msg.png)
 
-Someone from the Maptime admin will review changes and either merge them in or comment back with questions or suggested modifications. If changes are requested before merging, simply make the changes in your file and commit the changes. No need to make another PR if the one you made is still open. Neat huh? Good luck and as always create an [issue](https://github.com/maptime/maptime.github.io/issues/new) with your questions, send us a [tweet](https://twitter.com/MaptimeHQ), or find us on the [Slack](https://maptime.slack.com/messages/website-admin/) chat channel for more help.
+Someone from the Maptime admin team will review changes and either merge them in or comment back with questions or suggested modifications. If changes are requested before merging, simply make the changes in your file and commit the changes. No need to make another PR if the one you made is still open. Neat huh? Good luck and as always create an [issue](https://github.com/maptime/maptime.github.io/issues/new) with your questions, send us a [tweet](https://twitter.com/MaptimeHQ), or find us on the [Slack](https://maptime.slack.com/messages/website-admin/) chat channel for more help.
 
 <iframe src="//player.vimeo.com/video/110047746" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 _[Adding a Maptime Chapter](http://vimeo.com/98781289)_
