@@ -205,11 +205,6 @@
     - CartoCSS
   link: https://github.com/mapbox/natural-earth-tm2
 
-- name: Example source & style for TM2 using Natural Earth vector data
-  tags: 
-    - CartoCSS
-  link: https://github.com/mapbox/Example source & style for TM2 using Natural Earth vector data
-
 - name: Wheatpaste
   tags: 
     - CartoCSS
