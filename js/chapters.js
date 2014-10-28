@@ -12,16 +12,19 @@ $(function() {
       html = '';
 
   L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw';
-    var map = L.mapbox.map('map', null, {
+    var map = L.mapbox.map('map', 'grafa.88128171', {
       touchZoom: false, 
       scrollWheelZoom: false,
       zoomControl: false,
       worldCopyJump: true
     }).setView([39.774769485295465,-84.55078125], 3);
 
+    //map.attributionControl.addAttribution("Earthquake data &copy; GeoNames");
+
+
     // swap out layers and token periodically
-    var myLayer = L.tileLayer('http://api.tiles.mapbox.com/v4/grafa.88128171/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw')
-        .addTo(map);
+    // var myLayer = L.tileLayer('http://api.tiles.mapbox.com/v4/grafa.88128171/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw')
+        // .addTo(map);
 
     L.control.zoom()
       .setPosition('bottomleft')
