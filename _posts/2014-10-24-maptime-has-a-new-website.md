@@ -3,12 +3,12 @@ layout: post
 title: Maptime Has a New Website!
 category: blog
 
-description: "Maptime recently underwent a website redesign! We've migrated from wordpress to the power couple of Jekyll and GitHub Pages. Getting involved is now easier than ever."
+description: "Maptime.io has a new look! We've migrated from Wordpress to the dynamic duo of Jekyll and GitHub Pages. Getting involved is now easier than ever."
 ---
 
 ![Maptime has a new website](/img/maptimes.gif)
 
-Maptime is proud to announce the release of our new website! We recently migrated from WordPress to the power couple of Jekyll and GitHub Pages. Getting involved and contributing ideas to Maptime is now easier than ever.
+Maptime is proud to announce the release of our new website! We recently migrated from WordPress to the dynamic duo of Jekyll and GitHub Pages. Getting involved and contributing ideas to Maptime is now easier than ever.
 
 Static website generators like [Jekyll](http://jekyllrb.com/) are [great](http://www.developmentseed.org/blog/2012/07/27/build-cms-free-websites/). They strip out a lot of complexity of traditional Content Management Systems like configuring databases, security, and servers. Now-a-days putting together a website with Jekyll and serving it for free with [GitHub Pages](https://pages.github.com/) is a snap. This combination of tools for hackers, tinkerers, and learners has been a perfect match for Maptime. Since we're built on top of the GitHub ecosystem it's easy for folks to let us know about any [problems](https://github.com/maptime/maptime.github.io/issues) they might run in to, suggest new features, or get involved in other ways.
 
@@ -21,7 +21,13 @@ Here's a quick tour of some of the newest features:
 
 ![](/img/chapter.json.png)
 
-With the new website it's easier than ever to get the materials you need to start a Chapter in your own town or city. Want to add your new chapter to the [map](http://maptime.io/chapters/)? No problem. With the new re-design all you need to do is add your information in [one place](https://github.com/maptime/maptime.github.io/blob/master/_data/chapters.json), and you'll see your chapter added to the map and the Chapters listing automatically!
+With the new website it's easier than ever to get the materials you need to start a Chapter in your own town or city. What's needed to start a chapter? Three things:
+
+1. __Contact Us!__: Send our admin team an [email](mailto:hello@maptime.io) and let us know you're interested.
+1. __Get on Slack__: [Slack](maptime.slack.com/) is our internal chat app for all things Maptime. We have channels for everything from website admin to tutorials. Manage your chapter's comms here.
+1. __Get on Github__: we use Github for everything from [managing our website](https://github.com/maptime/maptime.github.io/issues) to writing our [Code of Conduct](https://github.com/maptime/code-of-conduct/blob/master/code-of-conduct.md). You and your admins can be added to teams where you can get access to the Maptime organization, your chapter's repo, or other privileges that you think you need.
+
+Once you're all setup, you can add your new chapter to the [map](http://maptime.io/chapters/). With the new re-design all you need to do is add your information in [one place](https://github.com/maptime/maptime.github.io/blob/master/_data/chapters.json) and make a __pull request__. Once your chapter has its first meeting scheduled, you'll see your chapter added to the map and the Chapters listing automatically!
 
 ### [Curated resources to get started with mapping](http://maptime.io/lessons-resources/)
 
@@ -43,4 +49,4 @@ Another option is to hit the ground running with our Starter website. All you ha
 
 If all this GitHub jargon is too much for you, but you're still interested in joining the Maptime community with a Chapter of your own give a shout-out to one of our founders, [Alan](https://twitter.com/mappingmashups), on Twitter or send an email to [MaptimeHQ](mailto:hello@maptime.io?Subject=New%20Chapter%20Plz!).
 
-That's all for this time boys and girls. We hope you like the new website as much as we do!
+As always, we're about helping. Whether it's maps or getting to know git - we hope the site will encourage your to learn, help, and contribute! So, please...send us your [feedback](mailto:hello@maptime.io)! 
