@@ -3,14 +3,14 @@ layout: post
 title: Maptime Has a New Website!
 category: blog
 
-description: "Maptime.io has a new look! We've migrated from Wordpress to the dynamic duo of Jekyll and GitHub Pages. Getting involved is now easier than ever."
+description: "Maptime.io has a new look! We've migrated from Wordpress to the dynamic duo of [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/). Getting involved is now easier than ever."
 ---
 
 ![Maptime has a new website](/img/maptimes.gif)
 
-Maptime is proud to announce the release of our new website! We recently migrated from WordPress to the dynamic duo of Jekyll and GitHub Pages. Getting involved and contributing ideas to Maptime is now easier than ever.
+Maptime is proud to announce the release of our new website! We recently migrated from WordPress to the dynamic duo of [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/). Getting involved and contributing ideas to Maptime is now easier than ever.
 
-Static website generators like [Jekyll](http://jekyllrb.com/) are [great](http://www.developmentseed.org/blog/2012/07/27/build-cms-free-websites/). They strip out a lot of complexity of traditional Content Management Systems like configuring databases, security, and servers. Now-a-days putting together a website with Jekyll and serving it for free with [GitHub Pages](https://pages.github.com/) is a snap. This combination of tools for hackers, tinkerers, and learners has been a perfect match for Maptime. Since we're built on top of the GitHub ecosystem it's easy for folks to let us know about any [problems](https://github.com/maptime/maptime.github.io/issues) they might run in to, suggest new features, or get involved in other ways.
+Static website generators like Jekyll are [great](http://www.developmentseed.org/blog/2012/07/27/build-cms-free-websites/). They strip out a lot of complexity of traditional Content Management Systems like configuring databases, security, and servers. Now-a-days putting together a website with Jekyll and serving it for free with [GitHub Pages](https://pages.github.com/) is a snap. This combination of tools for hackers, tinkerers, and learners has been a perfect match for Maptime. Since we're built on top of the GitHub ecosystem it's easy for folks to let us know about any [problems](https://github.com/maptime/maptime.github.io/issues) they might run in to, suggest new features, or get involved in other ways.
 
 Here's a quick tour of some of the newest features:
 <!--more-->
