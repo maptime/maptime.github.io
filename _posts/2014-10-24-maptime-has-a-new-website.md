@@ -24,7 +24,7 @@ Here's a quick tour of some of the newest features:
 With the new website it's easier than ever to get the materials you need to start a Chapter in your own town or city. What's needed to start a chapter? Three things:
 
 1. __Contact Us!__: Send our admin team an [email](mailto:hello@maptime.io) and let us know you're interested.
-1. __Get on Slack__: [Slack](maptime.slack.com/) is our internal chat app for all things Maptime. We have channels for everything from website admin to tutorials. Manage your chapter's comms here.
+1. __Get on Slack__: [Slack](https://maptime.slack.com/messages/general/) is our internal chat app for all things Maptime. We have channels for everything from website admin to tutorials. Manage your chapter's comms here.
 1. __Get on Github__: we use Github for everything from [managing our website](https://github.com/maptime/maptime.github.io/issues) to writing our [Code of Conduct](https://github.com/maptime/code-of-conduct/blob/master/code-of-conduct.md). You and your admins can be added to teams where you can get access to the Maptime organization, your chapter's repo, or other privileges that you think you need.
 
 Once you're all setup, you can add your new chapter to the [map](http://maptime.io/chapters/). With the new re-design all you need to do is add your information in [one place](https://github.com/maptime/maptime.github.io/blob/master/_data/chapters.json) and make a __pull request__. Once your chapter has its first meeting scheduled, you'll see your chapter added to the map and the Chapters listing automatically!
