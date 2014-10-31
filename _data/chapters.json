@@ -186,8 +186,7 @@
             "twitter": "rsoden"
           }
         ],
-        "meetup": "http://www.meetup.com/Maptime-Boulder/",
-        "comingSoon": true
+        "meetup": "http://www.meetup.com/Maptime-Boulder/"
       },
       "geometry": {
         "type": "Point",
