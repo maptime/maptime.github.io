@@ -1,3 +1,9 @@
+- name: Geo Switchboard
+  tags: 
+    - Jobs
+  description: A place for finding great talent in the geo-space and posting your talents
+  link: https://geo.switchboardhq.com/
+
 - name: OpenStreetMap 101
   tags: 
     - OpenStreetMap
