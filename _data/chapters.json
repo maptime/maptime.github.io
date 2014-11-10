@@ -990,6 +990,30 @@
           44.9579
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Quezon City, Philippines",
+        "title": "MaptimeDiliman",
+        "twitter": "MaptimeDiliman",
+        "organizers": [
+          {
+            "name": "RK Aranas",
+            "twitter": "rukku"
+          }
+        ],
+        "meetup": "http://www.meetup.com/MaptimeDiliman",
+        "comingSoon": "true",
+        "github": "https://github.com/MaptimeDiliman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.06474399566649,
+          14.654904245907442
+        ]
+      }
     }
   ]
 }
