@@ -423,7 +423,8 @@
             "name": "Katie Kowalsky",
             "twitter": "KatieKowalsky"
           }
-        ]
+        ],
+        "website": "http://maptime.io/madison/"
       },
       "geometry": {
         "type": "Point",
@@ -586,9 +587,8 @@
             "twitter": "mattsayler"
           }
         ],
-        "meetup": "http://maptime.github.io/portland/",
-        "website": "http://maptimepdx.org/",
-        "github": "https://github.com/maptimepdx"
+        "website": "http://maptime.io/portland/",
+        "github": "https://github.com/portland"
       },
       "geometry": {
         "type": "Point",
