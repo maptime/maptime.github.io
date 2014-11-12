@@ -31,7 +31,9 @@
               <a class='small' href='https://github.com/{{site.github_org}}/{{site.repo}}/watchers'>View all</a>
             </div>
           </div>
+          <ul class='' id='events'></ul>
         </div>
+
       </aside>
 
       <div class='col8 margin2r prose content'>
@@ -47,7 +49,10 @@
   </footer>
 <script src='{{site.baseurl}}/js/jquery.min.js'></script>
 <script src='{{site.baseurl}}/js/underscore.min.js'></script>
+<script src='{{site.baseurl}}/js/tabletop.js'></script>
+<script src='{{site.baseurl}}/js/events.js'></script>
 <script src='{{site.baseurl}}/site.js'></script>
+
 
 {% for script in page.js %}
   <script src="{{site.baseurl}}/js/{{ script }}"></script>
