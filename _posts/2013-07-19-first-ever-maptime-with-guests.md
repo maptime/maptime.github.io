@@ -6,7 +6,7 @@ category: blog
 description: "This is so great! I love that so many people showed up tonight to learn about making maps! "
 ---
 
-!["Maptime with Guests!"](/img/maptime-with-guests.png "Maptime with Guests!")
+!["Maptime with Guests!"](/img/maptime-with-guests.jpg "Maptime with Guests!")
 
 This is so great! I love that so many people showed up tonight to learn about making maps! 
 
