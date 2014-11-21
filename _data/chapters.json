@@ -972,16 +972,15 @@
         "organizers": [
           {
             "name": "M. Taylor Long",
-            "twitter": "@mtaylorlong"
+            "twitter": "mtaylorlong"
           },
           {
             "name": "Liz Puhl",
-            "twitter": "@LizPuhl"
+            "twitter": "LizPuhl"
           }
         ],
-        "meetup": "http://www.meetup.com/Maptime-MSP",
-        "github": "https://github.com/MaptimeMSP",
-        "comingSoon": true
+        "meetup": "http://www.meetup.com/MaptimeMSP",
+        "github": "https://github.com/MaptimeMSP"
       },
       "geometry": {
         "type": "Point",
