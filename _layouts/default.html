@@ -3,10 +3,15 @@
 {% include head.html %}
 
 <body>
-  <div class='main col12 contain dark'>
+  {% if page.title == 'About' %}
+    <div class='main about col12 contain dark'>
+  {% else %} 
+    <div class='main col12 contain dark'>
+  {% endif %}
     <a href='{{site.baseurl}}/' class='sprite maptime pin-left'>Maptime</a>
     {% include menu.html %}
     {% include header.html %}
+
   </div>
   
   <div class='limiter pad4y'>
