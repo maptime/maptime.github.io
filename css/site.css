@@ -33,6 +33,9 @@ h6 a:hover { text-decoration:none;}
   background-size: cover;
   background-position: center;
 }
+.about {
+  background-image: url('/img/maptime-about.jpg');
+}
 .main h1 {
   font-size: 80px;
   line-height: 80px;
