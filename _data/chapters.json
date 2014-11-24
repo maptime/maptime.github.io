@@ -951,9 +951,8 @@
           }
         ],
         "meetup": "http://www.meetup.com/Maptime-AMS",
-        "website": "http://code.waag.org/maptimeAMS",
-        "github": "https://github.com/waagsociety/maptimeAMS",
-        "comingSoon": true
+        "website": "http://maptime-ams.github.io/",
+        "github": "https://github.com/maptime-ams"
       },
       "geometry": {
         "type": "Point",
