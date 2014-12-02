@@ -1012,6 +1012,28 @@
           14.654904245907442
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Tulsa, OK",
+        "title": "maptimeTulsa",
+        "twitter": "maptimeTulsa",
+        "organizers": [
+          {
+            "name": "Code for Tulsa",
+            "twitter": "CodeForTulsa"
+          }
+        ],
+        "meetup": "http://www.meetup.com/Code-for-Tulsa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.942037,
+          36.154035
+        ]
+      }
     }
   ]
 }
