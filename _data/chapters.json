@@ -490,6 +490,39 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Milan, Italy",
+        "title": "MaptimeMilan",
+        "twitter": "MaptimeMI",
+        "organizers": [
+          {
+            "name": "Michele Ferretti",
+            "twitter": "miccferr"
+          },
+          {
+            "name": "Daniele Villa",
+            "twitter": "danielevilla"
+          },
+          {
+            "name": "Fabio Manfredini",
+            "twitter": ""
+          }
+        ],
+        "meetup": "",
+        "website" : "http://maptime.io/milan/",
+        "facebook": "https://www.facebook.com/maptimemi",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.183333,
+          45.466667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "New York, NY",
         "title": "MaptimeNYC",
         "twitter": "MaptimeNYC",
