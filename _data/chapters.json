@@ -99,8 +99,7 @@
             "twitter": "bcd_mtb"
           }
         ],
-        "moreInfo": null,
-        "comingSoon": true
+        "moreInfo": null
       },
       "geometry": {
         "type": "Point",
@@ -279,8 +278,7 @@
             "twitter": "nichom"
           }
         ],
-        "meetup": "http://www.meetup.com/Maptime-Corvallis",
-        "comingSoon": true
+        "meetup": "http://www.meetup.com/Maptime-Corvallis"
       },
       "geometry": {
         "type": "Point",
@@ -827,8 +825,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeYVR/",
-        "website": "http://maptime.github.io/vancouver/",
-        "comingSoon": true
+        "website": "http://maptime.github.io/vancouver/"
       },
       "geometry": {
         "type": "Point",
@@ -955,8 +952,7 @@
             "twitter": ""
           }
         ],
-        "meetup": "http://www.meetup.com/MaptimeSEA/",
-        "comingSoon": true
+        "meetup": "http://www.meetup.com/MaptimeSEA/"
       },
       "geometry": {
         "type": "Point",
