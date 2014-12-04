@@ -1045,6 +1045,34 @@
           14.654904245907442
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Rome, Italy",
+        "title": "MaptimeRoma",
+        "twitter": "MaptimeRoma",
+        "organizers": [
+          {
+            "name": "Luca Moiana",
+            "twitter": "lucamoiana"
+          },
+          {
+            "name": "Paolo Corti",
+            "twitter": "capooti"
+          }
+        ],
+        "meetup": "",
+        "website" : "http://maptime.io/roma/",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4833,
+          41.8935
+        ]
+      }
     }
   ]
 }
