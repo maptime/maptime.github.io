@@ -315,9 +315,10 @@ a.hover-link {
   content: "";
 }
 
-a.hover-link:before {
+a.hover-link:after {
+  display: inline-block;
   position: relative;
-  left: -20px;
+  right: 20px;
   opacity: 0;
   content: "";
   -moz-transition: all 0.5s ease;
@@ -326,14 +327,13 @@ a.hover-link:before {
   transition: all 0.5s ease;
 }
 
-a.hover-link:hover:before {
+a.hover-link:hover:after {
   opacity: 1;
-  left: 0;
-  top: 5px;
+  right: -5px;
+  vertical-align: middle;
   content: url(../img/link-sm.png);
 }
 
 .share-heading {
-  display: inline;
-  margin-left: 5px;
+  display: inline-block;
 }
