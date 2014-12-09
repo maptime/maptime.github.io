@@ -308,3 +308,20 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+
+/* Hover link for sharing an anchor tag */
+a.hover-link {
+  content: "";
+  display: inline-block;
+  line-height: 25px;
+}
+
+a.hover-link:hover:before {
+  content: url(../img/link-sm.png);
+  margin-top: 3px;
+}
+
+.share-heading {
+  display: inline;
+  margin-left: 5px;
+}
