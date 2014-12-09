@@ -312,13 +312,13 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 /* Hover link for sharing an anchor tag */
 a.hover-link {
   content: "";
-  display: inline-block;
-  line-height: 25px;
+  display: inline;
 }
 
 a.hover-link:hover:before {
+  display: inline-block;
+  vertical-align: middle;
   content: url(../img/link-sm.png);
-  margin-top: 3px;
 }
 
 .share-heading {
