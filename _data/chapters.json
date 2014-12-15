@@ -658,7 +658,35 @@
     {
       "type": "Feature",
       "properties": {
-        "location": "San Fransico, CA",
+        "location": "Sacramento, CA",
+        "title": "Maptime Sacramento",
+        "twitter": "MaptimeSac",
+        "organizers": [
+          {
+            "name": "Kari Mah",
+            "twitter": "kari_mah"
+          },
+          {
+            "name": "Kasey Allen"
+          },
+          {
+            "name": "Tara Ursell"
+          }
+        ],
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4689,
+          38.5556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "San Francisco, CA",
         "title": "MaptimeSF",
         "twitter": "maptimesf",
         "organizers": [
