@@ -8,7 +8,7 @@ $(function() {
   var source   = $("#chapters-template").html(),
       $output = $("#chapters-output");
       template = Handlebars.compile(source),
-      data = {{ site.data.chapters | jsonify }},
+      data = {{ site.data.chapters | strip_newlines | jsonify }},
       html = '';
 
   L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw';
