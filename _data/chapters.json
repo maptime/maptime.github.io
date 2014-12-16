@@ -99,8 +99,7 @@
             "twitter": "bcd_mtb"
           }
         ],
-        "moreInfo": null,
-        "comingSoon": true
+        "moreInfo": null
       },
       "geometry": {
         "type": "Point",
@@ -279,8 +278,7 @@
             "twitter": "nichom"
           }
         ],
-        "meetup": "http://www.meetup.com/Maptime-Corvallis",
-        "comingSoon": true
+        "meetup": "http://www.meetup.com/Maptime-Corvallis"
       },
       "geometry": {
         "type": "Point",
@@ -460,7 +458,7 @@
       "type": "Feature",
       "properties": {
         "location": "Miami, FL",
-        "title": "Maptime Miami",
+        "title": "MaptimeMiami",
         "twitter": "MaptimeMIA",
         "organizers": [
           {
@@ -484,6 +482,39 @@
         "coordinates": [
           -80.202253,
           25.801088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Milan, Italy",
+        "title": "MaptimeMilan",
+        "twitter": "MaptimeMI",
+        "organizers": [
+          {
+            "name": "Michele Ferretti",
+            "twitter": "miccferr"
+          },
+          {
+            "name": "Daniele Villa",
+            "twitter": "danielevilla"
+          },
+          {
+            "name": "Fabio Manfredini",
+            "twitter": ""
+          }
+        ],
+        "meetup": "",
+        "website" : "http://maptime.io/milan/",
+        "facebook": "https://www.facebook.com/maptimemi",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.183333,
+          45.466667
         ]
       }
     },
@@ -794,8 +825,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeYVR/",
-        "website": "http://maptime.github.io/vancouver/",
-        "comingSoon": true
+        "website": "http://maptime.github.io/vancouver/"
       },
       "geometry": {
         "type": "Point",
@@ -871,7 +901,6 @@
       "properties": {
         "title": "MaptimeAlpes",
         "twitter": "MaptimeAlpes",
-        "comimgSoon": "true",
         "organizers": [
           {
             "name": "Adam Roberts",
@@ -923,8 +952,7 @@
             "twitter": ""
           }
         ],
-        "meetup": "http://www.meetup.com/MaptimeSEA/",
-        "comingSoon": true
+        "meetup": "http://www.meetup.com/MaptimeSEA/"
       },
       "geometry": {
         "type": "Point",
@@ -1032,6 +1060,57 @@
         "coordinates": [
           -95.942037,
           36.154035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Rome, Italy",
+        "title": "MaptimeRoma",
+        "twitter": "MaptimeRoma",
+        "organizers": [
+          {
+            "name": "Luca Moiana",
+            "twitter": "lucamoiana"
+          },
+          {
+            "name": "Paolo Corti",
+            "twitter": "capooti"
+          }
+        ],
+        "meetup": "",
+        "website" : "http://maptime.io/roma/",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4833,
+          41.8935
+        ]
+      }
+    },
+   {
+      "type": "Feature",
+      "properties": {
+        "location": "Johannesburg, South Africa",
+        "title": "MaptimeJozi",
+        "twitter": "MaptimeJHB",
+        "organizers": [
+          {
+            "name": "Zukhanye Mayekiso",
+            "twitter": "Zuks_Mayekiso"
+          }
+        ],
+        "meetup": "",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0456,
+          -26.2044
         ]
       }
     }
