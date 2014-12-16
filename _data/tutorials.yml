@@ -245,3 +245,9 @@
   tags: 
     - CartoCSS
   link: https://github.com/mapbox/mapbox-studio-mapbox-outdoors.tm2
+
+- name: Mapillary
+  tags: 
+    - Community
+  description: Submit your photos to Mapillary (the "Street View" of OSM)
+  link: https://www.mapillary.com/how.html
