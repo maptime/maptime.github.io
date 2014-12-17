@@ -308,3 +308,32 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+
+/* Hover link for sharing an anchor tag */
+a.hover-link {
+  display: inline-block;
+  content: "";
+}
+
+a.hover-link:after {
+  display: inline-block;
+  position: relative;
+  right: 20px;
+  opacity: 0;
+  content: "";
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a.hover-link:hover:after {
+  opacity: 1;
+  right: -5px;
+  vertical-align: middle;
+  content: url(../img/link-sm.png);
+}
+
+.share-heading {
+  display: inline-block;
+}

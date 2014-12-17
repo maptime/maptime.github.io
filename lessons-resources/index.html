@@ -14,7 +14,7 @@ description: "Getting started? Dive in here. Looking for tutorials? We got 'em. 
   {% capture tag %} {{ tag }} {% endcapture %}
 
   {% for tutorial in site.data.tutorials %}
-  {% if forloop.first %}<h3>{{ tag }}</h3><ul>{% endif %}
+  {% if forloop.first %} <a href="#{{ tag | slugify }}" title="Share me!" class="hover-link"><h3 id="{{ tag | slugify }}" class="share-heading">{{ tag }}</h3></a><ul>{% endif %}
   {% if tutorial.tags contains tag %}
     <li>
       <strong><a href="{{ tutorial.link }}">{{tutorial.name}}</a></strong> {{tutorial.description}}
