@@ -52,6 +52,10 @@ $(function() {
     clusterGroup.addLayer(chapterMarkers);
     map.addLayer(clusterGroup);
 
+    // Fit map bounds to chapters.json
+    console.log(chapterMarkers.getBounds());
+    map.fitBounds(chapterMarkers.getBounds());
+
     // Sort alphabetically; capitalization matters!
     function sortAlphabetically(a,b) {
       if (a.properties.title < b.properties.title)
