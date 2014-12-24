@@ -3,41 +3,40 @@
 {% include head.html %}
 
 <body>
-  <div class='main col12 contain dark'>
+  {% if page.title == 'About' %}
+    <div class='main about col12 contain dark'>
+  {% else %} 
+    <div class='main col12 contain dark'>
+  {% endif %}
     <a href='{{site.baseurl}}/' class='sprite maptime pin-left'>Maptime</a>
     {% include menu.html %}
     {% include header.html %}
+
   </div>
   
   <div class='limiter pad4y'>
     <div class='col12 clearfix'>
       <aside class='col3 fr space-bottom2 sidebar'>
-        <div class='fill-navy strong dark round pad2 space-bottom2'><a href='{{site.baseurl}}/chapters'>Find the nearest Maptime</a></div>
+            {% if page.title == 'Chapters' %}
+              <a href='{{site.baseurl}}/chapters/start/' class='col12 contain z1 fill-green button'>
+                Start your own chapter!
+            {% else %}
+              <a href='{{site.baseurl}}/chapters' class='col12 contain z1 fill-green button'>Find the nearest Maptime
+            {% endif %}
+              </a>
+        <a href='https://twitter.com/{{site.maptime.twitter}}/' class='col12 contain z1 fill-ltgreen button'>
+          @{{site.maptime.twitter}} on Twitter
+        </a>
         <div class='hide-mobile'>
-          <div class='popup-group'>
-            <a href='https://github.com/{{site.github_org}}/{{site.repo}}/' class='col12 space-bottom2 fill-green button'>Watch these events</a>
-            <div class='popup popup-big keyline-all pad1 small round'>
-              <ol class='space-bottom1'>
-                <li>1. Click the <strong>Watch these events</strong> button.</li>
-                <li>2. Login to GitHub or signup for an account.</li>
-                <li>3. Click the <strong>Watch</strong> button on the repo.</li>
-              </ol>
-              <div class='center'>
-                <img src='{{site.baseurl}}/img/watchrepo.png' alt='Watch repo' />
-              </div>
-            </div>
+          <div class='followers col12 contain z1 fill-navy button'>
+              Maptimers on Github
           </div>
-
-          <div class='followers'></div>
           <div class='center'>
             <div class='pad0y space-bottom2'>
               <a class='small' href='https://github.com/{{site.github_org}}/{{site.repo}}/watchers'>View all</a>
             </div>
           </div>
         </div>
-        <a href='https://twitter.com/{{site.maptime.twitter}}/' class='col12 contain z1 fill-green button'>
-          @{{site.maptime.twitter}} on Twitter
-        </a>
       </aside>
 
       <div class='col8 margin2r prose content'>
@@ -48,7 +47,7 @@
 
   <footer class='fill-light pad2y'>
     <div class='limiter center small quiet'>
-      <p>This website is <a href='http://github.com/{{site.github_org}}/{{site.repo}}/'>open source</a> and you can improve it. Learn more about contributing <a href='https://guides.github.com/activities/forking/'>here</a>.</p>
+      <p>This website is <a href='http://github.com/{{site.github_org}}/{{site.repo}}/'>open source</a> and you can improve it. Learn more about contributing <a href='https://guides.github.com/activities/forking/'>here</a>.  In founding partnership with <a href="http://stamen.com">Stamen</a>.</p>
    </div>
   </footer>
 <script src='{{site.baseurl}}/js/jquery.min.js'></script>

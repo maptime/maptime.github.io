@@ -8,7 +8,7 @@ description: "Our mission is to open the doors of cartographic possibility to an
 {% for item in paginator.posts %}
   {% if item.category == 'event' %}
     <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
-    {{item.content}}
+    {% include post-excerpt.html %}
 
     {% if item.rsvp %}
     <div class='keyline-all round pad2 col12 clearfix'>
@@ -23,8 +23,8 @@ description: "Our mission is to open the doors of cartographic possibility to an
     
   {% else %}
     <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
-    {{item.excerpt}}
-    <p><a href="{{site.baseurl}}{{item.url}}">Read full post...</a></p>
+    {% include post-excerpt.html %}
+    
     <div class='pad1y keyline-top'>
       <strong class='quiet small block space-bottom1'>Posted {{item.date | date:"%b %d %Y"}} {% if item.author %}by {{item.author}}{% endif %}</strong>
     </div>

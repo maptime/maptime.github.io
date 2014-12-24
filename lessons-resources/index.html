@@ -3,23 +3,24 @@ layout: default
 title: Resources
 description: "Getting started? Dive in here. Looking for tutorials? We got 'em. Look here for a list of guides to getting started in all things geo."
 ---
-<header class="entry-header">	<h1 class="entry-title" itemprop="headline">Lessons &#038; Resources</h1>
-</header><!-- .entry-header -->
-<div class="entry-content">
-<p>Part of opening the doors to cartographic possibility includes pointing to some helpful educational materials. Some of these we make on our own, and others we reference from the vast universe of the internet. That&#8217;s where so many of us got stuck trying to make web maps on our own, which is why so many of us have gravitated towards Maptime in the first place!</p>
-<h1>Maptime Materials</h1>
-<p>Maptime materials are designed for students to learn with and teachers to teach with. These materials are our open source offering, available for you to fork on Github and modify for your class or notes. All we ask is that you credit Maptime for anything other than personal (just you by yourself) use.</p>
-<p>For all Maptime tutorials, including works in progress, please visit:</p>
-<h2 style="text-align: center;"><a href="http://github.com/maptime" target="_blank">github.com/maptime</a></h2>
-<h2><a href="http://github.com/maptime" target="_blank"><img src="jeremy-nyan-cat-trans-001-300x147.png" width="175" height="86"/></a></h2>
-<p>&nbsp;</p>
-<h1>Additional Resources</h1>
-<p>Over time, we hope to flesh out this section for a with all of the (good) resources from all of the internet! For now, here is a small list of some of our favorite places to look while you are learning.</p>
-<ul>
-<li><a href="http://mapschool.io/">Mapschool.io</a> &#8211; <em>A free introduction to geo.</em></li>
-<li><a href="http://mapgive.state.gov/">Mapgive</a> &#8211; <em>Why community-powered mapping is important.</em></li>
-<li><a href="http://beamapper.com/">Be A Mapper</a> &#8211; <em>How to contribute to OpenStreetMap.</em></li>
-<li><a href="http://learnosm.org/en/">LearnOSM</a> &#8211; <em>Step-by-step guides for getting started with OpenStreetMap.</em></li>
-<li><a href="https://github.com/osmlab/teachosm">TeachOSM</a> &#8211; <em>Under construction &#8211; Resources for educators.</em></li>
-</ul>
-</div><!-- .entry-content -->
+
+<h2>Lessons and Resources</h2>
+<p>Part of opening the doors to cartographic possibility includes pointing to some helpful educational materials. Some of these we make on our own, and others we reference from the vast universe of the internet. That's where so many of us got stuck trying to make web maps on our own, which is why so many of us have gravitated towards Maptime in the first place!</p>
+
+<p>Listed here is a collection of tutorials and slides presented by various Maptime chapters as well as external resources for learning. Have one you'd like to add? Submit an issue <a href="https://github.com/maptime/maptime.github.io/issues/new">here</a> to get it included!</p>
+
+
+{% for tag in site.data.tutorial-tags %}
+  {% capture tag %} {{ tag }} {% endcapture %}
+
+  {% for tutorial in site.data.tutorials %}
+  {% if forloop.first %} <a href="#{{ tag | slugify }}" title="Share me!" class="hover-link"><h3 id="{{ tag | slugify }}" class="share-heading">{{ tag }}</h3></a><ul>{% endif %}
+  {% if tutorial.tags contains tag %}
+    <li>
+      <strong><a href="{{ tutorial.link }}">{{tutorial.name}}</a></strong> {{tutorial.description}}
+    </li>
+  {% endif %}
+  {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+
+{% endfor %}

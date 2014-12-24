@@ -1,0 +1,253 @@
+- name: Geo Switchboard
+  tags: 
+    - Jobs
+  description: A place for finding great talent in the geo-space and posting your talents
+  link: https://geo.switchboardhq.com/
+
+- name: OpenStreetMap 101
+  tags: 
+    - OpenStreetMap
+  link: http://maptime.github.io/osm-101/
+
+- name: QGIS 101
+  tags:
+    - Desktop mapping
+  link: https://github.com/maptimeBoston/qgis-101
+
+- name: Google Fusion Tables
+  tags: 
+    - Web mapping
+  description: Our own Alan McConchie has a great guide
+  link: http://mappingmashups.net/2012/11/29/mapping-with-google-fusion-tables
+
+- name: Tilemill Crashcourse
+  tags: 
+    - Web mapping
+    - Cartography
+  link: http://www.mapbox.com/tilemill/docs/crashcourse/introduction/
+  description: a really nice introduction to Tilemill and the basics of web maps.
+
+- name: Leaflet examples page
+  tags: 
+    - Web mapping
+  link: http://leafletjs.com/examples.html
+  description: "is very good; if you're looking to try your hand with Leaflet, it's a great place to start"
+
+- name: Beginners Guide to OSM
+  tags: 
+    - OpenStreetMap
+  link: http://wiki.openstreetmap.org/wiki/Beginners_guide
+
+- name: LearnOSM.com
+  tags: 
+    - OpenStreetMap
+  link: http://learnosm.org/en
+
+- name: "iD, a modern in-browser map editor for OSM"
+  tags: 
+    - OpenStreetMap
+  link: http://www.mapbox.com/blog/new-map-editor-launches-openstreetmap/
+
+- name: Editing OSM with Tilemill and iD and satellite imagery
+  tags: 
+    - OpenStreetMap
+  link: http://www.mapbox.com/blog/tracing-landsat8-for-osm/
+
+- name: Great QGIS tutorial by Lex Berman at Harvard
+  tags:
+    - Desktop mapping
+  description: "It's less of a tutorial than an entire website built to walk someone through QGIS, beginning with installation. If you've used QGIS before, or are familiar with the interface, you can start where you need to. Many sections include video"
+  link: http://maps.cga.harvard.edu/qgis/
+
+- name: A Very Short Introduction to QGIS by Alan McConchie
+  tags: 
+    - Desktop mapping
+  link: http://mappingmashups.net/2012/11/30/a-very-short-introduction-to-qgis/
+
+- name: Mapping Chicago's Shooting Victims
+  tags: 
+    - Cartography
+    - Web mapping
+  link: http://blog.apps.chicagotribune.com/2013/07/15/mapping-chicagos-shooting-victims
+  description: "Uses Leaflet.js, Stamen base tiles, OSM, and Django"
+
+- name: Mapping Millions of Dots by Eric Fischer
+  tags: 
+    - Cartography
+  link: http://www.mapbox.com/blog/mapping-millions-of-dots/
+
+- name: CGPGrey - Countries Inside Countries. Bizarre Borders
+  tags: 
+    - Cartography
+  link: http://youtu.be/Vui-qGCfXuA
+
+- name: Fake-Dymaxion Map by Mike Migurski
+  tags: 
+    - Cartography
+  link: http://teczno.com/faumaxion-II
+
+- name: Map Projections a la XKCD
+  tags: 
+    - Cartography
+    - Geography
+  link: http://xkcd.com/977
+
+- name: Scott Murray's D3 Tutorials
+  tags: 
+    - Visualization
+    - Web mapping
+  link: http://alignedleft.com/tutorials/d3
+
+- name: Interactive Data Visualization for the Web
+  tags: 
+    - Visualization
+    - Web mapping
+  description: An expanded version of this tutorial can be found in his book
+  link: http://chimera.labs.oreilly.com/books/1230000000345
+
+- name: D3
+  tags: 
+    - Visualization
+    - Web mapping
+  description: Mike Bostock (creator of D3) has collected a list of D3 tutorials many written by him. They include links to talks and video examples
+  link: https://github.com/mbostock/d3/wiki/Tutorials
+
+- name: Mapschool.io
+  tags:
+    - Geography
+  description: A free introduction to geo
+  link: http://mapschool.io/
+
+- name: Mapgive
+  tags:
+    - Community
+  description: Why community-powered mapping is important
+  link: http://mapgive.state.gov/
+
+- name: Be A Mapper
+  tags:
+    - OpenStreetMap
+  description: How to contribute to OpenStreetMap
+  link: http://beamapper.com/
+
+- name: LearnOSM
+  tags:
+    - OpenStreetMap
+  description: Step-by-step guides for getting started with OpenStreetMap
+  link: http://learnosm.org/en/
+
+- name: TeachOSM
+  tags: 
+    - OpenStreetMap
+  description: Resources for educators
+  link: https://github.com/osmlab/teachosm
+
+- name: Anatomy of a Web Map
+  tags:
+    - Web mapping
+  description: An in-depth presentation of the different pieces of a web map and how the work together
+  link: http://maptime.io/anatomy-of-a-web-map/
+
+- name: Introduction to Geographic Data Formats
+  tags:
+    - Geography
+    - Web mapping
+  link: http://maptime.io/geodata/
+
+- name: The Wild World of Geodesy
+  tags:
+    - Geography
+  descrption: An introduction to the measurement and representation of the Earth
+  link: http://lyzidiamond.com/geodesy
+
+- name: An Introduction to Leaflet by MaptimeBoston
+  tags:
+    - Web mapping
+  link: http://maptimeboston.github.io/leaflet-intro/
+
+- name: Leaflet 101 for LuxembourgJS
+  tags:
+    - Web mapping
+  link: http://luxembourgjs.github.io/leaflet-demo
+
+- name: Making your First Map with Leaflet (NACIS14)
+  tags:
+    - Web mapping
+  link: http://lyzidiamond.com/nacis-talk/
+
+- name: OGR-SQL
+  tags:
+    - Command line
+  description: Learn to script geospatial processes from the command line
+  link: https://github.com/maptime/OGR-SQL
+
+- name: Getting Started with Git and GitHub
+  tags:
+    - Command line
+  link: https://github.com/maptime/getting-started-with-git-and-github
+
+- name: Mapping Data Interactively on the Web with CartoDB
+  tags:
+    - Web mapping
+  link: https://github.com/clhenrick/cartodb-tutorial/
+
+- name: Winter Wonderland
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-winter-wonderland.tm2
+
+- name: 14th Street
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-14th-street.tm2
+
+- name: Run, Bike, and Hike
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-run-bike-and-hike.tm2
+
+- name: Natural Earth
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/natural-earth-tm2
+
+- name: Wheatpaste
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-wheatpaste.tm2
+
+- name: High Contrast
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-highcontrast.tm2
+
+- name: Comic Book
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-comic.tm2
+
+- name: Pencil
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-pencil.tm2
+
+- name: Pirate Map
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-pirates.tm2
+
+- name: Satellite Afternoon
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-satellite-afternoon.tm2
+
+- name: Mapbox Outdoors
+  tags: 
+    - CartoCSS
+  link: https://github.com/mapbox/mapbox-studio-mapbox-outdoors.tm2
+
+- name: Mapillary
+  tags: 
+    - Community
+  description: Submit your photos to Mapillary (the "Street View" of OSM)
+  link: https://www.mapillary.com/how.html

@@ -1,9 +1,9 @@
 ---
 ---
 
-{% include base.css %}
+{% include css/base.css %}
 h1 { font-family: 'Comfortaa', cursive; font-size:32px; line-height:36px; }
-body { background-image: url('img/old_mathematics.png'); color:#404040; }
+body { background-image: url('/img/old_mathematics.png'); color:#404040; }
 
 a       { color:#279acb; }
 a:hover { text-decoration:underline; }
@@ -33,6 +33,9 @@ h6 a:hover { text-decoration:none;}
   background-size: cover;
   background-position: center;
 }
+.about {
+  background-image: url('/img/maptime-about.jpg');
+}
 .main h1 {
   font-size: 80px;
   line-height: 80px;
@@ -43,7 +46,7 @@ h6 a:hover { text-decoration:none;}
   margin: 0;
   color:#fff;
   display:inline-block;
-  border-radius:4px;
+  /*border-radius:4px;*/
   text-align:center;
   padding:8px 20px;
   font-weight:bold;
@@ -86,7 +89,7 @@ h6 a:hover { text-decoration:none;}
   .tabs > a {
     border-bottom:2px solid rgba(255,255,255,0.25);
     background:rgba(19,78,102,.6);
-    font-family:'Open Sans Bold', sans-serif;
+    font-family:'Comfortaa', cursive;
     font-weight: bold;
     text-align:center;
     display:inline-block;
@@ -124,7 +127,7 @@ h6 a:hover { text-decoration:none;}
 .icon:before,
 .rcon:after,
 .sprite {
-  background:transparent url(img/sprite@2x.png) no-repeat 0 0;
+  background:transparent url(/img/sprite@2x.png) no-repeat 0 0;
   display:inline-block;
   text-indent:-999em;
   background-size:640px 140px;
@@ -168,14 +171,15 @@ a.fill-blue:hover     { background-color:#279acb; text-decoration:none; }
 a.fill-purple:hover   { background-color:#5b2980; text-decoration:none; }
 .fill-green           { background-color:#009347; }
 a.fill-green:hover    { background-color:#008440; text-decoration:none; }
-.fill-yellow          { background-color:#fcee1e; }
-a.fill-yellow:hover   { background-color:#e2d61b; text-decoration:none; }
+.fill-ltgreen         { background-color:#6CA67A; }
+a.fill-ltgreen:hover  { background-color:#6CA67A; text-decoration:none; }
+.fill-yellow          { background-color:#beb311; }
+a.fill-yellow:hover   { background-color:#d5c917; text-decoration:none; }
 .fill-orange          { background-color:#f79420; }
 a.fill-orange:hover   { background-color:#de851d; text-decoration:none; }
 .fill-red             { background-color:#ec2127; }
 a.fill-red:hover      { background-color:#d41e23; text-decoration:none; }
 .fill-navy            { background:rgba(19,78,102,.6);}
-/*a.fill-teal:hover     { background-color:#de851d; text-decoration:none; }*/
 
 .fill-darken3 {
     background-color: rgba(9, 37, 44, 0.65);
@@ -256,17 +260,13 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
   position:relative;
   }
   .followers:after {
-    background:red;
+    /*background:red;*/
     content:'';
     display:block;
     position:absolute;
     bottom:0;
     width:100%;
     height:40px; 
-    background: -webkit-linear-gradient(top, transparent, #fff);
-    background:    -moz-linear-gradient(top, transparent, #fff);
-    background:     -ms-linear-gradient(top, transparent, #fff);
-    background:      -o-linear-gradient(top, transparent, #fff)
     }
 
 .chapter a {
@@ -300,3 +300,40 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 
 /* Chapter map */
 #map { width:100%; height: 480px;}
+
+.content {
+	background: white;
+	padding: 2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* Hover link for sharing an anchor tag */
+a.hover-link {
+  display: inline-block;
+  content: "";
+}
+
+a.hover-link:after {
+  display: inline-block;
+  position: relative;
+  right: 20px;
+  opacity: 0;
+  content: "";
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a.hover-link:hover:after {
+  opacity: 1;
+  right: -5px;
+  vertical-align: middle;
+  content: url(../img/link-sm.png);
+}
+
+.share-heading {
+  display: inline-block;
+}

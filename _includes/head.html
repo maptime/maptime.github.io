@@ -18,7 +18,8 @@
     <meta property='og:type' content='website' />
   {% endif %}
   <title>{% if page.url == '/' %}{{site.maptime.chapter}}{% else %}{{site.maptime.chapter}} | {{page.title}}{% endif %}</title>
-  <link rel='stylesheet' href='{{site.baseurl}}/site.css' type='text/css'/>
+  <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='{{site.baseurl}}/css/site.css' type='text/css'/>
   {% for stylesheet in page.css %}
   <link rel="stylesheet" href="{{site.baseurl}}/css/{{ stylesheet }}">
   {% endfor %}
