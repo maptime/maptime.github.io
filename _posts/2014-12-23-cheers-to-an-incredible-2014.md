@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: 2014: A pretty damn amazing year
+title: Cheers to an incredible 2014
 ---
 by Beth, Lyzi & Alan
 
