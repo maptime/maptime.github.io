@@ -1142,5 +1142,32 @@
         ]
       }
     }
+   {
+      "type": "Feature",
+      "properties": {
+        "location": "Pittsburgh, Pennsylvania",
+        "title": "MaptimePittsburgh",
+        "twitter": "maptimePGH",
+        "organizers": [
+          {
+            "name": "Matt Mercurio",
+            "twitter": "Geologistatlarg"
+          }
+            {
+            "name": "Christian Gass",
+            "twitter": "GassChristianB"
+          }
+        ],
+        "meetup": "http://www.meetup.com/Open-Pittsburgh-our-Regions-Code-for-America-Brigade/",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.01093864440918,
+          40.441603038389076
+        ]
+      }
+    }
   ]
 }
