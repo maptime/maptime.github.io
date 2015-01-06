@@ -1141,8 +1141,8 @@
           -26.2044
         ]
       }
-    }
-   {
+    },
+    {
       "type": "Feature",
       "properties": {
         "location": "Pittsburgh, Pennsylvania",
@@ -1152,8 +1152,8 @@
           {
             "name": "Matt Mercurio",
             "twitter": "Geologistatlarg"
-          }
-            {
+          },
+          {
             "name": "Christian Gass",
             "twitter": "GassChristianB"
           }
