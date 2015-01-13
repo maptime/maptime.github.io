@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
 layout: post
 category: blog
 title: Learning Together in 2015
