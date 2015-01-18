@@ -1172,6 +1172,27 @@
           40.441603038389076
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Calgary, Alberta",
+        "title": "MaptimeCalgary",
+        "twitter": "MaptimeCalgary",
+        "organizers": [
+          {
+            "name": "Anthony Lukach",
+            "twitter": "anthonylukach",
+            "github": "alukach"
+          }
+        ],
+        "meetup": "http://www.meetup.com/MaptimeCalgary/",
+        "github": "https://github.com/MaptimeCalgary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.075, 51.04]
+      }
     }
   ]
 }
