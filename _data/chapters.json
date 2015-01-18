@@ -1187,7 +1187,8 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeCalgary/",
-        "github": "https://github.com/MaptimeCalgary"
+        "github": "https://github.com/MaptimeCalgary",
+        "website": "https://maptimecalgary.github.io/"
       },
       "geometry": {
         "type": "Point",
