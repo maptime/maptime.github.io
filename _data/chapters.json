@@ -521,6 +521,38 @@
     {
       "type": "Feature",
       "properties": {
+        "github": "https://github.com/maptimemilehigh",
+        "location": "Denver, Colorado",
+        "organizers": [
+          {
+            "name": "Mamata Akella",
+            "twitter": "mamataakella"
+          },
+          {
+            "name": "Nell Conti",
+            "twitter": "nellconti"
+          },
+          {
+            "name": "Nate Irwin",
+            "twitter": "nateirwin"
+          }
+        ],
+        "meetup": "",
+        "title": "MaptimeMileHigh",
+        "twitter": "MaptimeMileHigh",
+        "website" : "http://maptime.io/denver/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.984579,
+          39.739072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "New York, NY",
         "title": "MaptimeNYC",
         "twitter": "MaptimeNYC",
