@@ -931,7 +931,8 @@
           }
         ],
         "meetup": "http://meetup.com/maptime-dc",
-        "github": "https://github.com/maptime/dc"
+        "github": "https://github.com/maptime/dc",
+        "website": "http://maptime.io/dc/"
       },
       "geometry": {
         "type": "Point",
