@@ -922,12 +922,17 @@
             "twitter": "nguyenist"
           },
           {
-            "name": "Bonnie Bogle",
-            "twitter": "bonnie"
+            "name": "Courtney Claessens",
+            "twitter": "sidewalkballet"
+          },
+          {
+            "name": "Steven Johnson",
+            "twitter": "geomantic"
           }
         ],
         "meetup": "http://meetup.com/maptime-dc",
-        "github": "https://github.com/maptime/dc"
+        "github": "https://github.com/maptime/dc",
+        "website": "http://maptime.io/dc/"
       },
       "geometry": {
         "type": "Point",
