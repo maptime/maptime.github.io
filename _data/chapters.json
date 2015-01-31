@@ -1199,7 +1199,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/Open-Pittsburgh-our-Regions-Code-for-America-Brigade/",
-        "comingSoon": true
+        "website": "http://www.maptime.io/pittsburgh"
       },
       "geometry": {
         "type": "Point",
