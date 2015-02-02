@@ -405,6 +405,32 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Louisville, KY",
+        "title": "MaptimeLouisville",
+        "twitter": "MaptimeLou",
+        "organizers": [
+          {
+            "name": "Ate Poorthuis",
+            "twitter": "atepoorthuis"
+          },
+          {
+            "name": "Patrick Smith",
+            "twitter": "cityresearch"
+          }
+        ],
+        "meetup": "http://www.meetup.com/Maptime-Louisville/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.755672,
+          38.252605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Madison, WI",
         "title": "MaptimeMadison",
         "twitter": "maptimemadison",
