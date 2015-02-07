@@ -739,7 +739,7 @@
             "name": "Tara Ursell"
           }
         ],
-        "comingSoon": true
+        "meetup": "http://www.meetup.com/maptime-sf/"
       },
       "geometry": {
         "type": "Point",
