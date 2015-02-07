@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 layout: post
 category: blog
 title: "Maptime Summit at State of the Map US!"
-description: "Attend the 2015 Maptime Summit following State of the Map at the UN!"
+description: "Attend the 2015 Maptime Summit following State of the Map US at the UN!"
 ---
 ![](http://maptime.github.io/img/un_general_assembly.jpg)
 
