@@ -1,5 +1,4 @@
 ---
-published: true
 layout: post
 category: blog
 title: "Maptime Summit at State of the Map US!"
