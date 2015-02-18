@@ -654,7 +654,8 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeOSL/",
-        "github": "https://github.com/MaptimeOSL"
+        "github": "https://github.com/MaptimeOSL",
+        "website" : "http://maptime.io/oslo/"
       },
       "geometry": {
         "type": "Point",
