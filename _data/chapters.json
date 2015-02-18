@@ -640,6 +640,33 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Oslo, Norway",
+        "title": "MaptimeOSL",
+        "twitter": "MaptimeOSL",
+        "organizers": [
+          {
+            "name": "Lasse Gulvåg Sætre",
+            "twitter": "lassegs"
+          },
+          {
+            "name": "Torbjørn Dalløkken",
+            "twitter": "torbjornd"
+          }
+        ],
+        "meetup": "http://www.meetup.com/MaptimeOSL/",
+        "github": "https://github.com/MaptimeOSL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7506956,
+          59.9146734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Portland, OR",
         "title": "MaptimePDX",
         "twitter": "maptimepdx",
