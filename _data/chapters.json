@@ -1258,6 +1258,37 @@
         "type": "Point",
         "coordinates": [-114.075, 51.04]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Oklahoma City, OK",
+        "title": "MaptimeOKC",
+        "twitter": "MaptimeOKC",
+        "organizers": [
+
+          {
+            "name": "Blake Thompson",
+            "twitter": "flippmoke",
+            "github": "flippmoke"
+          },
+          {
+            "name": "Jordan Rousseau",
+            "twitter": "jvrousseau",
+            "github": "jvrousseau"
+          }
+        ],
+        "meetup": "http://www.meetup.com/maptime-okc",
+        "github": "https://github.com/maptimeokc",
+        "website": "https://maptimeokc.github.io"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51170068979262,
+          35.46506107188829
+        ]
+      }
     }
   ]
 }
