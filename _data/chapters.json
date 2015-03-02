@@ -27,6 +27,28 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Anchorage, AK",
+        "title": "MaptimeANC",
+        "twitter": "MaptimeANC",
+        "organizers": [
+          {
+            "name": "Oscar Avellaneda-Cruz",
+            "twitter": "okiave"
+          }
+        ],
+        "meetup": "http://www.meetup.com/MaptimeANC/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.90,
+          61.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Austin, TX",
         "title": "MaptimeATX",
         "twitter": "MaptimeATX",
