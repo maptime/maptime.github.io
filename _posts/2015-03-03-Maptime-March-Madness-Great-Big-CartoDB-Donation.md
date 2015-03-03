@@ -19,3 +19,5 @@ For which we say…
 Also many thanks to all of our organizers. It's your work that makes Maptime the amazing community that it is today.
 
 _Want to sponsor a Maptime? Email hello@maptime.io. Tax deductible donations coming soon!_
+
+_[Maptime Bear mascot](http://maptimela.github.io/maptime_bear/) by Omar Ureta of MaptimeLA_
