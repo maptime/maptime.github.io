@@ -12,7 +12,7 @@ This is huge! Maptime is self-organized by volunteers. Those without sponsorship
 
 For which we say…
 
-##OMG THANK YOU SO MUCH, CARTODB!
+###OMG THANK YOU SO MUCH, CARTODB!
 
 ![Thank you, CartoDB](/img/thank-you-cartodb.png)
 
