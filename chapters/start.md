@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Start a Chapter!
+title: Setting up your chapter's website!
 description: "Setting up your chapter's website is a snap. Check this guide for getting a page up and running with Maptime."
 
 ---
