@@ -6,7 +6,7 @@ description: "Attend the 2015 Maptime Summit following State of the Map US at th
 ---
 ![](http://maptime.github.io/img/un_general_assembly.jpg)
 
-Mark your calendar, and make your travel arragements! We are having our second annual Maptime Summit (and our first full-day affair) on Monday, June 8, 2015, in conjunction with the [OpenStreetMap State of the Map US](http://stateofthemap.us/) conference!
+Mark your calendar, and make your travel arrangements! We are having our second annual Maptime Summit (and our first full-day affair) on Monday, June 8, 2015, in conjunction with the [OpenStreetMap State of the Map US](http://stateofthemap.us/) conference!
 
 And if that wasn't amazing enough, we get to have it at the United Nations headquarters in New York City!
 
