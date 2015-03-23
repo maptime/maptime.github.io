@@ -32,9 +32,10 @@ $(function() {
 
     var chapterMarkers = L.geoJson( data, {
       onEachFeature: function (feature, layer) {
+	    var popupOptions = {'maxWidth' : '1000'};  
         var popupContent = '<h2>'+ feature.properties.title +'</h2>' + 'Twitter: ' + 
           '<a href="http://twitter.com/' + feature.properties.twitter + '" target="_blank">@' + feature.properties.twitter +'</a>';
-        layer.bindPopup(popupContent);
+        layer.bindPopup(popupContent,popupOptions);
         layer.setIcon(new L.Icon({
           iconUrl:'/img/maptime-marker.png',
           iconSize: [24,24],
