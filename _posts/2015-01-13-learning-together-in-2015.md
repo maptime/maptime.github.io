@@ -27,7 +27,7 @@ Without further ado, here's our schedule. Tutorials marked in this lovely purple
   <tr><td>February 18</td> <td>OFF</td>	<td>Null Island</td> </tr>
   <tr><td>February 25</td> <td>Geodesy (part 1: datums)</td>	<td>SF</td> </tr>
   <tr style="color:#9A2EFE"><td>March 4</td> <td>Displaying data: CartoDB + Leaflet</td><td>OAK </td></tr>
-  <tr><td>March 11</td> <td>Show + Tell / Project Night / Lightning Talks</td>	<td>SF</td> </tr>
+  <tr><td>March 11</td> <td><a href="https://2015.foss4g-na.org/bof-session/maptime-hand-drawn-maps-2-hour-bof">Hand-Drawn Maps @FOSS4GNA</a></td>	<td>Burlingame, CA</td> </tr>
   <tr><td>March 18 </td><td>OFF</td>	<td>Null Island</td> </tr>
   <tr><td>March 25</td> <td>Geodesy (part 2: projections)</td> 	<td>SF </td></tr>
   <tr><td>April 1</td> <td>OFF</td>	<td>Null Island</td> </tr>

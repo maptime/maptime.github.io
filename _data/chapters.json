@@ -27,6 +27,28 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Anchorage, AK",
+        "title": "MaptimeANC",
+        "twitter": "MaptimeANC",
+        "organizers": [
+          {
+            "name": "Oscar Avellaneda-Cruz",
+            "twitter": "okiave"
+          }
+        ],
+        "meetup": "http://www.meetup.com/MaptimeANC/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.90,
+          61.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Austin, TX",
         "title": "MaptimeATX",
         "twitter": "MaptimeATX",
@@ -405,6 +427,32 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Louisville, KY",
+        "title": "MaptimeLouisville",
+        "twitter": "MaptimeLou",
+        "organizers": [
+          {
+            "name": "Ate Poorthuis",
+            "twitter": "atepoorthuis"
+          },
+          {
+            "name": "Patrick Smith",
+            "twitter": "cityresearch"
+          }
+        ],
+        "meetup": "http://www.meetup.com/Maptime-Louisville/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.755672,
+          38.252605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Madison, WI",
         "title": "MaptimeMadison",
         "twitter": "maptimemadison",
@@ -634,6 +682,34 @@
         "coordinates": [
           -122.26924896240234,
           37.805986463750315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Oslo, Norway",
+        "title": "MaptimeOSL",
+        "twitter": "MaptimeOSL",
+        "organizers": [
+          {
+            "name": "Lasse Gulvåg Sætre",
+            "twitter": "lassegs"
+          },
+          {
+            "name": "Torbjørn Dalløkken",
+            "twitter": "torbjornd"
+          }
+        ],
+        "meetup": "http://www.meetup.com/MaptimeOSL/",
+        "github": "https://github.com/MaptimeOSL",
+        "website" : "http://maptime.io/oslo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7506956,
+          59.9146734
         ]
       }
     },
@@ -931,7 +1007,8 @@
           }
         ],
         "meetup": "http://meetup.com/maptime-dc",
-        "github": "https://github.com/maptime/dc"
+        "github": "https://github.com/maptime/dc",
+        "website": "http://maptime.io/dc/"
       },
       "geometry": {
         "type": "Point",
@@ -1219,6 +1296,11 @@
             "name": "Anthony Lukach",
             "twitter": "anthonylukach",
             "github": "alukach"
+          },
+          {
+            "name": "Bilal Karim",
+            "twitter": "beekay__",
+            "github": "beekay-"
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeCalgary/",
@@ -1228,6 +1310,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-114.075, 51.04]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Oklahoma City, OK",
+        "title": "MaptimeOKC",
+        "twitter": "MaptimeOKC",
+        "organizers": [
+
+          {
+            "name": "Blake Thompson",
+            "twitter": "flippmoke",
+            "github": "flippmoke"
+          },
+          {
+            "name": "Jordan Rousseau",
+            "twitter": "jvrousseau",
+            "github": "jvrousseau"
+          }
+        ],
+        "meetup": "http://www.meetup.com/maptime-okc",
+        "github": "https://github.com/maptimeokc",
+        "website": "https://maptimeokc.github.io"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51170068979262,
+          35.46506107188829
+        ]
       }
     }
   ]
