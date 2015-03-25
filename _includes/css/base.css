@@ -342,6 +342,7 @@ table {
 .col10   { float:left; width:83.3333%; }
 .col11   { float:left; width:91.6666%; }
 .col12   { display:block; width:100%; }
+.col13    { float:left; width:20%; background-color: #ec11d7 (opacity=60);}
 .margin0  { margin-left:04.1666%; }
 .margin1  { margin-left:08.3333%; }
 .margin2  { margin-left:16.6666%; }
