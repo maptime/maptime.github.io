@@ -144,6 +144,7 @@ button.nav-expand:focus { outline:none; }
     border-left:1px solid rgba(255,255,255,0.25);
   }
   #nav li.active a { background:rgba(19,78,102,.8); }
+  #nav li.event a { background:rgba(31, 166, 70,.8); }
   #nav li a:hover {
     text-decoration: none;
     background:rgba(19,78,102,.8);

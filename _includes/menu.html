@@ -3,7 +3,7 @@
     <ul id="menu-main" class="menu">
       <li><a href='{{site.baseurl}}/'>Home</a></li>
       {% for weight in (1..10) %}{% for p in site.pages %}{% if p.weight == weight %}
-      <li{% if p.url == page.url %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+      <li class="{% if p.url == page.url %}active{% endif %} {{ p.menu_class }}"><a href="{{ p.url }}">{{ p.title }}</a></li>
       {% endif %}{% endfor %}{% endfor %}
     </ul>
   </nav>
