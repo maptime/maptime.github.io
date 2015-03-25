@@ -1,6 +1,36 @@
-<nav id="navbar" class=''>
-	<li><a href='{{site.baseurl}}/' class='col2'>Home</a></li>
-	{% for weight in (1..10) %}{% for p in site.pages %}{% if p.weight == weight %}
-  <li{% if p.url == page.url %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
-  {% endif %}{% endfor %}{% endfor %}
-</nav>
+<div class="navbar">
+  <nav id="nav">
+    <ul id="menu-main" class="menu">
+      <li><a href='{{site.baseurl}}/'>Home</a></li>
+      {% for weight in (1..10) %}{% for p in site.pages %}{% if p.weight == weight %}
+      <li{% if p.url == page.url %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+      {% endif %}{% endfor %}{% endfor %}
+    </ul>
+  </nav>
+  <button class="nav-expand"><img src="/img/menu-hamburger.svg"></button>
+</div>
+
+<script>
+var nav = $('#nav');
+var menu = $('#nav .menu');
+var navButton = $('.nav-expand');
+$('button.nav-expand').on('click', function(){
+  menu.slideToggle(200);
+  navButton.toggleClass('open');
+});
+var blocked = false,
+    threshold = 687;
+$(window).resize(function(){
+  menuCheck($(window).outerWidth(true), blocked, threshold);
+});
+function menuCheck(w, b, t) {
+  if (w>t && !b) {
+    menu.show();
+    blocked = !b;
+    $('.nav-expand').removeClass('open');
+  } else if (w<=t && b) {
+    menu.hide();
+    blocked = !b;
+  }
+}
+</script>

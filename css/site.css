@@ -75,6 +75,93 @@ h6 a:hover { text-decoration:none;}
   top: 40px;
 }
 
+/* * * * * * * * * * * * * * *
+
+  MAIN NAVIGATION
+
+* * * * * * * * * * * * * * */
+.navbar {
+  background-color:#333;
+  z-index: 100;
+}
+#nav {
+  display:block;
+}
+#nav ul {
+  display:none;
+}
+#nav li {
+  text-align:right;
+  width:100%;
+  padding:7px 10px;
+}
+#nav li a {
+  color:#ffffff;
+  font-size:.9em;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  padding:.1em .2em;
+}
+#nav li.current_page_item a {
+  background-color:#222;
+}
+#nav-logo {
+  margin: .9em 1em;
+  float:left;
+}
+button.nav-expand {
+  position:relative;
+  z-index: 10;
+  margin:10px 15px 0 0;
+  width:50px;
+  height:50px;
+  border:none;
+  background-color:transparent;
+  float:right;
+}
+button.nav-expand:hover {
+  opacity:.8;
+  cursor:pointer;
+}
+button.nav-expand:focus {
+  outline:none;
+}
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    background:transparent;
+    text-align:right;
+    position:fixed;
+    top:0;
+    width:100%;
+  }
+  #nav ul {
+    float:right;
+    display:block;
+  }
+  #nav li {
+    background-color:transparent;
+    width:auto;
+    padding:0;
+    display:inline-block;
+    padding:10px;
+  }
+  #nav li a:hover {
+    text-decoration: none;
+  }
+  #nav li.current_page_item a {
+    background-color:transparent;
+    border-top:2px solid #ffffff;
+  }
+  #nav-logo {
+    margin:.5em 1em;
+  }
+  button.nav-expand {
+    display:none;
+  }
+}
+
 /* Tab style for links that toggle between views */
 .tabs {
   position: absolute;
