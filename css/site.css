@@ -36,9 +36,13 @@ h6 a:hover { text-decoration:none;}
 .about {
   background-image: url('/img/maptime-about.jpg');
 }
-.main h1 {
-  font-size: 80px;
-  line-height: 80px;
+
+.main h1 {}
+@media screen and (min-width: 800px) {
+  .main h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
 }
 
 .button {
@@ -75,66 +79,53 @@ h6 a:hover { text-decoration:none;}
   top: 40px;
 }
 
-/* * * * * * * * * * * * * * *
-
-  MAIN NAVIGATION
-
-* * * * * * * * * * * * * * */
+/*
+ * MAIN NAVIGATION
+ */
 .navbar {
-  background-color:#333;
+  background:rgb(19,78,102);
   z-index: 100;
 }
-#nav {
-  display:block;
-}
-#nav ul {
-  display:none;
-}
-#nav li {
-  text-align:right;
-  width:100%;
-  padding:7px 10px;
-}
-#nav li a {
-  color:#ffffff;
-  font-size:.9em;
-  font-weight:500;
-  text-transform:uppercase;
-  letter-spacing:.08em;
-  padding:.1em .2em;
-}
-#nav li.current_page_item a {
-  background-color:#222;
-}
-#nav-logo {
-  margin: .9em 1em;
-  float:left;
-}
+#nav { display:block; }
+  #nav ul { display:none; }
+  #nav li {
+    text-align:right;
+    width:100%;
+    padding:7px 10px;
+    border-bottom:1px solid rgba(255,255,255,0.25);
+  }
+  #nav li a {
+    color:#ffffff;
+    font-size:1.1em;
+    font-family:'Comfortaa', cursive;
+    font-weight: bold;
+    text-align:center;
+    display:inline-block;
+    padding:10px 15px;
+    color: rgba(255,255,255,0.8);
+  }
+  #nav li.current_page_item a { background-color:#222; }
+
 button.nav-expand {
   position:relative;
   z-index: 10;
-  margin:10px 15px 0 0;
-  width:50px;
-  height:50px;
+  padding:13px 10px;
   border:none;
-  background-color:transparent;
+  background:rgb(19,78,102);
   float:right;
 }
 button.nav-expand:hover {
   opacity:.8;
   cursor:pointer;
 }
-button.nav-expand:focus {
-  outline:none;
-}
+button.nav-expand:focus { outline:none; }
 
 @media screen and (min-width: 800px) {
   .navbar {
     background:transparent;
     text-align:right;
-    position:fixed;
-    top:0;
-    width:100%;
+    position:absolute;
+    right:0;
   }
   #nav ul {
     float:right;
@@ -144,18 +135,18 @@ button.nav-expand:focus {
     background-color:transparent;
     width:auto;
     padding:0;
-    display:inline-block;
-    padding:10px;
+    float:left;
+    border:none;
   }
+  #nav li a {
+    border-bottom:2px solid rgba(255,255,255,0.25);
+    background:rgba(19,78,102,.6);
+    border-left:1px solid rgba(255,255,255,0.25);
+  }
+  #nav li.active a { background:rgba(19,78,102,.8); }
   #nav li a:hover {
     text-decoration: none;
-  }
-  #nav li.current_page_item a {
-    background-color:transparent;
-    border-top:2px solid #ffffff;
-  }
-  #nav-logo {
-    margin:.5em 1em;
+    background:rgba(19,78,102,.8);
   }
   button.nav-expand {
     display:none;

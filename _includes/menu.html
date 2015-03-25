@@ -19,7 +19,7 @@ $('button.nav-expand').on('click', function(){
   navButton.toggleClass('open');
 });
 var blocked = false,
-    threshold = 687;
+    threshold = 800;
 $(window).resize(function(){
   menuCheck($(window).outerWidth(true), blocked, threshold);
 });
