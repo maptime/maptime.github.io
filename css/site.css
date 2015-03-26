@@ -36,9 +36,13 @@ h6 a:hover { text-decoration:none;}
 .about {
   background-image: url('/img/maptime-about.jpg');
 }
-.main h1 {
-  font-size: 80px;
-  line-height: 80px;
+
+.main h1 {}
+@media screen and (min-width: 800px) {
+  .main h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
 }
 
 .button {
@@ -73,6 +77,81 @@ h6 a:hover { text-decoration:none;}
   right: 200px;
   position: absolute;
   top: 40px;
+}
+
+/*
+ * MAIN NAVIGATION
+ */
+.navbar {
+  background:rgb(19,78,102);
+  z-index: 100;
+}
+#nav { display:block; }
+  #nav ul { display:none; }
+  #nav li {
+    text-align:right;
+    width:100%;
+    padding:7px 10px;
+    border-bottom:1px solid rgba(255,255,255,0.25);
+  }
+  #nav li a {
+    color:#ffffff;
+    font-size:1.1em;
+    font-family:'Comfortaa', cursive;
+    font-weight: bold;
+    text-align:center;
+    display:inline-block;
+    padding:10px 15px;
+    color: rgba(255,255,255,0.8);
+  }
+  #nav li.current_page_item a { background-color:#222; }
+
+button.nav-expand {
+  position:relative;
+  z-index: 10;
+  padding:13px 10px;
+  border:none;
+  background:rgb(19,78,102);
+  float:right;
+}
+button.nav-expand:hover {
+  opacity:.8;
+  cursor:pointer;
+}
+button.nav-expand:focus { outline:none; }
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    background:transparent;
+    text-align:right;
+    position:absolute;
+    right:0;
+  }
+  #nav ul {
+    float:right;
+    display:block;
+  }
+  #nav li {
+    background-color:transparent;
+    width:auto;
+    padding:0;
+    float:left;
+    border:none;
+  }
+  #nav li a {
+    border-bottom:2px solid rgba(255,255,255,0.25);
+    background:rgba(19,78,102,.6);
+    border-left:1px solid rgba(255,255,255,0.25);
+  }
+  #nav li.active a { background:rgba(19,78,102,.8); }
+  #nav li.event a { background:rgba(31, 166, 70,.8); }
+  #nav li a:hover {
+    text-decoration: none;
+    background:rgba(19,78,102,.8);
+  }
+  button.nav-expand {
+    display:none;
+  }
 }
 
 /* Tab style for links that toggle between views */
