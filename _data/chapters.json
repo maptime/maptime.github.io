@@ -321,8 +321,21 @@
             "name": "Alex B. Hill",
             "twitter": "alexbhill"
           }
+          {
+            "name": "Diana Flora",
+            "twitter": "dianajflora"
+          }
+          {
+            "name": "Jimmy McBroom",
+            "twitter": "jmsmcb"
+          }
+          {
+            "name": "Dexter Slusarski",
+            "twitter": "dexterslu"
+          }
+          }
         ],
-        "website": "http://detroitography.com/maptime/"
+        "website": "http://maptimedet.github.io"
       },
       "geometry": {
         "type": "Point",
