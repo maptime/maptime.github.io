@@ -1370,31 +1370,6 @@
           42.65289942207572
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "MaptimeCPS",
-        "location": "Campinas, SP",
-        "twitter": "MaptimeCPS",
-        "website": "http://maptime.io/campinas/",
-        "github": null,
-        "organizers": [
-          {
-            "name": "Tel Amiel",
-            "twitter": "edaberta"
-          },
-            "name": "Gabriel Fedel",
-            "twitter": "gabrielfedel"
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -22.894700,
-          -47.067100
-        ]
-      }
     }
   ]
 }
