@@ -92,6 +92,11 @@
     - Geography
   link: http://xkcd.com/977
 
+- name: HTML and CSS Crashcourse
+  tags:
+   - Web mapping
+  link: https://github.com/mattsayler/Maptime_HTML_CSS_Basics
+
 - name: Scott Murray's D3 Tutorials
   tags: 
     - Visualization
