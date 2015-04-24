@@ -11,7 +11,7 @@ $(function() {
       data = {{ site.data.chapters | jsonify }},
       html = '';
 
-  L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw';
+  L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiM1YxTmFBZyJ9.tMBS3sNJGvS9awMVzMrNjA';
     var map = L.mapbox.map('map', 'grafa.88128171', {
       touchZoom: false, 
       scrollWheelZoom: false,
