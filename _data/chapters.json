@@ -1370,6 +1370,33 @@
           42.65289942207572
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeCPS",
+        "location": "Campinas, Sao Paolo, Brasil",
+        "twitter": "MaptimeCPS",
+        "website": "http://maptime.io/campinas/",
+        "github": "https://github.com/maptime/campinas/",
+        "organizers": [
+          {
+            "name": "Tel Amiel",
+            "twitter": "edaberta"
+          },
+          {
+            "name": "Gabriel Fedel",
+            "twitter": "gabrielfedel"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.067100,
+          -22.894700            
+        ]
+      }
     }
   ]
 }
