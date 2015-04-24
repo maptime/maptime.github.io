@@ -9,17 +9,21 @@ js:
 
 ## Start a Chapter!
 
+![](https://pbs.twimg.com/media/CDOQf1iUgAAx4-C.png)
+
 Ready to start a Maptime chapter for your city? If you know the process already, [jump to the sign up form](#start-form). Otherwise, here's how we get you going:
 
 1. __Create a chapter repo.__ We'll create a [repository on Github](https://guides.github.com/activities/hello-world/#repository) for you so we'll need a list of admins that will be regularly contributing to your pages. Admins should have a Github account so we can add them to a team. Your team will have __write access__ to your repository.
 
 1. __Chapter details.__ Next, you'll send us details about your chapter in the form below. In it, please include:
-- __Your Maptime Name.__ (e.g. MaptimeDC)
-- __Admins.__ (Github usernames)
-- __Location.__ (this gets added to the [map](https://github.com/maptime/maptime.github.io/blob/master/_data/chapters.json))
+- __Your Maptime Name.__ Example: MaptimeDC
+- __Admins.__ Github usernames
+- __Location.__ This gets added to the [map](https://github.com/maptime/maptime.github.io/blob/master/_data/chapters.json).
 - __Optional info.__ Twitter handle, meetup.com site, or other links you wish to share.
 
 1. __Get Started with Starter.__ Once your repo is ready, we create a copy of our [Starter template](https://github.com/maptime/starter) for you. It's a great way to get up and running with a your site where you can create posts and events. 
+
+***
 
 Ready to get started? Fill out the form below and someone will get back to you when your repo is ready or with clarifications.
 
