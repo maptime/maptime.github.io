@@ -1342,6 +1342,61 @@
           35.46506107188829
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeALB",
+        "location": "Albany, NY",
+        "twitter": "MaptimeALB",
+        "meetup": "http://www.meetup.com/Maptime-Albany/",
+        "website": "http://maptime.io/albany/",
+        "github": null,
+        "organizers": [
+          {
+            "name": "Katy DeCorah",
+            "twitter": "katydecorah"
+          },
+          {
+            "name": "Bryan McBride",
+            "twitter": "brymcbride"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.75396728515625,
+          42.65289942207572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeCPS",
+        "location": "Campinas, Sao Paolo, Brasil",
+        "twitter": "MaptimeCPS",
+        "website": "http://maptime.io/campinas/",
+        "github": "https://github.com/maptime/campinas/",
+        "organizers": [
+          {
+            "name": "Tel Amiel",
+            "twitter": "edaberta"
+          },
+          {
+            "name": "Gabriel Fedel",
+            "twitter": "gabrielfedel"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.067100,
+          -22.894700            
+        ]
+      }
     }
   ]
 }
