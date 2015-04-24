@@ -1,0 +1,34 @@
+---
+layout: default
+title: Start a Chapter
+description: "Start one. Now!"
+
+js:
+  - start.js
+---
+
+<form action="//formspree.io/seattle@maptime.io" method="POST" id="start-form">
+
+  <div id="contact-alert" class="form-alert"></div>
+
+  <label class="" for="name">Name</label>
+  <input class="" type="text" name="name">
+
+  <label class="" for="_replyto">Your Email</label>
+  <input class="" type="email" name="_replyto">
+
+  <hr>
+
+  <label class="" for="name"><strong>Where</strong> do you want to start a maptime?</label>
+  <input class="" type="text" name="name" placeholder="City, County">
+
+  <label class="" for="name"><strong>When</strong> do you think you want to start?</label>
+  <input class="" type="text" name="name" placeholder="Soon, next month, yesterday...">
+
+  <label class="" for="whatsup"><strong>Why</strong> do you want to start a maptime?</label>
+  <textarea class="" type="text" name="whatsup"></textarea>
+
+  <input type="hidden" name="_next" value="http://localhost:4000/start/?submit=true#start-form" />
+
+  <input class="" type="submit" value="Send">
+</form>
