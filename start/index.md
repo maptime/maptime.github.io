@@ -9,7 +9,7 @@ js:
 
 ## Start a Chapter!
 
-![](https://pbs.twimg.com/media/CDOQf1iUgAAx4-C.png)
+![](https://pbs.twimg.com/media/CDbaUPjWoAAc1C8.jpg)
 
 Ready to start a Maptime chapter for your city? The way it works is we create a [repository on Github](https://guides.github.com/activities/hello-world/#repository) for you to create a chapter web page from our template. If you're familiar with the process, [jump to the sign up form](#start-form). We just need a few details about your chapter:
 
