@@ -416,3 +416,17 @@ a.hover-link:hover:after {
 .share-heading {
   display: inline-block;
 }
+
+/* start a chapter */
+.form-alert {
+  display:none;
+  padding:1em;
+  background:rgb(31, 166, 70);
+  color:white;
+  font-weight:900;
+  margin-bottom:1em;
+  border-radius:.5em;
+}
+.form-alert.show {
+  display:block;
+}
