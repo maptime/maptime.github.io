@@ -220,6 +220,37 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Cape Cod, MA",
+        "title": "MaptimeCapeCod",
+        "twitter": "MaptimeCapeCod",
+        "organizers": [
+          {
+            "name": "Jesse Bishop",
+            "twitter": "jessebishop"
+          },
+          {
+            "name": "Shawn Goulet",
+            "twitter": "Shawn_Goulet"
+          },
+          {
+            "name": "Chase Gruber",
+            "twitter": "CPGrubes"
+          }
+        ],
+        "meetup": "http://www.meetup.com/Maptime-Cape-Cod/",
+        "website": "http://maptime.io/capecod/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1792576,
+          41.7149378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Chattanooga, TN",
         "title": "MaptimeCHA",
         "twitter": "maptimeCHA",
