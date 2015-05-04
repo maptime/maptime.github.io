@@ -237,7 +237,8 @@
             "twitter": "CPGrubes"
           }
         ],
-        "meetup": "http://www.meetup.com/Maptime-Cape-Cod/"
+        "meetup": "http://www.meetup.com/Maptime-Cape-Cod/",
+        "website": "http://maptime.github.io/capecod/"
       },
       "geometry": {
         "type": "Point",
