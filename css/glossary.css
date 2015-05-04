@@ -1,0 +1,14 @@
+.glossary-terms  {
+  list-style-type: none !important;
+}
+
+.filter {
+  padding: 5px;
+  border-radius: 5px;
+  border: 4px solid #009347;
+  display: block;
+  margin: auto;
+  color: #009347;
+  font-weight: bold;
+  margin-bottom: 1.2em;
+}
