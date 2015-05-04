@@ -238,7 +238,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/Maptime-Cape-Cod/",
-        "website": "http://maptime.github.io/capecod/"
+        "website": "http://maptime.io/capecod/"
       },
       "geometry": {
         "type": "Point",
