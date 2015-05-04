@@ -31,7 +31,7 @@ js:
     <li>
       <h2>{{ term }}</h2>
       <p>{{ definition }}</p>
-      <img src="{{ site.baseurl }}/img/glossary/{{ image}}">
+      {{#if}}<img src="{{ site.baseurl }}/img/glossary/{{ image}}">{{/if}}
     </li>​
   {{/each}}
 ​</script>
