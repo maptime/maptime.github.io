@@ -1428,6 +1428,30 @@
           -22.894700            
         ]
       }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "location": "Ahmedabad, India",
+        "title": "MaptimeAMD",
+        "twitter": "MaptimeAMD",
+        "organizers": [
+          {
+            "name": "Shravan Shah",
+            "twitter": "shravanshah"
+          }
+        ],
+        "meetup": "",
+        "website": "http://maptime.io/ahmedabad/",
+        "github": "https://github.com/maptime/ahmedabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.57954597473145,
+          23.024684814705154
+        ]
+      }
     }
   ]
 }
