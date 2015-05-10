@@ -600,7 +600,7 @@
     {
       "type": "Feature",
       "properties": {
-        "github": "https://github.com/maptimemilehigh",
+        "github": "https://github.com/maptime/milehigh",
         "location": "Denver, Colorado",
         "organizers": [
           {
@@ -618,7 +618,7 @@
         ],
         "title": "MaptimeMileHigh",
         "twitter": "MaptimeMileHigh",
-        "website" : "http://maptime.io/denver/"
+        "website" : "http://maptime.io/milehigh/"
       },
       "geometry": {
         "type": "Point",
