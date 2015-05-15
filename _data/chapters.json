@@ -342,27 +342,40 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
+    "type": "Feature",
+    "properties": {
         "location": "Detroit, MI",
         "title": "MaptimeDetroit",
         "twitter": "MaptimeDETROIT",
         "organizers": [
-          {
-            "name": "Alex B. Hill",
-            "twitter": "alexbhill"
-          }
+            {
+                "name": "Alex B. Hill",
+                "twitter": "alexbhill"
+            },
+            {
+                "name": "Diana Flora",
+                "twitter": "dianajflora"
+            },
+            {
+                "name": "Jimmy McBroom",
+                "twitter": "jmsmcb"
+            },
+            {
+                "name": "Dexter Slusarski",
+                "twitter": "dexterslu"
+            }
         ],
-        "website": "http://detroitography.com/maptime/"
-      },
-      "geometry": {
+        "website": "http://maptimedet.github.io/",
+        "github": "https://github.com/maptimedet"
+    },
+    "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.074336,
-          42.371862
+            -83.074336,
+            42.371862
         ]
-      }
-    },
+    }
+},
     {
       "type": "Feature",
       "properties": {
