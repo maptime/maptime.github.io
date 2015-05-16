@@ -429,3 +429,39 @@ a.hover-link:hover:after {
 .form-alert.show {
   display:block;
 }
+
+.event {
+  background: white;
+  padding: 10px 5px;
+  border-bottom: 1px solid #eee;
+}
+.events-header {
+  font-size: 1em;
+}
+
+a.events-header {
+  text-decoration: underline;
+}
+
+.events-header:hover {
+  cursor: pointer;
+}
+
+.events-list {
+  display: none;
+}
+
+.event-title {
+  text-align: center;
+}
+
+@media (min-width: 704px) {
+  .events-list {
+    display: block;
+    max-height: 480px;
+    overflow-y: scroll;
+  }
+  .events-header:hover {
+    cursor: normal;
+  }
+}
