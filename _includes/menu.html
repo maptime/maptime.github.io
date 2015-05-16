@@ -9,28 +9,3 @@
   </nav>
   <button class="nav-expand"><img src="/img/menu-hamburger.svg"></button>
 </div>
-
-<script>
-var nav = $('#nav');
-var menu = $('#nav .menu');
-var navButton = $('.nav-expand');
-$('button.nav-expand').on('click', function(){
-  menu.slideToggle(200);
-  navButton.toggleClass('open');
-});
-var blocked = false,
-    threshold = 800;
-$(window).resize(function(){
-  menuCheck($(window).outerWidth(true), blocked, threshold);
-});
-function menuCheck(w, b, t) {
-  if (w>t && !b) {
-    menu.show();
-    blocked = !b;
-    $('.nav-expand').removeClass('open');
-  } else if (w<=t && b) {
-    menu.hide();
-    blocked = !b;
-  }
-}
-</script>
