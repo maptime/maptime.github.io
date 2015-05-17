@@ -416,8 +416,7 @@
             "twitter": "chandlersterlin"
           },
           {
-            "name": "Jacqui Swartz",
-            "twitter": null
+            "name": "Jacqui Swartz"
           },
           {
             "name": "John Wiseman",
@@ -1471,7 +1470,6 @@
       "properties": {
         "title": "MaptimeBuffalo",
         "location": "Buffalo, NY",
-        "twitter": null,
         "website": "http://maptime.io/buffalo/",
         "github": "https://github.com/maptime/buffalo/",
         "comingSoon": true,
