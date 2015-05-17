@@ -859,7 +859,7 @@
             "name": "Tara Ursell"
           }
         ],
-        "comingSoon": true
+        "meetup": "http://www.meetup.com/maptimeSac/"
       },
       "geometry": {
         "type": "Point",
