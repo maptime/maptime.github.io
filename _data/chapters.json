@@ -1442,7 +1442,7 @@
         ]
       }
     },
-        {
+    {
       "type": "Feature",
       "properties": {
         "location": "Ahmedabad, India",
@@ -1463,6 +1463,54 @@
         "coordinates": [
           72.57954597473145,
           23.024684814705154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeBuffalo",
+        "location": "Buffalo, NY",
+        "twitter": null,
+        "website": "http://maptime.io/buffalo/",
+        "github": "https://github.com/maptime/buffalo/",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Lizzi Slivinski",
+            "twitter": "eslivinski"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.849444,
+          42.904722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeNOLA",
+        "location": "New Orleans, LA",
+        "twitter": "MaptimeNOLA",
+        "website": "http://maptime.io/nola/",
+        "github": "https://github.com/maptime/nola/",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Emily Ashley",
+            "twitter": "youknowemily"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0667,
+          29.9500
         ]
       }
     }
