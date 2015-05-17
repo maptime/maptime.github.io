@@ -1470,6 +1470,7 @@
       "properties": {
         "title": "MaptimeBuffalo",
         "location": "Buffalo, NY",
+        "twitter": "maptimeBuffalo",
         "website": "http://maptime.io/buffalo/",
         "github": "https://github.com/maptime/buffalo/",
         "comingSoon": true,
