@@ -924,6 +924,28 @@
         ]
       }
     },
+     {
+      "type": "Feature",
+      "properties": {
+        "location": "Tallahassee, FL",
+        "title": "MaptimeTLH",
+        "twitter": "maptimetlh",
+        "organizers": [
+          {
+            "name": "Ben Thornton",
+            "twitter": "benthornton2"
+          }
+        ],
+        "coming soon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.290665, 
+          30.433953 
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
