@@ -256,3 +256,9 @@
     - Community
   description: Submit your photos to Mapillary (the "Street View" of OSM)
   link: https://www.mapillary.com/how.html
+
+- name: GeoMakers
+  tags: 
+   - Community
+  description: Open source geo maker's movement
+  link: http://geomakers.org/
