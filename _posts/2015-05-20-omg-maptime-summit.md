@@ -29,6 +29,14 @@ In this final countdown, we have some important announcements and calls for part
 <li><strong>There's a party!</strong> At Mapzen! In conjunction with GeoNYC! And we have been told that there will be karaoke. </li>
 </ul>
 
-Is that it? Yeah we think that's it. As always, reach out to hello[at]maptime[dot]io with any questions. 
+Is that it? Yeah we think that's it. Oh wait, one more thing:
+
+<ul>
+<li><strong>We're on the hunt for someone to help with streaming or recording!</strong> This is not a must-have, but there are lots of people who can't make it. Recording would help to share the experience, and we've learned that it's not worth doing without the right equiptment. If you have leads or an idea or want to volunteer to take it on, we'd love to hear from you! </li>
+</ul>
+
+Ok, that's it, for real this time.
+
+As always, reach out to hello[at]maptime[dot]io with any questions. 
 
 We can't wait to see you in NYC!
