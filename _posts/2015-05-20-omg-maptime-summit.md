@@ -23,7 +23,7 @@ How cool is that? Many thanks to everyone for your help! There is no way we coul
 In this final countdown, we have some important announcements and calls for participation:
 
 <ul>
-<li><strong>Our location has changed!</strong> The Summit is now being held at the <a href="http://www.nyu.edu/life/resources-and-services/kimmel-center.html"></a>NYU Kimmel Center</a>. The size of our space is limited to 60 people, so...</li>
+<li><strong>Our location has changed!</strong> The Summit is now being held at the <a href="http://www.nyu.edu/life/resources-and-services/kimmel-center.html">NYU Kimmel Center</a>. The size of our space is limited to 60 people, so...</li>
 <li><strong>Get your ticket now as seats are limited!</strong> If 60 is what we can fit, then 60 tickets are what's available. If you haven't registered yet, <a href="http://www.eventbrite.com/e/maptime-summit-tickets-3547327151">get your ticket now</a>! If you have but can't make it, drop us a line: hello[at]maptime[dot]io.</li>
 <li><strong>We have a schedule!</strong> Check out the <a href="http://maptime.io/maptime-summit-2015/">Maptime Summit page</a> for the full breakdown. To make it the best it can be...</li>
 <li><strong>We're looking for lightning talks and unconference session topics!</strong> Really, so much of the Summit is about getting this community together to collaborate and learn from one another. We want to hear from you! <a href="https://docs.google.com/spreadsheets/d/1erv-qsPf4q7YDR0pJCXkTHJo9SKpFW0yv5FJYklV0Yw/edit?usp=sharing">Add your session topics here</a>, and <a href="http://goo.gl/forms/fhvDxq7RVW">add your lightning talk topics here</a>! </li>
@@ -33,7 +33,7 @@ In this final countdown, we have some important announcements and calls for part
 Is that it? Yeah we think that's it. Oh wait, one more thing:
 
 <ul>
-<li><strong>We're on the hunt for someone to help with streaming or recording!</strong> This is not a must-have, but there are lots of people who can't make it. Recording would help to share the experience, and we've learned that it's not worth doing without the right equiptment. If you have leads or an idea or want to volunteer to take it on, we'd love to hear from you! </li>
+<li><strong>We're on the hunt for someone to help with streaming or recording!</strong> This is not a must-have, but there are lots of people who can't make it. Recording or skyping or streaming would help to share the experience, and we've learned that it's not worth doing without the right equiptment. If you have leads or an idea or want to volunteer to take it on, we'd love to hear from you! </li>
 </ul>
 
 Ok, that's it, for real this time.
