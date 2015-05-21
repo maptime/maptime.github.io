@@ -1534,6 +1534,33 @@
           29.9500
         ]
       }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeTurku",
+        "location": "Turku, Finland",
+        "twitter": "MaptimeTurku",
+        "website": "http://maptime.io/turku/",
+        "github": "https://github.com/maptime/turku/",
+        "organizers": [
+          {
+            "name": "Sanna Jokela",
+            "twitter": ""
+          },
+          {
+          	"name": "Kaisa Savola",
+          	"twitter": "kaisasavola"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.266667,
+          60.45
+        ]
+      }
     }
   ]
 }
