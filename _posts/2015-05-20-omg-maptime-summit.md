@@ -5,7 +5,7 @@ title: "Countdown to the 2015 Maptime Summit!"
 description: "What you need to know for the 2015 Maptime Summit"
 ---
 
-##Wait seriously? It's only two-and-a-half weeks until the Maptime Summit? WHOA. 
+###Wait seriously? It's only two-and-a-half weeks until the Maptime Summit? WHOA. 
 
 Thanks to basically the whole OS geo community, we are inching towards being ready:
 
