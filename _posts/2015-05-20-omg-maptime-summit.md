@@ -12,7 +12,7 @@ Thanks to basically the whole OS geo community, we are inching towards being rea
 <ul>
 <li>CartoDB is helping us with pizza for lunch.</li>
 <li>Mapbox is helping us with printing, and Mapzen is helping with snacks</li>
-<li>OSMF busted their butts finding us a great space for Monday. They are also on the hunt for an event photographer.</li>
+<li>OSMF busted their butts finding us a great space for the Summit. They are also on the hunt for an event photographer.</li>
 <li>Stamen is making it possible for Beth to get to NYC for the event.</li>
 <li>Maptimers from all over are showing up to volunteer!</li>
 </ul>
