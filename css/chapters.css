@@ -19,3 +19,21 @@
   color:#fff; 
   font-weight: bold;
 }
+
+.marker-cluster-medium {
+  background-color: rgba(127, 47, 85, 0.6);
+}
+.marker-cluster-medium div {
+  background-color: rgba(127, 47, 85, 0.6);
+  color:#fff; 
+  font-weight: bold;
+}
+
+.marker-cluster-large {
+  background-color: rgba(84, 31, 56, 0.6);
+}
+.marker-cluster-large div {
+  background-color: rgba(84, 31, 56, 0.6);
+  color:#fff; 
+  font-weight: bold;
+}
