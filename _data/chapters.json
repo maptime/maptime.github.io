@@ -1584,6 +1584,29 @@
           25.033333
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeLagos",
+        "location": "Lagos, Nigeria",
+        "website": "http://maptime.io/lagos/",
+        "github": "https://github.com/maptime/lagos/",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Ayo Akinseye",
+            "twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.436,
+          6.492
+        ]
+      }
     }
   ]
 }
