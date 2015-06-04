@@ -1535,7 +1535,7 @@
         ]
       }
     },
-        {
+    {
       "type": "Feature",
       "properties": {
         "title": "MaptimeTurku",
@@ -1559,6 +1559,29 @@
         "coordinates": [
           22.266667,
           60.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeTPE",
+        "location": "Taipei, Taiwan",
+        "website": "http://maptime.io/taipei/",
+        "github": "https://github.com/maptime/taipei/",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Brandon Liu",
+            "twitter": "bdon"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633333,
+          25.033333
         ]
       }
     }
