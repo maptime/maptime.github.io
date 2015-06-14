@@ -1343,7 +1343,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/Open-Pittsburgh-our-Regions-Code-for-America-Brigade/",
-        "website": "http://www.maptime.io/pittsburgh"
+        "comingSoon": true
       },
       "geometry": {
         "type": "Point",
@@ -1439,6 +1439,33 @@
         ]
       }
     },
+    {
+  "type": "Feature",
+  "properties": {
+    "location": "Richmond Upon Thames, London, UK",
+    "title": "MaptimeWestLondon",
+    "twitter": "MaptimeWLon",
+    "organizers": [
+      {
+        "name": "John Wilson",
+        "twitter": "gisyohn"
+      },
+      {
+        "name": "Billy Bates",
+        "twitter": "Billy_Bates1"
+      },
+    ],
+    "meetup": null
+    "github": "https://github.com/maptimewestlondon"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.30679,
+      51.46064
+    ]
+  }
+},
     {
       "type": "Feature",
       "properties": {
