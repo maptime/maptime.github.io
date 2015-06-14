@@ -530,10 +530,12 @@
         "location": "Maine (Bangor/Portland)",
         "title": "MaptimeME",
         "twitter": "MaptimeME",
+        "website": "http://maptime.io/maine/",
+        "github": "https://github.com/maptime/maine",
         "organizers": [
           {
-            "name": "Jacques Tardie",
-            "twitter": "jqtrde"
+            "name": "Nick Kaufmann",
+            "twitter": "nickkauf"
           }
         ]
       },
@@ -1607,6 +1609,77 @@
         "coordinates": [
           3.436,
           6.492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeWLON",
+        "location": "Richmond Upon Thames, London, UK",
+        "website": "http://maptime.io/west-london/",
+        "github": "https://github.com/maptime/west-london/",
+        "twitter": "MaptimeWLON",
+        "organizers": [
+          {
+            "name": "John Wilson",
+            "twitter": "gisyohn"
+          },
+          {
+          	"name": "Billy Bates",
+          	"twitter": "Billy_Bates1"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.30679,
+          51.46064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeMEM",
+        "location": "Memphis, TN",
+        "website": "http://maptime.io/memphis/",
+        "github": "https://github.com/maptime/memphis/",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Tom Lawrence"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.971111,
+          35.1175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeNewHaven",
+        "location": "New Haven, CT",
+        "website": "http://maptime.io/newhaven/",
+        "github": "https://github.com/maptime/newhaven/",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Joseph Anania"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.923611,
+          41.31
         ]
       }
     }
