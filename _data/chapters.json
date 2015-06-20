@@ -4,6 +4,28 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Dar es Salaam, Tanzania",
+        "title": "MaptimeTZ",
+        "twitter": "MaptimeTZ",
+        "organizers": [
+          {
+            "name": "Geoffrey Kateregga"
+          }
+        ],
+        "meetup": "",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.28333282470703,
+          -6.807807658501318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Ames, IA",
         "title": "MaptimeAmes",
         "twitter": "MaptimeAmes",
