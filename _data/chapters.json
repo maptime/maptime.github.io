@@ -4,6 +4,28 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Georgetown, Guyana",
+        "title": "MaptimeGUY",
+        "twitter": "MaptimeGUY",
+        "organizers": [
+          {
+            "name": "Guyana GIS UserGroup"
+          }
+        ],
+        "meetup": "",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.1623,
+          6.8233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Dar es Salaam, Tanzania",
         "title": "MaptimeTZ",
         "twitter": "MaptimeTZ",
