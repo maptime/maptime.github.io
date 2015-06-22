@@ -20,7 +20,7 @@ In the opening remarks, we talked about some important changes that will hopeful
 
 We got these announcements out of the way early because our main goal for the event was to give the chapters space to collaborate, get to know each other, to think about these questions and work on answers.  Groups talked about everything from Maptime for Kids, to more specific identification of barriers to entry, to onboarding, to what an Intro to Cartography tutorial would be. 
 
-That last idea sprouted from Lyzi's Intro to Maptime Tutorials, which yielded LOTS of great ideas tutorials: Geocoding, Routing, Cultural Mapping, OSM Data Extracts, Documentation for JS Libraries, Turf.js, Basic Javascript, Field Papers, and more. We can't wait to see what you make!!
+That last idea (which [already has a repo](https://github.com/maptime/cartography-anyone) for anyone who wants to contribute) sprouted from Lyzi's Intro to Maptime Tutorials, which yielded LOTS of great ideas tutorials: Geocoding, Routing, Cultural Mapping, OSM Data Extracts, Documentation for JS Libraries, Turf.js, Basic Javascript, Field Papers, and more. We can't wait to see what you make!!
 
 ![Maptime + Github](/img/summit2015-maptime-gh.jpg)
 
