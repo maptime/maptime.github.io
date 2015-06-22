@@ -18,17 +18,17 @@ In the opening remarks, we talked about some important changes that will hopeful
 
 ![Maptime for Kids Discussion](/img/summit2015-maptime-for-kids.jpg)
 
-We got these announcements out of the way early because our main goal for the event was to give the chapters space to collaborate, get to know each other, to think about these questions and work on answers.  Groups talked about everything from Maptime for Kids, to more specific identification of barriers to entry, to onboarding, to what an Intro to Cartography tutorial would be. 
+We got these announcements out of the way early because our main goal for the event was to give the chapters space to collaborate, get to know each other, to think about these questions and work on answers. People gave lightning talks on what's working (and what's not) at their chapters. Later during the Unconference sessions, people got into groups and talked about everything from Maptime for Kids, to more specific identification of barriers to entry in Geo, to onboarding, to what an Intro to Cartography tutorial would be. 
 
-That last idea (which [already has a repo](https://github.com/maptime/cartography-anyone) for anyone who wants to contribute) sprouted from Lyzi's Intro to Maptime Tutorials, which yielded LOTS of great ideas tutorials: Geocoding, Routing, Cultural Mapping, OSM Data Extracts, Documentation for JS Libraries, Turf.js, Basic Javascript, Field Papers, and more. We can't wait to see what you make!!
+That last idea (which [already has a repo](https://github.com/maptime/cartography-anyone) for anyone who wants to contribute) sprouted from Lyzi's Intro to Maptime Tutorial. This topic yielded (as usual!) LOTS of great ideas for Maptime tutorials: Geocoding, Routing, Cultural Mapping, OSM Data Extracts, Documentation for JS Libraries, Turf.js, Basic Javascript, Field Papers, and more. We can't wait to see what you make!!
 
 ![Maptime + Github](/img/summit2015-maptime-gh.jpg)
 
-Finally Alan and Camille ran a how-to on Github for Maptime Organizers explaning the Github workflow in a really simple way. Like, really really. I encourage everyone to [watch it here](https://www.youtube.com/watch?v=pU4utAYokCc), starting at about 1:28 (that's hours and minutes). It's perfect for anyone who is curious about how Maptime uses Github, and how we should be thinking about using it in the future.
+Finally Alan and Camille ran a how-to on Github for Maptime Organizers, where they explained the Github workflow in a really simple way. Like, really really. I encourage everyone to [watch it here](https://www.youtube.com/watch?v=pU4utAYokCc), starting at about 1:28 (that's hours and minutes). It's perfect for anyone who is curious about how Maptime uses Github, and how we should be thinking about using it in the future.
 
-“Every time I looked over at you, you just had this big smile on your face.” That's what Brandon Knight of MaptimeDC said to me at the State of the Map Closing Party at Mapzen. It's true. The day was a really joyful one, one that represented years of work and love from hundreds of people. 
+“Every time I looked over at you, you just had this big smile on your face,” said Brandon Knight of MaptimeDC at the SoTMUS closing party at Mapzen. I'm not surprised - The day was a really joyful one, one that represented years of work and love from hundreds of people. Even though I was exhausted, how could I not deliriously smile?
 
-Many thanks, again, to everyone who made it out; to our sponsors CartoDB (year of pizza, what what!), Mapbox, and Mapzen; and to our founding partner, Stamen Design. 
+Now I'm getting settled in my new home in Portland, still smiling, though a bit less deliriously. I'm excited what comes next for Maptime, not to mention incredibly grateful for the past couple of years and for an amazing Summit. Many thanks, again, to everyone who made it out; to our patrons CartoDB ([year of pizza](http://blog.cartodb.com/year-of-pizza/), what what!), Mapbox, and Mapzen; and to our founding partner, Stamen Design. 
 
 <strong>We did it together!</strong> Here's to a future of more collaboration, and many congrats to Lyzi as she steps into her new role!
 
