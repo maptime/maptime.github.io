@@ -8,6 +8,8 @@ by Beth
 
 ###A great big (belated) THANK YOU! to everyone who came to the 2015 Maptime Summit!
 
+![Maptime Group Shot](/img/maptime-summit-group-lg.jpg)
+
 Wow. Wow wow wow.
 
 Those are the only words  I can use to describe the feelings after the Maptime Summit. Many thanks to everyone who made it out! We had representation from Amsterdam, Berlin, Madison, Vancouver, New York City, Boston, Lexington, Washington DC, New Orleans, Philadelphia, Bend, Cleveland, and Portland, as well as people interested in starting up in Taipei, Beijing, and Milan. To think that last year we were blown away by the 9 chapters who showed interest…we’ve gotten nearly six times bigger!
