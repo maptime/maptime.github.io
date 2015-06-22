@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: "2015 Maptime Summit - "
+title: "2015 Maptime Summit - So Many Things and So Many Thanks!"
 description: "Thanks for coming to the Summit :)"
 ---
 by Beth
