@@ -12,7 +12,7 @@ by Beth
 
 Wow. Wow wow wow.
 
-Those are the only words  I can use to describe the feelings after the Maptime Summit. Many thanks to everyone who made it out! We had representation from Amsterdam, Berlin, Madison, Vancouver, New York City, Boston, Lexington, Washington DC, New Orleans, Philadelphia, Bend, Cleveland, and Portland, as well as people interested in starting up in Taipei, Beijing, and Milan. To think that last year we were blown away by the 9 chapters who showed interest…we’ve gotten nearly six times bigger!
+Those are the only words  I can use to describe the feelings after the Maptime Summit. Many thanks to everyone who made it out! We had representation from Amsterdam, Berlin, Madison, Vancouver, New York City, Boston, Lexington, Washington DC, New Orleans, Philadelphia, Bend, Cleveland, and Portland, as well as people interested in starting up in Taipei, Beijing, and Trento. To think that last year we were blown away by the 9 chapters who showed interest…we’ve gotten nearly six times bigger!
 
 With this growth in mind, this year’s Summit took a bit of a different shape than last year’s. It’s not just about the excitement of getting people on board for learning. While that’s still the case, these days we’re all – and I mean HQ as well as chapter organizers, particularly the ones that have been going for a year or more – thinking about how to sustain ourselves. How do we deal with burnout? How do we deal with paying for spaces and snacks? How do we keep this wonderful rainbow aglow?
 
