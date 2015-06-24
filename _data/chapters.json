@@ -4,6 +4,40 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "MaptimeSV",
+        "location": "Palo Alto, CA",
+        "website": "http://maptime.io/siliconvalley/",
+        "github": "https://github.com/maptime/siliconvalley/",
+        "twitter": "MaptimeSV",
+        "organizers": [
+          {
+            "name": "Stace Maples",
+            "twitter": "mapninja"
+          },
+          {
+            "name": "Sarah Levine",
+            "twitter": "sarahmakesmaps"
+          },
+          {
+            "name": "Jack Reed",
+            "twitter": "mejackreed"
+          },
+          {
+            "name": "David Medeiros"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.138056,
+          37.429167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "MaptimeNantes",
         "location": "Nantes, France",
         "website": "http://maptime.io/nantes/",
