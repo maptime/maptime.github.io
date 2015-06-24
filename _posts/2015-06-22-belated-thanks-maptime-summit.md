@@ -30,7 +30,7 @@ Finally Alan and Camille ran a how-to on Github for Maptime Organizers, where th
 
 “Every time I looked over at you, you just had this big smile on your face,” said Brandon Knight of MaptimeDC at the SoTMUS closing party at Mapzen. I'm not surprised - The day was a really joyful one, one that represented years of work and love from hundreds of people. Even though I was exhausted, how could I not deliriously smile?
 
-Now I'm getting settled in my new home in Portland, still smiling, though a bit less deliriously. I'm excited what comes next for Maptime, not to mention incredibly grateful for the past couple of years and for an amazing Summit. Many thanks, again, to everyone who made it out; to our patrons CartoDB ([year of pizza](http://blog.cartodb.com/year-of-pizza/), what what!), Mapbox, and Mapzen; and to our founding partner, Stamen Design. 
+Now I'm getting settled in my new home in Portland, still smiling, though a bit less deliriously. I'm excited what comes next for Maptime, not to mention incredibly grateful for the past couple of years and for an amazing Summit. Many thanks, again, to everyone who made it out; to the State of the Map US team; to our patrons CartoDB ([year of pizza](http://blog.cartodb.com/year-of-pizza/), what what!), Mapbox, and Mapzen; and to our founding partner, Stamen Design. 
 
 <strong>We did it together!</strong> Here's to a future of more collaboration, and many congrats to Lyzi as she steps into her new role!
 
