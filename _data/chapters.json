@@ -2,6 +2,28 @@
   "type": "FeatureCollection",
   "features": [
     {
++      "type": "Feature",
++      "properties": {
++        "title": "MaptimeNantes",
++        "location": "Nantes, France",
++        "website": "http://maptime.io/nantes/",
++        "github": "https://github.com/maptime/nantes/",
++        "organizers": [
++          {
++            "name": "Thomas Gratier",
++            "twitter": "ThomasG77"
++          }
++        ]
++      },
++      "geometry": {
++        "type": "Point",
++        "coordinates": [
++          -1.5603,
++          47.2383
++        ]
++      }
+     },
+     {
       "type": "Feature",
       "properties": {
         "location": "Beijing, China",
