@@ -7,8 +7,8 @@
         "location": "Beijing, China",
         "title": "MaptimeBJ",
         "twitter": "MaptimeBJ",
-          {
         "organizers": [
+          {
             "name": "Ching-ping Yu"
           }
         ],
@@ -23,7 +23,7 @@
         ]
       }
     },
-      {
+    {
       "type": "Feature",
       "properties": {
         "location": "University Park, PA",
