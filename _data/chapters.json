@@ -4,6 +4,28 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "University Park, PA",
+        "title": "MaptimePSU",
+        "twitter": "MaptimePSU",
+        "organizers": [
+          {
+            "name": "Marissa Defratti"
+          }
+        ],
+        "meetup": "",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.86276817321777,
+          40.80315495364101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Georgetown, Guyana",
         "title": "MaptimeGUY",
         "twitter": "MaptimeGUY",
