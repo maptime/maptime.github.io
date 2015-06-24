@@ -4,6 +4,28 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Beijing, China",
+        "title": "MaptimeBJ",
+        "twitter": "MaptimeBJ",
+          {
+        "organizers": [
+            "name": "Ching-ping Yu"
+          }
+        ],
+        "meetup": "",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.40151977539062,
+          39.93290692296977
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
         "location": "University Park, PA",
         "title": "MaptimePSU",
         "twitter": "MaptimePSU",
