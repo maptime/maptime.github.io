@@ -56,7 +56,11 @@ js:
 	 			<p><strong>Organizers:</strong></p>
 	 			<ul>
 	 			{{#each properties.organizers}}
-	 				<li>{{name}} (<a href="http://twitter.com/{{twitter}}">@{{twitter}}</a>)</li>
+	 				{{#if twitter}}
+	 					<li>{{name}} (<a href="http://twitter.com/{{twitter}}">@{{twitter}}</a>)</li>
+	 				{{else}}
+	 					<li>{{name}}</li>
+	 				{{/if}}
 	 			{{/each}}
 	 			</ul>
  			{{/if}}
