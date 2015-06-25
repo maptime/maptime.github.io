@@ -64,6 +64,12 @@
     - Desktop mapping
   link: http://mappingmashups.net/2012/11/30/a-very-short-introduction-to-qgis/
 
+- name: Cartographic Design by Alexa Todd; Notes and Resources
+  tags:
+    - Cartography
+  link: https://github.com/maptime/portland/blob/gh-pages/tutorials/Cartographic-Design-Notes-and-Resources-by-Alexa-Todd.md
+  description: Presentation notes and a list of resources from Alexa Todd's Cartographic Design presentation from the May 2015 MaptimePDX.
+
 - name: Mapping Chicago's Shooting Victims
   tags: 
     - Cartography
