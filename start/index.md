@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Start a Chapter
+weight: 5
+title: Start a Chapter!
 description: "Start one. Now!"
 
 js:
