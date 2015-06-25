@@ -27,9 +27,11 @@ js:
  				{{else}}
  				{{ properties.title }}
  				{{/if}}
+ 				{{#if properties.twitter}}
  				<a href="http://twitter.com/{{ properties.twitter }}">
  					<img src="/img/twitter-icon.png"/>
  				</a>
+ 				{{/if}}
  				{{#if properties.facebook}}
  				<a href="{{ properties.facebook }}">
  					<img src="/img/facebook-icon.png" />
