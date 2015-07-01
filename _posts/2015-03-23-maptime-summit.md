@@ -1,17 +1,18 @@
 ---
-layout: default
-weight: 5
-menu_class: event
+layout: post
+category: blog
 title: Maptime Summit!
 description: "June 8, 2015 // UN Headquarters // NYU Kimmel Center"
 ---
-<h2>Maptime Summit!</h2>
+
+![Maptime Summit at State of the Map](/img/maptime-at-sotmus.png)
+
 <p><strong>June 8, 2015 // New York, NY // NYU Kimmel Center</strong></p>
 
 <p>9:30am – 4:30pm<br>
 Kimmel Center NYU Global Center for Academic & Spiritual Life<br>238 Thompson St 3rd Floor</p>
 
-<em><strong>UPDATES!</strong> due to space change from UN to the Kimmel Center, we've had to reduce the number of tickets available. We also have to be out of the room by 5pm (including clean-up). Please see schedule change below. </em></p>
+<em><strong>UPDATES!</strong> due to space change from UN to the Kimmel Center, we've had to reduce the number of tickets available. We also have to be out of the room by 5pm (including clean-up). Please see schedule change below. </em>
 
 <p>Calling all Maptime organizers, attendees, and enthusiasts! <strong>Maptime Summit</strong> is coming, and we want <i>you</i> to be there. </p>
 
