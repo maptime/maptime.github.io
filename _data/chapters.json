@@ -4,6 +4,54 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "MaptimeManteca",
+        "location": "Manteca, CA",
+        "website": "http://maptime.io/manteca/",
+        "github": "https://github.com/maptime/manteca/",
+        "twitter": null,
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Nathan McKinley",
+            "twitter": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.220833,
+          37.802778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeTN",
+        "location": "Tunis, Tunisia",
+        "website": "http://maptime.io/tunis/",
+        "github": "https://github.com/maptime/tunis/",
+        "twitter": "MaptimeTN",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Hamed Gamaoun",
+            "twitter": "hamed_gamaoun"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1833333,
+          36.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "MaptimeSV",
         "location": "Palo Alto, CA",
         "website": "http://maptime.io/siliconvalley/",
@@ -1701,8 +1749,8 @@
             "twitter": ""
           },
           {
-          	"name": "Kaisa Savola",
-          	"twitter": "kaisasavola"
+            "name": "Kaisa Savola",
+            "twitter": "kaisasavola"
           }
         ]
       },
@@ -1775,8 +1823,8 @@
             "twitter": "gisyohn"
           },
           {
-          	"name": "Billy Bates",
-          	"twitter": "Billy_Bates1"
+            "name": "Billy Bates",
+            "twitter": "Billy_Bates1"
           }
         ]
       },
