@@ -291,7 +291,8 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeATL",
-        "github": "https://github.com/maptimeatl"
+        "github": "https://github.com/maptimeatl",
+        "website": "http://maptime.io/atlanta"
       },
       "geometry": {
         "type": "Point",
