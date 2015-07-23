@@ -1417,7 +1417,8 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeMSP",
-        "github": "https://github.com/MaptimeMSP"
+        "github": "https://github.com/MaptimeMSP",
+        "website": "http://maptime.io/msp"
       },
       "geometry": {
         "type": "Point",
