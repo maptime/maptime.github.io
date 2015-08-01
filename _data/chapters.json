@@ -1407,13 +1407,26 @@
         "title": "MaptimeMSP",
         "twitter": "MaptimeMSP",
         "organizers": [
-          {
-            "name": "M. Taylor Long",
-            "twitter": "mtaylorlong"
-          },
+          
           {
             "name": "Liz Puhl",
             "twitter": "LizPuhl"
+          },
+          {
+            "name": "David Bitner",
+            "twitter": "bitnerd"
+          },
+          {
+            "name": "David Fawcett",
+            "twitter": "davidfawcett"
+          },
+          {
+            "name": "Kitty Hurley",
+            "twitter": "GeospatialEM"
+          },
+          {
+            "name": "M. Taylor Long - Emeritus",
+            "twitter": "mtaylorlong"
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeMSP",
