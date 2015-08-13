@@ -21,7 +21,7 @@ Thanks to basically the whole OS geo community, we are inching towards being rea
 How cool is that? Many thanks to everyone for your help! There is no way we could pull this off without you. 
 
 In this final countdown, we have some important announcements and calls for participation:
-
+<!--more-->
 <ul>
 <li><strong>Our location has changed!</strong> The Summit is now being held at the <a href="http://www.nyu.edu/life/resources-and-services/kimmel-center.html">NYU Kimmel Center</a>. The size of our space is limited to 60 people, so...</li>
 <li><strong>Get your ticket now as seats are limited!</strong> If 60 is what we can fit, then 60 tickets are what's available. If you haven't registered yet, <a href="http://www.eventbrite.com/e/maptime-summit-tickets-3547327151">get your ticket now</a>! If you have but can't make it, drop us a line: hello[at]maptime[dot]io.</li>
