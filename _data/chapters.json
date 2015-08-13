@@ -4,6 +4,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "MaptimeTOS",
+        "location": "Tromso, Norway",
+        "website": "http://maptime.io/tromso/",
+        "github": "https://github.com/maptime/tromso/",
+        "twitter": "MaptimeTOS",
+        "comingSoon": false,
+        "organizers": [
+          {
+            "name": "Annekatrien Debien",
+            "twitter": "howtomap"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.942778,
+          69.682778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "MaptimeManteca",
         "location": "Manteca, CA",
         "website": "http://maptime.io/manteca/",
