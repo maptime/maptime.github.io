@@ -52,3 +52,4 @@ Before you submit your pull request consider the following guidelines:
 - In GitHub, send a pull request to `maptime.github.io:master`.
 
 That's it, thanks!
+ 
