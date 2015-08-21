@@ -1212,8 +1212,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.290665, 
-          30.433953 
+          -84.290665,
+          30.433953
         ]
       }
     },
@@ -1434,7 +1434,7 @@
         "title": "MaptimeMSP",
         "twitter": "MaptimeMSP",
         "organizers": [
-          
+
           {
             "name": "Liz Puhl",
             "twitter": "LizPuhl"
@@ -1701,7 +1701,7 @@
         "type": "Point",
         "coordinates": [
           -47.067100,
-          -22.894700            
+          -22.894700
         ]
       }
     },
@@ -1919,6 +1919,42 @@
         "coordinates": [
           -72.923611,
           41.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeBmore",
+        "location": "Baltimore, MD",
+        "website": "http://maptime.io/baltimore/",
+        "twitter": "MaptimeBmore",
+        "github": "https://github.com/orgs/maptimebmore/",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Jade Clayton",
+            "name": "kjadec12@gmail.com"
+          },
+          {
+            "name": "Elliott Plack",
+            "email": "elliott.plack@gmail.com"
+          },
+          {
+            "name": "Margie Roswell",
+            "email": "mroswell@gmail.com"
+          },
+          {
+            "name": "Maggie Cawley",
+            "email": "maggie@boomgeo.com"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.610659,
+          39.290788
         ]
       }
     }
