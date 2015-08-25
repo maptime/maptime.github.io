@@ -538,30 +538,30 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
+       "type": "Feature",
+       "properties": {
+    "location": "Copenhagen, Denmark",
         "title": "MaptimeCopenhagen",
-        "location": “Copenhagen, Denmark",
+        "twitter": "MaptimeCPH",
         "website": "http://maptime.io/copenhagen/",
         "github": "https://github.com/maptime/copenhagen/",
-        "twitter": MaptimeCPH,
       "organizers": [
           {
-            "name": “Edoardo Neerhut",
-            "twitter": “travel193"
+            "name": "Edoardo Neerhut",
+            "twitter": "travel193"
           },
           {
-            "name": “Jan Erik Solem",
-            "twitter": “jesolem"
-          },
+            "name": "Jan Erik Solem",
+            "twitter": "jesolem"
+          }
         ],
-        "meetup": “coming soon",
+        "meetup": "http://www.meetup.com/Maptime-Copenhagen/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           12.5683,
-	55.67.61
+    55.6761
         ]
       }
     },
