@@ -538,6 +538,34 @@
       }
     },
     {
+       "type": "Feature",
+       "properties": {
+    "location": "Copenhagen, Denmark",
+        "title": "MaptimeCopenhagen",
+        "twitter": "MaptimeCPH",
+        "website": "http://maptime.io/copenhagen/",
+        "github": "https://github.com/maptime/copenhagen/",
+      "organizers": [
+          {
+            "name": "Edoardo Neerhut",
+            "twitter": "travel193"
+          },
+          {
+            "name": "Jan Erik Solem",
+            "twitter": "jesolem"
+          }
+        ],
+        "meetup": "http://www.meetup.com/Maptime-Copenhagen/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5683,
+    55.6761
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "location": "Corvallis, OR",
