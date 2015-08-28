@@ -21,49 +21,52 @@ js:
 		<div class='chapter keyline-top'>
  			<h2>
  				{{#if properties.website}}
- 				<a href="{{properties.website}}">
- 					{{ properties.title }}
- 				</a>
+ 					<a href="{{properties.website}}">
+ 						{{ properties.title }}
+ 					</a>
  				{{else}}
- 				{{ properties.title }}
+ 					{{ properties.title }}
  				{{/if}}
- 				{{#if properties.twitter}}
- 				<a href="http://twitter.com/{{ properties.twitter }}">
- 					<img src="/img/twitter-icon.png"/>
- 				</a>
+ 					{{#if properties.twitter}}
+ 					<a href="http://twitter.com/{{ properties.twitter }}">
+ 						<img src="/img/twitter-icon.png"/>
+ 					</a>
  				{{/if}}
  				{{#if properties.facebook}}
- 				<a href="{{ properties.facebook }}">
- 					<img src="/img/facebook-icon.png" />
- 				</a>
+ 					<a href="{{ properties.facebook }}">
+ 						<img src="/img/facebook-icon.png" />
+ 					</a>
  				{{/if}}
  				{{#if properties.github}}
- 				<a href="{{ properties.github }}">
- 					<img src="/img/github-icon.png" />
- 				</a>
+ 					<a href="{{ properties.github }}">
+ 						<img src="/img/github-icon.png" />
+ 					</a>
  				{{/if}}
  				{{#if properties.meetup}}
- 				<a href="{{ properties.meetup }}">
- 					<img src="/img/meetup-icon.jpg" />
- 				</a>
+ 					<a href="{{ properties.meetup }}">
+ 						<img src="/img/meetup-icon.jpg" />
+ 					</a>
  				{{/if}}
  			</h2>
- 			{{#if properties.comingSoon}}
- 				<p>Coming Soon!</p>
- 			{{/if}}
+ 				{{#if properties.location}}
+ 					<p><strong>{{ properties.location }}</strong></p>
+ 				{{/if}}
+ 				{{#if properties.comingSoon}}
+ 					<p>Coming Soon!</p>
+ 				{{/if}}
  			
- 			{{#if properties.organizers}}
-	 			<p><strong>Organizers:</strong></p>
-	 			<ul>
-	 			{{#each properties.organizers}}
-	 				{{#if twitter}}
-	 					<li>{{name}} (<a href="http://twitter.com/{{twitter}}">@{{twitter}}</a>)</li>
-	 				{{else}}
-	 					<li>{{name}}</li>
-	 				{{/if}}
-	 			{{/each}}
-	 			</ul>
- 			{{/if}}
+ 				{{#if properties.organizers}}
+	 				<p><em>Organizers:</em></p>
+	 				<ul>
+	 					{{#each properties.organizers}}
+	 						{{#if twitter}}
+	 							<li>{{name}} (<a href="http://twitter.com/{{twitter}}">@{{twitter}}</a>)</li>
+	 						{{else}}
+	 							<li>{{name}}</li>
+	 						{{/if}}
+	 					{{/each}}
+	 				</ul>
+ 				{{/if}}
  		</div>​
  	{{/each}}
 ​</script>
