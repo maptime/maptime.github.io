@@ -10,3 +10,4 @@ maptime:
   #disqus: YOUR DISQUS USERNAME 
 
 excerpt_separator: <!--more-->
+exclude: [vendor]
