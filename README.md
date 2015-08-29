@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/maptime/maptime.github.io.svg?branch=master)](https://travis-ci.org/maptime/maptime.github.io)
+
 maptime.github.io
 =================
 
