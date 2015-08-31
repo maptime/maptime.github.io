@@ -28,7 +28,6 @@ Kimmel Center NYU Global Center for Academic & Spiritual Life<br>238 Thompson St
 </p>
 
 <p><a href="https://www.eventbrite.com/e/maptime-summit-tickets-3547327151" target="_blank">Registration is now open</a> for this historic event. RSVP today and come join us in New York! </p>
-<p>
 
 <p><strong>Schedule</strong></p>
 
