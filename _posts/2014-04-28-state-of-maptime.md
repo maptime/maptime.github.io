@@ -20,7 +20,7 @@ So have we come up with definitive answers? That hasn't happened yet either, but
 
 <strong>What does Maptime mean to you?</strong>
 
-<a href="http://www.maptime.io/wp-content/uploads/2014/04/maptime-2.jpg"><img class="alignnone size-full wp-image-134" src="http://www.maptime.io/wp-content/uploads/2014/04/maptime-2.jpg" alt="maptime-2" width="600" height="" /></a>
+<a href="https://cdn.rawgit.com/maptime/maptime.github.io/master/img/maptime-2.jpg"><img class="alignnone size-full wp-image-134" src="https://cdn.rawgit.com/maptime/maptime.github.io/master/img/maptime-2.jpg" alt="maptime-2" width="600" height="" /></a>
 
 From the answers she collected, and from our open discussion at State of the Map, here's the shape of what we're thinking.
 
@@ -35,7 +35,7 @@ From the answers she collected, and from our open discussion at State of the Map
 
 An important flip side to this is what Maptime is not, which we started to flesh out as well.
 
-<a href="http://www.maptime.io/wp-content/uploads/2014/04/maptime-not.jpg"><img class="alignnone size-full wp-image-133" src="http://www.maptime.io/wp-content/uploads/2014/04/maptime-not.jpg" alt="maptime-not" width="600" height="450" /></a>
+<a href="https://cdn.rawgit.com/maptime/maptime.github.io/master/img/maptime-not.jpg"><img class="alignnone size-full wp-image-133" src="https://cdn.rawgit.com/maptime/maptime.github.io/master/img/maptime-not.jpg" alt="maptime-not" width="600" height="450" /></a>
 
 <strong>Based on our discussions, Maptime is not about:</strong>
 
