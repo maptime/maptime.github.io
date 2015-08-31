@@ -35,7 +35,7 @@ Stamen’s experience is particularly useful when it comes to protecting a brand
 
 __What do we do if someone’s being offensive at our meetup or if there is ever, like, a MaptimeEVL (Maptime Evil)__
 
-See above, and also our [Code of Conduct](https://github.com/maptime/code-of-conduct/blob/master/code-of-conduct.md).
+See above, and also our [Code of Conduct](http://maptime.io/code-of-conduct/).
 
 __How can my company get involved with Maptime?__
 
