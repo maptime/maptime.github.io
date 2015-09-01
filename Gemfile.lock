@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/gjtorikian/html-proofer.git
-  revision: a535e7eee878222e34a41952439fafe2695ba3a7
-  tag: v2.4.1
+  revision: f1f645f19a87fba195f32c99a9f84f0435e36dd9
+  tag: v2.4.2
   specs:
-    html-proofer (2.4.1)
+    html-proofer (2.4.2)
       addressable (~> 2.3)
       colored (~> 1.2)
       mercenary (~> 0.3.2)
