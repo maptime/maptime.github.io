@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 gem 'github-pages'
-gem 'html-proofer'
+gem 'html-proofer', github: 'gjtorikian/html-proofer', :tag => 'v2.4.1'
 gem 'geojsonlint'
 gem 'httparty'
