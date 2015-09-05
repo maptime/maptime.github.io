@@ -4,6 +4,31 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "MaptimeDurham",
+        "location": "Durham, North East England, UK",
+        "facebook": "https://www.facebook.com/MaptimeDurham",
+        "website": "http://maptime.io/durham/",
+        "github": "https://github.com/maptime/durham/",
+        "twitter": "MaptimeDurham",
+        "meetup": "",
+        "organizers": [
+          {
+            "name": "Gregory Marler",
+            "twitter": "gregorymarler"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5733,
+          54.7761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "MaptimeTOS",
         "location": "Tromso, Norway",
         "website": "http://maptime.io/tromso/",
@@ -809,6 +834,7 @@
         "twitter": "MaptimeME",
         "website": "http://maptime.io/maine/",
         "github": "https://github.com/maptime/maine",
+        "meetup": "http://www.meetup.com/MaptimeME/",
         "organizers": [
           {
             "name": "Nick Kaufmann",
@@ -816,7 +842,6 @@
           }
         ]
       },
-      "meetup": "http://www.meetup.com/MaptimeME/",
       "geometry": {
         "type": "Point",
         "coordinates": [
