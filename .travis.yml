@@ -1,5 +1,7 @@
 sudo: false
 language: ruby
+before_install:
+  - npm install -g geojsonhint
 cache: bundler
 branches:
   only:
@@ -9,7 +11,8 @@ rvm:
 script:
   - bundle exec jekyll build
   - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html --empty-alt-ignore --ignore-script-embeds
-  - bundle exec httparty -f json "http://geojsonlint.com/validate?url=https://raw.githubusercontent.com/maptime/maptime.github.io/master/_data/chapters.json"
+  - bash -e geojsonhint _data/chapters.json
+
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
