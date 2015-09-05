@@ -4,6 +4,31 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "MaptimeCambridge",
+        "location": "Cambridge, UK",
+        "website": "http://maptime.io/cambridge/",
+        "github": "https://github.com/maptime/cambridge/",
+        "twitter": "",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Abigail Walton",
+            "twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.119,
+          52.205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "MaptimeDurham",
         "location": "Durham, North East England, UK",
         "facebook": "https://www.facebook.com/MaptimeDurham",
