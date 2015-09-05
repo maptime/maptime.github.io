@@ -9,6 +9,7 @@
         "website": "http://maptime.io/tromso/",
         "github": "https://github.com/maptime/tromso/",
         "twitter": "MaptimeTOS",
+        "meetup": "http://www.meetup.com/MapTime-Tromso/",
         "organizers": [
           {
             "name": "Annekatrien Debien",
@@ -80,6 +81,7 @@
         "website": "http://maptime.io/siliconvalley/",
         "github": "https://github.com/maptime/siliconvalley/",
         "twitter": "MaptimeSV",
+        "meetup": "http://www.meetup.com/Maptime-Silicon-Valley/",
         "organizers": [
           {
             "name": "Stace Maples",
@@ -113,6 +115,7 @@
         "location": "Nantes, France",
         "website": "http://maptime.io/nantes/",
         "github": "https://github.com/maptime/nantes/",
+        "meetup": "http://www.meetup.com/MapTime-Nantes/",
         "organizers": [
           {
             "name": "Thomas Gratier",
@@ -134,13 +137,13 @@
         "location": "Beijing, China",
         "title": "MaptimeBJ",
         "twitter": "MaptimeBJ",
+        "meetup": "http://www.meetup.com/Maptime-Beijing/",
         "organizers": [
           {
-            "name": "Ching-ping Yu"
+            "name": "Ching-ping Yu",
+            "twitter": "q_ching_"
           }
-        ],
-        "meetup": "",
-        "comingSoon": true
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +161,8 @@
         "twitter": "MaptimePSU",
         "organizers": [
           {
-            "name": "Marissa Defratti"
+            "name": "Marissa Defratti",
+            "twitter": "marissadefratti"
           }
         ],
         "meetup": "",
@@ -332,6 +336,7 @@
         "title": "MaptimeBend",
         "twitter": "MaptimeBend",
         "website": "http://maptime.io/bend/",
+        "meetup": "http://www.meetup.com/maptimebend/",
         "organizers": [
           {
             "name": "Blair Deaver",
@@ -474,8 +479,16 @@
         "twitter": "maptimeCHA",
         "organizers": [
           {
-            "name": "Jason Denizac",
-            "twitter": "_jden"
+            "name": "Randal Hale",
+            "twitter": "rjhale"
+          },
+          {
+            "name": "Sean Brewer",
+            "twitter": "seabre"
+          },
+          {
+            "name": "Kyle Gordy",
+            "twitter": "kylegordy"
           }
         ],
         "github": "https://github.com/maptime/chattanooga",
@@ -501,7 +514,7 @@
             "twitter": "danswick"
           }
         ],
-        "website": "http://maptime.github.io/chicago/"
+        "website": "http://maptime.io/chicago/"
       },
       "geometry": {
         "type": "Point",
@@ -538,14 +551,14 @@
       }
     },
     {
-       "type": "Feature",
-       "properties": {
-    "location": "Copenhagen, Denmark",
+      "type": "Feature",
+      "properties": {
+        "location": "Copenhagen, Denmark",
         "title": "MaptimeCopenhagen",
         "twitter": "MaptimeCPH",
         "website": "http://maptime.io/copenhagen/",
         "github": "https://github.com/maptime/copenhagen/",
-      "organizers": [
+        "organizers": [
           {
             "name": "Edoardo Neerhut",
             "twitter": "travel193"
@@ -553,6 +566,14 @@
           {
             "name": "Jan Erik Solem",
             "twitter": "jesolem"
+          },
+          {
+            "name": "Kamil Nikel",
+            "twitter": "kamfski"
+          },
+          {
+            "name": "Sandra Uddbäck",
+            "twitter": "uddback"
           }
         ],
         "meetup": "http://www.meetup.com/Maptime-Copenhagen/"
@@ -561,7 +582,7 @@
         "type": "Point",
         "coordinates": [
           12.5683,
-    55.6761
+          55.6761
         ]
       }
     },
@@ -616,13 +637,14 @@
             }
         ],
         "website": "http://maptimedet.github.io/",
-        "github": "https://github.com/maptimedet"
+        "github": "https://github.com/maptimedet",
+        "meetup": "http://www.meetup.com/Maptime-Detroit/"
     },
     "geometry": {
-        "type": "Point",
-        "coordinates": [
-            -83.074336,
-            42.371862
+      "type": "Point",
+      "coordinates": [
+        -83.074336,
+        42.371862
         ]
     }
 },
@@ -643,7 +665,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/Code-for-Hampton-Roads/",
-        "website": "http://maptime.github.io/hrva/",
+        "website": "http://maptime.io/hrva/",
         "github": "https://github.com/maptime/hrva"
       },
       "geometry": {
@@ -711,7 +733,9 @@
             "twitter": "insistondoubt"
           }
         ],
-        "website": "http://maptime.github.io/lexington/"
+        "website": "http://maptime.io/lexington/",
+        "github": "https://github.com/maptime/lexington",
+        "facebook": "https://www.facebook.com/maptimelex"
       },
       "geometry": {
         "type": "Point",
@@ -822,7 +846,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/Maptime-Miami/",
-        "facebook": "https://www.facebook.com/pages/Maptime-Miami/1538013753098896"
+        "facebook": "https://www.facebook.com/MaptimeMIA"
       },
       "geometry": {
         "type": "Point",
@@ -854,8 +878,7 @@
         ],
         "meetup": "",
         "website" : "http://maptime.io/milan/",
-        "facebook": "https://www.facebook.com/maptimemi",
-        "comingSoon": true
+        "facebook": "https://www.facebook.com/maptimemi"
       },
       "geometry": {
         "type": "Point",
@@ -869,7 +892,7 @@
       "type": "Feature",
       "properties": {
         "github": "https://github.com/maptime/milehigh",
-        "location": "Denver, Colorado",
+        "location": "Denver, CO",
         "organizers": [
           {
             "name": "Mamata Akella",
@@ -1056,7 +1079,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/maptimePHL/",
-        "website": "http://maptime.github.io/philadelphia/",
+        "website": "http://maptime.io/philadelphia/",
         "github": "https://github.com/maptimephl"
       },
       "geometry": {
@@ -1248,7 +1271,7 @@
     {
       "type": "Feature",
       "properties": {
-        "location": "Toronto, ON",
+        "location": "Toronto, ON, Canada",
         "title": "MaptimeTO",
         "twitter": "MaptimeTO",
         "organizers": [
@@ -1262,7 +1285,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/OpenStreetMap-Toronto/",
-        "website": "http://maptime.github.io/toronto/"
+        "website": "http://maptime.io/toronto/"
       },
       "geometry": {
         "type": "Point",
@@ -1275,7 +1298,7 @@
     {
       "type": "Feature",
       "properties": {
-        "location": "Vancouver, BC",
+        "location": "Vancouver, BC, Canada",
         "title": "MaptimeVancouver",
         "twitter": "MaptimeYVR",
         "organizers": [
@@ -1285,7 +1308,7 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeYVR/",
-        "website": "http://maptime.github.io/vancouver/"
+        "website": "http://maptime.io/vancouver/"
       },
       "geometry": {
         "type": "Point",
@@ -1325,6 +1348,10 @@
           {
             "name": "Steven Johnson",
             "twitter": "geomantic"
+          },
+          {
+          	"name": "Brian Davidson",
+          	"twitter": "brianddavidson"
           }
         ],
         "meetup": "http://meetup.com/maptime-dc",
@@ -1342,7 +1369,7 @@
     {
       "type": "Feature",
       "properties": {
-        "location": "Windsor-Essex, ON",
+        "location": "Windsor-Essex, ON, Canada",
         "title": "MaptimeWindsorEssex",
         "twitter": "maptimeWindsor",
         "organizers": [
@@ -1414,10 +1441,11 @@
         "organizers": [
           {
             "name": "Sam Matthews",
-            "twitter": ""
+            "twitter": "vancematthews"
           }
         ],
-        "meetup": "http://www.meetup.com/MaptimeSEA/"
+        "meetup": "http://www.meetup.com/MaptimeSEA/",
+        "website": "http://maptimesea.github.io/"
       },
       "geometry": {
         "type": "Point",
@@ -1509,7 +1537,6 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeDiliman",
-        "comingSoon": "true",
         "github": "https://github.com/MaptimeDiliman"
       },
       "geometry": {
@@ -1532,6 +1559,7 @@
             "twitter": "CodeForTulsa"
           }
         ],
+        "website": "http://maptime.io/tulsa/",
         "meetup": "http://www.meetup.com/Code-for-Tulsa/"
       },
       "geometry": {
@@ -1559,8 +1587,7 @@
           }
         ],
         "meetup": "",
-        "website" : "http://maptime.io/roma/",
-        "comingSoon": true
+        "website" : "http://maptime.io/roma/"
       },
       "geometry": {
         "type": "Point",
@@ -1582,7 +1609,7 @@
             "twitter": "Zuks_Mayekiso"
           }
         ],
-        "meetup": "",
+        "meetup": "http://www.meetup.com/MaptimeJozi/",
         "website": ""
       },
       "geometry": {
@@ -1623,7 +1650,7 @@
     {
       "type": "Feature",
       "properties": {
-        "location": "Calgary, Alberta",
+        "location": "Calgary, AB, Canada",
         "title": "MaptimeCalgary",
         "twitter": "MaptimeCalgary",
         "organizers": [
@@ -1789,7 +1816,6 @@
         "twitter": "MaptimeNOLA",
         "website": "http://maptime.io/nola/",
         "github": "https://github.com/maptime/nola/",
-        "comingSoon": true,
         "organizers": [
           {
             "name": "Emily Ashley",
@@ -1813,6 +1839,7 @@
         "twitter": "MaptimeTurku",
         "website": "http://maptime.io/turku/",
         "github": "https://github.com/maptime/turku/",
+        "meetup": "http://www.meetup.com/MaptimeTurku/",
         "organizers": [
           {
             "name": "Sanna Jokela",
@@ -1840,7 +1867,7 @@
         "website": "http://maptime.io/taipei/",
         "github": "https://github.com/maptime/taipei/",
         "twitter": "MaptimeTPE",
-        "comingSoon": true,
+        "meetup": "http://www.meetup.com/MaptimeTPE/",
         "organizers": [
           {
             "name": "Brandon Liu",
@@ -1938,7 +1965,8 @@
         "comingSoon": true,
         "organizers": [
           {
-            "name": "Joseph Anania"
+            "name": "Joseph Anania",
+            "twitter": "redsteakraw"
           }
         ]
       },
@@ -1957,24 +1985,27 @@
         "location": "Baltimore, MD",
         "website": "http://maptime.io/baltimore/",
         "twitter": "MaptimeBmore",
-        "github": "https://github.com/orgs/maptimebmore/",
-        "comingSoon": true,
+        "github": "https://github.com/maptimebmore/",
         "organizers": [
           {
             "name": "Jade Clayton",
-            "email": "kjadec12@gmail.com"
+            "email": "kjadec12@gmail.com",
+            "twitter": "radadajade"
           },
           {
             "name": "Elliott Plack",
-            "email": "elliott.plack@gmail.com"
+            "email": "elliott.plack@gmail.com",
+            "twitter": "talllguy"
           },
           {
             "name": "Margie Roswell",
-            "email": "mroswell@gmail.com"
+            "email": "mroswell@gmail.com",
+            "twitter": "mroswell"
           },
           {
             "name": "Maggie Cawley",
-            "email": "maggie@boomgeo.com"
+            "email": "maggie@boomgeo.com",
+            "twitter": "maggiemaps"
           }
         ]
       },
