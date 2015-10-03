@@ -1,3 +1,4 @@
+url: http://maptime.io
 baseurl:
 permalink: pretty
 markdown: kramdown
@@ -11,3 +12,6 @@ maptime:
 
 excerpt_separator: <!--more-->
 exclude: [vendor]
+
+gems:
+  - jekyll-feed
