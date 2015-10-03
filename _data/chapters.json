@@ -4,6 +4,81 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "MaptimeGBG",
+        "location": "Gothenburg, Sweden",
+        "website": "http://maptime.io/gothenburg/",
+        "github": "https://github.com/maptime/gothenburg/",
+        "twitter": "MaptimeGBG",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Semone Kallin Clarke",
+            "twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.966667,
+          57.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeCU",
+        "location": "Champaign-Urbana, IL",
+        "website": "http://maptime.io/champaign-urbana/",
+        "github": "https://github.com/maptime/champaign-urbana/",
+        "twitter": "",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Edison Orellana",
+            "twitter": "annuit02"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.228411,
+          40.110539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeSWF",
+        "location": "Fort Myers, FL",
+        "website": "http://maptime.io/sw-florida/",
+        "github": "https://github.com/maptime/sw-florida/",
+        "twitter": "MaptimeSWF",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Peter Mercator",
+            "twitter": "Spatial_Punk"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.833333,
+          26.616667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "MaptimeCambridge",
         "location": "Cambridge, UK",
         "website": "http://maptime.io/cambridge/",
