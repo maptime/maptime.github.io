@@ -1177,7 +1177,8 @@
           }
         ],
         "website": "http://maptime.io/portland/",
-        "github": "https://github.com/portland"
+        "github": "https://github.com/portland",
+        "meetup": "http://www.meetup.com/maptimepdx/"
       },
       "geometry": {
         "type": "Point",
