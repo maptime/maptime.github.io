@@ -552,9 +552,15 @@
           {
             "name": "Robert Soden",
             "twitter": "rsoden"
+          },
+          {
+            "name": "Jennings Anderson",
+            "twitter": "JenningsatCU"
           }
         ],
-        "meetup": "http://www.meetup.com/Maptime-Boulder/"
+        "meetup": "http://www.meetup.com/Maptime-Boulder/",
+        "website": "http://maptime.io/boulder/",
+        "github": "https://github.com/maptime/boulder"
       },
       "geometry": {
         "type": "Point",
