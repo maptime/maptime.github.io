@@ -6,10 +6,18 @@ description: "Our mission is to open the doors of cartographic possibility to an
 
 <!-- This loops through the paginated posts and events -->
 {% for item in paginator.posts %}
-  {% if item.category == 'event' %}
-    <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
+  <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
+  {{ item.excerpt }}
+  {% capture content_words %}
+    {{ item.content | number_of_words }}
+  {% endcapture %}
+  {% capture excerpt_words %}
+    {{ item.excerpt | number_of_words }}
+  {% endcapture %}
+  {% if excerpt_words != content_words %}
     {% include post-excerpt.html %}
-
+  {% endif %}
+  {% if item.category == 'event' %}
     {% if item.rsvp %}
     <div class='keyline-all round pad2 col12 clearfix'>
       <div class='col8 pad0y'>
@@ -20,11 +28,7 @@ description: "Our mission is to open the doors of cartographic possibility to an
       </div>
     </div>
     {% endif %}
-    
   {% else %}
-    <h2><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h2>
-    {% include post-excerpt.html %}
-    
     <div class='pad1y keyline-top'>
       <strong class='quiet small block space-bottom1'>Posted {{item.date | date:"%b %d %Y"}} {% if item.author %}by {{item.author}}{% endif %}</strong>
     </div>
