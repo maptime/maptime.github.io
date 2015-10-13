@@ -25,7 +25,7 @@ With the new website it's easier than ever to get the materials you need to star
 
 1. __Contact Us!__: Send our admin team an [email](mailto:hello@maptime.io) and let us know you're interested.
 1. __Get on Slack__: [Slack](https://maptime.slack.com/messages/general/) is our internal chat app for all things Maptime. We have channels for everything from website admin to tutorials. It's a great way to manage your chapter's communications. We'll send you an invite to get you squared away.
-1. __Get on Github__: we use Github for everything from [managing our website](https://github.com/maptime/maptime.github.io/issues) to writing our [Code of Conduct](https://github.com/maptime/code-of-conduct/blob/master/code-of-conduct.md). You and your admins can be added to teams where you can get access to the Maptime organization, your chapter's repo, or other privileges that you think you need.
+1. __Get on Github__: we use Github for everything from [managing our website](https://github.com/maptime/maptime.github.io/issues) to writing our [Code of Conduct](https://github.com/maptime/code-of-conduct). You and your admins can be added to teams where you can get access to the Maptime organization, your chapter's repo, or other privileges that you think you need.
 
 Once you're all setup, you can add your new chapter to the [map](http://maptime.io/chapters/). With the new re-design all you need to do is add your information in [one place](https://github.com/maptime/maptime.github.io/blob/master/_data/chapters.json) and make a __pull request__. Once your chapter has its first meeting scheduled, you'll see your chapter added to the map and the Chapters listing automatically!
 
@@ -41,7 +41,7 @@ Have an idea for a lesson or tutorial that you'd like to see Maptime cover? Grea
 
 ### More options for managing your Chapter website
 
-There are now two great ways to quickly integrate your Chapter with the Maptime community! First, you can [fork](https://github.com/maptime/maptime.github.io/fork) the maptime.io website and add a new directory for your city like `/atlanta`. Each time you post a new blog post or Chapter meeting it will automatically appear both on your Chapter's homepage and on the front of [maptime.io](http://maptime.io)! [Follow the guide here]({{ site.baseurl }}/chapters/start/) for getting started.
+There are now two great ways to quickly integrate your Chapter with the Maptime community! First, you can [fork](https://github.com/maptime/maptime.github.io) the maptime.io website and add a new directory for your city like `/atlanta`. Each time you post a new blog post or Chapter meeting it will automatically appear both on your Chapter's homepage and on the front of [maptime.io](http://maptime.io)! [Follow the guide here]({{ site.baseurl }}/chapters/start/) for getting started.
 
 Another option is to hit the ground running with our Starter website. All you have to do is [fork Starter](https://github.com/maptime/starter) to your city's repo _within_ the Maptime Organization and your new site will automatically appear at maptime.io/your-city!
 

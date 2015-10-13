@@ -35,11 +35,11 @@ Stamen’s experience is particularly useful when it comes to protecting a brand
 
 __What do we do if someone’s being offensive at our meetup or if there is ever, like, a MaptimeEVL (Maptime Evil)__
 
-See above, and also our [Code of Conduct](https://github.com/maptime/code-of-conduct/blob/master/code-of-conduct.md).
+See above, and also our [Code of Conduct](http://maptime.io/code-of-conduct/).
 
 __How can my company get involved with Maptime?__
 
-Local chapters all over are looking for sponsorship for their meetup sites (virtual and real), websites, snacks, stickers, and all the other little things that come up for running a meetup. Also, Maptime HQ will definitely gladly take your donation and figure out some as-fair-as-possible way to get it out to people who need it. If your company is interested in getting involved with Maptime HQ, drop us a line at [hello [at] maptime [dot] io](hello@maptime.io).
+Local chapters all over are looking for sponsorship for their meetup sites (virtual and real), websites, snacks, stickers, and all the other little things that come up for running a meetup. Also, Maptime HQ will definitely gladly take your donation and figure out some as-fair-as-possible way to get it out to people who need it. If your company is interested in getting involved with Maptime HQ, drop us a line at [hello [at] maptime [dot] io](mailto:hello@maptime.io).
 
 That email right there goes to me, Alan, Lyzi and Camille. We encourage anyone with a burning question to reach out to us there at any time, or via Tweet ([@maptimeHQ](https://twitter.com/MaptimeHQ)). We’ll do our best to keep everyone posted as all of this progresses and more questions come our way.
 
