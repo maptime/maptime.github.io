@@ -14,7 +14,7 @@ Right now the Ada Initiative is raising money to fund their work for the next ye
 
 To donate to the #osm4ada campaign, click on this donation tracker widget:
 
-<a href="https://supportada.org?campaign=openstreetmap"><img src="https://adainitiative.org/counters/2014counter-openstreetmap.svg"></a>
+<a href="https://supportada.org?campaign=openstreetmap"><img src="https://adainitiative.org/counters/2014counter-openstreetmap.svg" alt="counter"></a>
 
 Or go to <a href="https://supportada.org?campaign=openstreetmap">https://supportada.org?campaign=openstreetmap</a>.
 

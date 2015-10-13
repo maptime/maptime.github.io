@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maptime + Code for America = <3"
+title: "Maptime + Code for America = &lt;3"
 category: blog
 description: "New fellows, new chapters, mappy civic technology, much win!"
 ---

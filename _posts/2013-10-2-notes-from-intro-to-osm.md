@@ -50,7 +50,7 @@ Did you remember to save your edits?
  - OSM Wiki
  - help.openstreetmap.org
  - OSM IRC Channels (check out #osm-us for US updates, a bot sends messages out when people edit! Others: #osm, #osm-dev, #hot, #openstreetmap
- - [lists.openstreetmap.org](lists.openstreetmap.org) (has an event calendar)
+ - [lists.openstreetmap.org](http://lists.openstreetmap.org) (has an event calendar)
 
 
 Are your edits saved? Better be! :)
