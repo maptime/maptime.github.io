@@ -1,0 +1,38 @@
+---
+layout: default
+weight: 1
+title: Glossary
+description: "A filterable glossary of cartographic terms created by your friends at Maptime."
+
+css:
+ - glossary.css
+
+js:
+ - glossary.js
+---
+
+<input type="search" placeholder="Filter terms..." class="filter">
+
+<ul class="glossary-terms">
+{% for term in site.data.glossary %}
+  <li>
+    <h2>{{ term.term }}</h2>
+    <p>{{ term.definition }}</p>
+    {% if term.image %}
+    <img src="{{ site.baseurl }}/img/glossary/{{term.image}}" alt="">
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+{% raw %}
+<script id="glossary-template" type="text/x-handlebars-template">​
+  {{#each .}}
+    <li>
+      <h2>{{ term }}</h2>
+      <p>{{ definition }}</p>
+      {{#if image }}<img src="{{ site.baseurl }}/img/glossary/{{ image }}">{{/if}}
+    </li>​
+  {{/each}}
+​</script>
+{% endraw %}
