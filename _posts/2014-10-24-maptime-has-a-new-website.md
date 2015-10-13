@@ -41,7 +41,7 @@ Have an idea for a lesson or tutorial that you'd like to see Maptime cover? Grea
 
 ### More options for managing your Chapter website
 
-There are now two great ways to quickly integrate your Chapter with the Maptime community! First, you can [fork](https://github.com/maptime/maptime.github.io/fork) the maptime.io website and add a new directory for your city like `/atlanta`. Each time you post a new blog post or Chapter meeting it will automatically appear both on your Chapter's homepage and on the front of [maptime.io](http://maptime.io)! [Follow the guide here]({{ site.baseurl }}/chapters/start/) for getting started.
+There are now two great ways to quickly integrate your Chapter with the Maptime community! First, you can [fork](https://github.com/maptime/maptime.github.io) the maptime.io website and add a new directory for your city like `/atlanta`. Each time you post a new blog post or Chapter meeting it will automatically appear both on your Chapter's homepage and on the front of [maptime.io](http://maptime.io)! [Follow the guide here]({{ site.baseurl }}/chapters/start/) for getting started.
 
 Another option is to hit the ground running with our Starter website. All you have to do is [fork Starter](https://github.com/maptime/starter) to your city's repo _within_ the Maptime Organization and your new site will automatically appear at maptime.io/your-city!
 
