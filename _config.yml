@@ -7,6 +7,7 @@ github_org: maptime
 maptime:
   chapter: Maptime HQ
   twitter: maptimehq
-  #disqus: YOUR DISQUS USERNAME
+  #disqus: YOUR DISQUS USERNAME 
 
 excerpt_separator: <!--more-->
+exclude: [vendor]

@@ -19,10 +19,10 @@ Although I studied digital map design in grad school (mapping fruit trees on an 
  - [Local Government Informatics Model](http://www.computer.org/csdl/proceedings/hicss/2001/0981/08/09818006.pdf) – autonomy/harmony
  - [OpenPaths](https://openpaths.cc/)
  - OSM needs sidewalk data
- - [Map Algebra](http://www.esri.com/software/arcgis/extensions/spatialanalyst/key-features/mapalgebra)
+ - [Map Algebra](http://help.arcgis.com/EN/arcgisdesktop/10.0/help/index.html#//00p600000002000000)
  - [Sausalito Bay Model](http://www.oursausalito.com/bay-model.html)
  - [Farming Concrete](http://farmingconcrete.org/)
- - [Place by Design @ SXSWEco](http://www.sxsweco.com/program/place-design)
+ - [Place by Design @ SXSWEco](http://sxsweco.com/placebydesign)
  - [Feedback Farms](http://www.feedbackfarms.com/)
  - [Bitponics](http://www.bitponics.com/)
  - Ecohack multi city!
