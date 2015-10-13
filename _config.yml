@@ -11,3 +11,6 @@ maptime:
 
 excerpt_separator: <!--more-->
 exclude: [vendor]
+
+gems:
+  - jekyll-feed
