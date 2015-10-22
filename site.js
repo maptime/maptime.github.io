@@ -1,5 +1,9 @@
 ---
 ---
+{% include js/handlebars-4.0.3.min.js %}
+{% include js/lunr-0.5.12.min.js %}
+{% include js/jquery.highlight.js %}
+{% include js/glossary.js %}
 
 function githubWatchers() {
     var watchers = $('.followers');
