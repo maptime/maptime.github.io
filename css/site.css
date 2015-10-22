@@ -440,7 +440,8 @@ a.hover-link:hover:after {
   max-width: 900px;
 }
 
-.glossary-header::after {
+.glossary-header::after,
+.term::after {
   clear: both;
   content: '.';
   display: block;
@@ -449,7 +450,10 @@ a.hover-link:hover:after {
 }
 
 .glossary-trigger.back {
-  margin-bottom: 1em;
+  cursor: pointer;
+  border: none;
+  height: 42px;
+  margin: .5em 0;
   width: 100%;
 }
 
@@ -521,8 +525,14 @@ a.hover-link:hover:after {
   border-bottom: 2px dashed #2babe2;
 }
 
+.term-image {
+  display: block;
+  margin: auto;
+}
+
 @media (min-width: 700px) {
   .term {
+    margin: .5em 0;
     padding: 1em;
   }
 
@@ -537,11 +547,15 @@ a.hover-link:hover:after {
 
   .glossary-trigger.back {
     float: right;
-    margin: 0;
     width: auto;
   }
 
   .glossary-container {
     padding: 1em;
+  }
+
+  .term-image {
+    float: right;
+    margin: .5em 0 .5em .5em;
   }
 }
