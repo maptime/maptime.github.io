@@ -6,15 +6,15 @@
   {% include menu.html %}
   {% if page.title == 'About' %}
     <div class='main about col12 contain dark'>
-  {% else %} 
+  {% else %}
     <div class='main col12 contain dark'>
   {% endif %}
     <a href='{{site.baseurl}}/' class='sprite maptime pin-left'>Maptime</a>
     {% include header.html %}
 
   </div>
-  
-  <div class='limiter pad4y'>
+
+  <div class='limiter pad4y main-content'>
     <div class='col12 clearfix'>
       <aside class='col3 fr space-bottom2 sidebar'>
             {% if page.title == 'Chapters' %}
@@ -50,6 +50,7 @@
       <p>This website is <a href='http://github.com/{{site.github_org}}/{{site.repo}}/'>open source</a> and you can improve it. Learn more about contributing <a href='https://guides.github.com/activities/forking/'>here</a>.  In founding partnership with <a href="http://stamen.com">Stamen</a>.</p>
    </div>
   </footer>
+{% include glossary.html %}
 <script src='{{site.baseurl}}/js/jquery.min.js'></script>
 <script src='{{site.baseurl}}/js/underscore.min.js'></script>
 <script src='{{site.baseurl}}/site.js'></script>
