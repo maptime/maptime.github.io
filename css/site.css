@@ -94,7 +94,8 @@ h6 a:hover { text-decoration:none;}
     padding:7px 10px;
     border-bottom:1px solid rgba(255,255,255,0.25);
   }
-  #nav li a {
+  #nav li a,
+  #nav li span {
     color:#ffffff;
     font-size:1.1em;
     font-family:'Comfortaa', cursive;
@@ -104,6 +105,7 @@ h6 a:hover { text-decoration:none;}
     padding:10px 15px;
     color: rgba(255,255,255,0.8);
   }
+
   #nav li.current_page_item a { background-color:#222; }
 
 button.nav-expand {
