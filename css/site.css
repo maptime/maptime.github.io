@@ -438,7 +438,6 @@ a.hover-link:hover:after {
 .glossary-container {
   margin: auto;
   max-width: 900px;
-  padding-top: 3em;
 }
 
 .glossary-header::after {
@@ -450,6 +449,7 @@ a.hover-link:hover:after {
 }
 
 .glossary-trigger.back {
+  margin-bottom: 1em;
   width: 100%;
 }
 
@@ -537,6 +537,7 @@ a.hover-link:hover:after {
 
   .glossary-trigger.back {
     float: right;
+    margin: 0;
     width: auto;
   }
 
