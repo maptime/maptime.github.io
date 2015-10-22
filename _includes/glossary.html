@@ -10,6 +10,7 @@
       {% for term in site.data.glossary %}
       <li class="term">
         <h3 class="term-name">{{ term.term }}</h3>
+        {% if term.image %}<img src="{{site.baseurl}}/img/{{term.image.src}}" alt="{{term.image.alt}}" class="term-image">{% endif %}
         <p class="term-definition">{{ term.definition }}</p>
         <p class="term-tags">{% for tag in term.tags %}<span class="glossary-tag">{{tag}}</span>{% endfor %}</p>
       </li>
@@ -23,6 +24,7 @@
 {{#terms}}
   <li class="term">
     <h3 class="term-name">{{ name }} {{ acronym }}</h3>
+    {{#if image.src}}<img src="{{image.src}}" alt="{{image.alt}}" class="term-image">{{/if}}
     <p class="term-definition">{{{ definition }}}</p>
     <p class="term-tags">{{#if tags}}Tags: {{#tags}}<span class="glossary-tag">{{this}}</span>{{/tags}}{{/if}}</p>
   </li>

@@ -40,6 +40,10 @@ $(function() {
       terms.push({
         name: $term.find('h3').text(),
         definition: $term.find('.term-definition').html(),
+        image: {
+          src: $term.find('img').attr('src'),
+          alt: $term.find('img').attr('alt')
+        },
         tags: related
       });
     });

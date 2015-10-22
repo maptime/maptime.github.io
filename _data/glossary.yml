@@ -4,7 +4,7 @@
     - Map
     - Boundaries
   image:
-    src: /img/atlas.gif
+    src: atlas.gif
     alt: A map of the world with major cities labeled
 
 - term: API
