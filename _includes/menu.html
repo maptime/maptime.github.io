@@ -2,7 +2,7 @@
   <nav id="nav">
     <ul id="menu-main" class="menu">
       <li><a href='{{site.baseurl}}/'>Home</a></li>
-      <li class="glossary-trigger"><span>Glossary</span></li>
+      <li class="glossary-trigger"><a href="#">Glossary</a></li>
       {% for weight in (1..10) %}{% for p in site.pages %}{% if p.weight == weight %}
       <li class="{% if p.url == page.url %}active{% endif %} {{ p.menu_class }}"><a href="{{ p.url }}">{{ p.title }}</a></li>
       {% endif %}{% endfor %}{% endfor %}
