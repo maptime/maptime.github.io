@@ -8,10 +8,10 @@ body { background-image: url('/img/old_mathematics.png'); color:#404040; }
 a       { color:#279acb; }
 a:hover { text-decoration:underline; }
 
-.dark a, 
+.dark a,
 .dark a:hover { color:#fff; text-decoration:none; }
 
-h1 a, 
+h1 a,
 h2 a,
 h3 a,
 h4 a,
@@ -272,7 +272,7 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 
 .fill-chapter {
   /* Replace this with a map of your city */
-  /*background-image:url(img/toronto.png); 
+  /*background-image:url(img/toronto.png);
   background-repeat:no-repeat;
   background-size:cover;*/
   max-width:100%;
@@ -318,7 +318,7 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 .popup-group > a:hover + .popup { display:block; }
 
 .popup.popup-big {
-  width:320px; 
+  width:320px;
   right:auto;
   top:0;
   left:-330px;
@@ -345,7 +345,7 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
     position:absolute;
     bottom:0;
     width:100%;
-    height:40px; 
+    height:40px;
     }
 
 .chapter a {
@@ -432,4 +432,115 @@ a.hover-link:hover:after {
 }
 .form-alert.show {
   display:block;
+}
+
+/* Off canvas glossary styles */
+.glossary-container {
+  margin: auto;
+  max-width: 900px;
+  padding-top: 3em;
+}
+
+.glossary-header::after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.glossary-trigger.back {
+  width: 100%;
+}
+
+.glossary-search {
+  border: 3px solid #2babe2;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.glossary-search-label {
+  position: absolute;
+  left: -999em;
+}
+
+.fws-glossary {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  overflow-y: scroll;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  transform: translateX(-100%);
+  transition: all .5s;
+  width: 100%;
+  z-index: 10000;
+}
+
+.fws-glossary.active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all .5s;
+}
+
+.glossary-tag {
+  background: #2babe2;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  margin: 5px;
+  padding: 3px 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.glossary-terms {
+  background: #fff;
+  border-radius: 5px;
+  list-style: none;
+  margin: 1em 0;
+  padding-left: 0;
+}
+
+.term:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.term:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.go-glossary {
+  cursor: pointer;
+  border-bottom: 2px dashed #2babe2;
+}
+
+@media (min-width: 700px) {
+  .term {
+    padding: 1em;
+  }
+
+  .term:hover {
+    background: #bbb;
+  }
+
+  .glossary-search {
+    margin: .5em .5em .5em 0;
+    max-width: 350px;
+  }
+
+  .glossary-trigger.back {
+    float: right;
+    width: auto;
+  }
+
+  .glossary-container {
+    padding: 1em;
+  }
 }
