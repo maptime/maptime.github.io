@@ -1,0 +1,30 @@
+- term: Atlas
+  definition: An atlas is a collection of maps, traditionally bound into book form, but now found in multimedia formats. As well as geographic features and political boundaries, many often feature geopolitical, social, religious and economic statistics.
+  tags:
+    - Map
+    - Boundaries
+  image:
+    src: atlas.gif
+    alt: A map of the world with major cities labeled
+
+- term: API
+  definition: API stands for Application Programming Interface. An API provides a standard way for computer programs to interact with a given application, software component, website, or other automated system.
+  tags:
+    - Programming
+
+- term: Archipelago
+  definition: A collection or chain of islands. Examples include Indonesia, Japan, the Aleutian islands in Alaska, and the Stockholm archipelago in the Baltic Sea.
+  tags:
+    - Islands
+
+- term: Aspect
+  definition: The compass direction that a topographic slope faces. Typically, values are measured from the north in a clockwise direction, and will range from 0° to 360°. Aspect data can be combined with slope data to produce a hillshade effect, which can be helpful in cartography for illustrating terrain.
+  tags:
+    - GIS
+    - Analysis
+    - Cartography
+
+- term: Bathymetry
+  definition: Underwater topography.
+  tags:
+    - Model

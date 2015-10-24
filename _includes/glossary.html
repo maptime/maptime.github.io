@@ -1,0 +1,33 @@
+<section class="fws-glossary" role="complementary">
+  <div class="glossary-container">
+    <div class="glossary-header">
+      <button class="glossary-trigger back button fill-blue">Close</button>
+      <label for="glossary-search" class="glossary-search-label">Search Glossary:</label>
+      <input type="search" class="glossary-search" id="glossary-search" placeholder="Search terms..." roll="search"/>
+    </div>
+    <p>Enter a search term in the above search box to filter glossary terms.  Click on tags to automatically search for related terms.</p>
+    <ul class="glossary-terms">
+      {% for term in site.data.glossary %}
+      <li class="term">
+        <h3 class="term-name">{{ term.term }}</h3>
+        {% if term.image %}<img src="{{site.baseurl}}/img/{{term.image.src}}" alt="{{term.image.alt}}" class="term-image">{% endif %}
+        <p class="term-definition">{{ term.definition }}</p>
+        <p class="term-tags">{% for tag in term.tags %}<span class="glossary-tag">{{tag}}</span>{% endfor %}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{% raw %}
+<script class="glossary-template" type="text/x-handlebars-template">
+{{#terms}}
+  <li class="term">
+    <h3 class="term-name">{{ name }} {{ acronym }}</h3>
+    {{#if image.src}}<img src="{{image.src}}" alt="{{image.alt}}" class="term-image">{{/if}}
+    <p class="term-definition">{{{ definition }}}</p>
+    <p class="term-tags">{{#if tags}}Tags: {{#tags}}<span class="glossary-tag">{{this}}</span>{{/tags}}{{/if}}</p>
+  </li>
+{{/terms}}
+</script>
+{% endraw %}
