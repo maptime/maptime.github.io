@@ -1,3 +1,11 @@
+# Add a term to the glossary:
+#- term: (string)
+#  definition: (html string)
+#  tags: (array)
+#  image: (optional)
+#    src: Filename (string) -- PLACE IMAGES IN `/img`
+#    alt: For screen readers (string)
+
 - term: Atlas
   definition: An atlas is a collection of maps, traditionally bound into book form, but now found in multimedia formats. As well as geographic features and political boundaries, many often feature geopolitical, social, religious and economic statistics.
   tags:
