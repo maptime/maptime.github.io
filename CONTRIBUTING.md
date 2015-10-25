@@ -21,6 +21,19 @@ Found an issue?
 
 If you find a bug, or issue in the documentation, you can help us out by [creating a new issue](https://github.com/maptime/maptime.github.io/issues/new) on Github. Pull Requests are __always__ welcome!
 
+Want to contribute without writing code?
+----------------------------------------
+Help us move the [abs-of-cartography](https://github.com/maptime/abcs-of-cartography/wiki) over to our [glossary](https://github.com/maptime/maptime.github.io/blob/master/_data/glossary.yml).  Each entry in the wiki should have an entry in the website's glossary.  The format is as follows:
+
+```yml
+# Add a term to the glossary:
+- term: (string)
+  definition: (html string)
+  tags: (array)
+  image: (optional)
+    src: Filename (string) -- PLACE IMAGES IN `/img`
+    alt: For screen readers (string)
+```
 
 Submitting a Pull Request
 -------------------------
