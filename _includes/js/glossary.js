@@ -74,7 +74,7 @@ $(function() {
   //Create Lunr.js index of glossary terms
   function createIndex(data) {
     index = lunr(function() {
-      this.field('term', {boost: 10});
+      this.field('name', {boost: 10});
       this.field('definition');
       this.field('tags', {boost: 3});
       this.ref('id');
@@ -83,7 +83,7 @@ $(function() {
     $.each(data, function(i, term) {
       index.add({
         id: i,
-        name: term.term,
+        name: term.name,
         definition: term.definition,
         tags: term.tags.toString()
       });
