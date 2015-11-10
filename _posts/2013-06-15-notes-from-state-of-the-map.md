@@ -29,7 +29,7 @@ Although I studied digital map design in grad school (mapping fruit trees on an 
  - [Public Lab!](http://publiclab.org/)
  - [Open IR](http://openir.media.mit.edu/main/)
  - Paper Maps…mmmmm
- - [Grassroots mapping forum](http://publiclaboratory.org/forum)
+ - [Grassroots mapping forum](http://publiclab.org/forum)
  - [HOT OSM](http://hot.openstreetmap.org/)
  - [Topomancy](http://www.topomancy.com/)
  - [Open Geo](http://opengeo.org/)
@@ -38,7 +38,7 @@ Although I studied digital map design in grad school (mapping fruit trees on an 
 
 ### Mapmaking 
 
- - [Mapknitter](http://publiclaboratory.org/wiki/mapknitter)
+ - [Mapknitter](http://publiclab.org/wiki/mapknitter)
  - [Mapwarper](http://mapwarper.net/)
  - [ArcGIS](http://www.esri.com/software/arcgis)
  - [Vecnik](https://github.com/Vizzuality/VECNIK)
