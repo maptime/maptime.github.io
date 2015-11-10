@@ -2162,7 +2162,8 @@
           }
         ],
         "meetup": "",
-        "website" : "http://maptime.io/desmoines/"
+        "website" : "http://maptime.io/desmoines/",
+        "comingSoon": true
       },
       "geometry": {
         "type": "Point",
