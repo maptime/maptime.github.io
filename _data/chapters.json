@@ -2148,6 +2148,30 @@
           39.290788
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "location": "Des Moines, Iowa",
+        "title": "MaptimeDSM",
+        "twitter": "MaptimeDSM",
+        "organizers": [
+          {
+            "name": "Patrick Wilke-Brown",
+            "twitter": "pwilkebrown"
+          }
+        ],
+        "meetup": "",
+        "website" : "http://maptime.io/desmoines/",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          -93.620833,
+           41.590833
+        ]
+      }
     }
   ]
 }
