@@ -159,6 +159,12 @@
   description: An in-depth presentation of the different pieces of a web map and how the work together
   link: http://maptime.io/anatomy-of-a-web-map/
 
+- name: Anatomie d'une Web Map [FR]
+  tags:
+    - Web mapping
+  description: a french translation of Anatomy of a Web Map
+  link: http://maptime-alpes.com/anatomie-d-une-webmap/
+
 - name: Introduction to Geographic Data Formats
   tags:
     - Geography
