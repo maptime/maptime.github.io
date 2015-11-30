@@ -1022,25 +1022,26 @@
     {
       "type": "Feature",
       "properties": {
-        "github": "https://github.com/maptime/milehigh",
         "location": "Denver, CO",
+        "title": "MaptimeMileHigh",
+        "website" : "http://maptime.io/milehigh/",
+        "meetup": "http://www.meetup.com/maptimemilehigh/",
+        "github": "https://github.com/maptime/milehigh",
+        "twitter": "MaptimeMileHigh",
         "organizers": [
+          {
+            "name": "Taylor Long",
+            "twitter": "mtaylorlong"
+          },
           {
             "name": "Mamata Akella",
             "twitter": "mamataakella"
           },
           {
-            "name": "Nell Conti",
-            "twitter": "nellconti"
-          },
-          {
-            "name": "Nate Irwin",
-            "twitter": "nateirwin"
+            "name": "Rachel Stevenson",
+            "twitter": "uudreams"
           }
-        ],
-        "title": "MaptimeMileHigh",
-        "twitter": "MaptimeMileHigh",
-        "website" : "http://maptime.io/milehigh/"
+        ]
       },
       "geometry": {
         "type": "Point",
