@@ -1587,6 +1587,31 @@
         ]
       }
     },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "San Antonio, TX",
+        "title": "MaptimeSATX",
+        "twitter": "MaptimeSATX",
+        "organizers": [
+          {
+            "name": "Emily Bowe",
+            "twitter": "emilyrbowe"
+          }
+        ],
+        "meetup": "",
+        "website": "http://maptime.io/sanantonio/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.493629,
+          29.424122
+        ]
+      }
+    },
+    
     {
       "type": "Feature",
       "properties": {
