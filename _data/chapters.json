@@ -995,16 +995,16 @@
         "twitter": "MaptimeMI",
         "organizers": [
           {
+            "name": "Alessandro Masserdotti",
+            "twitter": "ales9000"
+          },
+          {
             "name": "Michele Ferretti",
             "twitter": "miccferr"
           },
           {
             "name": "Daniele Villa",
             "twitter": "danielevilla"
-          },
-          {
-            "name": "Fabio Manfredini",
-            "twitter": ""
           }
         ],
         "meetup": "",
