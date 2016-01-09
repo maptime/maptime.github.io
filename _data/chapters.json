@@ -4,6 +4,56 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Des Moines, IA",
+        "title": "MaptimeDSM",
+        "twitter": "MaptimeDSM",
+        "website": "http://maptime.io/desmoines/",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Patrick Wilke-Brown",
+            "twitter": ""
+          }
+        ],
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.620833,
+          41.590833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Eugene, OR",
+        "title": "MaptimeEUG",
+        "twitter": "",
+        "website": "http://maptime.io/eugene/",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Christine Grummon",
+            "twitter": ""
+          }
+        ],
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.086667,
+          44.051944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "MaptimeGBG",
         "location": "Gothenburg, Sweden",
         "website": "http://maptime.io/gothenburg/",
