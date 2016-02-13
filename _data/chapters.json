@@ -1,6 +1,30 @@
 {
   "type": "FeatureCollection",
-  "features": [
+  "features": [{
+      "type": "Feature",
+      "properties": {
+location: "Paris, France",
+title: "MaptimeParis",
+twitter: "",
+website: "http://maptime.io/paris/",
+meetup: "",
+comingSoon: true,
+organizers: [
+{
+name: "nerik",
+twitter: ""
+}
+],
+moreInfo: null
+},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3517608642578125,
+          48.86290791986464
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
