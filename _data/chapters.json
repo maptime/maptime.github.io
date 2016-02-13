@@ -1,34 +1,6 @@
 {
   "type": "FeatureCollection",
-  "features": [    {
-      "type": "Feature",
-      "properties":     {
-      "type": "Feature",
-      "properties": {
-location: "Dar es Salaam, Tanzania",
-title: "MaptimeARU",
-twitter: "",
-website: "http://maptime.io/dar-es-salaam/",
-meetup: "",
-comingSoon: true,
-organizers: [
-{
-name: "kateregga1",
-twitter: ""
-}
-],
-moreInfo: null
-},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          39.27989959716796,
-          -6.810023517101537
-        ]
-      }
-    }
-  ]
-},{
+  "features": [{
       "type": "Feature",
       "properties": {
 location: "Paris, France",
@@ -437,7 +409,7 @@ moreInfo: null
           }
         ],
         "meetup": "",
-        "comingSoon": true
+        "comingSoon": false
       },
       "geometry": {
         "type": "Point",
