@@ -23,6 +23,7 @@ Per our Bylaws, Board positions (President, Vice President, Treasurer & Secretar
 It sounds like the two main challenges for chapters are time and finding presenters. Another challenge is finding people to lead when existing organizers burn out or need a break.
 
 **Possible Solution: Videos!**
+
 In order to help with this, we pitched the idea of doing instructional videos for content. People seem really excited about this idea, which is great! Videos could help us in a few key ways:
 
 * **They could help us create content that's more easily usable by new chapters.** We currently have repos with different presentations, but sometimes important information goes missing. A video would fix this.
