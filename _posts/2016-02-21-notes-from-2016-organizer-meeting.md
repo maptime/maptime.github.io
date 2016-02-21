@@ -14,13 +14,15 @@ But if you want to just get the highlights (recommended!) read on.
 
 <!--more-->
 
-###Maptime Board
+**Maptime Board**
+
 Per our Bylaws, Board positions (President, Vice President, Treasurer & Secretary) are up for renewal as of June 1. If you're interested in stepping up, email **hello@maptime.io**! If not, Beth, Lyzi, Camille and Alan are happy to continue serving.
 
-###Chapter Challenges
+**Chapter Challenges**
+
 It sounds like the two main challenges for chapters are time and finding presenters. Another challenge is finding people to lead when existing organizers burn out or need a break.
 
-###Possible Solution: Videos!
+**Possible Solution: Videos!**
 In order to help with this, we pitched the idea of doing instructional videos for content. People seem really excited about this idea, which is great! Videos could help us in a few key ways:
 
 * **They could help us create content that's more easily usable by new chapters.** We currently have repos with different presentations, but sometimes important information goes missing. A video would fix this.
@@ -46,13 +48,13 @@ Finally, next steps for videos:
 
 Also,
 
-###Some more organizational documentation / how-to would be helpful.
+**Some more organizational documentation / how-to would be helpful.**
 
 For example, a stylesheet and boilerplate for people to use. This is another to-do for HQ.
 
 And last but not least, 
 
-###Let's do a Missing Maps Month!
+**Let's do a Missing Maps Month!**
 Missing Maps would LOVE to do a collaboration with Maptime! And it sounds like we're all interested. Rather than trying to get everyone to do it all on one day (yikes!) we'll just do one month of Missing Maps. Stay tuned for more info!
 
 Ok I think that's it. If you think of anything you'd like us to add, email **hello@maptime.io.**
