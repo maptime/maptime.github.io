@@ -251,6 +251,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "MaptimeIE",
+        "location": "Riverside, CA",
+        "website": "http://maptime.io/riverside/",
+        "github": "https://github.com/maptime/riverside/",
+        "twitter": null,
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Clinton Dow",
+            "twitter": "GeoClintonD"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.396111,
+          33.948056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "MaptimeTN",
         "location": "Tunis, Tunisia",
         "website": "http://maptime.io/tunis/",
@@ -327,6 +351,31 @@
         "coordinates": [
           -1.5603,
           47.2383
+        ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeNîmes",
+        "location": "Nîmes, France",
+        "website": "http://maptime.io/nîmes/",
+        "github": "https://github.com/maptime/nîmes/",
+        "comingSoon": true,
+        "meetup": "",
+        "twitter": "",
+        "organizers": [
+          {
+            "name": "Alexandre Simonet",
+            "twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.361,
+          43.838
         ]
       }
      },
@@ -1019,6 +1068,14 @@
           {
             "name": "Nick Kaufmann",
             "twitter": "nickkauf"
+          },
+          {
+          	"name": "Michael Lodge-Paolini",
+          	"twitter": ""
+          },
+          {
+          	"name": "Jesse Bishop",
+          	"twitter": ""
           }
         ]
       },
@@ -1389,6 +1446,30 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "San Diego, CA",
+        "title": "MaptimeSD",
+        "twitter": "maptimesd",
+        "organizers": [
+          {
+            "name": "Rob C",
+            "twitter": ""
+          }
+        ],
+        "meetup": "",
+        "facebook": "",
+        "website": "http://maptime.io/sandiego"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1625,
+          32.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Salt Lake City, UT",
         "title": "MaptimeSLC",
         "twitter": "MaptimeSLC",
@@ -1683,7 +1764,6 @@
         ]
       }
     },
-    
     {
       "type": "Feature",
       "properties": {
@@ -1709,6 +1789,31 @@
         "coordinates": [
           4.90032,
           52.37278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Utrecht, The Netherlands",
+        "title": "MaptimeUtrecht",
+        "twitter": "MaptimeUtrecht",
+        "organizers": [
+          {
+            "name": "Edward Mac Gillavry",
+            "twitter": "emacgillavry"
+          }
+        ],
+        "meetup": "",
+        "website": "http://maptime.io/utrecht",
+        "github": "https://github.com/maptime/utrecht",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.116667,
+          52.083333
         ]
       }
     },
@@ -1879,6 +1984,31 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Morgantown, WV",
+        "title": "MaptimeMorgantown",
+        "twitter": "MaptimeMGWV",
+        "organizers": [
+          {
+            "name": "Randy Peck",
+            "twitter": "randpeck"
+          }
+        ],
+        "meetup": "",
+        "website": "http://www.maptime.io/morgantown",
+        "github": "https://github.com/maptime/morgantown",
+        "comingSoon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.950556,
+          39.633611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Calgary, AB, Canada",
         "title": "MaptimeCalgary",
         "twitter": "MaptimeCalgary",
@@ -1986,6 +2116,34 @@
         "coordinates": [
           -47.067100,
           -22.894700
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeBogotá",
+        "location": "Bogotá, Colombia",
+        "twitter": "",
+        "website": "http://maptime.io/bogota/",
+        "github": "https://github.com/maptime/bogota/",
+        "meetup": "http://www.meetup.com/Maptime-Colombia-OSM/",
+        "organizers": [
+          {
+            "name": "Andrés Gómez Casanova",
+            "twitter": ""
+          },
+          {
+            "name": "Humberto Yances",
+            "twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.075833,
+          4.598056
         ]
       }
     },
