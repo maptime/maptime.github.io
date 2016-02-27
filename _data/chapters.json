@@ -3,20 +3,20 @@
   "features": [{
       "type": "Feature",
       "properties": {
-location: "Paris, France",
-title: "MaptimeParis",
-twitter: "",
-website: "http://maptime.io/paris/",
-meetup: "",
-comingSoon: true,
-organizers: [
-{
-name: "nerik",
-twitter: ""
-}
-],
-moreInfo: null
-},
+		"location": "Paris, France",
+		"title": "MaptimeParis",
+		"twitter": "",
+		"website": "http://maptime.io/paris/",
+		"meetup": "",
+		"comingSoon": true,
+		"organizers": [
+			{
+				"name": "nerik",
+				"twitter": ""
+			}
+		],
+		"moreInfo": null
+	},
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1462,7 +1462,7 @@ moreInfo: null
         "organizers": [
           {
             "name": "Ben Thornton",
-            "twitter": "benthornton2"
+            "twitter": "91degN"
           }
         ],
         "comingSoon": true
