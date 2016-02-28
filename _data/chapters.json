@@ -2124,18 +2124,18 @@
       "properties": {
         "title": "MaptimeBogotá",
         "location": "Bogotá, Colombia",
-        "twitter": "",
+        "twitter": "MaptimeBogota",
         "website": "http://maptime.io/bogota/",
         "github": "https://github.com/maptime/bogota/",
         "meetup": "http://www.meetup.com/Maptime-Colombia-OSM/",
         "organizers": [
           {
             "name": "Andrés Gómez Casanova",
-            "twitter": ""
+            "twitter": "angoca"
           },
           {
             "name": "Humberto Yances",
-            "twitter": ""
+            "twitter": "hyances"
           }
         ]
       },
