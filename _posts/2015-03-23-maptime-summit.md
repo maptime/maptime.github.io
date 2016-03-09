@@ -16,7 +16,7 @@ Kimmel Center NYU Global Center for Academic & Spiritual Life<br>238 Thompson St
 
 <p>Calling all Maptime organizers, attendees, and enthusiasts! <strong>Maptime Summit</strong> is coming, and we want <i>you</i> to be there. </p>
 
-<p>On Monday, June 8th (immediately following <a href="http://stateofthemap.us/">State of the Map US 2015</a>), join us at the <a href="http://stateofthemap.us/venue/">NYU Kimmel Center</a> for a day full of learning, collaboration, and excitement as we get to know each other and strengthen the ties throughout our international Maptime landscape. During the Maptime Summit, you can expect to: </p>
+<p>On Monday, June 8th (immediately following State of the Map US 2015), join us at the NYU Kimmel Center for a day full of learning, collaboration, and excitement as we get to know each other and strengthen the ties throughout our international Maptime landscape. During the Maptime Summit, you can expect to: </p>
 <ul>
 <li>Share your experiences and things you've made at Maptime</li>
 <li>Organize with other Maptimers around topics you're interested in (like Maptime for Kids!)</li>
