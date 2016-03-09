@@ -2427,6 +2427,28 @@
            41.590833
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "location": "Edmonton, AB, Canada",
+        "title": "MaptimeYEG",
+        "twitter": "MaptimeYEG",
+        "organizers": [
+          {
+            "name": "Devin Bartley",
+            "email": "devin.l.bartley@gmail.com"
+          }
+        ],
+        "website" : "http://maptime.io/edmonton/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          -113.499145,
+           53.545747
+        ]
+      }
     }
   ]
 }
