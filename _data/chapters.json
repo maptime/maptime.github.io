@@ -1962,12 +1962,16 @@
         "twitter": "maptimePGH",
         "organizers": [
           {
-            "name": "Matt Mercurio",
-            "twitter": "Geologistatlarg"
-          },
-          {
             "name": "Christian Gass",
             "twitter": "GassChristianB"
+          },
+          {
+            "name": "Eleanor Tutt",
+            "twitter": "eleanortutt"
+          },
+          {
+            "name": "Matt Mercurio",
+            "twitter": "Geologistatlarg"
           }
         ],
         "meetup": "http://www.meetup.com/Open-Pittsburgh-our-Regions-Code-for-America-Brigade/",
