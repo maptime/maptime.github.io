@@ -12,7 +12,7 @@ This is a major problem for first responders to crisis, who are trying to get on
 
 This is where making maps can make a huge difference. They can literally make or break first responders’ ability to help. 
 
-That’s why, this May, Maptime is teaming up with [Missing Maps](http://www.missingmaps.org/), a collection of nonprofits devoted to organizing volunteers to map satellite data and get these maps working again.  We’re asking all Maptime chapters to devote one of your sessions in May to mapping satellite data for the Missing Maps mission.
+That’s why, this May, Maptime is teaming up with [Missing Maps](http://www.missingmaps.org/), a collection of nonprofits devoted to organizing volunteers to map satellite data and get these maps working again.  We’re asking all US Maptime chapters to devote one of your sessions in May to mapping satellite data for the Missing Maps mission.
 
 <img src="https://raw.githubusercontent.com/maptime/maptime.github.io/9b4b619d6b18d5ca750525a71aa5e53fd4730455/img/missing-maps-glasgow.jpg"><br>
 <em>Missing Maps event in Glasgow, Feb. 2016</em>
@@ -29,4 +29,4 @@ Let’s help out Missing Maps and get some important maps back on the map!
 
 //
 
-<em>Want to read more about the awesomesauce that is Missing Maps? Check out this article by collaborator Drishtie Patel</em>
+<em>Want to read more about the awesomesauce that is Missing Maps? [Check out this article](https://opensource.com/life/15/12/creating-worlds-missing-maps-openstreetmap) by collaborator Drishtie Patel</em>
