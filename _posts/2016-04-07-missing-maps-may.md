@@ -4,7 +4,7 @@ category: blog
 title: "May 2016 is Missing Maps Month at Maptime"
 description: "Mayday mayday!"
 ---
-by Beth
+###Mayday, mayday!
 
 Earthquakes. Tsunamis. Volcanic eruptions. These natural disasters literally reshape the  surface of the earth, and destroy centuries of human infrastructure while they’re at it.
 
