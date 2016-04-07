@@ -14,7 +14,7 @@ This is where making maps can make a huge difference. They can literally make or
 
 That’s why, this May, Maptime is teaming up with [Missing Maps](http://www.missingmaps.org/), a collection of nonprofits devoted to organizing volunteers to map satellite data and get these maps working again.  We’re asking all Maptime chapters to devote one of your sessions in May to mapping satellite data for the Missing Maps mission.
 
-<img src="img/missing-maps-glasgow.jpg"><br>
+<img src="../img/missing-maps-glasgow.jpg"><br>
 <em>Missing Maps event in Glasgow, Feb. 2016</em>
 
 Never mapped satellite data before? Have no fear! Missing Maps [provides tutorials on how to get started with mapping](http://www.missingmaps.org/contribute/#learn), making it easy for you and your chapter to get up to speed. 
