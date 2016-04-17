@@ -12,8 +12,6 @@ The <a href="http://adainitiative.org">Ada Initiative</a> is a group with a simi
 
 Right now the Ada Initiative is raising money to fund their work for the next year. Thanks to <a href="https://www.openstreetmap.org/user/KathleenLD/diary/23967">Kathleen Danielson</a>, there is now an OpenStreetMap campaign to donate to Ada before their fundraising deadline on October 8th.
 
-To donate to the #osm4ada campaign, click on this donation tracker widget:
-
-<a href="https://adainitiative.org/2015/08/04/announcing-the-shutdown-of-the-ada-initiative/"><img src="https://adainitiative.org/counters/2014counter-openstreetmap.svg" alt="counter"></a>
+To donate to the #osm4ada campaign, click <a href="https://adainitiative.org/2015/08/04/announcing-the-shutdown-of-the-ada-initiative/">here</a>.
 
 Thanks! <3 <3 <3
