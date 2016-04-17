@@ -5,7 +5,7 @@ title: "CartoDB's Maptime Pizza Donation Continues Another Year!"
 description: "Pizza for all!!"
 ---
 
-<img src="https://pixabay.com/static/uploads/photo/2016/03/05/20/16/america-1238732_960_720.jpg" width ="500"><br>
+<img src="https://pixabay.com/static/uploads/photo/2016/03/05/20/16/america-1238732_960_720.jpg" width ="500" alt=""><br>
 <strong>Pizza Time!</strong><br>
 
 Looking back at a long year of Maptimes and mapping fun, one thing has remained true: Pizza and mapping go hand-in-hand. CartoDB's Maptime pizza donations this past year has ensured that this remains true, and that mappers everywhere, from Chicago to Berlin, didn't go a mapping evening un-fed.
