@@ -2453,6 +2453,33 @@
            53.545747
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Albuquerque, NM",
+        "title": "MaptimeABQ",
+        "twitter": "MaptimeABQ",
+        "organizers": [
+          {
+            "name": "Brad Weikel",
+            "twitter": "bradweikel"
+          },
+          {
+            "name": "Melo King",
+            "twitter": "smallmelo"
+          }
+
+        ],
+        "website" : "http://maptime.io/albuquerque/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 
+          -106.621216,
+           35.113281
+        ]
+      }
     }
   ]
 }
