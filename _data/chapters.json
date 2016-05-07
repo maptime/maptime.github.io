@@ -2179,16 +2179,24 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "MaptimeBuffalo",
+        "title": "MaptimeBUF",
         "location": "Buffalo, NY",
-        "twitter": "maptimeBuf",
+        "twitter": "maptimeBUF",
         "website": "http://maptime.io/buffalo/",
         "github": "https://github.com/maptime/buffalo/",
-        "comingSoon": true,
+        "meetup": "http://www.meetup.com/Maptime-Buffalo/",
         "organizers": [
           {
             "name": "Lizzi Slivinski",
-            "twitter": "eslivinski"
+            "github": "eslivinski"
+          },
+          {
+            "name": "Haoliang Yu",
+            "github": "haoliangyu"
+          },
+          {
+            "name": "Sean Myers",
+            "github": "seanmyers"
           }
         ]
       },
