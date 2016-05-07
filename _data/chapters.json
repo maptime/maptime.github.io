@@ -53,6 +53,31 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Nyeri, Kenya",
+        "title": "MaptimeNyeri",
+        "twitter": null,
+        "website": "http://maptime.io/nyeri/",
+        "meetup": null,
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Wanjohi Kibu",
+            "twitter": ""
+          }
+        ],
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.95,
+          -0.416667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Eugene, OR",
         "title": "MaptimeEUG",
         "twitter": "",
