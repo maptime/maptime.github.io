@@ -9,6 +9,7 @@ maptime:
   twitter: maptimehq
   #disqus: YOUR DISQUS USERNAME 
 
+future: true
 excerpt_separator: <!--more-->
 exclude: [vendor]
 

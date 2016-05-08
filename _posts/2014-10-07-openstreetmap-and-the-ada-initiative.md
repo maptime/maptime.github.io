@@ -9,8 +9,6 @@ The [Ada Initiative](http://adainitiative.org) is a group with a similar mission
 <!--more-->
 Right now the Ada Initiative is raising money to fund their work for the next year. Thanks to [Kathleen Danielson](https://www.openstreetmap.org/user/KathleenLD/diary/23967), there is now an OpenStreetMap campaign to donate to Ada before their fundraising deadline on October 8th.
 
-[![Donate to Ada Initiative](https://adainitiative.org/counters/2014counter-openstreetmap.svg "Donate to Ada Initiative")](https://supportada.org?campaign=openstreetmap)
-
-To donate to the __#osm4ada__ campaign, go to [supportada.org?campaign=openstreetmap](https://supportada.org?campaign=openstreetmap)!
+To donate to the __#osm4ada__ campaign, click [here](https://adainitiative.org/2015/08/04/announcing-the-shutdown-of-the-ada-initiative/)
 
 Thanks! <3 <3 <3

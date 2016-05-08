@@ -274,3 +274,11 @@
    - Community
   description: Open source geo maker's movement
   link: http://geomakers.org/
+
+- name: Georeferencing Images with Map Warper
+  tags:
+   - Web mapping
+   - Geography
+   - Cartography
+  description: learn how to georeference images of maps using the online Map Warper tool
+  link: http://maptime.io/pittsburgh/presentations/2016-04-27-mapwarper/
