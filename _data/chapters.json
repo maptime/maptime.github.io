@@ -103,31 +103,6 @@
     {
       "type": "Feature",
       "properties": {
-        "location": "Nyeri, Kenya",
-        "title": "MaptimeNyeri",
-        "twitter": "",
-        "website": "http://maptime.io/nyeri/",
-        "meetup": "",
-        "comingSoon": true,
-        "organizers": [
-          {
-            "name": "Wanjohi Kibui",
-            "twitter": ""
-          }
-        ],
-        "moreInfo": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.95,
-          -0.416667
-        ]
-    }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "MaptimeGBG",
         "location": "Gothenburg, Sweden",
         "website": "http://maptime.io/gothenburg/",
