@@ -53,6 +53,31 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Nyeri, Kenya",
+        "title": "MaptimeNyeri",
+        "twitter": null,
+        "website": "http://maptime.io/nyeri/",
+        "meetup": null,
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Wanjohi Kibu",
+            "twitter": ""
+          }
+        ],
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.95,
+          -0.416667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Eugene, OR",
         "title": "MaptimeEUG",
         "twitter": "",
@@ -197,6 +222,34 @@
         "coordinates": [
           -1.5733,
           54.7761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MaptimeIstanbul",
+        "location": "Istanbul, Turkey",
+        "website": "http://maptime.io/istanbul/",
+        "github": "https://github.com/maptime/istanbul/",
+        "twitter": "",
+        "meetup": "",
+        "organizers": [
+          {
+            "name": "Fatih Tas",
+            "twitter": ""
+          },
+          {
+          	"name": "Orkut Murat Yılmaz",
+          	"twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           28.955,
+          41.013611
         ]
       }
     },
@@ -398,6 +451,28 @@
         "coordinates": [
           116.40151977539062,
           39.93290692296977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Seoul, South Korea",
+        "title": "MaptimeSeoul",
+        "twitter": "",
+        "meetup": "http://www.meetup.com/MaptimeSeoul/",
+        "organizers": [
+          {
+            "name": "Alana Kim",
+            "twitter": ""
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966667,
+          37.566667
         ]
       }
     },
@@ -1148,6 +1223,29 @@
         "coordinates": [
           9.183333,
           45.466667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Trento, Italy",
+        "title": "MaptimeTrento",
+        "twitter": "",
+        "organizers": [
+          {
+            "name": "Maurizio Napolitano",
+            "twitter": "napo"
+          }
+        ],
+        "meetup": "",
+        "website" : "http://maptime.io/trento/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.116667,
+          46.066667
         ]
       }
     },
