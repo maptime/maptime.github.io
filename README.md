@@ -63,7 +63,8 @@ $ echo 'export PATH=/usr/local/opt/ruby/bin:$PATH' >> ~/.bash_profile
 Run the following in terminal:
 
  ```
-$ gem install jekyll -v 2.4.0
+$ gem install jekyll
+$ gem install jekyll-feed
 $ gem install rdiscount
  ```
 
