@@ -2575,6 +2575,31 @@
            35.113281
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Yosemite, CA",
+        "title": "MaptimeYOSE",
+        "twitter": "",
+        "website": "http://maptime.io/yosemite/",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Jim Soldenwagner",
+            "twitter": ""
+          }
+        ],
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.598697,
+          37.742742
+        ]
+      }
     }
   ]
 }
