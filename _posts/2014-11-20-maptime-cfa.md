@@ -5,8 +5,6 @@ category: blog
 description: "New fellows, new chapters, mappy civic technology, much win!"
 ---
 
-![](http://www.codeforamerica.org/blog/wp-content/uploads/2014/11/2015fellows.gif)
-
 
 Did you know that Maptime and [Code for America](http://codeforamerica.org) are best of friends? There's so much overlap between the two organizations, you could probably call us cousins. We decided to go with best friends instead.
 
