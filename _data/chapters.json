@@ -1701,10 +1701,6 @@
         "twitter": "MaptimeDC",
         "organizers": [
           {
-            "name": "Brandon Knight",
-            "twitter": "geobrando"
-          },
-          {
             "name": "Rosemary Wardley",
             "twitter": "rosemarydaley"
           },
@@ -1721,8 +1717,8 @@
             "twitter": "geomantic"
           },
           {
-          	"name": "Brian Davidson",
-          	"twitter": "brianddavidson"
+            "name": "Brian Davidson",
+            "twitter": "brianddavidson"
           }
         ],
         "meetup": "http://meetup.com/maptime-dc",
