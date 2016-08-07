@@ -234,6 +234,7 @@
         "github": "https://github.com/maptime/istanbul/",
         "twitter": "",
         "meetup": "",
+        "comingSoon": true,
         "organizers": [
           {
             "name": "Fatih Tas",
@@ -461,6 +462,7 @@
         "title": "MaptimeSeoul",
         "twitter": "",
         "meetup": "http://www.meetup.com/MaptimeSeoul/",
+        "comingSoon": true,
         "organizers": [
           {
             "name": "Alana Kim",
