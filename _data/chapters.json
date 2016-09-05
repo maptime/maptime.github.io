@@ -2599,16 +2599,20 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "",
-        "marker-size": "",
-        "marker-symbol": "",
         "location": "San Luis Obispo, CA",
         "title": "MaptimeSLO",
         "twitter": "maptimeSLO",
-        "website": "",
-        "meetup": "",
         "comingSoon": "true",
-        "facebook": ""
+        "organizers": [
+          {
+            "name": "Joe Larson",
+            "twitter": "oeon"
+          },
+          {
+            "name": "Hannah Panno",
+            "twitter": "HannahPanno"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
