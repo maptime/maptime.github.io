@@ -2596,6 +2596,31 @@
           37.742742
         ]
       }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Upper Valley NH/VT",
+        "twitter": "MaptimeUV",
+        "website": "http://maptime.io/uppervalley",
+        "title": "MaptimeUV",
+        "github": "https://github.com/maptime/uppervalley", 
+        "organizers": [
+          {
+            "name": "Garrett Dash Nelson",
+            "twitter": "en_dash"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3099946975708,
+          43.647791189017745
+        ]
+      }
     }
+    
   ]
 }
