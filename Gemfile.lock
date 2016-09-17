@@ -155,6 +155,7 @@ DEPENDENCIES
   html-proofer!
   httparty
   jekyll-feed
+  jekyll-paginate
 
 BUNDLED WITH
    1.13.1
