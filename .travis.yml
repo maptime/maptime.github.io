@@ -10,7 +10,7 @@ rvm:
   - 2.2.2
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html --empty-alt-ignore --ignore-script-embeds --href-ignore "#"
+  - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html --empty-alt-ignore --url-ignore "#"
   - result=$(geojsonhint --json < _data/chapters.json); echo "$result"; ! grep -qF '"error":' <<< "$result"
 env:
   global:
