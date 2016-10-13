@@ -20,7 +20,7 @@ If you’re feeling burnt out running your chapter, then take a look at [Handing
 
 If you've still got plenty of gas in the tank, great! But we’re all volunteers, and no one should feel like they have to volunteer indefinitely. If you need to take some time off, do it! If it stops being fun, pass the torch - it's totally ok when that happens. Keep an eye on your metaphorical fuel guage and let the new HQ know before it hits 'E'.
 
-My unsolicited advice to the new HQ is to instill rotating leadership on a yearly basis. It might be a good idea for chapters to try the same approach as well - but that’s for you to decide :)
+My unsolicited advice to the new HQ is to instill rotating leadership on a yearly basis, so that a handoff happens before burnout does. It might be a good idea for chapters to try the same approach as well - but that’s for you to decide :)
 
 **Is Maptime still going after 501(c)3 status?**
 
