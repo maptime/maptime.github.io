@@ -14,9 +14,9 @@ And whether you’re wondering or not, here are answers to all these questions.
 
 **Wait, what’s up with this? Where are Beth, Alan, Lyzi and Camille going?**
 
-To make a long story short, all of us started to get pretty burnt out after the 2015 Maptime Summit. I could write more about it here, but my talk from this year’s State of the Map sums it up the best. 
+To make a long story short, all of us started to get pretty burnt out after the 2015 Maptime Summit. I could write more about it here, but [my talk from this year’s State of the Map](https://www.youtube.com/watch?v=fIW77n8gLCs) sums it up the best. 
 
-[![Talking about burnout at State of the Map 2016](/img/maptime-motherhood-martyrdom.png)](https://www.youtube.com/watch?v=fIW77n8gLCs)
+![Here's a screenshot of the video since markdown won't let you embed a video](/img/maptime-motherhood-martyrdom.png)]
 
 If you’re feeling burnt out running your chapter, then take a look at [Handing Off a Maptime Chapter](https://docs.google.com/document/d/1OJeQK77DSUpUQd767Ix9N0uXHgECpSPLnXucP6Tecm8/edit?usp=sharing) for some tips on what to do.  
 
