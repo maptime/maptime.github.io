@@ -16,8 +16,6 @@ And whether you’re wondering or not, here are answers to all these questions.
 
 To make a long story short, all of us started to get pretty burnt out after the 2015 Maptime Summit. I could write more about it here, but [my talk from this year’s State of the Map](https://www.youtube.com/watch?v=fIW77n8gLCs) sums it up the best. 
 
-![Here's a screenshot of the video since markdown won't let you embed a video](/img/maptime-motherhood-martyrdom.png)]
-
 If you’re feeling burnt out running your chapter, then take a look at [Handing Off a Maptime Chapter](https://docs.google.com/document/d/1OJeQK77DSUpUQd767Ix9N0uXHgECpSPLnXucP6Tecm8/edit?usp=sharing) for some tips on what to do.  
 
 If you've still got plenty of gas in the tank, keep on rocking it! But we’re all volunteers, and no one should feel like they have to volunteer indefinitely. If you need to take some time off, do it! If it stops being fun, pass the torch - it's totally ok when that happens). Keep an eye on your metaphorical fuel gage and let us know before it hits 'E'. We're all human and sometimes naptime is more important than Maptime.
