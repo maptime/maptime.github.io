@@ -4,6 +4,22 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Arcata, Clifornia",
+        "title": "MaptimeArcata"
+        "Organizer": "Nicholas Perdue",
+        "Webpage": "http://maptime.io/arcata/",
+        "Twitter": "@MaptimeArcata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.08641338348389,
+          40.86853158755717
+        ]
+      }
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Paris, France",
         "title": "MaptimeParis",
         "twitter": "",
