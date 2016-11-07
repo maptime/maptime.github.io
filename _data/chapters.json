@@ -2613,6 +2613,7 @@
           {
             "name": "Hannah Panno",
             "twitter": "HannahPanno"
+            ]
           }
         ]
       },
@@ -2623,6 +2624,27 @@
           35.28256477313331
         ]
       }
+    }, 
+    {
+          "type": "Feature",
+      "properties": {
+        "location": "Cardiff, UK",
+        "title": "MaptimeCardiff",
+        "twitter": "MaptimeCardiff",
+        "website": "http://maptime.io/cardiff/",
+        "organizers": [
+          {
+            "name": "Rose-Ellen Minchew",
+            "twitter": "rocketnelly"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+	        -3.179090,
+          51.481583
+        ]
+      }
     }
-  ]
-}
+   ]
