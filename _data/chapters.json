@@ -2645,6 +2645,34 @@
           51.481583
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Belgium",
+        "title": "MaptimeBE",
+        "twitter": "osm_be",
+        "website": "http://maptime.io/belgium/",
+        "github": "https://github.com/maptime/belgium/",
+        "meetup": "https://www.meetup.com/OpenStreetMap-Belgium/",
+        "organizers": [
+          {
+            "name": "Jonathan Beliën",
+            "twitter": "jbelien"
+          },
+          {
+            "name": "Joost Schouppe",
+            "twitter": "joostjakob"
+          } 
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.351697,
+          50.8465565
+        ]
+      }
     }
   ]
 }
