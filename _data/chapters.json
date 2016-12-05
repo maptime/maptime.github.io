@@ -2623,9 +2623,9 @@
           35.28256477313331
         ]
       }
-    }, 
+    },
     {
-          "type": "Feature",
+      "type": "Feature",
       "properties": {
         "location": "Cardiff, UK",
         "title": "MaptimeCardiff",
@@ -2641,11 +2641,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-	        -3.179090,
+          -3.17909,
           51.481583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "San Juan, Metro Manila, Philippines",
+        "title": "MaptimeManila",
+        "organizers": [
+          {
+            "name": "Erwin Olario",
+            "twitter": null
+          }
+        ],
+        "meetup": "https://mapamore.connpass.com",
+        "github": "https://github.com/MapAmore",
+        "website": null,
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.04005,
+          14.59429
         ]
       }
     }
   ]
 }
-	  
