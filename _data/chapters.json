@@ -2645,6 +2645,27 @@
           51.481583
         ]
       }
+    }, 
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Tirana, Albania",
+        "title": "MaptimeTirana",
+        "website": "http://maptime.io/tirana/",
+        "organizers": [
+          {
+            "name": "Amanti Lulo",
+            "twitter": "amantilulo"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+	  19.81856346130371,
+          41.327922521697886
+        ]
+      }
     }
   ]
 }
