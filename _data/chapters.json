@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "Grand Junction, CO",
+        "title": "MaptimeWestSlope",
+        "twitter": "MaptimeWestCO",
+        "website": "http://maptime.io/westslope/",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Nolan McDonald",
+            "twitter": ""
+          },
+          {
+            "name": "Cameron Lang",
+            "twitter": ""
+          }
+        ],
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.067617,
+          -108.559657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Paris, France",
         "title": "MaptimeParis",
         "twitter": "",
