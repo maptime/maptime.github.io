@@ -8,16 +8,16 @@
         "title": "MaptimeWestSlope",
         "twitter": "MaptimeWestCO",
         "website": "http://maptime.io/westslope/",
-        "meetup": "",
+        "meetup": null,
         "comingSoon": true,
         "organizers": [
           {
             "name": "Nolan McDonald",
-            "twitter": ""
+            "twitter": null
           },
           {
             "name": "Cameron Lang",
-            "twitter": ""
+            "twitter": null
           }
         ],
         "moreInfo": null
