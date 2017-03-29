@@ -4,35 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "location": "Grand Junction, CO",
-        "title": "MaptimeWestSlope",
-        "twitter": "MaptimeWestCO",
-        "website": "http://maptime.io/westslope/",
-        "meetup": null,
-        "comingSoon": true,
-        "organizers": [
-          {
-            "name": "Nolan McDonald",
-            "twitter": null
-          },
-          {
-            "name": "Cameron Lang",
-            "twitter": null
-          }
-        ],
-        "moreInfo": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108.559657,
-          39.067617
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "location": "Paris, France",
         "title": "MaptimeParis",
         "twitter": "",
@@ -2696,6 +2667,33 @@
         "coordinates": [
           19.81856346130371,
           41.327922521697886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Grand Junction, CO",
+        "title": "MaptimeWestSlope",
+        "twitter": "MaptimeWestCO",
+        "website": "http://maptime.io/westslope/",
+        "meetup": null,
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Nolan McDonald",
+          },
+          {
+            "name": "Cameron Lang",
+          }
+        ],
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.559657,
+          39.067617
         ]
       }
     }
