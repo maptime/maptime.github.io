@@ -2677,17 +2677,15 @@
         "title": "MaptimeWestSlope",
         "twitter": "MaptimeWestCO",
         "website": "http://maptime.io/westslope/",
-        "meetup": null,
         "comingSoon": true,
         "organizers": [
           {
-            "name": "Nolan McDonald",
+            "name": "Nolan McDonald"
           },
           {
-            "name": "Cameron Lang",
+            "name": "Cameron Lang"
           }
-        ],
-        "moreInfo": null
+        ]
       },
       "geometry": {
         "type": "Point",
