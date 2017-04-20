@@ -2626,7 +2626,7 @@
           35.28256477313331
         ]
       }
-    }, 
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2644,11 +2644,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.179090,
+          -3.17909,
           51.481583
         ]
       }
-    }, 
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2676,6 +2676,7 @@
         "location": "Grand Junction, CO",
         "title": "MaptimeWestSlope",
         "website": "http://maptime.io/westslope/",
+        "twitter": "MaptimeWestCO",
         "meetup": "https://www.meetup.com/Western-Slope-OpenStreetMap/",
         "github": "https://github.com/maptime/westslope",
         "organizers": [
@@ -2694,7 +2695,7 @@
         "type": "Point",
         "coordinates": [
           -108.559657,
-           39.067617
+          39.067617
         ]
       }
     }
