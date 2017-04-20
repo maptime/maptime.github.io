@@ -2669,6 +2669,35 @@
           41.327922521697886
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Grand Junction, CO",
+        "title": "MaptimeWestSlope",
+        "website": "http://maptime.io/westslope/",
+        "twitter": "MaptimeWestCO",
+        "meetup": "https://www.meetup.com/Western-Slope-OpenStreetMap/",
+        "github": "https://github.com/maptime/westslope",
+        "organizers": [
+          {
+            "name": "Aaron Young"
+          },
+          {
+            "name": "Cameron Lang"
+          },
+          {
+            "name": "Nolan McDonald"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.559657,
+          39.067617
+        ]
+      }
     }
   ]
 }
