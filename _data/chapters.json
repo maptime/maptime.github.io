@@ -1813,8 +1813,18 @@
         "twitter": "MaptimeSEA",
         "organizers": [
           {
-            "name": "Sam Matthews",
-            "twitter": "vancematthews"
+            "name": "Christy Heaton",
+            "twitter": "christytoes",
+            "github": "christyheaton"
+          },
+          {
+            "name": "Caileigh Shoot",
+            "twitter": "caileighshoot"
+          },
+          {
+            "name": "Ryan Shackleton",
+            "twitter": "ryshackleton",
+            "github": "ryshackleton"
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeSEA/",
@@ -2626,7 +2636,7 @@
           35.28256477313331
         ]
       }
-    }, 
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2648,7 +2658,7 @@
           51.481583
         ]
       }
-    }, 
+    },
     {
       "type": "Feature",
       "properties": {
