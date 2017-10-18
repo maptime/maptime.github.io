@@ -1496,6 +1496,9 @@
           },
           {
             "name": "Tara Ursell"
+          },
+          {
+            "name": "Chuan-Shin Chong"
           }
         ],
         "meetup": "http://www.meetup.com/maptimeSac/"
@@ -1810,8 +1813,18 @@
         "twitter": "MaptimeSEA",
         "organizers": [
           {
-            "name": "Sam Matthews",
-            "twitter": "vancematthews"
+            "name": "Christy Heaton",
+            "twitter": "christytoes",
+            "github": "christyheaton"
+          },
+          {
+            "name": "Caileigh Shoot",
+            "twitter": "caileighshoot"
+          },
+          {
+            "name": "Ryan Shackleton",
+            "twitter": "ryshackleton",
+            "github": "ryshackleton"
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeSEA/",
@@ -2623,9 +2636,9 @@
           35.28256477313331
         ]
       }
-    }, 
+    },
     {
-          "type": "Feature",
+      "type": "Feature",
       "properties": {
         "location": "Cardiff, UK",
         "title": "MaptimeCardiff",
@@ -2641,8 +2654,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-	        -3.179090,
+          -3.179090,
           51.481583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Tirana, Albania",
+        "title": "MaptimeTirana",
+        "website": "http://maptime.io/tirana/",
+        "organizers": [
+          {
+            "name": "Amanti Lulo",
+            "twitter": "amantilulo"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81856346130371,
+          41.327922521697886
         ]
       }
     },
