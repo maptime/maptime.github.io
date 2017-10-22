@@ -2704,8 +2704,9 @@
         ]
       }
     },
- 
-
+    {
+      "type":"Feature", 
+      "properties": {
         "location": "Grand Junction, CO",
         "title": "MaptimeWestSlope",
         "website": "http://maptime.io/westslope/",
@@ -2749,7 +2750,9 @@
           {
             "name": "Joost Schouppe",
             "twitter": "joostjakob"
-          } 
+          }
+        ]
+       },
        "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2757,6 +2760,6 @@
           50.8465565
         ]
       }
-    },
+    }
   ]
 }
