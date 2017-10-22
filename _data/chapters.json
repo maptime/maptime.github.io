@@ -2598,14 +2598,18 @@
         ]
       }
     },
-        {
+    {
         "type": "Feature",
         "properties": {
          "location": "Arcata, California",
          "title": "MaptimeArcata",
-         "Organizer": "Nicholas Perdue",
-         "Webpage": "http://maptime.io/arcata/",
-         "Twitter": "@MaptimeArcata"
+         "website": "http://maptime.io/arcata/",
+         "twitter": "MaptimeArcata"
+         "organizers":[ 
+           {
+             "name" :"Nicholas Perdue"
+           }
+         ]   
        },
        "geometry": {
          "type": "Point",
@@ -2614,6 +2618,7 @@
            40.86853158755717
          ]
       }
+    },
     {
       "type": "Feature",
       "properties": {
