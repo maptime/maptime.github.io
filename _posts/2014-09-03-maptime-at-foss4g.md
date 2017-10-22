@@ -42,12 +42,12 @@ Rafa’s workshop will cover several core aspects of the most recent versions of
 Other Talks From Maptimers
 ========
 
- * **Wednesday, Session 1, Track 5** – [“Do This, and also That: Integrating Open Source tools into traditional GIS shops”](http://vimeo.com/106224203) – [Sara](http://twitter.com/sarasomewhere) Safavi, MaptimeATX
- * **Wednesday, Session 2, Track 6** – [“Spatial Temporal Network Web Visualization Techniques”](http://vimeo.com/106230057) – [Lynnae](http://twitter.com/naefish) Sutton, Maptime St John’s
- * **Wednesday, Session 2, Track 5** – [“Managing public data on GitHub: Pay no attention to the git behind the curtain”](http://vimeo.com/106228679) – [Landon](http://twitter.com/elitar) Reed, MaptimeATL
- * **Wednesday, Session 2, Track 5** – [“Building Open Source Projects in Government Esri Ecosystems”](http://vimeo.com/106228929) – [Lyzi](http://twitter.com/lyzidiamond) Diamond, MaptimeOAK
- * **Friday, Session 1, Track 3** – [“OpenDroneMap”](http://vimeo.com/106847615) – [Stephen](http://twitter.com/smathermather) Mather, OpenGeoCLE
- * **Friday, Session 1, Track 6** – [“Advanced CartoCSS Techniques”](http://vimeo.com/106848543) – [Alan](http://twitter.com/mappingmashups) McConchie, MaptimeSF
+ * **Wednesday, Session 1, Track 5** – “Do This, and also That: Integrating Open Source tools into traditional GIS shops” – [Sara Safavi](http://twitter.com/sarasomewhere), MaptimeATX
+ * **Wednesday, Session 2, Track 6** – “Spatial Temporal Network Web Visualization Techniques” – [Lynnae Sutton](http://twitter.com/naefish), Maptime St John’s
+ * **Wednesday, Session 2, Track 5** – “Managing public data on GitHub: Pay no attention to the git behind the curtain” – [Landon Reed](http://twitter.com/elitar), MaptimeATL
+ * **Wednesday, Session 2, Track 5** – “Building Open Source Projects in Government Esri Ecosystems” – [Lyzi Diamond](http://twitter.com/lyzidiamond), MaptimeOAK
+ * **Friday, Session 1, Track 3** – "OpenDroneMap” – [Stephen Mather](http://twitter.com/smathermather), OpenGeoCLE
+ * **Friday, Session 1, Track 6** – “Advanced CartoCSS Techniques” – [Alan McConchie](http://twitter.com/mappingmashups), MaptimeSF
 
 We can’t wait to see you there!
 

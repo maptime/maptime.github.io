@@ -10,7 +10,7 @@ Questions often arise about where to find good CartoCSS examples for using the O
 
 <!--more-->
 
-- __[Mapbox TileMill examples](https://github.com/mapbox/tilemill/tree/master/examples)__
+- __Mapbox TileMill examples__
 - __[OpenStreetMap Carto](https://github.com/gravitystorm/openstreetmap-carto)__
 - __[OSM Hybrid Carto](https://github.com/andrewharvey/osm-hybrid-carto)__
 - __[Toner for TileMill](https://github.com/aaronlidman/Toner-for-Tilemill)__: A port of Stamen's map style Toner for Tilemill.
