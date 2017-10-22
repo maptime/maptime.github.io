@@ -2662,6 +2662,30 @@
     {
       "type": "Feature",
       "properties": {
+        "location": "San Juan, Metro Manila, Philippines",
+        "title": "MaptimeManila",
+        "organizers": [
+          {
+            "name": "Erwin Olario",
+            "twitter": null
+          }
+        ],
+        "meetup": "https://mapamore.connpass.com",
+        "github": "https://github.com/MapAmore",
+        "website": null,
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.04005,
+          14.59429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "location": "Tirana, Albania",
         "title": "MaptimeTirana",
         "website": "http://maptime.io/tirana/",
