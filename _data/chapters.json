@@ -2612,6 +2612,27 @@
       }
     },
     {
+        "type": "Feature",
+        "properties": {
+         "location": "Arcata, California",
+         "title": "MaptimeArcata",
+         "website": "http://maptime.io/arcata/",
+         "twitter": "MaptimeArcata",
+         "organizers":[ 
+           {
+             "name" :"Nicholas Perdue"
+           }
+         ]   
+       },
+       "geometry": {
+         "type": "Point",
+         "coordinates": [
+           -124.08641338348389,
+           40.86853158755717
+         ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "location": "San Luis Obispo, CA",
