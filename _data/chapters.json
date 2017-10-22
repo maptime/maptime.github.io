@@ -2654,8 +2654,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.179090,
+          -3.17909,
           51.481583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "San Juan, Metro Manila, Philippines",
+        "title": "MaptimeManila",
+        "organizers": [
+          {
+            "name": "Erwin Olario",
+            "twitter": null
+          }
+        ],
+        "meetup": "https://mapamore.connpass.com",
+        "github": "https://github.com/MapAmore",
+        "website": null,
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.04005,
+          14.59429
         ]
       }
     },
@@ -2680,7 +2704,35 @@
         ]
       }
     },
-    {
+ 
+
+        "location": "Grand Junction, CO",
+        "title": "MaptimeWestSlope",
+        "website": "http://maptime.io/westslope/",
+        "twitter": "MaptimeWestCO",
+        "meetup": "https://www.meetup.com/Western-Slope-OpenStreetMap/",
+        "github": "https://github.com/maptime/westslope",
+        "organizers": [
+          {
+            "name": "Aaron Young"
+          },
+          {
+            "name": "Cameron Lang"
+          },
+          {
+            "name": "Nolan McDonald"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.559657,
+          39.067617
+        ]
+      }
+   },
+   {
       "type": "Feature",
       "properties": {
         "location": "Belgium",
@@ -2698,15 +2750,13 @@
             "name": "Joost Schouppe",
             "twitter": "joostjakob"
           } 
-        ]
-      },
-      "geometry": {
+       "geometry": {
         "type": "Point",
         "coordinates": [
           4.351697,
           50.8465565
         ]
       }
-    }
+    },
   ]
 }
