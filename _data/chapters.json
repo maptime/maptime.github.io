@@ -1496,6 +1496,9 @@
           },
           {
             "name": "Tara Ursell"
+          },
+          {
+            "name": "Chuan-Shin Chong"
           }
         ],
         "meetup": "http://www.meetup.com/maptimeSac/"
@@ -1810,8 +1813,18 @@
         "twitter": "MaptimeSEA",
         "organizers": [
           {
-            "name": "Sam Matthews",
-            "twitter": "vancematthews"
+            "name": "Christy Heaton",
+            "twitter": "christytoes",
+            "github": "christyheaton"
+          },
+          {
+            "name": "Caileigh Shoot",
+            "twitter": "caileighshoot"
+          },
+          {
+            "name": "Ryan Shackleton",
+            "twitter": "ryshackleton",
+            "github": "ryshackleton"
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeSEA/",
@@ -2667,6 +2680,56 @@
         "coordinates": [
           121.04005,
           14.59429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Tirana, Albania",
+        "title": "MaptimeTirana",
+        "website": "http://maptime.io/tirana/",
+        "organizers": [
+          {
+            "name": "Amanti Lulo",
+            "twitter": "amantilulo"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.81856346130371,
+          41.327922521697886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Grand Junction, CO",
+        "title": "MaptimeWestSlope",
+        "website": "http://maptime.io/westslope/",
+        "twitter": "MaptimeWestCO",
+        "meetup": "https://www.meetup.com/Western-Slope-OpenStreetMap/",
+        "github": "https://github.com/maptime/westslope",
+        "organizers": [
+          {
+            "name": "Aaron Young"
+          },
+          {
+            "name": "Cameron Lang"
+          },
+          {
+            "name": "Nolan McDonald"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.559657,
+          39.067617
         ]
       }
     }
