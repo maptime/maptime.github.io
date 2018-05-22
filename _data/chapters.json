@@ -2684,13 +2684,13 @@
         "organizers": [
           {
             "name": "Erwin Olario",
-            "twitter": null
+            "twitter": "https://twitter.com/MapAmorePH"
           }
         ],
-        "meetup": "https://mapamore.connpass.com",
+        "meetup": "https://ti.to/mapamore/",
         "github": "https://github.com/MapAmore",
         "website": null,
-        "moreInfo": null
+        "moreInfo": "https://t.me/OSMph"
       },
       "geometry": {
         "type": "Point",
