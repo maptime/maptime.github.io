@@ -15,7 +15,7 @@ A few of our admins met online in January and thought maybe it's time for the fi
 Why? So we can all help keep the active chapter and organizer listings up to date. 
 Why? So folks can find chapters to attend in their community or fill roles and revive hibernating chapters. 
 
-Like a phonebook -- or any directory, really -- it's best when kept up to date. Turns out it's June now so maybe we should get a move on it :) (where does the time go!?)
+Like a phonebook -- or any directory, really -- it's best when kept up to date.
 
 #### How you can help:
 Drop us a line. Say hi! Let us know how you and your chapter are doing. (or how you're not doing, because thats totally ok too)
