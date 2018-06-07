@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: "*tap tap* Is this thing on?"
+title: "*Tap Tap* Is this thing on?"
 description: ""
 ---
 by: Emily Ashley, Torch Catcher
