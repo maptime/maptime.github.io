@@ -2478,27 +2478,12 @@
         "location": "Baltimore, MD",
         "website": "http://maptime.io/baltimore/",
         "twitter": "MaptimeBmore",
+        "meetup": "https://www.meetup.com/maptime_bmore/",
         "github": "https://github.com/maptimebmore/",
         "organizers": [
           {
-            "name": "Jade Clayton",
-            "email": "kjadec12@gmail.com",
-            "twitter": "radadajade"
-          },
-          {
-            "name": "Elliott Plack",
-            "email": "elliott.plack@gmail.com",
-            "twitter": "talllguy"
-          },
-          {
-            "name": "Margie Roswell",
-            "email": "mroswell@gmail.com",
-            "twitter": "mroswell"
-          },
-          {
-            "name": "Maggie Cawley",
-            "email": "maggie@boomgeo.com",
-            "twitter": "maggiemaps"
+            "name": "Jonathan Dandois",
+            "twitter": "jondandois"
           }
         ]
       },
@@ -2614,11 +2599,11 @@
          "title": "MaptimeArcata",
          "website": "http://maptime.io/arcata/",
          "twitter": "MaptimeArcata",
-         "organizers":[ 
+         "organizers":[
            {
              "name" :"Nicholas Perdue"
            }
-         ]   
+         ]
        },
        "geometry": {
          "type": "Point",
@@ -2722,7 +2707,7 @@
       }
     },
     {
-      "type":"Feature", 
+      "type":"Feature",
       "properties": {
         "location": "Grand Junction, CO",
         "title": "MaptimeWestSlope",
@@ -2785,7 +2770,7 @@
         "twitter": "MaptimeUV",
         "website": "http://maptime.io/uppervalley",
         "title": "MaptimeUV",
-        "github": "https://github.com/maptime/uppervalley", 
+        "github": "https://github.com/maptime/uppervalley",
         "organizers": [
           {
             "name": "Garrett Dash Nelson",
@@ -2801,6 +2786,6 @@
         ]
      }
     }
-    
+
   ]
 }
