@@ -2540,6 +2540,29 @@
           43.647791189017745
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Salzburg, Austria",
+        "twitter": "MaptimeSalzburg",
+        "title": "MaptimeSalzburg",
+        "organizers": [{
+            "name": "Jakob Miksch",
+            "twitter": "jakobmiksch"
+          },
+          {
+            "name": "Hannah Augustin"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.03171,
+          47.80918
+        ]
+      }
     }
 
   ]
