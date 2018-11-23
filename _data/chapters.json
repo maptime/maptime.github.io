@@ -1931,7 +1931,8 @@
           }
         ],
         "meetup": "http://www.meetup.com/MaptimeDiliman",
-        "github": "https://github.com/MaptimeDiliman"
+        "github": "https://github.com/MaptimeDiliman",
+        "website": ""
       },
       "geometry": {
         "type": "Point",
@@ -2755,15 +2756,7 @@
         "location": "Salzburg, Austria",
         "twitter": "MaptimeSalzburg",
         "title": "MaptimeSalzburg",
-        "organizers": [
-          {
-            "name": "Jakob Miksch",
-            "twitter": "jakobmiksch"
-          },
-          {
-            "name": "Hannah Augustin"
-          }
-        ],
+        "organizers": "[object Object],[object Object]",
         "website": ""
       },
       "geometry": {
@@ -2789,6 +2782,24 @@
         "coordinates": [
           103.83007049560547,
           1.3395233425123458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Melbourne, Australia",
+        "title": "MaptimeMelbourne",
+        "twitter": "MaptimeMelb",
+        "meetup": "https://www.meetup.com/Maptime-Melbourne/",
+        "organizers": "[object Object],[object Object]",
+        "moreInfo": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9584197998047,
+          -37.81575104156353
         ]
       }
     }
