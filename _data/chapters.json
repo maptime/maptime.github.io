@@ -2802,6 +2802,23 @@
           -37.81575104156353
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Amherst, MA",
+        "title": "ValleyGIS",
+        "twitter": "",
+        "meetup": "https://www.meetup.com/ValleyGIS/",
+        "moreInfo": "http://www.valleygis.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.52015113830566,
+          42.38016777594189
+        ]
+      }
     }
   ]
 }
