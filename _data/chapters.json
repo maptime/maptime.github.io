@@ -2810,13 +2810,31 @@
         "title": "ValleyGIS",
         "twitter": "",
         "meetup": "https://www.meetup.com/ValleyGIS/",
-        "moreInfo": "http://www.valleygis.org/"
+        "moreInfo": "http://www.valleygis.org/",
+        "organizers": "[object Object],[object Object]"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -72.52015113830566,
           42.38016777594189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Davis, CA",
+        "title": "MaptimeDavis",
+        "website": "https://github.com/MicheleTobias/MaptimeDavis",
+        "twitter": "MaptimeDavis",
+        "organizers": "[object Object],[object Object]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.74362182617188,
+          38.54816542304656
         ]
       }
     }
