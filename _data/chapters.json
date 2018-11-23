@@ -2837,6 +2837,23 @@
           38.54816542304656
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Maptime Brisbane",
+        "twitter": "",
+        "title": "MaptimeBrisbane",
+        "website": "https://wiki.openstreetmap.org/wiki/Brisbane/Events",
+        "organizers": "[object Object]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -206.97486877441406,
+          -27.468525931222967
+        ]
+      }
     }
   ]
 }
