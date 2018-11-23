@@ -1,6 +1,7 @@
 {
   "type": "FeatureCollection",
-  "features": [{
+  "features": [
+    {
       "type": "Feature",
       "properties": {
         "location": "Paris, France",
@@ -9,10 +10,12 @@
         "website": "http://maptime.io/paris/",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
-          "name": "nerik",
-          "twitter": ""
-        }],
+        "organizers": [
+          {
+            "name": "nerik",
+            "twitter": ""
+          }
+        ],
         "moreInfo": null
       },
       "geometry": {
@@ -32,15 +35,18 @@
         "website": "http://maptime.io/desmoines/",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Patrick Wilke-Brown",
-          "twitter": ""
-        }],
+        "organizers": [
+          {
+            "name": "Patrick Wilke-Brown",
+            "twitter": ""
+          }
+        ],
         "moreInfo": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.620833,
+        "coordinates": [
+          -93.620833,
           41.590833
         ]
       }
@@ -54,16 +60,19 @@
         "website": "http://maptime.io/nyeri/",
         "meetup": null,
         "comingSoon": true,
-        "organizers": [{
-          "name": "Wanjohi Kibu",
-          "twitter": ""
-        }],
+        "organizers": [
+          {
+            "name": "Wanjohi Kibu",
+            "twitter": ""
+          }
+        ],
         "moreInfo": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.95, -0.416667
+          36.95,
+          -0.416667
         ]
       }
     },
@@ -76,15 +85,18 @@
         "website": "http://maptime.io/eugene/",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Christine Grummon",
-          "twitter": ""
-        }],
+        "organizers": [
+          {
+            "name": "Christine Grummon",
+            "twitter": ""
+          }
+        ],
         "moreInfo": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.086667,
+        "coordinates": [
+          -123.086667,
           44.051944
         ]
       }
@@ -99,10 +111,12 @@
         "twitter": "MaptimeGBG",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Semone Kallin Clarke",
-          "twitter": ""
-        }]
+        "organizers": [
+          {
+            "name": "Semone Kallin Clarke",
+            "twitter": ""
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -122,14 +136,17 @@
         "twitter": "",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Edison Orellana",
-          "twitter": "annuit02"
-        }]
+        "organizers": [
+          {
+            "name": "Edison Orellana",
+            "twitter": "annuit02"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.228411,
+        "coordinates": [
+          -88.228411,
           40.110539
         ]
       }
@@ -144,14 +161,17 @@
         "twitter": "MaptimeSWF",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Peter Mercator",
-          "twitter": "Spatial_Punk"
-        }]
+        "organizers": [
+          {
+            "name": "Peter Mercator",
+            "twitter": "Spatial_Punk"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.833333,
+        "coordinates": [
+          -81.833333,
           26.616667
         ]
       }
@@ -166,10 +186,12 @@
         "twitter": "",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Abigail Walton",
-          "twitter": ""
-        }]
+        "organizers": [
+          {
+            "name": "Abigail Walton",
+            "twitter": ""
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -189,14 +211,17 @@
         "github": "https://github.com/maptime/durham/",
         "twitter": "MaptimeDurham",
         "meetup": "",
-        "organizers": [{
-          "name": "Gregory Marler",
-          "twitter": "gregorymarler"
-        }]
+        "organizers": [
+          {
+            "name": "Gregory Marler",
+            "twitter": "gregorymarler"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-1.5733,
+        "coordinates": [
+          -1.5733,
           54.7761
         ]
       }
@@ -211,7 +236,8 @@
         "twitter": "",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Fatih Tas",
             "twitter": ""
           },
@@ -238,10 +264,12 @@
         "github": "https://github.com/maptime/tromso/",
         "twitter": "MaptimeTOS",
         "meetup": "http://www.meetup.com/MapTime-Tromso/",
-        "organizers": [{
-          "name": "Annekatrien Debien",
-          "twitter": "howtomap"
-        }]
+        "organizers": [
+          {
+            "name": "Annekatrien Debien",
+            "twitter": "howtomap"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -260,14 +288,17 @@
         "github": "https://github.com/maptime/manteca/",
         "twitter": null,
         "comingSoon": true,
-        "organizers": [{
-          "name": "Nathan McKinley",
-          "twitter": null
-        }]
+        "organizers": [
+          {
+            "name": "Nathan McKinley",
+            "twitter": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.220833,
+        "coordinates": [
+          -121.220833,
           37.802778
         ]
       }
@@ -281,14 +312,17 @@
         "github": "https://github.com/maptime/riverside/",
         "twitter": null,
         "comingSoon": true,
-        "organizers": [{
-          "name": "Clinton Dow",
-          "twitter": "GeoClintonD"
-        }]
+        "organizers": [
+          {
+            "name": "Clinton Dow",
+            "twitter": "GeoClintonD"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.396111,
+        "coordinates": [
+          -117.396111,
           33.948056
         ]
       }
@@ -302,10 +336,12 @@
         "github": "https://github.com/maptime/tunis/",
         "twitter": "MaptimeTN",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Hamed Gamaoun",
-          "twitter": "hamed_gamaoun"
-        }]
+        "organizers": [
+          {
+            "name": "Hamed Gamaoun",
+            "twitter": "hamed_gamaoun"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -324,7 +360,8 @@
         "github": "https://github.com/maptime/siliconvalley/",
         "twitter": "MaptimeSV",
         "meetup": "http://www.meetup.com/Maptime-Silicon-Valley/",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Stace Maples",
             "twitter": "mapninja"
           },
@@ -343,7 +380,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.138056,
+        "coordinates": [
+          -122.138056,
           37.429167
         ]
       }
@@ -356,14 +394,17 @@
         "website": "http://maptime.io/nantes/",
         "github": "https://github.com/maptime/nantes/",
         "meetup": "http://www.meetup.com/MapTime-Nantes/",
-        "organizers": [{
-          "name": "Thomas Gratier",
-          "twitter": "ThomasG77"
-        }]
+        "organizers": [
+          {
+            "name": "Thomas Gratier",
+            "twitter": "ThomasG77"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-1.5603,
+        "coordinates": [
+          -1.5603,
           47.2383
         ]
       }
@@ -378,10 +419,12 @@
         "comingSoon": true,
         "meetup": "",
         "twitter": "",
-        "organizers": [{
-          "name": "Alexandre Simonet",
-          "twitter": ""
-        }]
+        "organizers": [
+          {
+            "name": "Alexandre Simonet",
+            "twitter": ""
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -398,10 +441,12 @@
         "title": "MaptimeBJ",
         "twitter": "MaptimeBJ",
         "meetup": "http://www.meetup.com/Maptime-Beijing/",
-        "organizers": [{
-          "name": "Ching-ping Yu",
-          "twitter": "q_ching_"
-        }]
+        "organizers": [
+          {
+            "name": "Ching-ping Yu",
+            "twitter": "q_ching_"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -419,10 +464,12 @@
         "twitter": "",
         "meetup": "http://www.meetup.com/MaptimeSeoul/",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Alana Kim",
-          "twitter": ""
-        }]
+        "organizers": [
+          {
+            "name": "Alana Kim",
+            "twitter": ""
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -439,15 +486,18 @@
         "title": "MaptimePSU",
         "twitter": "MaptimePSU",
         "meetup": "",
-        "organizers": [{
-          "name": "Marissa Defratti",
-          "twitter": "marissadefratti"
-        }],
+        "organizers": [
+          {
+            "name": "Marissa Defratti",
+            "twitter": "marissadefratti"
+          }
+        ],
         "comingSoon": true
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.86276817321777,
+        "coordinates": [
+          -77.86276817321777,
           40.80315495364101
         ]
       }
@@ -458,15 +508,18 @@
         "location": "Georgetown, Guyana",
         "title": "MaptimeGUY",
         "twitter": "MaptimeGUY",
-        "organizers": [{
-          "name": "Guyana GIS UserGroup"
-        }],
+        "organizers": [
+          {
+            "name": "Guyana GIS UserGroup"
+          }
+        ],
         "meetup": "",
         "comingSoon": true
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-58.1623,
+        "coordinates": [
+          -58.1623,
           6.8233
         ]
       }
@@ -477,16 +530,19 @@
         "location": "Dar es Salaam, Tanzania",
         "title": "MaptimeTZ",
         "twitter": "MaptimeTZ",
-        "organizers": [{
-          "name": "Geoffrey Kateregga"
-        }],
+        "organizers": [
+          {
+            "name": "Geoffrey Kateregga"
+          }
+        ],
         "meetup": "",
         "comingSoon": false
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.28333282470703, -6.807807658501318
+          39.28333282470703,
+          -6.807807658501318
         ]
       }
     },
@@ -496,16 +552,19 @@
         "location": "Ames, IA",
         "title": "MaptimeAmes",
         "twitter": "MaptimeAmes",
-        "organizers": [{
-          "name": "Nitin Gadia",
-          "twitter": "nittyjee"
-        }],
+        "organizers": [
+          {
+            "name": "Nitin Gadia",
+            "twitter": "nittyjee"
+          }
+        ],
         "meetup": "http://www.meetup.com/AmesMakerSpace/events/205101412/",
         "comingSoon": true
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.620197,
+        "coordinates": [
+          -93.620197,
           42.03432
         ]
       }
@@ -516,15 +575,18 @@
         "location": "Anchorage, AK",
         "title": "MaptimeANC",
         "twitter": "MaptimeANC",
-        "organizers": [{
-          "name": "Oscar Avellaneda-Cruz",
-          "twitter": "okiave"
-        }],
+        "organizers": [
+          {
+            "name": "Oscar Avellaneda-Cruz",
+            "twitter": "okiave"
+          }
+        ],
         "meetup": "http://www.meetup.com/MaptimeANC/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-149.9,
+        "coordinates": [
+          -149.9,
           61.22
         ]
       }
@@ -535,7 +597,8 @@
         "location": "Austin, TX",
         "title": "MaptimeATX",
         "twitter": "MaptimeATX",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Sara Safavi",
             "twitter": "sarasomewhere"
           },
@@ -554,7 +617,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.7372932434082,
+        "coordinates": [
+          -97.7372932434082,
           30.297166099436673
         ]
       }
@@ -565,7 +629,8 @@
         "location": "Atlanta, GA",
         "title": "MaptimeATL",
         "twitter": "MaptimeATL",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Landon Reed",
             "twitter": "eltiar"
           },
@@ -584,7 +649,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.384744,
+        "coordinates": [
+          -84.384744,
           33.755152
         ]
       }
@@ -597,15 +663,18 @@
         "twitter": "MaptimeBend",
         "website": "http://maptime.io/bend/",
         "meetup": "http://www.meetup.com/maptimebend/",
-        "organizers": [{
-          "name": "Blair Deaver",
-          "twitter": "bcd_mtb"
-        }],
+        "organizers": [
+          {
+            "name": "Blair Deaver",
+            "twitter": "bcd_mtb"
+          }
+        ],
         "moreInfo": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.318421,
+        "coordinates": [
+          -121.318421,
           44.057806
         ]
       }
@@ -616,7 +685,8 @@
         "location": "Berlin, Germany",
         "title": "MaptimeBER",
         "twitter": "MaptimeBER",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Alsino Skowronnek",
             "twitter": "alsinosko"
           },
@@ -643,7 +713,8 @@
         "location": "Boston, MA",
         "title": "MaptimeBoston",
         "twitter": "maptimeBoston",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Andy Woodruff",
             "twitter": "awoodruff"
           },
@@ -662,7 +733,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.070556640625,
+        "coordinates": [
+          -71.070556640625,
           42.35854391749705
         ]
       }
@@ -673,7 +745,8 @@
         "location": "Boulder, CO",
         "title": "MaptimeBoulder",
         "twitter": "MaptimeBoulder",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Diane Fritz",
             "twitter": "fritzGIS"
           },
@@ -688,7 +761,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-105.271048,
+        "coordinates": [
+          -105.271048,
           40.015573
         ]
       }
@@ -699,7 +773,8 @@
         "location": "Cape Cod, MA",
         "title": "MaptimeCapeCod",
         "twitter": "MaptimeCapeCod",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Jesse Bishop",
             "twitter": "jessebishop"
           },
@@ -718,7 +793,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.1792576,
+        "coordinates": [
+          -70.1792576,
           41.7149378
         ]
       }
@@ -729,7 +805,8 @@
         "location": "Chattanooga, TN",
         "title": "MaptimeCHA",
         "twitter": "maptimeCHA",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Randal Hale",
             "twitter": "rjhale"
           },
@@ -747,7 +824,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.31158447265624,
+        "coordinates": [
+          -85.31158447265624,
           35.04667
         ]
       }
@@ -758,15 +836,18 @@
         "location": "Chicago, IL",
         "title": "MaptimeChicago",
         "twitter": "MaptimeCHI",
-        "organizers": [{
-          "name": "Dan Swick",
-          "twitter": "danswick"
-        }],
+        "organizers": [
+          {
+            "name": "Dan Swick",
+            "twitter": "danswick"
+          }
+        ],
         "website": "http://maptime.io/chicago/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.61890649795532,
+        "coordinates": [
+          -87.61890649795532,
           41.87579225678032
         ]
       }
@@ -777,7 +858,8 @@
         "location": "Cleveland, OH",
         "title": "MaptimeCleveland",
         "twitter": "OpenGeoCLE",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Will Skora",
             "twitter": "skorasaurus"
           },
@@ -790,7 +872,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.67785644531249,
+        "coordinates": [
+          -81.67785644531249,
           41.49674964110098
         ]
       }
@@ -803,7 +886,8 @@
         "twitter": "MaptimeCPH",
         "website": "http://maptime.io/copenhagen/",
         "github": "https://github.com/maptime/copenhagen/",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Edoardo Neerhut",
             "twitter": "travel193"
           },
@@ -836,15 +920,18 @@
         "location": "Corvallis, OR",
         "title": "MaptimeCVO",
         "twitter": "MaptimeCVO",
-        "organizers": [{
-          "name": "Nick Martinelli",
-          "twitter": "nichom"
-        }],
+        "organizers": [
+          {
+            "name": "Nick Martinelli",
+            "twitter": "nichom"
+          }
+        ],
         "meetup": "http://www.meetup.com/Maptime-Corvallis"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.263697,
+        "coordinates": [
+          -123.263697,
           44.564225
         ]
       }
@@ -855,7 +942,8 @@
         "location": "Detroit, MI",
         "title": "MaptimeDetroit",
         "twitter": "MaptimeDETROIT",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Alex B. Hill",
             "twitter": "alexbhill"
           },
@@ -882,7 +970,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.074336,
+        "coordinates": [
+          -83.074336,
           42.371862
         ]
       }
@@ -893,7 +982,8 @@
         "location": "Hampton Roads, VA",
         "title": "MaptimeHRVA",
         "twitter": "maptimehrva",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Jonah Adkins",
             "twitter": "jonahadkins"
           },
@@ -908,7 +998,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.29592895507812,
+        "coordinates": [
+          -76.29592895507812,
           36.84446074079564
         ]
       }
@@ -919,7 +1010,8 @@
         "location": "Los Angeles, CA",
         "title": "MaptimeLA",
         "twitter": "MAPTIMELA",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Jonathan Schaeffer",
             "twitter": "moderndisease"
           },
@@ -943,7 +1035,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-118.24378967285155,
+        "coordinates": [
+          -118.24378967285155,
           34.07029354225064
         ]
       }
@@ -954,7 +1047,8 @@
         "location": "Lexington, KY",
         "title": "MaptimeLEX",
         "twitter": "maptimelex",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Jessi Breen",
             "twitter": "jessibreen"
           },
@@ -973,7 +1067,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.50271606445312,
+        "coordinates": [
+          -84.50271606445312,
           38.05403884511629
         ]
       }
@@ -984,7 +1079,8 @@
         "location": "Louisville, KY",
         "title": "MaptimeLouisville",
         "twitter": "MaptimeLou",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Ate Poorthuis",
             "twitter": "atepoorthuis"
           },
@@ -997,7 +1093,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.755672,
+        "coordinates": [
+          -85.755672,
           38.252605
         ]
       }
@@ -1008,7 +1105,8 @@
         "location": "Madison, WI",
         "title": "MaptimeMadison",
         "twitter": "maptimemadison",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Robin Tolochko",
             "twitter": "tolomaps"
           },
@@ -1025,7 +1123,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.3887393,
+        "coordinates": [
+          -89.3887393,
           43.0713265
         ]
       }
@@ -1039,7 +1138,8 @@
         "website": "http://maptime.io/maine/",
         "github": "https://github.com/maptime/maine",
         "meetup": "http://www.meetup.com/MaptimeME/",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Nick Kaufmann",
             "twitter": "nickkauf"
           },
@@ -1055,7 +1155,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.25653839111327,
+        "coordinates": [
+          -70.25653839111327,
           43.66042082657193
         ]
       }
@@ -1066,7 +1167,8 @@
         "location": "Miami, FL",
         "title": "MaptimeMiami",
         "twitter": "MaptimeMIA",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Matthew Toro",
             "twitter": ""
           },
@@ -1084,7 +1186,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.202253,
+        "coordinates": [
+          -80.202253,
           25.801088
         ]
       }
@@ -1095,7 +1198,8 @@
         "location": "Milan, Italy",
         "title": "MaptimeMilan",
         "twitter": "MaptimeMI",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Alessandro Masserdotti",
             "twitter": "ales9000"
           },
@@ -1126,10 +1230,12 @@
         "location": "Trento, Italy",
         "title": "MaptimeTrento",
         "twitter": "",
-        "organizers": [{
-          "name": "Maurizio Napolitano",
-          "twitter": "napo"
-        }],
+        "organizers": [
+          {
+            "name": "Maurizio Napolitano",
+            "twitter": "napo"
+          }
+        ],
         "meetup": "",
         "website": "http://maptime.io/trento/"
       },
@@ -1150,7 +1256,8 @@
         "meetup": "http://www.meetup.com/maptimemilehigh/",
         "github": "https://github.com/maptime/milehigh",
         "twitter": "MaptimeMileHigh",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Taylor Long",
             "twitter": "mtaylorlong"
           },
@@ -1166,7 +1273,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-104.984579,
+        "coordinates": [
+          -104.984579,
           39.739072
         ]
       }
@@ -1177,7 +1285,8 @@
         "location": "New York, NY",
         "title": "MaptimeNYC",
         "twitter": "MaptimeNYC",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Alyssa Wright",
             "twitter": "alyssapwright"
           },
@@ -1204,7 +1313,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.99566650390625,
+        "coordinates": [
+          -73.99566650390625,
           40.72228267283148
         ]
       }
@@ -1215,10 +1325,12 @@
         "location": "Null Island",
         "title": "MaptimeNullIsland",
         "twitter": "MaptimeNull",
-        "organizers": [{
-          "name": "null",
-          "twitter": "MaptimeNull"
-        }]
+        "organizers": [
+          {
+            "name": "null",
+            "twitter": "MaptimeNull"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1234,16 +1346,19 @@
         "location": "Oakland, CA",
         "title": "MaptimeOAK",
         "twitter": "MaptimeOAK",
-        "organizers": [{
-          "name": "Toby Negrin",
-          "twitter": "tnegrin"
-        }],
+        "organizers": [
+          {
+            "name": "Toby Negrin",
+            "twitter": "tnegrin"
+          }
+        ],
         "meetup": "http://www.meetup.com/Maptime-SF/",
         "facebook": "https://www.facebook.com/maptimesf"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.26924896240234,
+        "coordinates": [
+          -122.26924896240234,
           37.805986463750315
         ]
       }
@@ -1254,7 +1369,8 @@
         "location": "Oslo, Norway",
         "title": "MaptimeOSL",
         "twitter": "MaptimeOSL",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Lasse Gulvåg Sætre",
             "twitter": "lassegs"
           },
@@ -1281,7 +1397,8 @@
         "location": "Portland, OR",
         "title": "MaptimePDX",
         "twitter": "maptimepdx",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Rafa Gutierrez",
             "twitter": "geografa"
           },
@@ -1296,7 +1413,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.67608642578126,
+        "coordinates": [
+          -122.67608642578126,
           45.52078170816289
         ]
       }
@@ -1307,7 +1425,8 @@
         "location": "Philadelphia, PA",
         "title": "MaptimePHL",
         "twitter": "MaptimePHL",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Patrick Hammons",
             "twitter": "hamhandedly"
           },
@@ -1322,7 +1441,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.15575408935547,
+        "coordinates": [
+          -75.15575408935547,
           39.968174500886306
         ]
       }
@@ -1333,7 +1453,8 @@
         "location": "Puerto Rico (Bayamón)",
         "title": "MaptimePR",
         "twitter": "MaptimePR",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Imanol Aranzadi",
             "twitter": "iaranzadi"
           },
@@ -1349,7 +1470,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-66.166605,
+        "coordinates": [
+          -66.166605,
           18.370616
         ]
       }
@@ -1360,7 +1482,8 @@
         "location": "Sacramento, CA",
         "title": "MaptimeSacramento",
         "twitter": "MaptimeSac",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Kari Mah",
             "twitter": "kari_mah"
           },
@@ -1378,7 +1501,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.4689,
+        "coordinates": [
+          -121.4689,
           38.5556
         ]
       }
@@ -1389,17 +1513,20 @@
         "location": "San Francisco, CA",
         "title": "MaptimeSF",
         "twitter": "maptimesf",
-        "organizers": [{
-          "name": "Toby Negrin",
-          "twitter": "tnegrin"
-        }],
+        "organizers": [
+          {
+            "name": "Toby Negrin",
+            "twitter": "tnegrin"
+          }
+        ],
         "meetup": "http://www.meetup.com/maptime-sf/",
         "facebook": "https://www.facebook.com/maptimesf",
         "website": "http://www.maptime.io"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.45258331298828,
+        "coordinates": [
+          -122.45258331298828,
           37.753615462062704
         ]
       }
@@ -1410,17 +1537,20 @@
         "location": "San Diego, CA",
         "title": "MaptimeSD",
         "twitter": "maptimesd",
-        "organizers": [{
-          "name": "Madison",
-          "twitter": ""
-        }],
+        "organizers": [
+          {
+            "name": "Madison",
+            "twitter": ""
+          }
+        ],
         "meetup": "",
         "facebook": "",
         "website": "http://maptime.io/sandiego"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.1625,
+        "coordinates": [
+          -117.1625,
           32.715
         ]
       }
@@ -1431,16 +1561,19 @@
         "location": "Salt Lake City, UT",
         "title": "MaptimeSLC",
         "twitter": "MaptimeSLC",
-        "organizers": [{
-          "name": "Martijn van Exel",
-          "twitter": "mvexel"
-        }],
+        "organizers": [
+          {
+            "name": "Martijn van Exel",
+            "twitter": "mvexel"
+          }
+        ],
         "website": "http://www.maptimeslc.org/",
         "github": "https://github.com/maptimeslc"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-111.89109563827515,
+        "coordinates": [
+          -111.89109563827515,
           40.76936991525655
         ]
       }
@@ -1451,15 +1584,18 @@
         "location": "St. Johns (Portland), OR",
         "title": "MaptimeStJohns",
         "twitter": "MaptimeStJohns",
-        "organizers": [{
-          "name": "Lynnae Sutton",
-          "twitter": "naefish"
-        }],
+        "organizers": [
+          {
+            "name": "Lynnae Sutton",
+            "twitter": "naefish"
+          }
+        ],
         "moreInfo": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.75466442108154,
+        "coordinates": [
+          -122.75466442108154,
           45.59037762382364
         ]
       }
@@ -1470,15 +1606,18 @@
         "location": "St. Louis, MO",
         "title": "MaptimeSTL",
         "twitter": "maptimestl",
-        "organizers": [{
-          "name": "Eleanor Tutt",
-          "twitter": "eleanortutt"
-        }],
+        "organizers": [
+          {
+            "name": "Eleanor Tutt",
+            "twitter": "eleanortutt"
+          }
+        ],
         "meetup": "http://www.meetup.com/maptimeSTL/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.1980972290039,
+        "coordinates": [
+          -90.1980972290039,
           38.633097794118086
         ]
       }
@@ -1489,15 +1628,18 @@
         "location": "Tallahassee, FL",
         "title": "MaptimeTLH",
         "twitter": "maptimetlh",
-        "organizers": [{
-          "name": "Ben Thornton",
-          "twitter": "91degN"
-        }],
+        "organizers": [
+          {
+            "name": "Ben Thornton",
+            "twitter": "91degN"
+          }
+        ],
         "comingSoon": true
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.290665,
+        "coordinates": [
+          -84.290665,
           30.433953
         ]
       }
@@ -1508,7 +1650,8 @@
         "location": "Toronto, ON, Canada",
         "title": "MaptimeTO",
         "twitter": "MaptimeTO",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Tristen Brown",
             "twitter": "fallsemo"
           },
@@ -1522,7 +1665,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.38456773757935,
+        "coordinates": [
+          -79.38456773757935,
           43.65230152428721
         ]
       }
@@ -1533,16 +1677,19 @@
         "location": "Vancouver, BC, Canada",
         "title": "MaptimeVancouver",
         "twitter": "MaptimeYVR",
-        "organizers": [{
-          "name": "Cecily Walker",
-          "twitter": "skeskali"
-        }],
+        "organizers": [
+          {
+            "name": "Cecily Walker",
+            "twitter": "skeskali"
+          }
+        ],
         "meetup": "http://www.meetup.com/MaptimeYVR/",
         "website": "http://maptime.io/vancouver/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.12583923339842,
+        "coordinates": [
+          -123.12583923339842,
           49.28034843646649
         ]
       }
@@ -1553,7 +1700,8 @@
         "location": "Washington, DC",
         "title": "MaptimeDC",
         "twitter": "MaptimeDC",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Rosemary Wardley",
             "twitter": "rosemarydaley"
           },
@@ -1580,7 +1728,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.02308654785156,
+        "coordinates": [
+          -77.02308654785156,
           38.90252245678968
         ]
       }
@@ -1591,15 +1740,18 @@
         "location": "Windsor-Essex, ON, Canada",
         "title": "MaptimeWindsorEssex",
         "twitter": "maptimeWindsor",
-        "organizers": [{
-          "name": "Mita Williams",
-          "twitter": "copystar"
-        }],
+        "organizers": [
+          {
+            "name": "Mita Williams",
+            "twitter": "copystar"
+          }
+        ],
         "moreInfo": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.03483963012695,
+        "coordinates": [
+          -83.03483963012695,
           42.31149743167054
         ]
       }
@@ -1609,10 +1761,12 @@
       "properties": {
         "title": "MaptimeAlpes",
         "twitter": "MaptimeAlpes",
-        "organizers": [{
-          "name": "Adam Roberts",
-          "twitter": "abenroberts"
-        }],
+        "organizers": [
+          {
+            "name": "Adam Roberts",
+            "twitter": "abenroberts"
+          }
+        ],
         "meetup": "http://www.meetup.com/MaptimeAlpes",
         "website": "http://maptime-alpes.com/",
         "github": "https://github.com/MaptimeAlpes"
@@ -1632,14 +1786,17 @@
         "title": "MaptimeSOTON",
         "twitter": "MaptimeSOTON",
         "website": "http://maptime.io/southampton/",
-        "organizers": [{
-          "name": "Charley Glynn",
-          "twitter": "charley_glynn"
-        }]
+        "organizers": [
+          {
+            "name": "Charley Glynn",
+            "twitter": "charley_glynn"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-1.396636962890625,
+        "coordinates": [
+          -1.396636962890625,
           50.899568522208746
         ]
       }
@@ -1650,7 +1807,8 @@
         "location": "Seattle, WA",
         "title": "MaptimeSEA",
         "twitter": "MaptimeSEA",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Christy Heaton",
             "twitter": "christytoes",
             "github": "christyheaton"
@@ -1670,7 +1828,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.33246326446533,
+        "coordinates": [
+          -122.33246326446533,
           47.605555415628345
         ]
       }
@@ -1681,16 +1840,19 @@
         "location": "San Antonio, TX",
         "title": "MaptimeSATX",
         "twitter": "MaptimeSATX",
-        "organizers": [{
-          "name": "Emily Bowe",
-          "twitter": "emilyrbowe"
-        }],
+        "organizers": [
+          {
+            "name": "Emily Bowe",
+            "twitter": "emilyrbowe"
+          }
+        ],
         "meetup": "",
         "website": "http://maptime.io/sanantonio/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.493629,
+        "coordinates": [
+          -98.493629,
           29.424122
         ]
       }
@@ -1701,7 +1863,8 @@
         "location": "Amsterdam, The Netherlands",
         "title": "MaptimeAMS",
         "twitter": "MaptimeAMS",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Niene Boeijen",
             "twitter": "BNiene"
           },
@@ -1728,10 +1891,12 @@
         "location": "Utrecht, The Netherlands",
         "title": "MaptimeUtrecht",
         "twitter": "MaptimeUtrecht",
-        "organizers": [{
-          "name": "Edward Mac Gillavry",
-          "twitter": "emacgillavry"
-        }],
+        "organizers": [
+          {
+            "name": "Edward Mac Gillavry",
+            "twitter": "emacgillavry"
+          }
+        ],
         "meetup": "",
         "website": "http://maptime.io/utrecht",
         "github": "https://github.com/maptime/utrecht",
@@ -1751,7 +1916,8 @@
         "location": "Twin Cities, MN",
         "title": "MaptimeMSP",
         "twitter": "MaptimeMSP",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Liz Puhl",
             "twitter": "LizPuhl"
           },
@@ -1778,7 +1944,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.1831,
+        "coordinates": [
+          -93.1831,
           44.9579
         ]
       }
@@ -1789,10 +1956,12 @@
         "location": "Quezon City, Philippines",
         "title": "MaptimeDiliman",
         "twitter": "MaptimeDiliman",
-        "organizers": [{
-          "name": "RK Aranas",
-          "twitter": "rukku"
-        }],
+        "organizers": [
+          {
+            "name": "RK Aranas",
+            "twitter": "rukku"
+          }
+        ],
         "meetup": "http://www.meetup.com/MaptimeDiliman",
         "github": "https://github.com/MaptimeDiliman"
       },
@@ -1810,16 +1979,19 @@
         "location": "Tulsa, OK",
         "title": "MaptimeTulsa",
         "twitter": "MaptimeTulsa",
-        "organizers": [{
-          "name": "Code for Tulsa",
-          "twitter": "CodeForTulsa"
-        }],
+        "organizers": [
+          {
+            "name": "Code for Tulsa",
+            "twitter": "CodeForTulsa"
+          }
+        ],
         "website": "http://maptime.io/tulsa/",
         "meetup": "http://www.meetup.com/Code-for-Tulsa/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.942037,
+        "coordinates": [
+          -95.942037,
           36.154035
         ]
       }
@@ -1830,7 +2002,8 @@
         "location": "Rome, Italy",
         "title": "MaptimeRoma",
         "twitter": "MaptimeRoma",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Luca Moiana",
             "twitter": "lucamoiana"
           },
@@ -1856,17 +2029,20 @@
         "location": "Johannesburg, South Africa",
         "title": "MaptimeJozi",
         "twitter": "MaptimeJHB",
-        "organizers": [{
-          "name": "Zukhanye Mayekiso",
-          "twitter": "Zuks_Mayekiso"
-        }],
+        "organizers": [
+          {
+            "name": "Zukhanye Mayekiso",
+            "twitter": "Zuks_Mayekiso"
+          }
+        ],
         "meetup": "http://www.meetup.com/MaptimeJozi/",
         "website": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.0456, -26.2044
+          28.0456,
+          -26.2044
         ]
       }
     },
@@ -1876,7 +2052,8 @@
         "location": "Pittsburgh, Pennsylvania",
         "title": "MaptimePittsburgh",
         "twitter": "maptimePGH",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Christian Gass",
             "twitter": "GassChristianB"
           },
@@ -1894,7 +2071,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.01093864440918,
+        "coordinates": [
+          -80.01093864440918,
           40.441603038389076
         ]
       }
@@ -1905,10 +2083,12 @@
         "location": "Morgantown, WV",
         "title": "MaptimeMorgantown",
         "twitter": "MaptimeMGWV",
-        "organizers": [{
-          "name": "Randy Peck",
-          "twitter": "randpeck"
-        }],
+        "organizers": [
+          {
+            "name": "Randy Peck",
+            "twitter": "randpeck"
+          }
+        ],
         "meetup": "",
         "website": "http://www.maptime.io/morgantown",
         "github": "https://github.com/maptime/morgantown",
@@ -1916,7 +2096,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.950556,
+        "coordinates": [
+          -79.950556,
           39.633611
         ]
       }
@@ -1927,7 +2108,8 @@
         "location": "Calgary, AB, Canada",
         "title": "MaptimeCalgary",
         "twitter": "MaptimeCalgary",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Anthony Lukach",
             "twitter": "anthonylukach",
             "github": "alukach"
@@ -1944,7 +2126,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-114.075,
+        "coordinates": [
+          -114.075,
           51.04
         ]
       }
@@ -1955,7 +2138,8 @@
         "location": "Oklahoma City, OK",
         "title": "MaptimeOKC",
         "twitter": "MaptimeOKC",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Blake Thompson",
             "twitter": "flippmoke",
             "github": "flippmoke"
@@ -1972,7 +2156,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.51170068979262,
+        "coordinates": [
+          -97.51170068979262,
           35.46506107188829
         ]
       }
@@ -1986,7 +2171,8 @@
         "meetup": "http://www.meetup.com/Maptime-Albany/",
         "website": "http://maptime.io/albany/",
         "github": null,
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Katy DeCorah",
             "twitter": "katydecorah"
           },
@@ -1998,7 +2184,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.75396728515625,
+        "coordinates": [
+          -73.75396728515625,
           42.65289942207572
         ]
       }
@@ -2011,7 +2198,8 @@
         "twitter": "MaptimeCPS",
         "website": "http://maptime.io/campinas/",
         "github": "https://github.com/maptime/campinas/",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Tel Amiel",
             "twitter": "edaberta"
           },
@@ -2023,7 +2211,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-47.0671, -22.8947]
+        "coordinates": [
+          -47.0671,
+          -22.8947
+        ]
       }
     },
     {
@@ -2035,7 +2226,8 @@
         "website": "http://maptime.io/bogota/",
         "github": "https://github.com/maptime/bogota/",
         "meetup": "http://www.meetup.com/Maptime-Colombia-OSM/",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Andrés Gómez Casanova",
             "twitter": "angoca"
           },
@@ -2047,7 +2239,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.075833,
+        "coordinates": [
+          -74.075833,
           4.598056
         ]
       }
@@ -2058,10 +2251,12 @@
         "location": "Ahmedabad, India",
         "title": "MaptimeAMD",
         "twitter": "MaptimeAMD",
-        "organizers": [{
-          "name": "Shravan Shah",
-          "twitter": "shravanshah"
-        }],
+        "organizers": [
+          {
+            "name": "Shravan Shah",
+            "twitter": "shravanshah"
+          }
+        ],
         "meetup": "http://www.meetup.com/Maptime-AMD/",
         "website": "http://maptime.io/ahmedabad/",
         "github": "https://github.com/maptime/ahmedabad"
@@ -2083,7 +2278,8 @@
         "website": "http://maptime.io/buffalo/",
         "github": "https://github.com/maptime/buffalo/",
         "meetup": "http://www.meetup.com/Maptime-Buffalo/",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Lizzi Slivinski",
             "github": "eslivinski"
           },
@@ -2099,7 +2295,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.849444,
+        "coordinates": [
+          -78.849444,
           42.904722
         ]
       }
@@ -2112,14 +2309,17 @@
         "twitter": "MaptimeNOLA",
         "website": "http://maptime.io/nola/",
         "github": "https://github.com/maptime/nola/",
-        "organizers": [{
-          "name": "Emily Ashley",
-          "twitter": "youknowemily"
-        }]
+        "organizers": [
+          {
+            "name": "Emily Ashley",
+            "twitter": "youknowemily"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.0667,
+        "coordinates": [
+          -90.0667,
           29.95
         ]
       }
@@ -2133,7 +2333,8 @@
         "website": "http://maptime.io/turku/",
         "github": "https://github.com/maptime/turku/",
         "meetup": "http://www.meetup.com/MaptimeTurku/",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Sanna Jokela",
             "twitter": ""
           },
@@ -2160,10 +2361,12 @@
         "github": "https://github.com/maptime/taipei/",
         "twitter": "MaptimeTPE",
         "meetup": "http://www.meetup.com/MaptimeTPE/",
-        "organizers": [{
-          "name": "Brandon Liu",
-          "twitter": "bdon"
-        }]
+        "organizers": [
+          {
+            "name": "Brandon Liu",
+            "twitter": "bdon"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2181,10 +2384,12 @@
         "website": "http://maptime.io/lagos/",
         "github": "https://github.com/maptime/lagos/",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Ayo Akinseye",
-          "twitter": ""
-        }]
+        "organizers": [
+          {
+            "name": "Ayo Akinseye",
+            "twitter": ""
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2202,7 +2407,8 @@
         "website": "http://maptime.io/west-london/",
         "github": "https://github.com/maptime/west-london/",
         "twitter": "MaptimeWLON",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "John Wilson",
             "twitter": "gisyohn"
           },
@@ -2214,7 +2420,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.30679,
+        "coordinates": [
+          -0.30679,
           51.46064
         ]
       }
@@ -2227,13 +2434,16 @@
         "website": "http://maptime.io/memphis/",
         "github": "https://github.com/maptime/memphis/",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Tom Lawrence"
-        }]
+        "organizers": [
+          {
+            "name": "Tom Lawrence"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.971111,
+        "coordinates": [
+          -89.971111,
           35.1175
         ]
       }
@@ -2246,14 +2456,17 @@
         "website": "http://maptime.io/newhaven/",
         "github": "https://github.com/maptime/newhaven/",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Joseph Anania",
-          "twitter": "redsteakraw"
-        }]
+        "organizers": [
+          {
+            "name": "Joseph Anania",
+            "twitter": "redsteakraw"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.923611,
+        "coordinates": [
+          -72.923611,
           41.31
         ]
       }
@@ -2267,14 +2480,17 @@
         "twitter": "MaptimeBmore",
         "meetup": "https://www.meetup.com/maptime_bmore/",
         "github": "https://github.com/maptimebmore/",
-        "organizers": [{
-          "name": "Jonathan Dandois",
-          "twitter": "jondandois"
-        }]
+        "organizers": [
+          {
+            "name": "Jonathan Dandois",
+            "twitter": "jondandois"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.610659,
+        "coordinates": [
+          -76.610659,
           39.290788
         ]
       }
@@ -2285,17 +2501,20 @@
         "location": "Des Moines, Iowa",
         "title": "MaptimeDSM",
         "twitter": "MaptimeDSM",
-        "organizers": [{
-          "name": "Patrick Wilke-Brown",
-          "twitter": "pwilkebrown"
-        }],
+        "organizers": [
+          {
+            "name": "Patrick Wilke-Brown",
+            "twitter": "pwilkebrown"
+          }
+        ],
         "meetup": "",
         "website": "http://maptime.io/desmoines/",
         "comingSoon": true
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.620833,
+        "coordinates": [
+          -93.620833,
           41.590833
         ]
       }
@@ -2306,15 +2525,18 @@
         "location": "Edmonton, AB, Canada",
         "title": "MaptimeYEG",
         "twitter": "MaptimeYEG",
-        "organizers": [{
-          "name": "Devin Bartley",
-          "email": "devin.l.bartley@gmail.com"
-        }],
+        "organizers": [
+          {
+            "name": "Devin Bartley",
+            "email": "devin.l.bartley@gmail.com"
+          }
+        ],
         "website": "http://maptime.io/edmonton/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-113.499145,
+        "coordinates": [
+          -113.499145,
           53.545747
         ]
       }
@@ -2325,7 +2547,8 @@
         "location": "Albuquerque, NM",
         "title": "MaptimeABQ",
         "twitter": "MaptimeABQ",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Brad Weikel",
             "twitter": "bradweikel"
           },
@@ -2338,7 +2561,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.621216,
+        "coordinates": [
+          -106.621216,
           35.113281
         ]
       }
@@ -2352,15 +2576,13 @@
         "website": "http://maptime.io/yosemite/",
         "meetup": "",
         "comingSoon": true,
-        "organizers": [{
-          "name": "Jim Soldenwagner",
-          "twitter": ""
-        }],
+        "organizers": "[object Object]",
         "moreInfo": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-119.598697,
+        "coordinates": [
+          -119.598697,
           37.742742
         ]
       }
@@ -2372,13 +2594,16 @@
         "title": "MaptimeArcata",
         "website": "http://maptime.io/arcata/",
         "twitter": "MaptimeArcata",
-        "organizers": [{
-          "name": "Nicholas Perdue"
-        }]
+        "organizers": [
+          {
+            "name": "Nicholas Perdue"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-124.08641338348389,
+        "coordinates": [
+          -124.08641338348389,
           40.86853158755717
         ]
       }
@@ -2390,7 +2615,8 @@
         "title": "MaptimeSLO",
         "twitter": "maptimeSLO",
         "comingSoon": "true",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Joe Larson",
             "twitter": "oeon"
           },
@@ -2402,7 +2628,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-120.65993696451186,
+        "coordinates": [
+          -120.65993696451186,
           35.28256477313331
         ]
       }
@@ -2414,14 +2641,17 @@
         "title": "MaptimeCardiff",
         "twitter": "MaptimeCardiff",
         "website": "http://maptime.io/cardiff/",
-        "organizers": [{
-          "name": "Rose-Ellen Minchew",
-          "twitter": "rocketnelly"
-        }]
+        "organizers": [
+          {
+            "name": "Rose-Ellen Minchew",
+            "twitter": "rocketnelly"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.17909,
+        "coordinates": [
+          -3.17909,
           51.481583
         ]
       }
@@ -2431,10 +2661,12 @@
       "properties": {
         "location": "San Juan, Metro Manila, Philippines",
         "title": "MaptimeManila",
-        "organizers": [{
-          "name": "Erwin Olario",
-          "twitter": "MapAmorePH"
-        }],
+        "organizers": [
+          {
+            "name": "Erwin Olario",
+            "twitter": "MapAmorePH"
+          }
+        ],
         "meetup": "https://ti.to/mapamore/",
         "github": "https://github.com/MapAmore",
         "website": null,
@@ -2454,10 +2686,12 @@
         "location": "Tirana, Albania",
         "title": "MaptimeTirana",
         "website": "http://maptime.io/tirana/",
-        "organizers": [{
-          "name": "Amanti Lulo",
-          "twitter": "amantilulo"
-        }]
+        "organizers": [
+          {
+            "name": "Amanti Lulo",
+            "twitter": "amantilulo"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2476,7 +2710,8 @@
         "twitter": "MaptimeWestCO",
         "meetup": "https://www.meetup.com/Western-Slope-OpenStreetMap/",
         "github": "https://github.com/maptime/westslope",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Aaron Young"
           },
           {
@@ -2489,7 +2724,8 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-108.559657,
+        "coordinates": [
+          -108.559657,
           39.067617
         ]
       }
@@ -2503,7 +2739,8 @@
         "website": "http://maptime.io/belgium/",
         "github": "https://github.com/maptime/belgium/",
         "meetup": "https://www.meetup.com/OpenStreetMap-Belgium/",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Jonathan Beliën",
             "twitter": "jbelien"
           },
@@ -2529,14 +2766,17 @@
         "website": "http://maptime.io/uppervalley",
         "title": "MaptimeUV",
         "github": "https://github.com/maptime/uppervalley",
-        "organizers": [{
-          "name": "Garrett Dash Nelson",
-          "twitter": "en_dash"
-        }]
+        "organizers": [
+          {
+            "name": "Garrett Dash Nelson",
+            "twitter": "en_dash"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.3099946975708,
+        "coordinates": [
+          -72.3099946975708,
           43.647791189017745
         ]
       }
@@ -2547,14 +2787,16 @@
         "location": "Salzburg, Austria",
         "twitter": "MaptimeSalzburg",
         "title": "MaptimeSalzburg",
-        "organizers": [{
+        "organizers": [
+          {
             "name": "Jakob Miksch",
             "twitter": "jakobmiksch"
           },
           {
             "name": "Hannah Augustin"
           }
-        ]
+        ],
+        "website": ""
       },
       "geometry": {
         "type": "Point",
@@ -2563,7 +2805,24 @@
           47.80918
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Singapore, Singapore",
+        "title": "MaptimeSG",
+        "twitter": "MaptimeSG",
+        "meetup": "https://www.meetup.com/maptimeSG/ ",
+        "organizers": "[object Object]",
+        "moreInfo": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.83007049560547,
+          1.3395233425123458
+        ]
+      }
     }
-
   ]
 }
