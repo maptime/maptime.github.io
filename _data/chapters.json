@@ -2841,7 +2841,7 @@
     {
       "type": "Feature",
       "properties": {
-        "location": "Maptime Brisbane",
+        "location": "Brisbane, Australia",
         "twitter": "",
         "title": "MaptimeBrisbane",
         "website": "https://wiki.openstreetmap.org/wiki/Brisbane/Events",
@@ -2852,6 +2852,23 @@
         "coordinates": [
           153.02649,
           -27.468525931222967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Busitema, Uganda",
+        "twitter": "TeamGoodMappers",
+        "title": "YouthMappersBusitema",
+        "website": "",
+        "organizers": "[object Object]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.01977390050888,
+          0.5452473119136021
         ]
       }
     }
