@@ -2845,7 +2845,7 @@
         "twitter": "",
         "title": "MaptimeBrisbane",
         "website": "https://wiki.openstreetmap.org/wiki/Brisbane/Events",
-        "organizers": "[object Object]"
+        "organizers": "[object Object],[object Object]"
       },
       "geometry": {
         "type": "Point",
