@@ -2889,6 +2889,22 @@
           50.84518843307229
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Christchurch, New Zealand",
+        "title": "MaptimeChristchurch",
+        "website": "https://www.facebook.com/MaptimeChch/",
+        "organizers": "[object Object],[object Object]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.63572692871094,
+          -43.53137589928477
+        ]
+      }
     }
   ]
 }
