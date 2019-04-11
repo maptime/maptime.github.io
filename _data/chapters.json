@@ -2871,6 +2871,24 @@
           0.5452473119136021
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Maastricht, Netherlands",
+        "title": "MaptimeMaastricht",
+        "twitter": "",
+        "website": "",
+        "meetup": "https://www.meetup.com/en-AU/Maptime-Maastricht/",
+        "organizers": "[object Object]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.691947937011719,
+          50.84518843307229
+        ]
+      }
     }
   ]
 }
