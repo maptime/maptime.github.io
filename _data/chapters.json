@@ -2905,6 +2905,23 @@
           -43.53137589928477
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Tuscon, AZ",
+        "title": "MaptimsTUS",
+        "twitter": "MaptimeTUS",
+        "website": "",
+        "organizers": "[object Object],[object Object]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.94543457031249,
+          32.21280106801518
+        ]
+      }
     }
   ]
 }
