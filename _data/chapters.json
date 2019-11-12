@@ -2031,19 +2031,11 @@
         "twitter": "maptimePGH",
         "organizers": [
           {
-            "name": "Christian Gass",
-            "twitter": "GassChristianB"
-          },
-          {
-            "name": "Eleanor Tutt",
-            "twitter": "eleanortutt"
-          },
-          {
-            "name": "Matt Mercurio",
-            "twitter": "Geologistatlarg"
+            "name": "Melinda Angeles",
+            "twitter": "https://twitter.com/melindaangeles"
           }
         ],
-        "meetup": "http://www.meetup.com/Open-Pittsburgh-our-Regions-Code-for-America-Brigade/",
+        "meetup": "",
         "website": "http://www.maptime.io/pittsburgh"
       },
       "geometry": {
