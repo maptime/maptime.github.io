@@ -2922,8 +2922,12 @@
         "location": "Tuscon, AZ",
         "title": "MaptimsTUS",
         "twitter": "MaptimeTUS",
-        "website": "",
-        "organizers": "[object Object],[object Object]"
+        "github": "http://maptime.io/tucson",
+        "website": "http://maptime.io/tucson",
+        "organizers": [{
+            "name": "Kiri Carini",
+            "twitter": "KiriCarini"
+          }]
       },
       "geometry": {
         "type": "Point",
