@@ -2828,7 +2828,11 @@
         "title": "MaptimeDavis",
         "website": "https://github.com/MicheleTobias/MaptimeDavis",
         "twitter": "MaptimeDavis",
-        "organizers": "[object Object],[object Object]"
+         "organizers": [
+          {
+            "name": "Michele M Tobias",
+            "twitter": "MicheleTobias"
+          }
       },
       "geometry": {
         "type": "Point",
