@@ -3,7 +3,7 @@
 maptime.github.io
 =================
 
-This is the central repo of the [maptime.io](http://www.maptime.io/) website. This is a [Jekyll](https://github.com/jekyll/jekyll) site served on Github Pages. If your environment is already setup, type in your terminal (the '$' refers to your prompt):
+This is the unique central repo of the [maptime.io](http://www.maptime.io/) website. This is a [Jekyll](https://github.com/jekyll/jekyll) site served on Github Pages. If your environment is already setup, type in your terminal (the '$' refers to your prompt):
 
 ```
 $ git clone git@github.com:maptime/maptime.github.io.git
