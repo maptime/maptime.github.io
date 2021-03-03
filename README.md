@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/maptime/maptime.github.io.svg?branch=master)](https://travis-ci.org/maptime/maptime.github.io)
 
-maptime.github.io
+# maptime.github.io hacktoberfest-2020
 =================
 
 This is the central repo of the [maptime.io](http://www.maptime.io/) website. This is a [Jekyll](https://github.com/jekyll/jekyll) site served on Github Pages. If your environment is already setup, type in your terminal (the '$' refers to your prompt):
