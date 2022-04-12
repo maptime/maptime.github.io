@@ -2928,6 +2928,31 @@
           32.21280106801518
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Fredonia, NY",
+        "title": "MaptimeFredonia",
+        "twitter": "",
+        "website": "",
+        "meetup": "",
+        "comingSoon": true,
+        "organizers": [
+          {
+            "name": "Michael Jabot",
+            "twitter": "mjabot"
+          }
+        ],
+        "moreInfo": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34008259463711,
+          42.45609543272616
+        ]
+      }
     }
   ]
 }
