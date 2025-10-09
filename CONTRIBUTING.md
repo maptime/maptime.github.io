@@ -14,7 +14,7 @@ Need a question answered?
 If you have questions on contributing to Maptime.io, direct them to one of the following:
 
 - We're on Twitter at [@maptimeHQ](http://twitter.com/maptimehq)
-- Email us at [hello [at] maptime.io](mailto:hello@maptime.io)
+- Email us at [MaptimeHQ [at] gmail.com](mailto:MaptimeHQ@gmail.com)
 
 Found an issue?
 ---------------
