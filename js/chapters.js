@@ -11,20 +11,17 @@ $(function() {
       data = {{ site.data.chapters | jsonify }},
       html = '';
 
-  L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JhZmEiLCJhIjoiM1YxTmFBZyJ9.tMBS3sNJGvS9awMVzMrNjA';
-    var map = L.mapbox.map('map', 'grafa.88128171', {
-      touchZoom: false, 
+    var map = L.map('map', {
+      touchZoom: false,
       scrollWheelZoom: false,
       zoomControl: false,
       worldCopyJump: true
     }).setView([39.774769485295465,-84.55078125], 3);
 
-    //map.attributionControl.addAttribution("Earthquake data &copy; GeoNames");
-
-
-    // swap out layers and token periodically
-    // var myLayer = L.tileLayer('http://api.tiles.mapbox.com/v4/grafa.88128171/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ3JhZmEiLCJhIjoiU2U2QnIzUSJ9.4LnG05Ptvi1sUQ8t68rfgw')
-        // .addTo(map);
+    L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/{z}/{x}/{y}.jpg', {
+      attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under CC BY SA.',
+      maxZoom: 18
+    }).addTo(map);
 
     L.control.zoom()
       .setPosition('bottomleft')
