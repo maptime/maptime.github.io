@@ -19,7 +19,7 @@ Ready to start a Maptime chapter for your city? There's not much to it. Most cha
 - __Location.__ This gets added to the [map](http://maptime.io/chapters/).
 - __Maptime Name.__ How do you wish to list your maptime chapter? Example: _MaptimeDC_, _MaptimePDX_, _MaptimeRoma_. Note other cities may have a similar name so use something that represents your city and avoids conflict with other similar names.
 
-If there are any issues, we'll contact you for clarifications. If you still have questions, send us an email to [hello@maptime.io](mailto:hello@maptime.io)
+If there are any issues, we'll contact you for clarifications. If you still have questions, send us an email to [MaptimeHQ@gmail.com](mailto:MaptimeHQ@gmail.com)
 
 ***
 
