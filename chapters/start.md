@@ -37,7 +37,7 @@ Keep things simple by naming your folder after your city.
 1. Finally, click the big shiny green __Create Pull Request__ button. It's ok, you won't break anything. Extra points if you tag an admin with Maptime to notify them of changes (e.g. @geografa).
 ![start-pr-msg](/img/start-pr-msg.png)
 
-Someone from the Maptime admin team will review changes and either merge them in or comment back with questions or suggested modifications. If changes are requested before merging, simply make the changes in your file and commit the changes. No need to make another PR if the one you made is still open. Neat huh? Good luck and as always create an [issue](https://github.com/maptime/maptime.github.io/issues/new) with your questions, send us a [tweet](https://twitter.com/MaptimeHQ), or find us on the [Slack](https://maptime.slack.com/messages/website-admin/) chat channel for more help.
+Someone from the Maptime admin team will review changes and either merge them in or comment back with questions or suggested modifications. If changes are requested before merging, simply make the changes in your file and commit the changes. No need to make another PR if the one you made is still open. Neat huh? Good luck and as always create an [issue](https://github.com/maptime/maptime.github.io/issues/new) with your questions, send us a message on [Mastodon](https://mapstodon.space/maptime) or [Bluesky](https://bsky.app/profile/maptime.bsky.social), or find us on the [Slack](https://maptime.slack.com/messages/website-admin/) chat channel for more help.
 
 <iframe src="//player.vimeo.com/video/110047746" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 _[Adding a Maptime Chapter](http://vimeo.com/98781289)_

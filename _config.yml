@@ -6,7 +6,6 @@ repo: maptime.github.io
 github_org: maptime
 maptime:
   chapter: Maptime HQ
-  twitter: maptimehq
   #disqus: YOUR DISQUS USERNAME 
 
 future: true
