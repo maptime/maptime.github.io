@@ -13,7 +13,8 @@ Need a question answered?
 
 If you have questions on contributing to Maptime.io, direct them to one of the following:
 
-- We're on Twitter at [@maptimeHQ](http://twitter.com/maptimehq)
+- We're on Mastodon at [@maptime@mapstodon.space](https://mapstodon.space/maptime)
+- We're on Bluesky at [@maptime.bsky.social](https://bsky.app/profile/maptime.bsky.social)
 - Email us at [MaptimeHQ [at] gmail.com](mailto:MaptimeHQ@gmail.com)
 
 Found an issue?
