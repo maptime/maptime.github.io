@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/maptime/maptime.github.io.svg?branch=master)](https://travis-ci.org/maptime/maptime.github.io)
+[![Build Status](https://travis-ci.org/maptime/maptime.github.io.svg?branch=main)](https://travis-ci.org/maptime/maptime.github.io)
 
 maptime.github.io
 =================
@@ -72,6 +72,6 @@ $ gem install rdiscount
 Clone the [maptime.github.io repo](http://github.com/maptime/maptime.github.io) on your computer. Then switch into that file directory.
 
 ```
-$ git clone -b master git@github.com:maptime/maptime.github.io.git
+$ git clone -b main git@github.com:maptime/maptime.github.io.git
 $ cd maptime.github.io
 ```

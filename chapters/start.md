@@ -25,13 +25,13 @@ Forking a site means you're making a copy of it to your account and the origin r
 1. Once you have a fork of the site, create a folder for your chapter.
 ![start-add-folder](/img/start-add-folder.png)
 Keep things simple by naming your folder after your city. 
-1. Add a file named `index.html` and copy contents from the [/nullisland/index.html](https://github.com/maptime/maptime.github.io/blob/master/nullisland/index.html) file for the template into your new file.
+1. Add a file named `index.html` and copy contents from the [/nullisland/index.html](https://github.com/maptime/maptime.github.io/blob/main/nullisland/index.html) file for the template into your new file.
 1. Modify your details.
 1. When you're finished, commit the new file (it's like saving it) and add a commit message like '_Adds new Maptime chapter for Null Island!_'
 1. Once committed, go back to the root directory of your repo and make a __Pull Request__ (aka PR) by clicking the green button to the left of your repo's branch name.
 ![start-pull](/img/start-pull.png)
 1. A new page appears where you can review your changes.
-1. Make sure you are making a PR from your repo's branch to the maptime.github.io master branch.
+1. Make sure you are making a PR from your repo's branch to the maptime.github.io main branch.
 ![start-compare](/img/start-compare.png)
 1. Add a nice, relevant message regarding the changes you're proposing.
 1. Finally, click the big shiny green __Create Pull Request__ button. It's ok, you won't break anything. Extra points if you tag an admin with Maptime to notify them of changes (e.g. @geografa).

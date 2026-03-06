@@ -6,7 +6,7 @@ We'd love for you to contribute and help make [Maptime.io](http://maptime.io) be
 Code for Conduct
 ----------------
 
-Help us keep Maptime open and inclusive. Please read and follow our [Code of Conduct](https://github.com/maptime/code-of-conduct/blob/master/code-of-conduct.md).
+Help us keep Maptime open and inclusive. Please read and follow our [Code of Conduct](https://github.com/maptime/code-of-conduct/blob/main/code-of-conduct.md).
 
 Need a question answered?
 -------------------------
@@ -24,7 +24,7 @@ If you find a bug, or issue in the documentation, you can help us out by [creati
 
 Want to contribute without writing code?
 ----------------------------------------
-Help us move the [abs-of-cartography](https://github.com/maptime/abcs-of-cartography/wiki) over to our [glossary](https://github.com/maptime/maptime.github.io/blob/master/_data/glossary.yml).  Each entry in the wiki should have an entry in the website's glossary.  The format is as follows:
+Help us move the [abs-of-cartography](https://github.com/maptime/abcs-of-cartography/wiki) over to our [glossary](https://github.com/maptime/maptime.github.io/blob/main/_data/glossary.yml).  Each entry in the wiki should have an entry in the website's glossary.  The format is as follows:
 
 ```yml
 # Add a term to the glossary:
@@ -46,7 +46,7 @@ Before you submit your pull request consider the following guidelines:
 - Make your changes in a new git branch
 
      ```
-     git checkout -b my-fix-branch master
+     git checkout -b my-fix-branch main
      ```
 
 - Commit your changes using a descriptive commit message
@@ -63,7 +63,7 @@ Before you submit your pull request consider the following guidelines:
     git push origin my-fix-branch
     ```
 
-- In GitHub, send a pull request to `maptime.github.io:master`.
+- In GitHub, send a pull request to `maptime.github.io:main`.
 
 That's it, thanks!
  
