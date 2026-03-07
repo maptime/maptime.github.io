@@ -8,7 +8,7 @@ _by: Alan McConchie, keeping the lights on_
 
 Hey everybody! It's been a while.
 
-If you haven't heard, Maptime HQ (as a central coordinating committee) is on indefinite hiatus. But the _idea_ of Maptime lives on, in a small and now fully decentralized network of local chapters that continue meeting in various corners of the world, and in the hearts of map lovers around the world wherever the passion for learning, sharing, and rainbows can be found.
+If you haven't heard, Maptime HQ (as a central coordinating committee) is on indefinite hiatus. But the _idea_ of Maptime lives on, in a small and now fully decentralized network of local chapters that continue meeting in various corners of the world, and in the hearts of map lovers around the globe wherever the passion for learning, sharing, and rainbows can be found.
 
 That said, there are still a few of us occasionally checking in on the website, making sure things are still (mostly) running, and that the domain registration bills keep getting paid.
 
@@ -16,7 +16,7 @@ On that front, we've got two things to share:
 
 **First,** we decided to let the `maptime.io` domain registration lapse, and we've switched over to `maptime.fun` as our new primary domain (with `maptime.org` as a backup).
 
-Why make that switch? Well, at some point (it's not clear when) the top-level `.io` domain will be going away. While the **.IO** suffix might seem like a straightforward techie reference to Input/Output (and certainly during heady days of the mid-2010s it was _**a vibe**_ ) it's actually the [top-level domain](https://en.wikipedia.org/wiki/.io) of the [British Indian Ocean Territory](https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory), a bizarre colonial relic that thankfully and at long last has been ceded from the United Kingdom to rejoin the independent country of Mauritius.
+Why make that switch? Well, at some point (it's not clear when) the top-level `.io` domain will be going away. While the **.IO** suffix might seem like a straightforward techie reference to Input/Output (and certainly during heady days of the mid-2010s it was _**a vibe**_) it's actually the [top-level domain](https://en.wikipedia.org/wiki/.io) of the [British Indian Ocean Territory](https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory), a bizarre colonial relic that thankfully and at long last has been ceded from the United Kingdom to rejoin the independent country of Mauritius.
 
 You can read more about the impending demise of `.io` at ["The Disappearance of an Internet Domain"](https://every.to/p/the-disappearance-of-an-internet-domain) by Gareth Edwards.
 
