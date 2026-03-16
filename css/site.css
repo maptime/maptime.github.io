@@ -6,10 +6,10 @@ h1 { font-family: 'Comfortaa', cursive; font-size:32px; line-height:36px; }
 body { background-image: url('/img/old_mathematics.png'); color:#404040; }
 
 a       { color:#279acb; }
-a:hover { text-decoration:underline; }
+a:hover { text-decoration:underline; transition: all 0.36s ease; }
 
 .dark a,
-.dark a:hover { color:#fff; text-decoration:none; }
+.dark a:hover { color:#fff; text-decoration:none; transition: all 0.36s ease; }
 
 h1 a,
 h2 a,
@@ -23,7 +23,7 @@ h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
-h6 a:hover { text-decoration:none;}
+h6 a:hover { text-decoration:none;  transition: all 0.36s ease; }
 
 .main {
   background-image: url('/img/maptime-sf-blurred.jpg');
@@ -55,12 +55,14 @@ h6 a:hover { text-decoration:none;}
   padding:8px 20px;
   font-weight:bold;
   border-style: solid;
+  transition: all 0.36s ease;
   }
   .dark .button:hover,
   .button:hover {
     text-decoration:none;
     color: #ddd;
     border-color: #ddd;
+    transition: all 0.36s ease;
     }
   .button:active {
     position:relative;
@@ -115,10 +117,12 @@ button.nav-expand {
   border:none;
   background:rgb(19,78,102);
   float:right;
+  transition: all 0.36s ease;
 }
 button.nav-expand:hover {
   opacity:.8;
   cursor:pointer;
+  transition: all 0.36s ease;
 }
 button.nav-expand:focus { outline:none; }
 
@@ -144,12 +148,14 @@ button.nav-expand:focus { outline:none; }
     border-bottom:2px solid rgba(255,255,255,0.25);
     background:rgba(19,78,102,.6);
     border-left:1px solid rgba(255,255,255,0.25);
+    transition: all 0.36s ease;
   }
   #nav li.active a { background:rgba(19,78,102,.8); }
   #nav li.event a { background:rgba(31, 166, 70,.8); }
   #nav li a:hover {
     text-decoration: none;
     background:rgba(19,78,102,.8);
+    transition: all 0.36s ease;
   }
   button.nav-expand {
     display:none;
@@ -193,6 +199,7 @@ button.nav-expand:focus { outline:none; }
       }
     .tabs > *:hover {
       background:rgba(19,78,102,.8);
+      transition: all 0.36s ease;
       }
     .tabs > *.active {
       background:rgba(19,78,102,.8);
@@ -246,30 +253,30 @@ button.nav-expand:focus { outline:none; }
 
 .fill-light   { background-color:#eee; }
 
-.fill-blue            { background-color:#2babe2; }
-a.fill-blue:hover     { background-color:#279acb; text-decoration:none; }
-.fill-purple          { background-color:#B44176; }
-a.fill-purple:hover   { background-color:#5b2980; text-decoration:none; }
-.fill-green           { background-color:#009347; }
-a.fill-green:hover    { background-color:#008440; text-decoration:none; }
-.fill-ltgreen         { background-color:#6CA67A; }
-a.fill-ltgreen:hover  { background-color:#6CA67A; text-decoration:none; }
-.fill-yellow          { background-color:#beb311; }
-a.fill-yellow:hover   { background-color:#d5c917; text-decoration:none; }
-.fill-orange          { background-color:#f79420; }
-a.fill-orange:hover   { background-color:#de851d; text-decoration:none; }
-.fill-red             { background-color:#ec2127; }
-a.fill-red:hover      { background-color:#d41e23; text-decoration:none; }
+.fill-blue            { background-color:#2babe2;   transition: all 0.36s ease;}
+a.fill-blue:hover     { background-color:#279acb; text-decoration:none;  transition: all 0.36s ease; }
+.fill-purple          { background-color:#B44176;   transition: all 0.36s ease;}
+a.fill-purple:hover   { background-color:#5b2980; text-decoration:none;   transition: all 0.36s ease;}
+.fill-green           { background-color:#009347;   transition: all 0.36s ease;}
+a.fill-green:hover    { background-color:#008440; text-decoration:none;   transition: all 0.36s ease;}
+.fill-ltgreen         { background-color:#6CA67A;   transition: all 0.36s ease;}
+a.fill-ltgreen:hover  { background-color:#6CA67A; text-decoration:none;   transition: all 0.36s ease;}
+.fill-yellow          { background-color:#beb311;   transition: all 0.36s ease;}
+a.fill-yellow:hover   { background-color:#d5c917; text-decoration:none;   transition: all 0.36s ease;}
+.fill-orange          { background-color:#f79420;   transition: all 0.36s ease;}
+a.fill-orange:hover   { background-color:#de851d; text-decoration:none;   transition: all 0.36s ease;}
+.fill-red             { background-color:#ec2127;   transition: all 0.36s ease;}
+a.fill-red:hover      { background-color:#d41e23; text-decoration:none;   transition: all 0.36s ease;}
 .fill-navy            { background:rgba(19,78,102,.6);}
 
 .fill-darken3 {
     background-color: rgba(9, 37, 44, 0.65);
 }
 
-a.fill-red:hover      { background-color:#008440; text-decoration:none; }
+a.fill-red:hover      { background-color:#008440; text-decoration:none;   transition: all 0.36s ease; }
 
-.fill-darken0         { background-color:rgba(0,0,0,0.10); }
-a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
+.fill-darken0         { background-color:rgba(0,0,0,0.10);  transition: all 0.36s ease; }
+a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15);   transition: all 0.36s ease;}
 .fill-darken1 { background-color:rgba(0,0,0,0.25); }
 
 .fill-chapter {
@@ -289,6 +296,7 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
   height:48px;
   background: white 50% 50% no-repeat;
   background-size: 48px;
+  transition: all 0.36s ease;
   }
 .popup {
   display:none;
@@ -314,10 +322,10 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
     width:80px;
     display:block;
     }
-  .thumbnail:hover .popup { display:block; }
+  .thumbnail:hover .popup { display:block; transition: all 0.36s ease; }
 
 .popup-group      { position:relative; }
-.popup-group > a:hover + .popup { display:block; }
+.popup-group > a:hover + .popup { display:block; transition: all 0.36s ease;}
 
 .popup.popup-big {
   width:320px;
@@ -351,10 +359,12 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 
 .chapter a {
     color: rgba(19,78,102,.8);
+    transition: all 0.36 ease;
     }
 .chapter a:hover {
   color:rgba(19,78,102,.8);
   text-decoration: underline;
+  transition: all 0.36 ease;
   }
 .chapter a.active {
   color:rgba(19,78,102,.8);
@@ -396,6 +406,7 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 a.hover-link {
   display: inline-block;
   content: "";
+  transition: all 0.36 ease;
 }
 
 a.hover-link:after {
@@ -415,6 +426,7 @@ a.hover-link:hover:after {
   right: -5px;
   vertical-align: middle;
   content: url(../img/link-sm.png);
+  transition: all 0.36 ease;
 }
 
 .share-heading {
@@ -535,10 +547,12 @@ a.hover-link:hover:after {
   .term {
     margin: .5em 0;
     padding: 1em;
+    transition: all 0.36 ease;
   }
 
   .term:hover {
     background: #bbb;
+    transition: all 0.36 ease;
   }
 
   .glossary-search {
